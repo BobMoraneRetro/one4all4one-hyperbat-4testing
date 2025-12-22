@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="FanartFlix" extra="true">
+			<visible>false</visible>
+		</image>
+		<!-- ################ Logo Système ##################### -->
+		<!-- <image name="logocust" extra="true"> -->
+		<!-- <maxSize>0.55 0.20</maxSize> -->
+		<!-- <scaleOrigin>0 -0.3</scaleOrigin> -->
+		<!-- <pos>0.5 0.12</pos> -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <zIndex>10</zIndex> -->
+		<!-- <storyboard> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="200" duration="400" mode="Linear"/> -->
+		<!-- <animation property="offsetY" from="-1" to="0" begin="200" duration="650" mode="Linear"/> -->
+		<!-- </storyboard> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true"> -->
+		<!-- <path>${intlogoclearsvg}</path> -->
+		<!-- <path>${extlogoclearsvg}</path> -->
+		<!-- <path>${intlogoclearpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true" region="fr"> -->
+		<!-- <path>${intlogoclearfrsvg}</path> -->
+		<!-- <path>${extlogoclearfrsvg}</path> -->
+		<!-- <path>${intlogoclearfrpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true" region="eu"> -->
+		<!-- <path>${intlogoclearfrsvg}</path> -->
+		<!-- <path>${extlogoclearfrsvg}</path> -->
+		<!-- <path>${intlogoclearfrpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true" region="us"> -->
+		<!-- <path>${intlogoclearussvg}</path> -->
+		<!-- <path>${extlogoclearussvg}</path> -->
+		<!-- <path>${intlogoclearuspng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true" region="jp"> -->
+		<!-- <path>${intlogoclearjpsvg}</path> -->
+		<!-- <path>${extlogoclearjpsvg}</path> -->
+		<!-- <path>${intlogoclearjppng}</path> -->
+		<!-- </image> -->
+		<image name="Background_Sys" extra="true">
+			<path>./Background.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.500000000000 0.500000000000</pos>
+			<size>1.000000000000 1.000000000000</size>
+			<zIndex>1</zIndex>
+		</image>
+		<image name="Artwork1_Sys" extra="true">
+			<path>./Artwork1.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.694531250000 0.620370370370</pos>
+			<size>0.588020833333 0.759259259259</size>
+			<zIndex>2</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Sweet Arrival Left to Right # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetX" from="1" to="0" duration="2000" mode="EaseOutQuint"/>
+			</storyboard>
+		</image>
+		<image name="Artwork2_Sys" extra="true">
+			<path>./Artwork2.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.694531250000 0.620370370370</pos>
+			<size>0.588020833333 0.759259259259</size>
+			<zIndex>4</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Sweet Arrival Left to Right # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetX" from="1" to="0" duration="2000" mode="EaseOutQuint"/>
+			</storyboard>
+		</image>
+		<image name="Artwork3_Sys" extra="true">
+			<path>./Artwork3.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.225260416667 0.550462962963</pos>
+			<size>0.374479166667 0.619444444444</size>
+			<zIndex>4</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Arrival Bottom to Top # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="650" duration="500" mode="Linear"/>
+				<animation property="offsetY" from="1" to="0" begin="650" duration="500" mode="Linear"/>
+			</storyboard>
+		</image>
+		<image name="Artwork4_Sys" extra="true">
+			<path>./Artwork4.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.494531250000 0.118518518519</pos>
+			<size>0.786979166667 0.218518518519</size>
+			<zIndex>5</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Arrival Top to Bottom # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="650" duration="500" mode="Linear"/>
+				<animation property="offsetY" from="-1" to="0" begin="650" duration="500" mode="Linear"/>
+			</storyboard>
+		</image>
+		<!-- <video name="PreviewVid_Sys" extra="true"> -->
+			<!-- <path>{random}</path> -->
+			<!-- <pos>0.688 0.69</pos> -->
+			<!-- <size>0.225623582766 0.72</size> -->
+			<!-- <origin>0.5 0.5</origin> -->
+			<!-- <zIndex>6</zIndex> -->
+			<!-- <delay>0.4</delay> -->
+			<!-- <effect>none</effect> -->
+			<!-- <rotationOrigin>0.5 0.5</rotationOrigin> -->
+			<!-- <scaleOrigin>0.5 0.5</scaleOrigin> -->
+			<!-- <rotation>28</rotation> -->
+			<!-- <scale>1</scale> -->
+            <!-- <shader> -->
+                <!-- <path>${themePath}/_common/shaders/paral2.glsl</path> -->
+                    <!-- <tiltX>40</tiltX> -->
+                    <!-- <tiltY>-32</tiltY> -->
+            <!-- </shader> -->
+			<!-- <storyboard> -->
+				<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
+				<!-- <animation property="opacity" from="0" to="1" begin="1300" duration="500" mode="easeIn"/> -->
+			<!-- </storyboard> -->
+		<!-- </video> -->
+		<video name="PreviewVid_Sys" extra="true">
+			<path>{random}</path>
+			<pos>0.677 0.29</pos>
+			<maxSize>0.25 0.7</maxSize>
+			<origin>0.0 0.0</origin>
+			<zIndex>2</zIndex>
+			<delay>0.4</delay>
+			<effect>none</effect>
+			<rotationOrigin>0 0</rotationOrigin>
+			<scaleOrigin>0.5 0.5</scaleOrigin>
+			<rotation>28</rotation>
+			<scale>1</scale>
+            <shader>
+                <path>${themePath}/_common/shaders/paral3.glsl</path>
+                    <tiltX>32</tiltX>
+                    <tiltY>-40</tiltY>
+                    <!-- <persp>-0.05</persp> -->
+            </shader>
+			<storyboard>
+				<!-- # Sweet Arrival Left to Right # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1300" duration="500" mode="easeIn"/>
+
+			</storyboard>
+		</video>
+	</view>
+</theme>
