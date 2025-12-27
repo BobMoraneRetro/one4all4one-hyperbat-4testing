@@ -450,5 +450,9 @@
 		<unithfold>Thèmes de jeu pour arcade et collection</unithfold>
 		<systfolder>Par défaut : dossier gametheme\nomsystem</systfolder>
 		<unifolder>Utiliser uniquement le dossier gametheme\arcade</unifolder>
+		<!-- Hyperbat externaliser gametheme et systheme -->		
+		<folder>Dossiers des thèmes système et de jeu</folder>
+		<default>Par défaut</default>
+		<bobmedia>Dossier bobmedia</bobmedia>
 	</variables>
 </theme>

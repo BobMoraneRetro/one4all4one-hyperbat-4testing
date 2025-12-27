@@ -2,6 +2,12 @@
 <theme defaultView="hyperbat">
 	<!-- <theme> -->
 	<formatVersion>7</formatVersion>
+	<variables ifSubset="folder:bobmedia">
+		<bobmediapath>${themePath}/../_bobmedia</bobmediapath>
+	</variables>
+	<variables ifSubset="folder:default">
+		<bobmediapath>${themePath}</bobmediapath>
+	</variables>
 	<variables>
 		<!-- #### System ################################################################################################################################################################# -->
 		<!-- Editer ce chemin pour déplacer les thème système et de jeux à un autre emplacement -->
@@ -9,7 +15,8 @@
 		<!-- choisir ce chemin pour mettre les gametheme et systheme dans le dossier _bobmedia (par défaut) idéal pour ne rien perdre lors des maj du theme-->
 		<!-- <bobmediapath>${themePath}</bobmediapath> -->
 		<!-- choisir ce chemin pour mettre les gametheme et systheme directement dans le dossier theme hyperbat : attention les mise à jour du thème écraseront vos gametheme et systheme -->
-		<bobmediapath>${themePath}/../_bobmedia</bobmediapath>
+	
+		<!-- <bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath> -->
 		<!-- Utilisé par Hyperbat : nouveau dans standalone -->
 		<firstbackgrsyst>firstfile(
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + "-" + {game:region} + ".png",
@@ -101,6 +108,10 @@
 	<region region="us">region us</region>
 	<region region="jp">region jp</region>
 	<!-- Build Custom : suffixe des fanart -->
+	<subset name="folder" displayName="${folder}">
+		<include name="default" displayName="${default}"/>
+		<include name="bobmedia" displayName="${bobmedia}"/>
+	</subset>
 	<subset name="custombuilds" displayName="${packcustombuild}">
 		<include name="standardbuilds" displayName="${packcustombuildsno}"/>
 		<include name="retrofreshbat" displayName="${packretrofreshbat}"/>
