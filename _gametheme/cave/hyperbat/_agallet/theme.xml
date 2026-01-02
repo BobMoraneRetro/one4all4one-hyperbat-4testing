@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
@@ -203,8 +203,5 @@
 		<image name="md_boxart">
 			<visible>false</visible>
 		</image>
-	        <text name="gamethemeauthor" extra="true">
-           <text>Theme by : Dav</text>
-        </text>
-</customView>
+	</customView>
 </theme>

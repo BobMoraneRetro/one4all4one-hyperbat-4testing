@@ -155,9 +155,9 @@
 				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
 			</storyboard>
 		</control>
-		<text name="gamethemeauthor" extra="true">
-			<text>Theme by : mrfomt</text>
-		</text>
-	</customView>
+	        <text name="gamethemeauthor" extra="true">
+           <text>Theme by : mrfomt</text>
+        </text>
+</customView>
 </theme>
 

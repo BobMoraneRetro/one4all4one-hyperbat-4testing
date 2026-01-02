@@ -54,7 +54,7 @@
 		<intfanartfresh>${bobmediapath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg</intfanartfresh>
 		<intfanartfresh2>("${bobmediapath}/_systemmedia/_fanartsysteme/fresh/" + {system:theme} + ".jpg")</intfanartfresh2>
 		<intfanartcustom>${bobmediapath}/_systemmedia/_fanartsysteme/custom/${system.theme}.jpg</intfanartcustom>
-		<intspinback>${themePath}/_viewgame/hyperbat/fondsysteme/${system.theme}.png</intspinback>
+		<intspinback>"${themePath}/_viewgame/hyperbat/fondsysteme/" + {game:system:theme} + ".png"</intspinback>
 		<!-- System : Actif si absence de systheme.xml dans le thème hyperbat : videosyst.xml, fanartsyst.xml -->
 		<ifnoextsysthemeexist>!exists("${bobmediapath}/_systemmedia/videosyst/hyperspinxp/" + stem({system:theme}) + "/systheme.xml")</ifnoextsysthemeexist>
 		<!-- System : personnage en png associé aux systèmes -->
@@ -65,7 +65,9 @@
 		<!-- Syste & Jeux Logo Système en fonction du jeu -->
 		<extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst>
 		<!-- Jeux : gamethème Hyperbat -->
+		<!-- <extgametheme>${bobmediapath}/_gametheme/${system.theme}/hyperbat</extgametheme> -->
 		<extgametheme>${bobmediapath}/_gametheme/${system.theme}/hyperbat</extgametheme>
+		<extgametheme.persyst>"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat"</extgametheme.persyst>
 		<extGametheme.defaut>${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml</extGametheme.defaut>
 		<extGametheme.defautarcade>${bobmediapath}/_gametheme/arcade/hyperbat/_default/theme.xml</extGametheme.defautarcade>
 		<!-- Jeux : Condition si fanart ou box 2d -->
@@ -96,6 +98,10 @@
 		<include name="tumasbienlu" displayName="${tumasbienlu}">${themePath}/_viewsystoption/sl-commun/splashounet.xml</include>
 		<include name="desactive" displayName="${desactive}"/>
 	</subset>
+	<subset name="folder" displayName="${folder}">
+		<include name="default" displayName="${default}"/>
+		<include name="bobmedia" displayName="${bobmedia}"/>
+	</subset>
 	<subset name="systemview" displayName="${systlist}">
 		<include name="hyperspin" displayName="${systviewHS}">${themePath}/_viewsyst/hyperspin.xml</include>
 	</subset>
@@ -108,10 +114,6 @@
 	<region region="us">region us</region>
 	<region region="jp">region jp</region>
 	<!-- Build Custom : suffixe des fanart -->
-	<subset name="folder" displayName="${folder}">
-		<include name="default" displayName="${default}"/>
-		<include name="bobmedia" displayName="${bobmedia}"/>
-	</subset>
 	<subset name="custombuilds" displayName="${packcustombuild}">
 		<include name="standardbuilds" displayName="${packcustombuildsno}"/>
 		<include name="retrofreshbat" displayName="${packretrofreshbat}"/>

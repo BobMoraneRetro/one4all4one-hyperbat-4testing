@@ -1,0 +1,1042 @@
+================================================================================
+RAPPORT DE GÉNÉRATION DES SCREENSHOTS
+================================================================================
+Date: 2025-11-14 23:21:01
+Dossier analysé: A:\Retrobatwork\emulationstation\.emulationstation\themes\_bobmedia\_gametheme\neogeo\hyperbat
+
+📄 2 fichier(s) JSON trouvé(s)
+📄 141 fichier(s) XML trouvé(s)
+
+================================================================================
+RÉSULTATS PAR FICHIER JSON
+================================================================================
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ironclad\project_data.json
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ironclad\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ncombat\project_data.json
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ncombat\screenshot.jpg
+
+================================================================================
+RÉSULTATS PAR FICHIER XML
+================================================================================
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\2020bb\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\2020bb\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\3countb\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\3countb\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\alpham2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\alpham2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\androdun\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\androdun\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aodk\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aodk\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof2\theme.xml
+   ❌ ERREUR - Échec de la génération
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bangbead\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bangbead\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bjourney\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bjourney\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\blazstar\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\blazstar\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\breakers\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\breakers\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\breakrev\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\breakrev\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bstars\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bstars\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bstars2\theme.xml
+   ❌ ERREUR - Échec de la génération
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\burningf\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\burningf\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\crsword\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\crsword\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ctomaday\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ctomaday\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\cyberlip\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\cyberlip\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\doubledr\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\doubledr\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\eightman\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\eightman\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfursp\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfursp\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury1\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury1\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fbfrenzy\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fbfrenzy\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fightfev\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fightfev\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\flipshot\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\flipshot\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\galaxyfg\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\galaxyfg\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ganryu\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ganryu\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\garou\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\garou\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ghostlop\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ghostlop\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\goalx3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\goalx3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gowcaizr\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gowcaizr\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gpilots\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gpilots\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gururin\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gururin\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\irrmaze\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\irrmaze\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\joyjoy\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\joyjoy\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kabukikl\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kabukikl\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\karnovr\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\karnovr\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kizuna\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kizuna\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2000\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2000\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2001\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2001\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2002\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2002\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2003\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2003\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof94\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof94\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof95\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof95\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof96\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof96\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof97\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof97\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof98\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof98\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof99\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof99\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kotm\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kotm\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kotm2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kotm2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lastblad\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lastblad\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lastbld2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lastbld2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lbowling\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lbowling\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\legendos\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\legendos\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lresort\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lresort\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\magdrop2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\magdrop2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\magdrop3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\magdrop3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\maglord\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\maglord\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\matrim\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\matrim\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\miexchng\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\miexchng\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug-alt GIF Heavy\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug-alt GIF Heavy\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug4\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug4\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug5\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug5\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslugx\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslugx\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mutnat\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mutnat\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\nam1975\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\nam1975\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ncommand\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ncommand\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neobombe\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neobombe\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neocup98\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neocup98\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neodrift\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neodrift\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neomrdo\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neomrdo\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ninjamas\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ninjamas\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\nitd\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\nitd\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\overtop\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\overtop\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\panicbom\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\panicbom\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pbobbl2n\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pbobbl2n\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pbobblen\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pbobblen\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pgoal\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pgoal\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pnyaa\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pnyaa\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\popbounc\theme.xml
+   ❌ ERREUR - Échec de la génération
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\preisle2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\preisle2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pspikes2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pspikes2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pulstar\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pulstar\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\puzzldpr\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\puzzldpr\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\puzzledp\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\puzzledp\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ragnagrd\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ragnagrd\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbff1\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbff1\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbff2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbff2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbffspec\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbffspec\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ridhero\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ridhero\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\roboarmy\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\roboarmy\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rotd\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rotd\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\s1945p\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\s1945p\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsh5sp\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsh5sp\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho4\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho4\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho5\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho5\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\savagere\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\savagere\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sdodgeb\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sdodgeb\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\shocktr2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\shocktr2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\shocktro\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\shocktro\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\socbrawl\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\socbrawl\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sonicwi2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sonicwi2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sonicwi3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sonicwi3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\spinmast\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\spinmast\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki3\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki3\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki4\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki4\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\stakwin\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\stakwin\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\stakwin2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\stakwin2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\strhoop\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\strhoop\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\superspy\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\superspy\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\svc\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\svc\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tophuntr\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tophuntr\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tpgolf\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tpgolf\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\trally\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\trally\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\turfmast\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\turfmast\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\twinspri\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\twinspri\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tws96\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tws96\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\viewpoin\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\viewpoin\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wakuwak7\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wakuwak7\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh1\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh1\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh2\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh2\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh2j\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh2j\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\whp\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\whp\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wjammers\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wjammers\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\zedblade\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\zedblade\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\zupapa\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\zupapa\screenshot.jpg
+
+📋 A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\_default\theme.xml
+   ✅ SUCCÈS - Screenshot généré: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\_default\screenshot.jpg
+
+
+================================================================================
+RÉSUMÉ
+================================================================================
+✅ Screenshots générés avec succès: 140
+❌ Erreurs: 3
+📁 Dossiers sans JSON: 2
+
+================================================================================
+✅ DOSSIERS TRAITÉS AVEC SUCCÈS (140)
+================================================================================
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\2020bb
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\3countb
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\_default
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\alpham2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\androdun
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aodk
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bangbead
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bjourney
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\blazstar
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\breakers
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\breakrev
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bstars
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\burningf
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\crsword
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ctomaday
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\cyberlip
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\doubledr
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\eightman
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfursp
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury1
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fbfrenzy
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fightfev
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\flipshot
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\galaxyfg
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ganryu
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\garou
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ghostlop
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\goalx3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gowcaizr
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gpilots
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gururin
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ironclad
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\irrmaze
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\joyjoy
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kabukikl
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\karnovr
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kizuna
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2000
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2001
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2002
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2003
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof94
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof95
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof96
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof97
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof98
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof99
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kotm
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kotm2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lastblad
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lastbld2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lbowling
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\legendos
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lresort
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\magdrop2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\magdrop3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\maglord
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\matrim
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\miexchng
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug-alt GIF Heavy
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug4
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug5
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslugx
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mutnat
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\nam1975
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ncombat
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ncommand
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neobombe
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neocup98
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neodrift
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neomrdo
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ninjamas
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\nitd
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\overtop
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\panicbom
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pbobbl2n
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pbobblen
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pgoal
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pnyaa
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\preisle2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pspikes2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pulstar
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\puzzldpr
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\puzzledp
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ragnagrd
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbff1
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbff2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbffspec
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ridhero
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\roboarmy
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rotd
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\s1945p
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsh5sp
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho4
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho5
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\savagere
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sdodgeb
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\shocktr2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\shocktro
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\socbrawl
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sonicwi2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sonicwi3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\spinmast
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki3
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki4
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\stakwin
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\stakwin2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\strhoop
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\superspy
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\svc
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tophuntr
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tpgolf
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\trally
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\turfmast
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\twinspri
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tws96
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\viewpoin
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wakuwak7
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh1
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh2
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh2j
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\whp
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wjammers
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\zedblade
+   ✓ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\zupapa
+
+================================================================================
+❌ DOSSIERS AVEC ERREURS (3)
+================================================================================
+   ✗ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof2
+   ✗ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bstars2
+   ✗ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\popbounc
+
+================================================================================
+📁 DOSSIERS SANS FICHIER JSON (2)
+================================================================================
+   - A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug\char
+   - A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\panicbom\Nouveau dossier
+
+
+================================================================================
+COPIE DES SCREENSHOTS
+================================================================================
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kotm2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kotm2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fightfev\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\fightfev.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof95\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof95.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\cyberlip\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\cyberlip.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\puzzldpr\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\puzzldpr.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\shocktr2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\shocktr2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neobombe\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\neobombe.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\puzzledp\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\puzzledp.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof99\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof99.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho5\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\samsho5.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\trally\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\trally.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\overtop\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\overtop.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\breakrev\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\breakrev.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bstars\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\bstars.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\crsword\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\crsword.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\matrim\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\matrim.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\fatfury2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aodk\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\aodk.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\samsho3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ghostlop\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ghostlop.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\karnovr\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\karnovr.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbff1\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\rbff1.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\fatfury3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\samsho.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\magdrop2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\magdrop2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho4\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\samsho4.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ncombat\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ncombat.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsh5sp\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\samsh5sp.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pbobbl2n\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\pbobbl2n.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\socbrawl\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\socbrawl.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\irrmaze\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\irrmaze.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tpgolf\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\tpgolf.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof98\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof98.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2000\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof2000.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lastblad\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\lastblad.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbffspec\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\rbffspec.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\spinmast\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\spinmast.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rbff2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\rbff2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\preisle2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\preisle2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\goalx3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\goalx3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug-alt GIF Heavy\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\mslug-alt GIF Heavy.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\doubledr\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\doubledr.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\2020bb\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\2020bb.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\flipshot\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\flipshot.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wjammers\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\wjammers.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\androdun\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\androdun.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sonicwi2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\sonicwi2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\viewpoin\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\viewpoin.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\savagere\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\savagere.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\eightman\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\eightman.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\alpham2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\alpham2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pnyaa\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\pnyaa.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\sengoku2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\samsho2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\samsho2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tws96\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\tws96.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\burningf\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\burningf.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\miexchng\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\miexchng.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh2j\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\wh2j.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kotm\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kotm.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neodrift\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\neodrift.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kabukikl\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kabukikl.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\breakers\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\breakers.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\panicbom\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\panicbom.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bangbead\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\bangbead.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\mslug2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\maglord\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\maglord.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ninjamas\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ninjamas.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\turfmast\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\turfmast.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\mslug.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\svc\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\svc.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gowcaizr\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\gowcaizr.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslugx\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\mslugx.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ganryu\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ganryu.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof96\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof96.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sdodgeb\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\sdodgeb.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fbfrenzy\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\fbfrenzy.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pgoal\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\pgoal.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof94\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof94.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\bjourney\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\bjourney.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\joyjoy\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\joyjoy.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\rotd\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\rotd.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\aof3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfursp\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\fatfursp.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ragnagrd\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ragnagrd.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\roboarmy\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\roboarmy.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\stakwin2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\stakwin2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug4\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\mslug4.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\tophuntr\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\tophuntr.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ridhero\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ridhero.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\3countb\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\3countb.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\sengoku.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\fatfury1\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\fatfury1.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\zedblade\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\zedblade.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lresort\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\lresort.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2001\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof2001.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\_default\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\_default.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gpilots\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\gpilots.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\superspy\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\superspy.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\whp\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\whp.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug5\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\mslug5.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\blazstar\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\blazstar.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\zupapa\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\zupapa.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lastbld2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\lastbld2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof97\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof97.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pspikes2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\pspikes2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\strhoop\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\strhoop.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mutnat\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\mutnat.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pbobblen\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\pbobblen.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2003\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof2003.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neomrdo\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\neomrdo.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\shocktro\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\shocktro.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\gururin\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\gururin.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ssideki2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ncommand\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ncommand.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\twinspri\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\twinspri.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\nam1975\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\nam1975.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\s1945p\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\s1945p.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\nitd\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\nitd.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kof2002\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kof2002.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ironclad\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ironclad.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ctomaday\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ctomaday.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\garou\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\garou.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\kizuna\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\kizuna.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\lbowling\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\lbowling.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\legendos\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\legendos.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wakuwak7\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\wakuwak7.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sengoku3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\sengoku3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\galaxyfg\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\galaxyfg.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\magdrop3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\magdrop3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki4\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ssideki4.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\neocup98\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\neocup98.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\sonicwi3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\sonicwi3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh1\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\wh1.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\pulstar\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\pulstar.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\stakwin\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\stakwin.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\mslug3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\mslug3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\aof\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\aof.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki3\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ssideki3.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\wh2\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\wh2.jpg
+
+✅ A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\ssideki\screenshot.jpg
+   → A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot\ssideki.jpg
+
+📋 Total copié: 140 fichier(s)
+📁 Dossier de destination: A:/Retrobatwork/emulationstation/.emulationstation/themes/_bobmedia/_gametheme/neogeo/hyperbat\screenshot
+
+================================================================================
+FIN DU RAPPORT
+================================================================================

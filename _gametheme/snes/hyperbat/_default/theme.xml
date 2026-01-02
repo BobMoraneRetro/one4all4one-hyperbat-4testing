@@ -23,9 +23,10 @@
 		</image>
 		<!-- ################ image 2 du système ########################################### -->
 		<image name="Artwork2Def" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")&amp;&amp;
-			{game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; -->
+			<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")&amp;&amp; -->
+			<!-- {game:system:theme} == 'snes'</visible> -->
+			<visible>!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
 			<path>firstfile(
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + ".png",
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork2.png")</path>
@@ -57,7 +58,8 @@
 			</storyboard>
 		</image>
 		<image name="Artwork2AltDef" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
+			<visible>${IfnoextGamethemeexist}</visible>
 			<path>"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0 0.5</origin>
 			<pos>0 0.5</pos>
@@ -65,7 +67,7 @@
 			<zIndex>500</zIndex>
 			<scaleOrigin>-0.3 -0.3</scaleOrigin>
 			<autoFade>false</autoFade>
-			<!-- # Arrivee : G->D # -->
+			# Arrivee : G->D #
 			<storyboard event="open">
 				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
 				<animation property="opacity" from="0" to="1" begin="1000" duration="500" mode="EaseIn"/>
@@ -89,7 +91,8 @@
 		</image>
 		<!-- ############################ Réglage de la position de l'image du hardware en fonction de la Region du jeu ################################### -->
 		<image name="Artwork3Def" extra="true">
-			<visible>{game:region} != 'us' &amp;&amp; ${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>{game:region} != 'us' &amp;&amp; ${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
+			<visible>{game:region} != 'us'</visible>
 			<path>firstfile(
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png",
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3defaut.png")</path>
@@ -121,7 +124,8 @@
 			</storyboard>
 		</image>
 		<image name="ArtworkusDef" extra="true">
-			<visible>{game:region} == 'us' &amp;&amp; ${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>{game:region} == 'us' &amp;&amp; ${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
+			<visible>{game:region} == 'us'</visible>
 			<path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.444010416666667 0.805555555555556</pos>
@@ -152,7 +156,7 @@
 		</image>
 		<!-- ################ Bezel, fond, screenshot, video ##################### -->
 		<image name="VideobezelDef" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
 			<path>./video.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.390104166666667 0.377777777777778</pos>
@@ -160,7 +164,7 @@
 			<zIndex>300</zIndex>
 		</image>
 		<image name="fondscreen" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
 			<path>./fiber.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.388 0.371</pos>
@@ -169,7 +173,7 @@
 			<autoFade>false</autoFade>
 		</image>
 		<image name="screenshotsnes" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
 			<path>{game:image}</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.388 0.371</pos>
@@ -178,7 +182,7 @@
 			<autoFade>false</autoFade>
 		</image>
 		<video name="gameplayprev" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
 			<path>{game:video}</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.388 0.371</pos>
@@ -211,7 +215,7 @@
 		</video>
 		<!-- ################ Logo du jeu ##################### -->
 		<image name="MarqueeHS" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
 			<path>{game:marquee}</path>
 			<pos>0.85 0.15</pos>
 			<origin>0.5 0.5</origin>
@@ -246,7 +250,7 @@
 		</image>
 		<!-- ############################# Animation et paramètres communs du logo système par région et par système groupé ########################### -->
 		<image name="logosytempergame" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
 			<path>firstfile(
 			"${themePath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + "-" + ({game:region}) + ".png",
 			"${themePath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path>
@@ -304,7 +308,7 @@
 			</storyboard>
 		</control>
 		<image name="boxartthumb" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible> -->
 			<path>exists({game:boxart}) ? {game:boxart} : {game:thumbnail}</path>
 			<pos>0.779947916666667 0.5</pos>
 			<origin>0.5 0.5</origin>
@@ -313,9 +317,10 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="cartridge" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; 
-			{game:region} != 'us' &amp;&amp; 
-			{game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp;  -->
+			<!-- {game:region} != 'us' &amp;&amp;  -->
+			<!-- {game:system:theme} == 'snes'</visible> -->
+			<visible>{game:region} != 'us'</visible>
 			<path>{game:cartridge}</path>
 			<pos>0.38984375 0.670833333333333</pos>
 			<size>0.184895833333333 0.223148148148148</size>
@@ -346,9 +351,10 @@
 			</storyboard>
 		</image>
 		<image name="cartridgeus" extra="true">
-			<visible>${IfnoextGamethemeexist} &amp;&amp; 
-			{game:region} == 'us' &amp;&amp; 
-			{game:system:theme} == 'snes'</visible>
+			<!-- <visible>${IfnoextGamethemeexist} &amp;&amp;  -->
+			<!-- {game:region} == 'us' &amp;&amp;  -->
+			<!-- {game:system:theme} == 'snes'</visible> -->
+			<visible>{game:region} == 'us'</visible>
 			<path>{game:cartridge}</path>
 			<pos>0.384895833333333 0.668981481481482</pos>
 			<size>0.185416666666667 0.206481481481481</size>

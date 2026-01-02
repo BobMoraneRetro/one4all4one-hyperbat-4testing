@@ -318,5 +318,8 @@
 		<customfanart>Elección de los Fanarts a usar</customfanart>
 		<lismoi>Mensaje de bienvenida que has leído</lismoi>
 		<tumasbienlu>¿Me has leído atentamente?</tumasbienlu>
+		<folder>Carpetas de temas del sistema y de juegos</folder>
+		<default>Predeterminado</default>
+		<bobmedia>Carpeta bobmedia</bobmedia>
 	</variables>
 </theme>

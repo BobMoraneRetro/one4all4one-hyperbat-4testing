@@ -444,5 +444,8 @@
 		<unithfold>Arcade and collection games themes</unithfold>
 		<systfolder>Default: gametheme\systemname folder</systfolder>
 		<unifolder>Use only the gametheme\arcade folder</unifolder>
+		<folder>System theme and game theme folders</folder>
+		<default>Default</default>
+		<bobmedia>bobmedia folder</bobmedia>
 	</variables>
 </theme>

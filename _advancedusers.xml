@@ -26,6 +26,7 @@
 		<include name="non" displayName="${no}"/>
 		<include name="oui" displayName="${yes}">${themePath}/_viewgameoption/gl-common/infosmax.xml</include>
 	</subset>
+	
 	<!-- ################################################################################# -->
 	<!-- ######################## VUES JEUX Hyperspin #################################### -->
 	<!-- ################################################################################# -->
@@ -38,11 +39,16 @@
 	<subset name="spacermediahs" displayName="${mediahyper}" appliesTo="${vide}">
 		<include name="desactive" displayName=" "/>
 	</subset>
-	<subset name="unithfold" displayName="${unithfold}" appliesTo="hyperbat">
-		<include name="systfolder" displayName="${systfolder}"/>
-		<include name="unifolder" displayName="${unifolder}"/>
+	<!-- <subset name="unithfold" displayName="${unithfold}" appliesTo="hyperbat"> -->
+		<!-- <include name="systfolder" displayName="${systfolder}"/> -->
+		<!-- <include name="unifolder" displayName="${unifolder}"/> -->
+	<!-- </subset> -->
+	<subset name="defaultgeneric" displayName="${defaultgeneric}" appliesTo="hyperbat">
+		<include name="generic43" displayName="${generic43}"/>
+		<include name="generic169" displayName="${generic169}"/>
+		<include name="genericbackbox" displayName="${genericbackbox}"/>
 	</subset>
-		<subset name="authordisplayed" displayName="${authordisplayed}" appliesTo="hyperbat">
+	<subset name="authordisplayed" displayName="${authordisplayed}" appliesTo="hyperbat">
 		<include name="activate" displayName="${activate}"/>
 		<include name="showoff" displayName="${showoff}"/>
 		<include name="showoffblackwhite" displayName="${showoffblackwhite}"/>
