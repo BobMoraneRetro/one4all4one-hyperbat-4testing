@@ -454,5 +454,11 @@
 		<folder>Dossiers des thèmes système et thèmes de jeu</folder>
 		<default>Par défaut</default>
 		<bobmedia>Dossier bobmedia</bobmedia>
+		<!-- Choix theme defaut -->
+		<defaultgeneric>Thème de Jeu générique :</defaultgeneric>
+		<defaulttheme>Par défaut</defaulttheme>
+		<generic43>Standard pour système 4/3</generic43>
+		<generic169>Standard pour système 16/9</generic169>
+		<genericbackbox>Standard avec montage boite arrière et avant</genericbackbox>
 	</variables>
 </theme>

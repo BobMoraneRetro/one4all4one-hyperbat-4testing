@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
+
+	<!-- Variables utilisees dans ce fichier (definitions reprises de theme.xml) -->
+		<!-- <extgameartpng>("${themePath}/../../../../roms/${system.theme}/@media/wheel - Art/" + stem({game:rom}) + "-wheel.png")</extgameartpng> -->
+		<!-- <extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst> -->
+		<!-- <freshbuildfanart>exists({game:image}) ? {game:image} : {game:thumbnail}</freshbuildfanart> -->
+		<!-- <freshbuildfanarttestyes>exists({game:image})</freshbuildfanarttestyes> -->
+		<!-- <intfanartfresh>${bobmediapath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg</intfanartfresh> -->
+		<!-- <intlogoclearpng>${bobmediapath}/_systemmedia/_logosyst/clearlogos/${system.theme}.png</intlogoclearpng> -->
+		<!-- <standardsbuildsfanart>exists({game:fanart}) ? {game:fanart} : {game:thumbnail}</standardsbuildsfanart> -->
+		<!-- <standardsbuildsfanarttestyes>exists({game:fanart})</standardsbuildsfanarttestyes> -->
+
 	<formatVersion>7</formatVersion>
 	<view name="detailed">
 		<text name="md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate, md_lbl_rating, md_lbl_genre, md_developer, md_publisher, md_name, md_flag, md_description, md_genre, md_players, md_playcount">

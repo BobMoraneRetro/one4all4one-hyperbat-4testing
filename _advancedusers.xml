@@ -45,8 +45,13 @@
 	<!-- </subset> -->
 	<subset name="defaultgeneric" displayName="${defaultgeneric}" appliesTo="hyperbat">
 		<include name="generic43" displayName="${generic43}"/>
-		<include name="generic169" displayName="${generic169}"/>
+		<include name="generic43noanimation" displayName="${generic43noanimation}"/>
+		<include name="generic43noblur" displayName="${generic43noblur}"/>
 		<include name="genericbackbox" displayName="${genericbackbox}"/>
+	</subset>
+	<subset name="gameviewsource" displayName="${gameviewsource}" appliesTo="hyperbat">
+		<include name="originsystem" displayName="${originsystem}"/>
+		<include name="actualsystem" displayName="${actualsystem}"/>
 	</subset>
 	<subset name="authordisplayed" displayName="${authordisplayed}" appliesTo="hyperbat">
 		<include name="activate" displayName="${activate}"/>
@@ -111,7 +116,7 @@
 		<include name="noactivesmooth" displayName="${noactivesmooth}"/>
 	</subset>
 	<subset name="boxorthumb" displayName="${boxorthumb}" appliesTo="hyperbat">
-		<include name="boxback" displayName="${boxback}"/>
+		<!-- <include name="boxback" displayName="${boxback}"/> -->
 		<include name="boxart" displayName="${boxart}"/>
 		<include name="thumb" displayName="${thumb}"/>
 	</subset>

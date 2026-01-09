@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
+
+	<!-- Variables utilisees dans ce fichier (definitions reprises de theme.xml) -->
+		<!-- <intlogoclearfrpng>${bobmediapath}/_systemmedia/_logosyst/clearlogos/${system.theme}-fr.png</intlogoclearfrpng> -->
+		<!-- <intlogoclearpng>${bobmediapath}/_systemmedia/_logosyst/clearlogos/${system.theme}.png</intlogoclearpng> -->
+
    <formatVersion>7</formatVersion>
     <view name="detailed, coinops, hyperbat">
 	

@@ -3,8 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="BackgrSyst" extra="true">
-			<!-- <visible ifSubset="hsperview:themejeux">!exists("${bobmediapath}/_gametheme/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible> -->
-			<visible ifSubset="hsperview:themejeux">${IfnoextGamethemeexist}</visible>
+			<visible>${IfnoextGamethemeexist}</visible>
 			<path>./Background.png</path>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
@@ -14,7 +13,7 @@
 			<autoFade>false</autoFade>
 		</image>
 		<image name="logocust" extra="true">
-			<visible ifSubset="hsperview:themejeux">${IfnoextGamethemeexist}</visible>		
+			<visible>${IfnoextGamethemeexist}</visible>
 			<maxSize>0.44 0.20</maxSize>
 			<scaleOrigin>0 -0.3</scaleOrigin>
 			<pos>0.423697916666667 0.111574074074074</pos>

@@ -10,13 +10,6 @@
 	</variables>
 	<variables>
 		<!-- #### System ################################################################################################################################################################# -->
-		<!-- Editer ce chemin pour déplacer les thème système et de jeux à un autre emplacement -->
-		<!-- <bobmediapath>${themePath}/../_bobmedia</bobmediapath> -->
-		<!-- choisir ce chemin pour mettre les gametheme et systheme dans le dossier _bobmedia (par défaut) idéal pour ne rien perdre lors des maj du theme-->
-		<!-- <bobmediapath>${themePath}</bobmediapath> -->
-		<!-- choisir ce chemin pour mettre les gametheme et systheme directement dans le dossier theme hyperbat : attention les mise à jour du thème écraseront vos gametheme et systheme -->
-	
-		<!-- <bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath> -->
 		<!-- Utilisé par Hyperbat : nouveau dans standalone -->
 		<firstbackgrsyst>firstfile(
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + "-" + {game:region} + ".png",
@@ -69,6 +62,7 @@
 		<extgametheme>${bobmediapath}/_gametheme/${system.theme}/hyperbat</extgametheme>
 		<extgametheme.persyst>"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat"</extgametheme.persyst>
 		<extGametheme.defaut>${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml</extGametheme.defaut>
+		<extgemetheme.generic>${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml</extgemetheme.generic>
 		<extGametheme.defautarcade>${bobmediapath}/_gametheme/arcade/hyperbat/_default/theme.xml</extGametheme.defautarcade>
 		<!-- Jeux : Condition si fanart ou box 2d -->
 		<standardsbuildsfanart>exists({game:fanart}) ? {game:fanart} : {game:thumbnail}</standardsbuildsfanart>

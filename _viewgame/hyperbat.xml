@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme defaultView="hyperbat">
+	<!-- Variables utilisees dans ce fichier (definitions reprises de theme.xml) -->
+	<!-- <extgametheme>${bobmediapath}/_gametheme/${system.theme}/hyperbat</extgametheme> -->
+	<!-- <IfnoextGamethemeexist>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml")</IfnoextGamethemeexist> -->
+	<!-- <pointers4games>"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png"</pointers4games> -->
 	<formatVersion>7</formatVersion>
-	
-	<!-- Solution de repli 1 si les bugs persisitent -->
-	<!-- <include>${bobmediapath}/_gametheme/${system.theme}/Hyperbat/_default/Theme.xml</include> -->
-	<!-- <include ifSubset="defaultgeneric:genericbackbox">${bobmediapath}/_gametheme/_genericdefault/_defaultboxback/theme.xml</include> -->
-	<!-- <include ifSubset="defaultgeneric:generic169">${bobmediapath}/_gametheme/_genericdefault/_default169/theme.xml</include> -->
-	<!-- <include ifSubset="defaultgeneric:generic43">${bobmediapath}/_gametheme/_genericdefault/_default43/theme.xml</include> -->
-	<!-- <include ifSubset="defaultgeneric:genericbackbox"> -->
-	<!-- firstfile(${extGametheme.defaut},"${bobmediapath}/_gametheme/_genericdefault/_defaultboxback/theme.xml")</include> -->
-	<!-- <include ifSubset="defaultgeneric:generic169"> -->
-	<!-- firstfile(${extGametheme.defaut},"${bobmediapath}/_gametheme/_genericdefault/_default169/theme.xml")</include> -->
-	<!-- <include ifSubset="defaultgeneric:generic43"> -->
-	<!-- firstfile(${extGametheme.defaut},"${bobmediapath}/_gametheme/_genericdefault/_default43/theme.xml")</include> -->
-	<!-- <path ifSubset="defaultgeneric:genericbackbox">firstfile( -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
-			<!-- "${bobmediapath}/_gametheme/_genericdefault/_defaultboxback/theme.xml")</path> -->
-		<!-- <path ifSubset="defaultgeneric:generic169">firstfile( -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml", -->
-			<!-- "${bobmediapath}/_gametheme/_genericdefault/_default169/theme.xml")</path> -->
-		<!-- <path ifSubset="defaultgeneric:generic43">firstfile( -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml", -->
-			<!-- "${bobmediapath}/_gametheme/_genericdefault/_default43/theme.xml")</path> -->
-
-	
-	<!-- retour à la pratique d'origine si les bugs persisitent -->
-	<!-- <include>${bobmediapath}/_gametheme/${system.theme}/Hyperbat/_default/Theme.xml</include> -->
-	<!-- <include ifSubset="unithfold:unifolder">${extGametheme.defautarcade}</include> -->
-	<!-- <include ifSubset="unithfold:systfolder">${extGametheme.defaut}</include> -->
-	<!-- <include if="{system.theme} == 'snes'">${bobmediapath}/_gametheme/sufami/hyperbat/_default/theme.xml</include> -->
-	<!-- <include if="{system.theme} == 'snes'">${bobmediapath}/_gametheme/satellaview/hyperbat/_default/theme.xml</include> -->
-	<!-- <include if="{system.theme} == 'snes'">${bobmediapath}/_gametheme/snes-msu1/hyperbat/_default/theme.xml</include> -->
-	<!-- <include if="{system.theme} == 'wonderswan'">${bobmediapath}/_gametheme/wonderswancolor/hyperbat/_default/theme.xml</include> -->
-	<!-- <include if="{system.theme} == 'megadrive'">${bobmediapath}/_gametheme/megacd/hyperbat/_default/theme.xml</include> -->
-	<!-- <include if="{system.theme} == 'megadrive'">${bobmediapath}/_gametheme/megadrive-msu/hyperbat/_default/theme.xml</include> -->
-	<!-- <include if="{system.theme} == 'megadrive'">${bobmediapath}/_gametheme/sega32x/hyperbat/_default/theme.xml</include> -->
-		<!-- <include>(${bobmediapath}/_gametheme/${game:system:theme}/Hyperbat/_default/Theme.xml)</include> -->
-	<!-- <extGametheme.defaut>${bobmediapath}/_gametheme/${system.theme}/Hyperbat/_default/Theme.xml</extGametheme.defaut> -->
+	<include ifSubset="defaultgeneric:generic43noanimation">${bobmediapath}/_gametheme/_genericdefault/_default43noanimation/theme.xml</include>
+	<include ifSubset="defaultgeneric:generic43noblur">${bobmediapath}/_gametheme/_genericdefault/_default43noblur/theme.xml</include>
+	<include ifSubset="defaultgeneric:generic43">${bobmediapath}/_gametheme/_genericdefault/_default43/theme.xml</include>
+	<include ifSubset="defaultgeneric:genericbackbox">${bobmediapath}/_gametheme/_genericdefault/_defaultboxback/theme.xml</include>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<control name="screenshot_extra,video_extra,fanart_extra">
 			<visible>false</visible>
@@ -74,7 +44,6 @@
 			<defaultTransition>instant</defaultTransition>
 			<minLogoOpacity>1</minLogoOpacity>
 			<transitionSpeed>350</transitionSpeed>
-			<!-- <scrollSound>${themePath}/_common/scrollsound/wheelclic.wav</scrollSound> -->
 			<scrollSound ifSubset="gamewheelsound:bulle">${themePath}/_common/scrollsound/bulle.wav</scrollSound>
 			<scrollSound ifSubset="gamewheelsound:clic">${themePath}/_common/scrollsound/clic.wav</scrollSound>
 			<scrollSound ifSubset="gamewheelsound:clicgrave">${themePath}/_common/scrollsound/clicgrave.wav</scrollSound>
@@ -261,46 +230,11 @@
 				<animation property="opacity" to="0" begin="" duration="0" mode="Linear"/>
 			</storyboard>
 		</image>
-		<!-- <gameextras name="gameextras" ifSubset="hsperview:themejeux"> -->
-		<!-- <path ifSubset="unithfold:unifolder" if="{system.hardwareType} == 'arcade'">${bobmediapath}/_gametheme/arcade/hyperbat</path> -->
-		<!-- <path ifSubset="unithfold:systfolder">${extgametheme}</path> -->
-		<!-- </gameextras> -->
-		<!-- <gameextras name="gameextras" ifSubset="unithfold:unifolder"> -->
-			<!-- <path>${extgametheme}</path> -->
-			<!-- <path if="{system.hardwareType} == 'arcade'">${bobmediapath}/_gametheme/arcade/hyperbat</path> -->
-			<!-- <path if="{system.hardwareType} == 'auto collection'">${bobmediapath}/_gametheme/arcade/hyperbat</path> -->
-		<!-- </gameextras> -->
-		
-	<!-- <subset name="defaultgenric" displayName="${defaultgenric}" appliesTo="hyperbat"> -->
-		<!-- <include name="generic43" displayName="${generic43}"/> -->
-		<!-- <include name="generic169" displayName="${generic169}"/> -->
-		<!-- <include name="genericbackbox" displayName="${genericbackbox}"/> -->
-	<!-- </subset> -->
-		
-		
 		<gameextras name="gameextras">
-			<!-- <path>"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml"</path> -->
-			<!-- <path>${bobmediapath}/_gametheme/${system.theme}/hyperbat</path> -->
-			<!-- <path>${extgametheme}</path> -->
-			<!-- <path>firstfile( -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml")</path> -->
-		<!-- <path>firstfile( -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
-			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml", -->
-			<!-- "${bobmediapath}/_gametheme/_genericdefault/_default43/theme.xml")</path> -->
-		<path ifSubset="defaultgeneric:genericbackbox">firstfile(
+			<path ifSubset="gameviewsource:actualsystem">${extgametheme}</path>
+			<path ifSubset="gameviewsource:originsystem">firstfile(
 			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml",
-			"${bobmediapath}/_gametheme/_genericdefault/_defaultboxback/theme.xml")</path>
-		<path ifSubset="defaultgeneric:generic169">firstfile(
-			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml",
-			"${bobmediapath}/_gametheme/_genericdefault/_default169/theme.xml")</path>
-		<path ifSubset="defaultgeneric:generic43">firstfile(
-			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml",
-			"${bobmediapath}/_gametheme/_genericdefault/_default43/theme.xml")</path>
+			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml")</path>
 		</gameextras>
 		<image name="vignetagehsg" extra="true">
 			<path>${themePath}/_viewgame/hyperbat/overlay.png</path>

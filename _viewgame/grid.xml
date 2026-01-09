@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
+
+	<!-- Variables utilisees dans ce fichier (definitions reprises de theme.xml) -->
+		<!-- <freshbuildfanart>exists({game:image}) ? {game:image} : {game:thumbnail}</freshbuildfanart> -->
+		<!-- <freshbuildfanarttest>!exists({game:image})</freshbuildfanarttest> -->
+		<!-- <intfanartfresh>${bobmediapath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg</intfanartfresh> -->
+		<!-- <standardsbuildsfanart>exists({game:fanart}) ? {game:fanart} : {game:thumbnail}</standardsbuildsfanart> -->
+		<!-- <standardsbuildsfanarttest>!exists({game:fanart})</standardsbuildsfanarttest> -->
+
 	<formatVersion>7</formatVersion>
 	<view name="grid" displayName="${viewbasicgrid}">
 		<imagegrid name="gamegrid">

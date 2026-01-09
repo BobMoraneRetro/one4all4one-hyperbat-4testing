@@ -6,9 +6,6 @@
 		<!-- Ralentit le chargement du thème -->
 		<image name="fondecransmall" ifSubset="videofondcops1:gameplayp|gameplayp1" extra="true">
 			<origin>0.5 0.5</origin>
-			<!-- <pos>0.5 0.5</pos> -->
-			<!-- <path>${themePath}/_common/images/black.png</path> -->
-			<!-- <maxSize>1 1</maxSize> -->
 			<path>${themePath}/_common/images/169v2.png</path>
 			<size>0.9 0.98</size>
 			<pos>0.478 0.4</pos>
@@ -111,7 +108,7 @@
 	</view>
 	<include ifSubset="videofondcops1:hyperspin|hyperspinorunified">${extspinxml}</include>
 	<include ifSubset="videofondcops1:hyperspinxp|hyperspinorder|hyperspinorunified">${extspinxpxml}</include>
-		<view name="system">
+	<view name="system">
 		<image name="logocustunified" extra="true">
 			<zIndex>2</zIndex>
 		</image>
