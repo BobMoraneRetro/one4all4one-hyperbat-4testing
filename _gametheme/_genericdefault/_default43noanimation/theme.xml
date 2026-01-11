@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<!-- ######## Conditions de visibilité du theme generic : uniquement si pas de theme de jeu ni de theme defaut specific au système ############ -->
-		<control name="BackgrSyst,blur,blur1,blur2,screenshotgames,fiberback,genericbezel,previewvid1,logocustshadow,logocust,boxart2D,cartridge">
+		<control name="BackgrSyst,blur,blur1,blur2,fiberback,genericbezel,previewvid1,logocustshadow,logocust,boxart2Dnoanimation,cartridge">
 			<visible>!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
 			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
 			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible>
@@ -59,6 +59,10 @@
 			<blurColor>000000</blurColor>
 		</screenshader>
 		<image name="screenshotgames" extra="true">
+			<visible>!{game:folder} &amp;&amp; 
+			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
+			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
+			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible>
 			<path>{game:image}</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.27 0.52</pos>
@@ -137,7 +141,9 @@
 			<zIndex>700</zIndex>
 		</image>
 		<video name="previewvid1" extra="true">
-			<path>{game:video}</path>
+			<path>firstfile({game:video},
+			"${bobmediapath}/_systemmedia/videosyst/hyperpie/" + {game:stem} + ".mp4",
+			"${bobmediapath}/_systemmedia//defaut/scotty.mp4")</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.27 0.52</pos>
 			<maxSize>0.38 0.49</maxSize>
@@ -233,7 +239,7 @@
 			<path>${extlogoclearjpsvg}</path>
 			<path>${intlogoclearjppng}</path>
 		</image>
-		<image name="boxart2D" extra="true">
+		<image name="boxart2Dnoanimation" extra="true">
 			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
 			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
 			<pos ifSubset="boxorthumb:thumb">0.7 0.5</pos>

@@ -44,9 +44,9 @@ Theme: ( ${system.theme} ), Collection: ( ${system.collection} ), Game Systheme 
 Manufacturer: ${system.manufacturer}
 Sorted by: ${system.sortedBy}
 Release Date: ${system.releaseYear}
-Hardware: ${system.hardwareType}
-Group: ${system.group}
+Hardware: ${system.hardwareType}{game:stem})
 Savestates: ${system.savestates}
+Group: ${system.group} , Folder : {game:folder} , Folder : {game:directory} , directory : {game:stem}
 Netplay: ${system.netplay}
 Cheevos: ${system.cheevos}
 Settings: ${settings.ScrollLoadMedias}

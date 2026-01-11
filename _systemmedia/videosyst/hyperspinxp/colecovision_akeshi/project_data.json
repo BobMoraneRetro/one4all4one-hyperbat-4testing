@@ -1,0 +1,181 @@
+{
+    "theme_name": "",
+    "author": "",
+    "description": "",
+    "theme_size": "1920x1080",
+    "custom_width": "",
+    "custom_height": "",
+    "layers": [
+        {
+            "file_path": "Background.png",
+            "image_name": "Background.png",
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "base_width": 1920,
+            "base_height": 1080,
+            "opacity": 100,
+            "rotation": 0.0,
+            "visible": true,
+            "is_background": false,
+            "type": "image",
+            "element_type": "image",
+            "image_origin_x": 0.5,
+            "image_origin_y": 0.5,
+            "rotation_origin_x": 0.5,
+            "rotation_origin_y": 0.5
+        },
+        {
+            "file_path": "rect_vid_640_480.png",
+            "image_name": "rect_vid_640_480.png",
+            "x": 312.1650485436894,
+            "y": 399.02912621359224,
+            "width": 402.39805825242706,
+            "height": 285.4368932038835,
+            "base_width": 640,
+            "base_height": 480,
+            "opacity": 100,
+            "rotation": 0,
+            "visible": true,
+            "is_background": false,
+            "type": "video_rect",
+            "element_type": "image",
+            "image_origin_x": 0.5,
+            "image_origin_y": 0.5,
+            "rotation_origin_x": 0.5,
+            "rotation_origin_y": 0.5
+        },
+        {
+            "file_path": "Artwork3.png",
+            "image_name": "Artwork3.png",
+            "x": 1351.00064000064,
+            "y": -0.00031999967995943734,
+            "width": 566,
+            "height": 1082,
+            "base_width": 569,
+            "base_height": 1082,
+            "opacity": 100,
+            "rotation": 0.0,
+            "visible": true,
+            "is_background": false,
+            "type": "image",
+            "element_type": "image",
+            "image_origin_x": 0.5,
+            "image_origin_y": 0.5,
+            "rotation_origin_x": 0.5,
+            "rotation_origin_y": 0.5
+        },
+        {
+            "file_path": "Artwork2.png",
+            "image_name": "Artwork2.png",
+            "x": 219.99936000192002,
+            "y": 37.000399999319995,
+            "width": 661,
+            "height": 211,
+            "base_width": 661,
+            "base_height": 215,
+            "opacity": 100,
+            "rotation": 0.0,
+            "visible": true,
+            "is_background": false,
+            "type": "image",
+            "element_type": "image",
+            "image_origin_x": 0.5,
+            "image_origin_y": 0.5,
+            "rotation_origin_x": 0.5,
+            "rotation_origin_y": 0.5
+        },
+        {
+            "file_path": "Artwork1.png",
+            "image_name": "Artwork1.png",
+            "x": 201.44612193984,
+            "y": 251.99936000027998,
+            "width": 734,
+            "height": 976,
+            "base_width": 735,
+            "base_height": 976,
+            "opacity": 100,
+            "rotation": 0.0,
+            "visible": true,
+            "is_background": false,
+            "type": "image",
+            "element_type": "image",
+            "image_origin_x": 0.5,
+            "image_origin_y": 0.5,
+            "rotation_origin_x": 0.5,
+            "rotation_origin_y": 0.5
+        },
+        {
+            "file_path": "Artwork4.png",
+            "image_name": "Artwork4.png",
+            "x": 1130.09740737792,
+            "y": 11.650365437399984,
+            "width": 243,
+            "height": 246,
+            "base_width": 244,
+            "base_height": 246,
+            "opacity": 100,
+            "rotation": 0.0,
+            "visible": true,
+            "is_background": false,
+            "type": "image",
+            "element_type": "image",
+            "image_origin_x": 0.5,
+            "image_origin_y": 0.5,
+            "rotation_origin_x": 0.5,
+            "rotation_origin_y": 0.5
+        }
+    ],
+    "animations": {
+        "Artwork4.png": [
+            {
+                "name": "XML_Import_Artwork4_Sys",
+                "animations": [
+                    {
+                        "event": "default",
+                        "animations": [
+                            {
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "0",
+                                "begin": "",
+                                "duration": "",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "950",
+                                "duration": "500",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "offsetY",
+                                "from": "-1",
+                                "to": "1.5",
+                                "begin": "950",
+                                "duration": "2000",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "rotation",
+                                "from": "360",
+                                "to": "0",
+                                "begin": "0",
+                                "duration": "500",
+                                "mode": "Linear",
+                                "repeat": "5"
+                            }
+                        ],
+                        "repeatAt": "1",
+                        "xml": "<storyboard event=\"default\" repeatAt=\"1\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"950\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetY\" from=\"-1\" to=\"1.5\" begin=\"950\" duration=\"2000\" mode=\"Linear\" /><animation property=\"rotation\" from=\"360\" to=\"0\" begin=\"0\" duration=\"500\" repeat=\"5\" mode=\"Linear\" /></storyboard>"
+                    }
+                ],
+                "variables": {},
+                "editable_properties": {}
+            }
+        ]
+    }
+}

@@ -44,10 +44,9 @@
 		<!-- <include name="unifolder" displayName="${unifolder}"/> -->
 	<!-- </subset> -->
 	<subset name="defaultgeneric" displayName="${defaultgeneric}" appliesTo="hyperbat">
-		<include name="generic43" displayName="${generic43}"/>
-		<include name="generic43noanimation" displayName="${generic43noanimation}"/>
-		<include name="generic43noblur" displayName="${generic43noblur}"/>
-		<include name="genericbackbox" displayName="${genericbackbox}"/>
+		<!-- <include name="genericbackbox" displayName="${genericbackbox}"/> -->
+		<include name="generic43noanimation" displayName="${generic43noanimation}">${bobmediapath}/_gametheme/_genericdefault/_default43noanimation/theme.xml</include>
+		<include name="generic43" displayName="${generic43}">${bobmediapath}/_gametheme/_genericdefault/_default43/theme.xml</include>
 	</subset>
 	<subset name="gameviewsource" displayName="${gameviewsource}" appliesTo="hyperbat">
 		<include name="originsystem" displayName="${originsystem}"/>

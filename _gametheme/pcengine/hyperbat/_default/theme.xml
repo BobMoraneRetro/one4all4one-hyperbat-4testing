@@ -10,14 +10,23 @@
 			<size>1.000000000000 1.000000000000</size>
 			<zIndex>100</zIndex>
 		</image>
+		<image name="fondscreen" extra="true">
+			<visible>${IfnoextGamethemeexist}</visible>
+			<path>./fiber.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.486197916667 0.433541766875</pos>
+			<size>0.457812500000 0.666987333654</size>
+			<zIndex>199</zIndex>
+		</image>
 		<image name="screenshot-pcengine" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'pcengine'</visible>
 			<path>{game:image}</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.486197916667 0.433541766875</pos>
+			<pos>0.482683982684 0.437389770723</pos>
 			<size>0.457812500000 0.666987333654</size>
 			<zIndex>200</zIndex>
 			<linearSmooth>true</linearSmooth>
+			<autoFade>false</autoFade>
 			<!-- <storyboard event="open"> -->
 				<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
 				<!-- <animation property="opacity" from="0" to="1" begin="1500" duration="800" mode="EaseIn"/> -->
@@ -36,10 +45,10 @@
 			<path>{game:video}</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.482683982684 0.437389770723</pos>
-			<maxSize>0.466089466089 0.715728715729</maxSize>
+			<size>0.457812500000 0.666987333654</size>
 			<zIndex>210</zIndex>
 			<effect>none</effect>
-			<delay>0.5</delay>
+			<delay>1</delay>
 			<storyboard event="open">
 				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
 				<animation property="opacity" from="0" to="1" begin="1000" duration="800" mode="EaseIn"/>
@@ -278,17 +287,17 @@
 				<animation property="offsetX" from="1" to="0" begin="500" duration="2000" mode="EaseOutCubic"/>
 			</storyboard>
 		</image>
-		<control name="Background-pcengine, screenshot-pcengine, gameplayprev-pcengine, Video-pcengine, logo_jeu-pcengine, logo_def-pcengine,Marquee-pcengine, manette-pcengine, Artwork-pcengine, console1-pcengine, console2-pcengine, Boxart-pcengine">
-			<storyboard event="deactivateNext">
-				<animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn"/>
-				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn"/>
-				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
-			</storyboard>
-		</control>
-		<control name="Cartridge-pcengine">
+		<!-- <control name="Background-pcengine, screenshot-pcengine, gameplayprev-pcengine, Video-pcengine, logo_jeu-pcengine, logo_def-pcengine,Marquee-pcengine, manette-pcengine, Artwork-pcengine, console1-pcengine, console2-pcengine, Boxart-pcengine"> -->
+			<!-- <storyboard event="deactivateNext"> -->
+				<!-- <animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn"/> -->
+				<!-- <animation property="opacity" to="0" begin="100" duration="150" mode="linear"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="deactivatePrev"> -->
+				<!-- <animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn"/> -->
+				<!-- <animation property="opacity" to="0" begin="100" duration="150" mode="linear"/> -->
+			<!-- </storyboard> -->
+		<!-- </control> -->
+		<control name="Background-pcengine, screenshot-pcengine, gameplayprev-pcengine, Video-pcengine, logo_jeu-pcengine, logo_def-pcengine,Marquee-pcengine, manette-pcengine, Artwork-pcengine, console1-pcengine, console2-pcengine, Boxart-pcengine, Cartridge-pcengine">
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
 			</storyboard>
