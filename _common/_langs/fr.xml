@@ -447,9 +447,10 @@
 		<uneuro>1€ la partie</uneuro>
 		<sitessage>Appuie sur Start</sitessage>
 		<!-- Hyperbat dossier arcade et collection unifié -->
-		<unithfold>Thèmes de jeu pour arcade et collection</unithfold>
-		<systfolder>Par défaut : dossier gametheme\nomsystem</systfolder>
-		<unifolder>Utiliser uniquement le dossier gametheme\arcade</unifolder>
+		<gameviewsource>Source des thèmes de jeu</gameviewsource>
+		<originsystem>Par défaut : dossier gametheme\nom.du.system.du.jeu</originsystem>
+		<actualsystem>Dossier gametheme\nom.du.system.selectionné</actualsystem>
+		<mamefolder>Dossier gametheme\mame sinon gametheme\nom.du.system.du.jeu</mamefolder>
 		<!-- Hyperbat externaliser gametheme et systheme -->		
 		<folder>Dossiers des thèmes système et thèmes de jeu</folder>
 		<default>Par défaut</default>
@@ -458,7 +459,7 @@
 		<defaultgeneric>Thème de Jeu générique :</defaultgeneric>
 		<defaulttheme>Par défaut</defaulttheme>
 		<generic43>Standard pour système 4/3</generic43>
-		<generic169>Standard pour système 16/9</generic169>
+		<generic43noanimation>Standard pour système 4/3 sans animation boxart</generic43noanimation>
 		<genericbackbox>Standard avec montage boite arrière et avant</genericbackbox>
 	</variables>
 </theme>

@@ -16,11 +16,11 @@
 		<!-- <include name="logounified" displayName="${logounified}">${themePath}/_viewgameoption/gl-common/autounified.xml</include> -->
 	</subset>
 	<subset name="letternav" displayName="${letternav}" appliesTo="hyperbat">
+		<include name="desactive" displayName="${desactive}">${themePath}/_viewgameoption/gl-common/autodeactivate.xml</include>
 		<include name="navhoricoinstyle" displayName="${navhoricoinstyle}">${themePath}/_viewgameoption/gl-common/navhoricoinstyle.xml</include>
 		<include name="navvertcoinstyle" displayName="${navvertcoinstyle}">${themePath}/_viewgameoption/gl-common/navvertcoinstyle.xml</include>
 		<include name="navvertrcoinstyle" displayName="${navvertrcoinstyle}">${themePath}/_viewgameoption/gl-common/navvertrcoinstyle.xml</include>
 		<include name="navhsletters" displayName="${navhsletters}">${themePath}/_viewgameoption/gl-common/navhsletters.xml</include>
-		<include name="desactive" displayName="${desactive}"/>
 	</subset>
 	<subset name="infosmax" displayName="${infosmax}" appliesTo="hyperbat">
 		<include name="non" displayName="${no}"/>
@@ -39,19 +39,21 @@
 	<subset name="spacermediahs" displayName="${mediahyper}" appliesTo="${vide}">
 		<include name="desactive" displayName=" "/>
 	</subset>
-	<!-- <subset name="unithfold" displayName="${unithfold}" appliesTo="hyperbat"> -->
-		<!-- <include name="systfolder" displayName="${systfolder}"/> -->
-		<!-- <include name="unifolder" displayName="${unifolder}"/> -->
-	<!-- </subset> -->
 	<subset name="defaultgeneric" displayName="${defaultgeneric}" appliesTo="hyperbat">
 		<!-- <include name="genericbackbox" displayName="${genericbackbox}"/> -->
 		<include name="generic43noanimation" displayName="${generic43noanimation}">${themePath}/_gametheme/_genericdefault/_default43noanimation/theme.xml</include>
+		<include name="generic43noanimationfanart" displayName="${generic43noanimationfanart}">${themePath}/_gametheme/_genericdefault/_default43noanimationfanart/theme.xml</include>
 		<include name="generic43" displayName="${generic43}">${themePath}/_gametheme/_genericdefault/_default43/theme.xml</include>
 	</subset>
 	<subset name="gameviewsource" displayName="${gameviewsource}" appliesTo="hyperbat">
 		<include name="originsystem" displayName="${originsystem}"/>
+		<include name="mamefolder" displayName="${mamefolder}"/>
 		<include name="actualsystem" displayName="${actualsystem}"/>
 	</subset>
+	<!-- <subset name="unithfold" displayName="${unithfold}" appliesTo="hyperbat"> -->
+		<!-- <include name="separatefolder" displayName="${separatefolder}"/> -->
+		<!-- <include name="mamefolder" displayName="${mamefolder}"/> -->
+	<!-- </subset> -->
 	<subset name="authordisplayed" displayName="${authordisplayed}" appliesTo="hyperbat">
 		<include name="activate" displayName="${activate}"/>
 		<include name="showoff" displayName="${showoff}"/>
