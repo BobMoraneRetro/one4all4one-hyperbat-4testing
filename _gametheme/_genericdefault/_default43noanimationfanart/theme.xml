@@ -9,12 +9,12 @@
 			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible>
 			<!-- <visible>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
 		</control>
-		<image name="BackgrSyst" extra="true">		
+		<image name="BackgrSyst" extra="true">
 			<path ifSubset="custombuilds:standardbuilds">firstfile({game:fanart},{game:screenshot},{game:image},{game:thumbnail},{game:boxart},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg")</path>
 			<path ifSubset="custombuilds:retrofreshbat">firstfile({game:image},{game:fanart},{game:screenshot},{game:thumbnail},{game:boxart},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg")</path>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<size>1 1</size>
+			<size>0 1</size>
 			<zIndex>0</zIndex>
 			<opacity>0.5</opacity>
 			<linearSmooth>true</linearSmooth>
@@ -32,20 +32,20 @@
 			</storyboard>
 		</image>
 		<!-- <screenshader name="blur" extra="true"> -->
-			<!-- <path>:/shaders/blur.glsl</path> -->
-			<!-- <size>1 1</size> -->
-			<!-- <pos>0 0</pos> -->
-			<!-- <blur>15</blur> -->
-			<!-- <zIndex>1</zIndex> -->
-			<!-- <blurColor>000000</blurColor> -->
+		<!-- <path>:/shaders/blur.glsl</path> -->
+		<!-- <size>1 1</size> -->
+		<!-- <pos>0 0</pos> -->
+		<!-- <blur>15</blur> -->
+		<!-- <zIndex>1</zIndex> -->
+		<!-- <blurColor>000000</blurColor> -->
 		<!-- </screenshader> -->
 		<!-- <screenshader name="blur1" extra="true"> -->
-			<!-- <path>:/shaders/blur.glsl</path> -->
-			<!-- <size>1 1</size> -->
-			<!-- <pos>0 0</pos> -->
-			<!-- <blur>8</blur> -->
-			<!-- <zIndex>1</zIndex> -->
-			<!-- <blurColor>000000</blurColor> -->
+		<!-- <path>:/shaders/blur.glsl</path> -->
+		<!-- <size>1 1</size> -->
+		<!-- <pos>0 0</pos> -->
+		<!-- <blur>8</blur> -->
+		<!-- <zIndex>1</zIndex> -->
+		<!-- <blurColor>000000</blurColor> -->
 		<!-- </screenshader> -->
 		<screenshader name="blur2" extra="true">
 			<path>:/shaders/blur.glsl</path>
@@ -159,7 +159,6 @@
 			<effect>none</effect>
 			<delay>0.3</delay>
 		</video>
-		
 		<image name="logocustshadow" extra="true">
 			<maxSize>0.5 0.25</maxSize>
 			<scaleOrigin>0 -0.3</scaleOrigin>
@@ -182,10 +181,10 @@
 			<horizontalAlignment>center</horizontalAlignment>
 		</image>
 		<image name="boxart2Dnoanimation" extra="true">
-			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
-			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
-			<pos ifSubset="boxorthumb:thumb">0.7 0.5</pos>
-			<pos ifSubset="boxorthumb:boxart">0.7 0.55</pos>
+			<path ifSubset="boxorthumb:thumb|boxbackthumb">firstfile({game:thumbnail},{game:boxart})</path>
+			<path ifSubset="boxorthumb:boxart|boxbackart">firstfile({game:boxart},{game:thumbnail})</path>
+			<pos ifSubset="boxorthumb:thumb|boxbackthumb">0.7 0.5</pos>
+			<pos ifSubset="boxorthumb:boxart|boxbackart">0.7 0.55</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.3 0.65</maxSize>
 			<zIndex>351</zIndex>

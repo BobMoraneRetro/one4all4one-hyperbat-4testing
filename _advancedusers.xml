@@ -6,6 +6,7 @@
 		<include name="desactive" displayName="${desactive}"/>
 	</subset>
 	<subset name="gwheelbackgr" displayName="${gwheelbackgr}" appliesTo="hyperbat">
+		<include name="desactive" displayName="${desactive}">${themePath}/_viewgameoption/gl-common/autodeactivate.xml</include>
 		<include name="sisaccades" displayName="${sisaccades}"/>
 		<include name="ovalcarbon" displayName="${ovalcarbon}">${themePath}/_viewgameoption/gl-common/autoovalcarbon.xml</include>
 		<include name="ovalsilver" displayName="${ovalsilver}">${themePath}/_viewgameoption/gl-common/autoovalsilver.xml</include>
@@ -16,7 +17,6 @@
 		<!-- <include name="logounified" displayName="${logounified}">${themePath}/_viewgameoption/gl-common/autounified.xml</include> -->
 	</subset>
 	<subset name="letternav" displayName="${letternav}" appliesTo="hyperbat">
-		<include name="desactive" displayName="${desactive}">${themePath}/_viewgameoption/gl-common/autodeactivate.xml</include>
 		<include name="navhoricoinstyle" displayName="${navhoricoinstyle}">${themePath}/_viewgameoption/gl-common/navhoricoinstyle.xml</include>
 		<include name="navvertcoinstyle" displayName="${navvertcoinstyle}">${themePath}/_viewgameoption/gl-common/navvertcoinstyle.xml</include>
 		<include name="navvertrcoinstyle" displayName="${navvertrcoinstyle}">${themePath}/_viewgameoption/gl-common/navvertrcoinstyle.xml</include>
@@ -42,6 +42,7 @@
 	<subset name="defaultgeneric" displayName="${defaultgeneric}" appliesTo="hyperbat">
 		<!-- <include name="genericbackbox" displayName="${genericbackbox}"/> -->
 		<include name="generic43noanimation" displayName="${generic43noanimation}">${themePath}/_gametheme/_genericdefault/_default43noanimation/theme.xml</include>
+		<include name="generic43boxback" displayName="${generic43boxback}">${themePath}/_gametheme/_genericdefault/_default43boxback/theme.xml</include>
 		<include name="generic43noanimationfanart" displayName="${generic43noanimationfanart}">${themePath}/_gametheme/_genericdefault/_default43noanimationfanart/theme.xml</include>
 		<include name="generic43" displayName="${generic43}">${themePath}/_gametheme/_genericdefault/_default43/theme.xml</include>
 	</subset>
@@ -117,7 +118,8 @@
 		<include name="noactivesmooth" displayName="${noactivesmooth}"/>
 	</subset>
 	<subset name="boxorthumb" displayName="${boxorthumb}" appliesTo="hyperbat">
-		<!-- <include name="boxback" displayName="${boxback}"/> -->
+		<include name="boxbackart" displayName="${boxbackart}"/>
+		<include name="boxbackthumb" displayName="${boxbackthumb}"/>
 		<include name="boxart" displayName="${boxart}"/>
 		<include name="thumb" displayName="${thumb}"/>
 	</subset>

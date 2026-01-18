@@ -54,7 +54,11 @@
 		<intcharsyst>${themePath}/_systemmedia/charsystem/{game:system:theme}.png</intcharsyst>
 		<!-- System : pointeurs en png associé aux systèmes -->
 		<pointers4syst>${themePath}/_systemmedia/pointers-r/${system.theme}.png</pointers4syst>
-		<pointers4games>"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png"</pointers4games>
+		<!-- <pointers4games>"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png"</pointers4games> -->
+		<pointers4games>firstfile("${themePath}/_systemmedia/pointers-r/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
+						"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png")</pointers4games>
+		
+		
 		<!-- Syste & Jeux Logo Système en fonction du jeu -->
 		<extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst>
 		<!-- Jeux : gamethème Hyperbat -->

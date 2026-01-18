@@ -42,7 +42,9 @@
 						<pos>0.5</pos>
 						<origin>0.5</origin>
 						<maxSize>1</maxSize>
-						<path>firstfile("${themePath}/_systemmedia/_logosyst/fondwheelsyst/" + stem({game:system:theme}) + ".png","${themePath}/_viewgameoption/gl-common/logojeux/rectrefl.png")</path>
+						<path>firstfile("${themePath}/_systemmedia/_logosyst/fondwheelsyst/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
+						"${themePath}/_systemmedia/_logosyst/fondwheelsyst/" + stem({game:system:theme}) + ".png",
+						"${themePath}/_viewgameoption/gl-common/logojeux/rectrefl.png")</path>
 						<zIndex>98</zIndex>
 						<opacity>1</opacity>
 						<storyboard event="activate" ifSubset="gamewheelfade:amoitie">
