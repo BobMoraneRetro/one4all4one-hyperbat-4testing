@@ -118,8 +118,8 @@
 		<include name="noactivesmooth" displayName="${noactivesmooth}"/>
 	</subset>
 	<subset name="boxorthumb" displayName="${boxorthumb}" appliesTo="hyperbat">
-		<include name="boxbackart" displayName="${boxbackart}"/>
-		<include name="boxbackthumb" displayName="${boxbackthumb}"/>
+		<!-- <include name="boxbackart" displayName="${boxbackart}"/> -->
+		<!-- <include name="boxbackthumb" displayName="${boxbackthumb}"/> -->
 		<include name="boxart" displayName="${boxart}"/>
 		<include name="thumb" displayName="${thumb}"/>
 	</subset>

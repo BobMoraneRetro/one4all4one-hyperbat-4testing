@@ -12,31 +12,39 @@
 		<image name="BackgrSyst" extra="true">
 			<path ifSubset="custombuilds:standardbuilds">firstfile({game:fanart},{game:screenshot},{game:image},{game:thumbnail},{game:boxart},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg")</path>
 			<path ifSubset="custombuilds:retrofreshbat">firstfile({game:image},{game:fanart},{game:screenshot},{game:thumbnail},{game:boxart},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg")</path>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<size>0 1</size>
-			<zIndex>0</zIndex>
-			<opacity>0.5</opacity>
-			<linearSmooth>true</linearSmooth>
-			<storyboard>
+<linearSmooth>true</linearSmooth>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>1</zIndex>
+			<storyboard event="open">
 				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
 				<animation property="opacity" from="0" to="0.5" begin="0" duration="300" mode="linear"/>
+				<!-- <animation property="y" to="-0.2" begin="0" duration="200" mode="linear"/> -->
+				<animation property="scale" from="1" to="1.2" begin="200" duration="15000" mode="EaseOut" autoreverse="true"/>
+				<animation property="x" from="0" to="-0.1" begin="200" duration="15000" mode="EaseOut" autoreverse="true"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
 				<animation property="opacity" from="0" to="0.5" begin="0" duration="300" mode="linear"/>
+				<!-- <animation property="y" to="-0.2" begin="0" duration="200" mode="linear"/> -->
+				<animation property="scale" from="1" to="1.2" begin="200" duration="15000" mode="EaseOut" autoreverse="true"/>
+				<animation property="x" from="0" to="-0.1" begin="200" duration="15000" mode="EaseOut" autoreverse="true"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
 				<animation property="opacity" from="0" to="0.5" begin="0" duration="300" mode="linear"/>
-			</storyboard>
+				<!-- <animation property="y" to="-0.2" begin="0" duration="200" mode="linear"/> -->
+				<animation property="scale" from="1" to="1.2" begin="200" duration="15000" mode="EaseOut" autoreverse="true"/>
+				<animation property="x" from="0" to="-0.1" begin="200" duration="15000" mode="EaseOut" autoreverse="true"/>
+			</storyboard>	
 		</image>
 		<!-- <screenshader name="blur" extra="true"> -->
 		<!-- <path>:/shaders/blur.glsl</path> -->
 		<!-- <size>1 1</size> -->
 		<!-- <pos>0 0</pos> -->
 		<!-- <blur>15</blur> -->
-		<!-- <zIndex>1</zIndex> -->
+		<!-- <zIndex>1</zIndex> -->a
 		<!-- <blurColor>000000</blurColor> -->
 		<!-- </screenshader> -->
 		<!-- <screenshader name="blur1" extra="true"> -->
@@ -169,6 +177,29 @@
 			<path>{game:marquee}</path>
 			<linearSmooth>true</linearSmooth>
 			<horizontalAlignment>center</horizontalAlignment>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="0" duration="50" mode="linear"/>
+				<animation property="scale" from="0" to="1" begin="0" duration="300" mode="linear"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="0" duration="50" mode="linear"/>
+				<animation property="scale" from="0" to="1" begin="0" duration="300" mode="linear"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="0" duration="50" mode="linear"/>
+				<animation property="scale" from="0" to="1" begin="0" duration="300" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="150" mode="linear"/>
+				<animation property="scale" to="0" autoreverse="false" duration="300" mode="easyIn"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="150" mode="linear"/>
+				<animation property="scale" to="0" autoreverse="false" duration="300" mode="easyIn"/>
+			</storyboard>
 		</image>
 		<image name="logocust" extra="true">
 			<maxSize>0.5 0.25</maxSize>
@@ -179,6 +210,29 @@
 			<path>{game:marquee}</path>
 			<linearSmooth>true</linearSmooth>
 			<horizontalAlignment>center</horizontalAlignment>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="0" duration="50" mode="linear"/>
+				<animation property="scale" from="0" to="1" begin="0" duration="300" mode="linear"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="0" duration="50" mode="linear"/>
+				<animation property="scale" from="0" to="1" begin="0" duration="300" mode="linear"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="0" duration="50" mode="linear"/>
+				<animation property="scale" from="0" to="1" begin="0" duration="300" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="150" mode="linear"/>
+				<animation property="scale" to="0" autoreverse="false" duration="300" mode="easyIn"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="150" mode="linear"/>
+				<animation property="scale" to="0" autoreverse="false" duration="300" mode="easyIn"/>
+			</storyboard>
 		</image>
 		<image name="boxart2Dnoanimation" extra="true">
 			<path ifSubset="boxorthumb:thumb|boxbackthumb">firstfile({game:thumbnail},{game:boxart})</path>
@@ -192,7 +246,7 @@
 			<color>FFFFFFFF</color>
 			<colorEnd>cccccc</colorEnd>
 			<verticalAlignment>bottom</verticalAlignment>
-			<storyboard>
+			<storyboard event="open">
 				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
 				<animation property="opacity" from="0" to="1" begin="0" duration="300" mode="linear"/>
 			</storyboard>
