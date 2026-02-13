@@ -8,8 +8,11 @@
 		<languesdispo>Langues disponibles :</languesdispo>
 		<nodates>Pas de date</nodates>
 		<playcount>parties</playcount>
+		<playcountone>partie</playcountone>
 		<noplaycount>Jamais lancé</noplaycount>
 		<players>joueur(s)</players>
+		<playerss>joueurs</playerss>
+		<player>joueur</player>
 		<nogametime>Jamais joué</nogametime>
 		<noplayerdata>Inconnu</noplayerdata>
 		<noeditor>Editeur inconnu</noeditor>
@@ -316,8 +319,8 @@
 		<ballred>Rouge</ballred>
 		<ballyelgreen>Jaune vert</ballyelgreen>
 		<ballyellow>Jaune</ballyellow>
-		<boxart>Boxart</boxart>
-		<thumb>Thumbnail</thumb>
+		<boxart>Boxart (Calibré pour box en 3D)</boxart>
+		<thumb>Thumbnail (Calibré pour box en 2D)</thumb>
 		<extra1>Extra1</extra1>
 		<spacerzspin02>-----------------------------    ↓ Début des options avancées spécifiques à la vue Z-Spin ↓   -------------------</spacerzspin02>
 		<mediazpin>-------------------------- Medias recommandés pour vue jeux Z-Spin = Video,WheelRound,Add-ons ---------------</mediazpin>
@@ -447,10 +450,10 @@
 		<uneuro>1€ la partie</uneuro>
 		<sitessage>Appuie sur Start</sitessage>
 		<!-- Hyperbat dossier arcade et collection unifié -->
-		<gameviewsource>Source des thèmes de jeu</gameviewsource>
-		<originsystem>Par défaut : dossier gametheme\nom.du.system.du.jeu</originsystem>
-		<actualsystem>Dossier gametheme\nom.du.system.selectionné</actualsystem>
-		<mamefolder>Dossier gametheme\mame sinon gametheme\nom.du.system.du.jeu</mamefolder>
+		<gameviewsource>Dossier des thèmes de jeu</gameviewsource>
+		<originsystem>Gametheme\nom.du.system.du.jeu</originsystem>
+		<actualsystem>Gametheme\nom.du.system.selectionné</actualsystem>
+		<mamefolder>Défaut : Gametheme\mame -> gametheme\nom.du.system.du.jeu</mamefolder>
 		<!-- Hyperbat externaliser gametheme et systheme -->		
 		<folder>Dossiers des thèmes système et thèmes de jeu</folder>
 		<default>Par défaut</default>
@@ -460,6 +463,15 @@
 		<defaulttheme>Par défaut</defaulttheme>
 		<generic43>Standard pour système 4/3</generic43>
 		<generic43noanimation>Standard pour système 4/3 sans animation boxart</generic43noanimation>
-		<genericbackbox>Standard avec montage boite arrière et avant</genericbackbox>
+		<generic43boxback>Standard avec montage boite arrière et avant</generic43boxback>
+		<generic43noanimationfanart>Standard avec fanart animé en fond</generic43noanimationfanart>
+		<!-- position des metadata -->
+		<metafichedefault>Metafiche position par défaut</metafichedefault>
+		<metafichebasgauche>Metafiche en bas à gauche</metafichebasgauche>
+		<metafichebasdroite>Metafiche en bas à droite</metafichebasdroite>
+		<metafichebascentre>Metafiche en bas au centre</metafichebascentre>
+		<metafichehautgauche>Metafiche en haut à gauche</metafichehautgauche>
+		<metafichehautdroite>Metafiche en haut à droite</metafichehautdroite>
+		<metafichehautcentre>Metafiche en haut au centre</metafichehautcentre>
 	</variables>
 </theme>

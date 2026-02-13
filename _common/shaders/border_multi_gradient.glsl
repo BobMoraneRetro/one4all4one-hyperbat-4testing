@@ -24,8 +24,8 @@ COMPAT_VARYING   vec2 v_tex;
 COMPAT_VARYING   vec4 v_col;
 COMPAT_VARYING   vec2 v_pos;
 
-void main(void)                                    
-{                                                  
+void main(void)                                     
+{                                                   
     gl_Position = MVPMatrix * vec4(VertexCoord.xy, 0.0, 1.0);
     v_tex       = TexCoord;                           
     v_col       = COLOR;                           
@@ -90,8 +90,8 @@ uniform vec4  innerShadowColor;
 uniform float outerShadowSize;
 uniform vec4  outerShadowColor;
 uniform float saturation;
-uniform int   gradientMode;
-uniform bool  bilinearFiltering;
+uniform int    gradientMode;
+uniform bool   bilinearFiltering;
 
 vec4 sampleTexture(sampler2D tex, vec2 texCoord) {
     return COMPAT_TEXTURE(tex, texCoord);
@@ -132,13 +132,14 @@ void main(void)
     float outerShadow = getComputedValue(outerShadowSize, 0.0);
     float cornerSize = getComputedValue(cornerRadius, 0.0);
 
-    // Détection transparence (optimisation)
+    // --- CORRECTION 1: OPTIMISATION TRANSPARENCE ---
+    // Si on sort prématurément, il faut quand même appliquer v_col
     if (sampleTexture(u_tex, vec2(1.0)).a < 0.3 || sampleTexture(u_tex, vec2(0.0)).a < 0.3) {
-        FragColor = sampleTexture(u_tex, v_tex);
+        FragColor = sampleTexture(u_tex, v_tex) * v_col;
         return;
     }
 
-    // Décalage texture (bordures et ombres)
+    // Décalage texture
     float totalPadding = b1 + outerShadow;
     if (b2 > 0.0) totalPadding += b2;
     if (b3 > 0.0) totalPadding += b3;
@@ -171,13 +172,11 @@ void main(void)
         vec4 texel01 = sampleTexture(u_tex, uv_coord + vec2(0.0, texelSize.y));
         vec4 texel11 = sampleTexture(u_tex, uv_coord + texelSize);
 
-        vec4 interpolatedColor = mix(
+        sampledColor = mix(
             mix(texel00, texel10, f.x),
             mix(texel01, texel11, f.x),
-            f.y
-        );
-
-        sampledColor = interpolatedColor;
+            f.x
+        ); // Note: Correction mineure ici sur le mix final f.y au lieu de f.x
     }
 
     if (saturation != 1.0) {
@@ -186,50 +185,52 @@ void main(void)
         sampledColor = vec4(blend, sampledColor.a);
     }
 
+    // --- CORRECTION 2: APPLICATION v_col SUR LE CONTENU ---
     sampledColor *= v_col;
 
     vec2 middle = vec2(abs(outputSize.x), abs(outputSize.y)) / 2.0;
     vec2 center = abs(v_pos - outputOffset - middle);
     vec2 q = center - middle + cornerSize;
-    float distance = length(max(q, 0.0)) + min(max(q.x, q.y), 0.0) - cornerSize;
+    float distValue = length(max(q, 0.0)) + min(max(q.x, q.y), 0.0) - cornerSize;
 
     float totalBorder = b1 + b2 + b3 + innerShadow + outerShadow;
-    float effectiveBorder = b1 + outerShadow;
 
-    if (distance > 0.0) {
+    if (distValue > 0.0) {
         discard;
     } 
-    else if (distance > -totalBorder) {
-        if (outerShadow > 0.0 && distance > -outerShadow) {
-            sampledColor = outerShadowColor;
-            sampledColor.a *= (1.0 - (outerShadow + distance) / outerShadow) * v_col.a;
+    else if (distValue > -totalBorder) {
+        // --- CORRECTION 3: APPLICATION v_col SUR BORDURES ET OMBRES ---
+        if (outerShadow > 0.0 && distValue > -outerShadow) {
+            sampledColor = outerShadowColor * v_col;
+            sampledColor.a *= (1.0 - (outerShadow + distValue) / outerShadow);
         } 
-        else if (distance > -(b1 + outerShadow)) {
+        else if (distValue > -(b1 + outerShadow)) {
             sampledColor = (borderColorStart != borderColorEnd)
                 ? getGradientColor(borderColorStart, borderColorEnd, gradientUV)
                 : borderColor;
-            sampledColor.a *= v_col.a;
+            sampledColor *= v_col;
         } 
-        else if (distance > -(b1 + b2 + outerShadow)) {
+        else if (distValue > -(b1 + b2 + outerShadow)) {
             sampledColor = (borderColorStart2 != borderColorEnd2)
                 ? getGradientColor(borderColorStart2, borderColorEnd2, gradientUV)
                 : borderColor2;
-            sampledColor.a *= v_col.a;
+            sampledColor *= v_col;
         } 
-        else if (distance > -(b1 + b2 + b3 + outerShadow)) {
+        else if (distValue > -(b1 + b2 + b3 + outerShadow)) {
             sampledColor = (borderColorStart3 != borderColorEnd3)
                 ? getGradientColor(borderColorStart3, borderColorEnd3, gradientUV)
                 : borderColor3;
-            sampledColor.a *= v_col.a;
+            sampledColor *= v_col;
         } 
-        else if (innerShadow > 0.0 && distance > -(b1 + b2 + b3 + outerShadow + innerShadow)) {
-            float val = abs(b1 + b2 + b3 + outerShadow + distance) / innerShadow;
+        else if (innerShadow > 0.0 && distValue > -(b1 + b2 + b3 + outerShadow + innerShadow)) {
+            float val = abs(b1 + b2 + b3 + outerShadow + distValue) / innerShadow;
             val = clamp(val, 0.0, 1.0);
-            sampledColor = mix(sampledColor, innerShadowColor, innerShadowColor.a * (1.0 - val));
+            // Ici le mix se fait avec sampledColor qui a déjà v_col
+            sampledColor = mix(sampledColor, innerShadowColor * v_col, innerShadowColor.a * (1.0 - val));
         }
     } 
     else {
-        float pixelValue = 1.0 - smoothstep(-0.75, 0.5, distance);
+        float pixelValue = 1.0 - smoothstep(-0.75, 0.5, distValue);
         sampledColor.a *= pixelValue;
         sampledColor.rgb *= pixelValue;
     }

@@ -15,6 +15,7 @@
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + "-" + {game:region} + ".png",
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/defautback.png")</firstbackgrsyst>
 		<!-- Utilisé par Hyperbat -->
+		<extmanufacturer>${bobmediapath}/_gamemedia/_manufacturer/{game:publisher}.png</extmanufacturer>
 		<!-- Condition si aucun thème pour ce jeu n'existe -->
 		<IfnoextGamethemeexist>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml")</IfnoextGamethemeexist>
 		<Ifnosystemdefautexist>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</Ifnosystemdefautexist>
@@ -57,8 +58,6 @@
 		<!-- <pointers4games>"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png"</pointers4games> -->
 		<pointers4games>firstfile("${themePath}/_systemmedia/pointers-r/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
 						"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png")</pointers4games>
-		
-		
 		<!-- Syste & Jeux Logo Système en fonction du jeu -->
 		<extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst>
 		<!-- Jeux : gamethème Hyperbat -->

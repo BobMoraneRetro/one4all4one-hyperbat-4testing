@@ -13,6 +13,7 @@
 		<include name="rectcarbon" displayName="${rectcarbon}">${themePath}/_viewgameoption/gl-common/autorectcabon.xml</include>
 		<include name="rectcompose" displayName="${rectcompose}">${themePath}/_viewgameoption/gl-common/autosystrect.xml</include>
 		<include name="ovalcompose" displayName="${ovalcompose}">${themePath}/_viewgameoption/gl-common/autosystoval.xml</include>
+		<!-- <include name="whorizontalbox" displayName="${whorizontalbox}">${themePath}/_viewgameoption/gl-hyperbat/whorizontalbox.xml</include> -->
 		<!-- <include name="hfsround" displayName="${hfsround}">${themePath}/_viewgameoption/gl-common/autoHFSround.xml</include> -->
 		<!-- <include name="logounified" displayName="${logounified}">${themePath}/_viewgameoption/gl-common/autounified.xml</include> -->
 	</subset>
@@ -47,8 +48,8 @@
 		<include name="generic43" displayName="${generic43}">${themePath}/_gametheme/_genericdefault/_default43/theme.xml</include>
 	</subset>
 	<subset name="gameviewsource" displayName="${gameviewsource}" appliesTo="hyperbat">
-		<include name="originsystem" displayName="${originsystem}"/>
 		<include name="mamefolder" displayName="${mamefolder}"/>
+		<include name="originsystem" displayName="${originsystem}"/>
 		<include name="actualsystem" displayName="${actualsystem}"/>
 	</subset>
 	<!-- <subset name="unithfold" displayName="${unithfold}" appliesTo="hyperbat"> -->
@@ -66,6 +67,15 @@
 		<include name="amoitie" displayName="${amoitie}"/>
 		<include name="deactivate" displayName="${desactive}"/>
 	</subset>
+	<subset name="vignettagehs" displayName="${vignettagehs}" appliesTo="hyperbat">
+		<include name="activate" displayName="${activate}"/>
+		<include name="deactivate" displayName="${desactive}"/>
+	</subset>
+	<!-- <subset name="gamewheeltype" displayName="${gamewheeltype}" appliesTo="hyperbat"> -->
+		<!-- <include name="wrightwheel" displayName="${wrightwheel}">${themePath}/_viewgameoption/gl-hyperbat/wrightwheel.xml</include> -->
+		<!-- <include name="whorizontalbox" displayName="${whorizontalbox}">${themePath}/_viewgameoption/gl-hyperbat/whorizontalbox.xml</include> -->
+		<!-- <include name="deactivate" displayName="${desactive}"/> -->
+	<!-- </subset> -->
 	<subset name="gamewheelsound" displayName="${gamewheelsound}" appliesTo="hyperbat">
 		<include name="wheelclic" displayName="${wheelclic}"/>
 		<include name="bulle" displayName="${bulle}"/>
@@ -107,6 +117,13 @@
 	<subset name="hsmetadata" displayName="${hsmetadata}" appliesTo="hyperbat">
 		<include name="full" displayName="${full}"/>
 		<include name="lower" displayName="${lower}"/>
+		<include name="metafichedefault" displayName="${metafichedefault}"/>
+		<include name="metafichebasgauche" displayName="${metafichebasgauche}"/>
+		<include name="metafichebasdroite" displayName="${metafichebasdroite}"/>
+		<include name="metafichebascentre" displayName="${metafichebascentre}"/>
+		<include name="metafichehautgauche" displayName="${metafichehautgauche}"/>
+		<include name="metafichehautdroite" displayName="${metafichehautdroite}"/>
+		<include name="metafichehautcentre" displayName="${metafichehautcentre}"/>
 		<include name="deactivate" displayName="${desactive}"/>
 	</subset>
 	<subset name="hsperview" displayName="${hyperbatperview}" appliesTo="hyperbat">

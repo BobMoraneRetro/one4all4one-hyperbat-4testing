@@ -10,6 +10,7 @@ INFO CONSOLE:
 
 {game:name}
 Genre: {game:genre}
+Tag: {game:tags}
 Family: {game:family}
 Lang: {game:lang}
 Region: {game:region}, Rating: {game:rating}

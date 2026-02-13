@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="hyperbat">
+	<!-- Variables utilisees dans ce fichier (definitions reprises de theme.xml) -->
+	<!-- <extgametheme>${bobmediapath}/_gametheme/${system.theme}/hyperbat</extgametheme> -->
+	<!-- <IfnoextGamethemeexist>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml")</IfnoextGamethemeexist> -->
+	<!-- <pointers4games>"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png"</pointers4games> -->
+	<formatVersion>7</formatVersion>
+	<!-- <include ifSubset="defaultgeneric:generic43">${bobmediapath}/_gametheme/_genericdefault/_2default43/theme.xml</include> -->
+	<!-- <include ifSubset="defaultgeneric:generic43noanimation">${bobmediapath}/_gametheme/_genericdefault/_1default43noanimation/theme.xml</include> -->
+	<!-- <include ifSubset="defaultgeneric:generic43noblur">${bobmediapath}/_gametheme/_genericdefault/_default43noblur/theme.xml</include> -->
+	<!-- <include ifSubset="defaultgeneric:genericbackbox">${bobmediapath}/_gametheme/_genericdefault/_defaultboxback/theme.xml</include> -->
+	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
+		<gamecarousel name="gamecarousel">
+			<zIndex>501</zIndex>
+			<type>vertical_wheel</type>
+			<type if="{system.theme} == 'zelda' || 
+			{system.theme} == 'assasin' || 
+			{system.theme} == 'gta'">horizontal_wheel</type>
+			<pos>0.415 0</pos>
+			<size>0.8 1</size>
+			<logoScale>1.4</logoScale>
+			<logoSize>0.150 0.260</logoSize>
+			<color>00000000</color>
+			<maxLogoCount>8</maxLogoCount>
+			<logoRotation>-4.5</logoRotation>
+			<logoRotationOrigin>6 0.5</logoRotationOrigin>
+			<logoAlignment>center</logoAlignment>
+			<imageSource>marquee</imageSource>
+			<defaultTransition>instant</defaultTransition>
+			<minLogoOpacity>1</minLogoOpacity>
+			<transitionSpeed>350</transitionSpeed>
+			<scrollSound ifSubset="gamewheelsound:bulle">${themePath}/_common/scrollsound/bulle.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:clic">${themePath}/_common/scrollsound/clic.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:clicgrave">${themePath}/_common/scrollsound/clicgrave.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:frottement">${themePath}/_common/scrollsound/frottement.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:poc">${themePath}/_common/scrollsound/poc.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:wheelclic">${themePath}/_common/scrollsound/wheelclic.wav</scrollSound>
+		</gamecarousel>
+		<image name="gamecarouselLogo">
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<text name="gamecarouselLogoText">
+			<color>FFFFFFFF</color>
+			<glowColor>000000FF</glowColor>
+			<glowSize>3</glowSize>
+			<lineSpacing>1.0</lineSpacing>
+			<fontSize>0.025</fontSize>
+		</text>
+	</customView>
+	<!-- Permet de charger le thème par défaut spécifique au système -->
+</theme>
