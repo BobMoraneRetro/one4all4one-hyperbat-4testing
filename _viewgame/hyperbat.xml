@@ -14,7 +14,7 @@
 			<visible>false</visible>
 		</control>
 		<!-- <rating name="md_rating"> -->
-			<!-- <visible>false</visible> -->
+		<!-- <visible>false</visible> -->
 		<!-- </rating> -->
 		<video name="md_video">
 			<visible>false</visible>
@@ -264,7 +264,7 @@
 			<size>1 1</size>
 			<zIndex>499</zIndex>
 			<opacity>1</opacity>
-		</image>		
+		</image>
 		<!-- <text name="gamethemelabel" ifSubset="authordisplayed:activate" extra="true"> -->
 		<!-- <text>Theme by : ${theme.author}</text> -->
 		<!-- <alignment>left</alignment> -->
@@ -339,6 +339,7 @@
 			<origin>0 1</origin>
 			<pos>0.0455 0.43</pos>
 			<size>0.3 0.2</size>
+			<!-- <size>0.3 0.25</size> -->
 			<zIndex>1000</zIndex>
 			<opacity>0.7</opacity>
 		</image>
@@ -349,6 +350,7 @@
 			<origin>0 1</origin>
 			<pos>0.0455 0.43</pos>
 			<size>0.3 0.2</size>
+			<!-- <size>0.3 0.25</size> -->
 			<zIndex>1000</zIndex>
 			<opacity>1</opacity>
 		</image>
@@ -361,7 +363,7 @@
 		<!-- <linearSmooth>true</linearSmooth> -->
 		<!-- <zIndex>1000</zIndex> -->
 		<!-- <horizontalAlignment>left</horizontalAlignment> -->
-		<!-- </image> -->	
+		<!-- </image> -->
 		<text name="nomdujeu" extra="true">
 			<visible ifSubset="hsmetadata:metafichedefault|metafichebasgauche|metafichebasdroite|metafichebascentre|metafichehautgauche|metafichehautdroite|metafichehautcentre">true</visible>
 			<visible ifSubset="hsmetadata:deactivate|full|lower">false</visible>
@@ -570,18 +572,18 @@
 		</text>
 		<!-- FIN DATA NB JOUEURS AVEC GETION PLURIEL SINGULIER -->
 		<!-- <image name="notation" extra="true"> -->
-			<!-- <visible ifSubset="hsmetadata:deactivate|full|lower">false</visible> -->
-			<!-- <visible ifSubset="hsmetadata:metafichedefault|metafichebasgauche|metafichebasdroite|metafichebascentre|metafichehautgauche|metafichehautdroite|metafichehautcentre|">true</visible>		 -->
-			<!-- <origin>0.5 0.5</origin> -->
-			<!-- <pos>0.31 0.28</pos> -->
-			<!-- <maxSize>0.085 0.085</maxSize> -->
-			<!-- <zIndex>1000</zIndex> -->
-			<!-- <linearSmooth>true</linearSmooth> -->
-			<!-- <horizontalAlignment>left</horizontalAlignment> -->
-			<!-- <path>${themePath}/_viewgame/hyperbat/metafiche/Bvierge.png</path> -->
+		<!-- <visible ifSubset="hsmetadata:deactivate|full|lower">false</visible> -->
+		<!-- <visible ifSubset="hsmetadata:metafichedefault|metafichebasgauche|metafichebasdroite|metafichebascentre|metafichehautgauche|metafichehautdroite|metafichehautcentre|">true</visible>		 -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <pos>0.31 0.28</pos> -->
+		<!-- <maxSize>0.085 0.085</maxSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- <linearSmooth>true</linearSmooth> -->
+		<!-- <horizontalAlignment>left</horizontalAlignment> -->
+		<!-- <path>${themePath}/_viewgame/hyperbat/metafiche/Bvierge.png</path> -->
 		<!-- </image> -->
 		<rating name="md_rating">
-			<visible ifSubset="hsmetadata:metafichedefault|metafichebasgauche|metafichebasdroite|metafichebascentre|metafichehautgauche|metafichehautdroite|metafichehautcentre">true</visible>		
+			<visible ifSubset="hsmetadata:metafichedefault|metafichebasgauche|metafichebasdroite|metafichebascentre|metafichehautgauche|metafichehautdroite|metafichehautcentre">true</visible>
 			<visible ifSubset="hsmetadata:deactivate|full|lower">false</visible>
 			<origin>0.5 0</origin>
 			<pos>0.058 0.325</pos>
@@ -613,5 +615,396 @@
 			<offsetX ifSubset="hsmetadata:metafichebasdroite|metafichehautdroite">0.65</offsetX>
 			<!-- <opacity>0.5</opacity> -->
 		</control>
+		<!-- ########################################## Gestion des TAGS version 1 ################################################### -->
+		<!-- <image name="finishedoff" extra="true"> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.125 0.76</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>009605</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="finishedtxtoff" extra="true"> -->
+		<!-- <text>Jeu terminé</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.127 0.76</pos> -->
+		<!-- <size>0.075 0.035</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="notworkingoff" extra="true"> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.125 0.785</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>a6031c</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="notworkingtxtoff" extra="true"> -->
+		<!-- <text>Ne fonctionne pas</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.127 0.785</pos> -->
+		<!-- <size>0.075 0.035</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="buggyoff" extra="true"> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.225 0.76</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>d47f00</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="buggytxtoff" extra="true"> -->
+		<!-- <text>Nombreux Bugs</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.227 0.76</pos> -->
+		<!-- <size>0.075 0.035</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="slowoff" extra="true"> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.225 0.785</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>fbff00</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="slowtxtoff" extra="true"> -->
+		<!-- <text>Emulation lente</text> -->
+		<!-- <color>000000</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.227 0.785</pos> -->
+		<!-- <size>0.075 0.035</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="likedoff" extra="true"> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.325 0.76</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>412bff</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="likedtxtoff" extra="true"> -->
+		<!-- <text>J'aime</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.325 0.76</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="dislikedoff" extra="true"> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.325 0.785</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>889400</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="dislikedtxtoff" extra="true"> -->
+		<!-- <text>Je n'aime pas</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.325 0.785</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <control name="finishedtxtoff,notworkingtxtoff,buggytxtoff,slowtxtoff,likedtxtoff,dislikedtxtoff"> -->
+		<!-- <opacity>0.2</opacity> -->
+		<!-- </control> -->
+		<!-- <control name="finishedoff,notworkingoff,buggyoff,slowoff,likedoff,dislikedoff"> -->
+		<!-- <opacity>0.5</opacity> -->
+		<!-- <color>000000</color> -->
+		<!-- </control> -->
+		<!-- <image name="finished" extra="true"> -->
+		<!-- <visible>contains(lower({game:tags}), "finished")</visible> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.125 0.76</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>009605</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="finishedtxt" extra="true"> -->
+		<!-- <visible>contains(lower({game:tags}), "finished")</visible> -->
+		<!-- <text>Jeu terminé</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.127 0.76</pos> -->
+		<!-- <size>0.075 0.035</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="notworking" extra="true"> -->
+		<!-- <visible>contains(lower({game:tags}), "working")</visible> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.125 0.785</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>a6031c</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="notworkingtxt" extra="true"> -->
+		<!-- <visible>contains(lower({game:tags}), "working")</visible> -->
+		<!-- <text>Ne fonctionne pas</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.127 0.785</pos> -->
+		<!-- <size>0.075 0.035</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="buggy" extra="true"> -->
+		<!-- <visible>contains(lower({game:tags}), "buggy")</visible> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.225 0.76</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>d47f00</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="buggytxt" extra="true"> -->
+		<!-- <visible>contains(lower({game:tags}), "buggy")</visible> -->
+		<!-- <text>Nombreux Bugs</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.227 0.76</pos> -->
+		<!-- <size>0.075 0.035</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="slow" extra="true"> -->
+		<!-- <visible>contains(lower({game:tags}), "slow")</visible> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.225 0.785</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>fbff00</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="slowtxt" extra="true"> -->
+		<!-- <visible>contains(lower({game:tags}), "slow")</visible> -->
+		<!-- <text>Emulation lente</text> -->
+		<!-- <color>000000</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.227 0.785</pos> -->
+		<!-- <size>0.075 0.035</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="liked" extra="true"> -->
+		<!-- <visible>(lower({game:tags}) == "liked")</visible> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.325 0.76</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>412bff</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="likedtxt" extra="true"> -->
+		<!-- <visible>(lower({game:tags}) == "liked")</visible> -->
+		<!-- <text>J'aime</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.325 0.76</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- <image name="disliked" extra="true"> -->
+		<!-- <visible>(lower({game:tags}) == "disliked")</visible> -->
+		<!-- <path>${themePath}/_viewgameoption/gl-common/tags/white.png</path> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.325 0.785</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <color>889400</color> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </image> -->
+		<!-- <text name="dislikedtxt" extra="true"> -->
+		<!-- <visible>(lower({game:tags}) == "disliked")</visible> -->
+		<!-- <text>Je n'aime pas</text> -->
+		<!-- <color>FFFFFF</color> -->
+		<!-- <origin>0 0.5</origin> -->
+		<!-- <pos>0.325 0.785</pos> -->
+		<!-- <size>0.08 0.02</size> -->
+		<!-- <fontPath>${themePath}/_viewgame/hyperbat/metafiche/impact.ttf</fontPath> -->
+		<!-- <alignment>center</alignment> -->
+		<!-- <fontSize>0.015</fontSize> -->
+		<!-- <zIndex>1000</zIndex> -->
+		<!-- </text> -->
+		<!-- #################################### TAGS version logo #####################################################		 -->
+		<image name="finishedlogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/finished.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.28 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="notworkinglogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/notworking.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.295 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="buggylogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/buggy.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.31 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="slowlogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/slow.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.324 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="inprogresslogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/inprogress.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.34 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="droppedlogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/dropped.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.355 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="onholdlogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/onhold.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.37 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="dislikedlogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/disliked.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.385 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="likedlogooff" extra="true">
+			<path>${themePath}/_viewgameoption/gl-common/tags/liked.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.4 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<control name="finishedlogooff,inprogresslogooff,droppedlogooff,onholdlogooff,notworkinglogooff,buggylogooff,slowlogooff,likedlogooff,dislikedlogooff">
+			<opacity>0.5</opacity>
+			<saturation>0</saturation>
+			<visible ifSubset="hsmetadata:metafichedefault|metafichebasgauche|metafichebasdroite|metafichebascentre|metafichehautgauche|metafichehautdroite|metafichehautcentre">true</visible>
+			<visible ifSubset="hsmetadata:deactivate|full|lower">false</visible>
+			<!-- <color>000000</color> -->
+		</control>
+		<image name="finishedlogo" extra="true">
+			<visible>contains(lower({game:tags}), "finished")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/finished.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.28 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="notworkinglogo" extra="true">
+			<visible>contains(lower({game:tags}), "working")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/notworking.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.295 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="buggylogo" extra="true">
+			<visible>contains(lower({game:tags}), "buggy")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/buggy.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.31 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="slowlogo" extra="true">
+			<visible>contains(lower({game:tags}), "slow")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/slow.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.324 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="inprogresslogo" extra="true">
+			<visible>contains(lower({game:tags}), "in progress")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/inprogress.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.34 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="droppedlogo" extra="true">
+			<visible>contains(lower({game:tags}), "dropped")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/dropped.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.355 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="onholdlogo" extra="true">
+			<visible>contains(lower({game:tags}), "on hold")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/onhold.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.37 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="dislikedlogo" extra="true">
+			<visible>contains(lower({game:tags}) == "disliked")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/disliked.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.385 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
+		<image name="likedlogo" extra="true">
+			<visible>contains(lower({game:tags}), "liked")</visible>
+			<path>${themePath}/_viewgameoption/gl-common/tags/liked.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.4 0.84</pos>
+			<maxSize>0.08 0.02</maxSize>
+			<zIndex>1000</zIndex>
+		</image>
 	</customView>
 </theme>

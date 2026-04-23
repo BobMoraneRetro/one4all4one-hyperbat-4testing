@@ -214,8 +214,8 @@
 		<image name="Artwork4_Sys" extra="true">
 			<path>./Artwork41.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.858342899660 0.490456506677</pos>
-			<size>0.256391014739 0.579883156966</size>
+			<pos>0.878342899660 0.490456506677</pos>
+			<size>0.186391014739 0.579883156966</size>
 			<zIndex>6</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>

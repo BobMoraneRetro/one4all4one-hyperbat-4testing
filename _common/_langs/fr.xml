@@ -473,5 +473,6 @@
 		<metafichehautgauche>Metafiche en haut à gauche</metafichehautgauche>
 		<metafichehautdroite>Metafiche en haut à droite</metafichehautdroite>
 		<metafichehautcentre>Metafiche en haut au centre</metafichehautcentre>
+		<spacerscrap>-------------------------- Configuration des Scrap pour thème compatible = Video,Screenshot,Fanart,Marquee ---------------</spacerscrap>
 	</variables>
 </theme>

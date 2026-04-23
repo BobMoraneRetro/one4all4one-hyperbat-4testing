@@ -46,6 +46,7 @@
 		<include name="generic43boxback" displayName="${generic43boxback}">${themePath}/_gametheme/_genericdefault/_default43boxback/theme.xml</include>
 		<include name="generic43noanimationfanart" displayName="${generic43noanimationfanart}">${themePath}/_gametheme/_genericdefault/_default43noanimationfanart/theme.xml</include>
 		<include name="generic43" displayName="${generic43}">${themePath}/_gametheme/_genericdefault/_default43/theme.xml</include>
+		<include name="jukeboxdef" displayName="${jukeboxdef}">${themePath}/_gametheme/_genericdefault/_jukebox/theme.xml</include>
 	</subset>
 	<subset name="gameviewsource" displayName="${gameviewsource}" appliesTo="hyperbat">
 		<include name="mamefolder" displayName="${mamefolder}"/>
@@ -134,14 +135,21 @@
 		<include name="activesmooth" displayName="${activesmooth}"/>
 		<include name="noactivesmooth" displayName="${noactivesmooth}"/>
 	</subset>
+		<subset name="pointeuradroite" displayName="${pointeuradroite}" appliesTo="hyperbat">
+		<include name="actif" displayName="${actif}">${themePath}/_viewsystoption/sl-hyperspin/pointers.xml</include>
+		<include name="desactive" displayName="${desactive}"/>
+	</subset>
+	<subset name="spacerHS03" displayName="${vide}" appliesTo="${vide}">
+		<include name=" " displayName=" "/>
+	</subset>
+		<subset name="spacerscrap" displayName="${spacerscrap}" appliesTo="${vide}">
+		<include name="desactive" displayName=" "/>
+	</subset>
 	<subset name="boxorthumb" displayName="${boxorthumb}" appliesTo="hyperbat">
 		<!-- <include name="boxbackart" displayName="${boxbackart}"/> -->
 		<!-- <include name="boxbackthumb" displayName="${boxbackthumb}"/> -->
 		<include name="boxart" displayName="${boxart}"/>
 		<include name="thumb" displayName="${thumb}"/>
-	</subset>
-	<subset name="pointeuradroite" displayName="${pointeuradroite}" appliesTo="hyperbat">
-		<include name="actif" displayName="${actif}">${themePath}/_viewsystoption/sl-hyperspin/pointers.xml</include>
-		<include name="desactive" displayName="${desactive}"/>
+		<include name="extgamelist" displayName="${extgamelist}"/>
 	</subset>
 </theme>

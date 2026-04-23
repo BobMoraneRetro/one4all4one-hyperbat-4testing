@@ -17,7 +17,7 @@
 		<image name="BackgrSyst" extra="true">
 			<path>firstfile(
 			"${themePath}/_viewgame/hyperbat/fondsysteme/" + {game:system:theme} + ".png",
-			"${bobmediapath}/_systemmedia/_fanartsysteme/fresh/" + {game:system:theme} + ".jpg")</path>
+			"${themePath}/_systemmedia/_fanartsysteme/fresh/" + {game:system:theme} + ".jpg")</path>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<size>1 1</size>

@@ -220,45 +220,27 @@
 			<pos>0.236197916666667 0.55</pos>
 			<size>0.405729166666667 0.547222222222222</size>
 			<zIndex>300</zIndex>
-			<!-- <storyboard event="open"> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
-				<!-- <animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/> -->
-				<!-- <animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="activateNext"> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
-				<!-- <animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="activatePrev"> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
-				<!-- <animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="deactivateNext"> -->
-				<!-- <animation property="scale" to="0" begin="" autoreverse="false" duration="200" mode="easyIn"/> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="100" duration="150" mode="linear"/> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="deactivatePrev"> -->
-				<!-- <animation property="scale" to="0" begin="" autoreverse="false" duration="200" mode="easyIn"/> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="100" duration="150" mode="linear"/> -->
-			<!-- </storyboard> -->
-		</image>
-		<image name="fondscreen" extra="true">
-			<visible>${IfnoextGamethemeexist}</visible>
-			<path>./fiber.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.2364 0.535</pos>
-			<size>0.38 0.5</size>
-			<zIndex>199</zIndex>
-			<autoFade>false</autoFade>
-		</image>
-		<image name="screenshot5200" extra="true">
-			<visible>${IfnoextGamethemeexist}</visible>
-			<path>{game:image}</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.2364 0.535</pos>
-			<maxSize>0.38 0.49</maxSize>
-			<zIndex>200</zIndex>
-			<autoFade>false</autoFade>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="0" begin="" autoreverse="false" duration="200" mode="easyIn"/>
+				<animation property="opacity" from="0" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="0" begin="" autoreverse="false" duration="200" mode="easyIn"/>
+				<animation property="opacity" from="0" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
 		</image>
 		<video name="gameplayprev" extra="true">
 			<visible>${IfnoextGamethemeexist}</visible>
@@ -268,26 +250,26 @@
 			<maxSize>0.38 0.49</maxSize>
 			<zIndex>201</zIndex>
 			<effect>none</effect>
-			<!-- <storyboard event="open"> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
-				<!-- <animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="activateNext"> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
-				<!-- <animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="activatePrev"> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/> -->
-				<!-- <animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="deactivateNext"> -->
-				<!-- <animation property="scale" to="0" begin="" autoreverse="false" duration="200" mode="easyIn"/> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="100" duration="150" mode="linear"/> -->
-			<!-- </storyboard> -->
-			<!-- <storyboard event="deactivatePrev"> -->
-				<!-- <animation property="scale" to="0" begin="" autoreverse="false" duration="200" mode="easyIn"/> -->
-				<!-- <animation property="opacity" from="0" to="0" begin="100" duration="150" mode="linear"/> -->
-			<!-- </storyboard> -->
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="500" mode="EaseIn"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="0" begin="" autoreverse="false" duration="200" mode="easyIn"/>
+				<animation property="opacity" from="0" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="0" begin="" autoreverse="false" duration="200" mode="easyIn"/>
+				<animation property="opacity" from="0" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
 			<delay>1</delay>
 		</video>
 		<image name="MarqueeHS" extra="true">
