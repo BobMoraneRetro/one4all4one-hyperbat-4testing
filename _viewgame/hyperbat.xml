@@ -244,16 +244,21 @@
 			</storyboard>
 		</image>
 		<gameextras name="gameextras">
-			<path ifSubset="gameviewsource:actualsystem">${extgametheme}</path>
 			<path ifSubset="gameviewsource:mamefolder">firstfile(
+			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
 			"${bobmediapath}/_gametheme/mame/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
 			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml",
 			"${bobmediapath}/_gametheme/" + {system:theme} + "/hyperbat/_default/theme.xml")</path>
-			<path ifSubset="gameviewsource:originsystem">firstfile(
-			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml",
-			"${bobmediapath}/_gametheme/" + {system:theme} + "/hyperbat/_default/theme.xml")</path>
+			<!-- <path ifSubset="gameviewsource:actualsystem">${extgametheme}</path> -->
+			<!-- <path ifSubset="gameviewsource:mamefolder">firstfile( -->
+			<!-- "${bobmediapath}/_gametheme/mame/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
+			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
+			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml", -->
+			<!-- "${bobmediapath}/_gametheme/" + {system:theme} + "/hyperbat/_default/theme.xml")</path> -->
+			<!-- <path ifSubset="gameviewsource:originsystem">firstfile( -->
+			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
+			<!-- "${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml", -->
+			<!-- "${bobmediapath}/_gametheme/" + {system:theme} + "/hyperbat/_default/theme.xml")</path> -->
 		</gameextras>
 		<image name="vignetagehsg" extra="true">
 			<visible ifSubset="vignettagehs:activate">true</visible>

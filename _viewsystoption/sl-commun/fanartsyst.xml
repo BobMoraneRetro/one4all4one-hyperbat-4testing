@@ -3,6 +3,8 @@
 	<formatVersion>7</formatVersion>
 	<view name="system">
 		<image name="fanartflix" extra="true">
+			<!-- <visible>${ifnoextsysthemeexist}</visible> -->
+			<visible ifSubset="videofondcops1:hyperspinorunified|systemview:hyperspin">${ifnoextsysthemeexist}</visible>
 			<autoFade>false</autoFade>
 			<path ifSubset="imagefondcops1:fanartfreshone">${intfanartfresh}</path>
 			<path ifSubset="imagefondcops1:fanartcustom">${intfanartfresh}</path>
@@ -13,7 +15,6 @@
 			<size>1.03 1.02</size>
 			<zIndex>0</zIndex>
 			<linearSmooth>false</linearSmooth>
-			<visible ifSubset="videofondcops1:hyperspinorunified,systemview:hyperspin">${ifnoextsysthemeexist}</visible>
 		</image>
 	</view>
 </theme>
