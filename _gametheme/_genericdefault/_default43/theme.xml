@@ -11,8 +11,9 @@
 		</control>
 		<image name="BackgrSyst" extra="true">
 			<path>firstfile(
+			"${themePath}/_viewgame/hyperbat/fondsysteme/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
 			"${themePath}/_viewgame/hyperbat/fondsysteme/" + {game:system:theme} + ".png",
-			"${bobmediapath}/_systemmedia/_fanartsysteme/fresh/" + {game:system:theme} + ".jpg")			</path>
+			"${themePath}/_systemmedia/_fanartsysteme/fresh/" + {game:system:theme} + ".jpg")</path>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<size>1 1</size>
@@ -165,6 +166,8 @@
 		<image name="logocustshadow" extra="true">
 			<!-- <path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".png", -->
 			<!-- "${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path> -->
+			<path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
+			"${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path>
 			<maxSize>0.5 0.25</maxSize>
 			<scaleOrigin>0 -0.3</scaleOrigin>
 			<pos>0.278 0.133</pos>
@@ -176,34 +179,36 @@
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
 			</storyboard>
 		</image>
-		<image name="logocustshadow" extra="true">
-			<path>${intlogoclearsvg}</path>
-			<path>${extlogoclearsvg}</path>
-			<path>${intlogoclearpng}</path>
-		</image>
-		<image name="logocustshadow" extra="true" region="fr">
-			<path>${intlogoclearfrsvg}</path>
-			<path>${extlogoclearfrsvg}</path>
-			<path>${intlogoclearfrpng}</path>
-		</image>
-		<image name="logocustshadow" extra="true" region="eu">
-			<path>${intlogoclearfrsvg}</path>
-			<path>${extlogoclearfrsvg}</path>
-			<path>${intlogoclearfrpng}</path>
-		</image>
-		<image name="logocustshadow" extra="true" region="us">
-			<path>${intlogoclearussvg}</path>
-			<path>${extlogoclearussvg}</path>
-			<path>${intlogoclearuspng}</path>
-		</image>
-		<image name="logocustshadow" extra="true" region="jp">
-			<path>${intlogoclearjpsvg}</path>
-			<path>${extlogoclearjpsvg}</path>
-			<path>${intlogoclearjppng}</path>
-		</image>
+		<!-- <image name="logocustshadow" extra="true"> -->
+			<!-- <path>${intlogoclearsvg}</path> -->
+			<!-- <path>${extlogoclearsvg}</path> -->
+			<!-- <path>${intlogoclearpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocustshadow" extra="true" region="fr"> -->
+			<!-- <path>${intlogoclearfrsvg}</path> -->
+			<!-- <path>${extlogoclearfrsvg}</path> -->
+			<!-- <path>${intlogoclearfrpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocustshadow" extra="true" region="eu"> -->
+			<!-- <path>${intlogoclearfrsvg}</path> -->
+			<!-- <path>${extlogoclearfrsvg}</path> -->
+			<!-- <path>${intlogoclearfrpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocustshadow" extra="true" region="us"> -->
+			<!-- <path>${intlogoclearussvg}</path> -->
+			<!-- <path>${extlogoclearussvg}</path> -->
+			<!-- <path>${intlogoclearuspng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocustshadow" extra="true" region="jp"> -->
+			<!-- <path>${intlogoclearjpsvg}</path> -->
+			<!-- <path>${extlogoclearjpsvg}</path> -->
+			<!-- <path>${intlogoclearjppng}</path> -->
+		<!-- </image> -->
 		<image name="logocust" extra="true">
 			<!-- <path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".png", -->
 			<!-- "${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path> -->
+			<path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
+			"${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path>
 			<maxSize>0.5 0.25</maxSize>
 			<scaleOrigin>0 -0.3</scaleOrigin>
 			<pos>0.28 0.13</pos>
@@ -214,31 +219,31 @@
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
 			</storyboard>
 		</image>
-		<image name="logocust" extra="true">
-			<path>${intlogoclearsvg}</path>
-			<path>${extlogoclearsvg}</path>
-			<path>${intlogoclearpng}</path>
-		</image>
-		<image name="logocust" extra="true" region="fr">
-			<path>${intlogoclearfrsvg}</path>
-			<path>${extlogoclearfrsvg}</path>
-			<path>${intlogoclearfrpng}</path>
-		</image>
-		<image name="logocust" extra="true" region="eu">
-			<path>${intlogoclearfrsvg}</path>
-			<path>${extlogoclearfrsvg}</path>
-			<path>${intlogoclearfrpng}</path>
-		</image>
-		<image name="logocust" extra="true" region="us">
-			<path>${intlogoclearussvg}</path>
-			<path>${extlogoclearussvg}</path>
-			<path>${intlogoclearuspng}</path>
-		</image>
-		<image name="logocust" extra="true" region="jp">
-			<path>${intlogoclearjpsvg}</path>
-			<path>${extlogoclearjpsvg}</path>
-			<path>${intlogoclearjppng}</path>
-		</image>
+		<!-- <image name="logocust" extra="true"> -->
+			<!-- <path>${intlogoclearsvg}</path> -->
+			<!-- <path>${extlogoclearsvg}</path> -->
+			<!-- <path>${intlogoclearpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true" region="fr"> -->
+			<!-- <path>${intlogoclearfrsvg}</path> -->
+			<!-- <path>${extlogoclearfrsvg}</path> -->
+			<!-- <path>${intlogoclearfrpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true" region="eu"> -->
+			<!-- <path>${intlogoclearfrsvg}</path> -->
+			<!-- <path>${extlogoclearfrsvg}</path> -->
+			<!-- <path>${intlogoclearfrpng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true" region="us"> -->
+			<!-- <path>${intlogoclearussvg}</path> -->
+			<!-- <path>${extlogoclearussvg}</path> -->
+			<!-- <path>${intlogoclearuspng}</path> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true" region="jp"> -->
+			<!-- <path>${intlogoclearjpsvg}</path> -->
+			<!-- <path>${extlogoclearjpsvg}</path> -->
+			<!-- <path>${intlogoclearjppng}</path> -->
+		<!-- </image> -->
 		<image name="boxart2D" extra="true">
 			<path ifSubset="boxorthumb:thumb|boxbackthumb">firstfile({game:thumbnail},{game:boxart})</path>
 			<path ifSubset="boxorthumb:boxart|boxbackart">firstfile({game:boxart},{game:thumbnail})</path>
