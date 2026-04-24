@@ -35,7 +35,9 @@
 		<extlogohcarbonfresh>${bobmediapath}/_systemmedia/_logosyst/hmaxcarbonfresh/${system.theme}.png</extlogohcarbonfresh>
 		<extglassnekhros>${bobmediapath}/_systemmedia/_logosyst/nekhglass/${system.theme}.png</extglassnekhros>
 		<!-- System Gestion des bezels système : videosyst.xml -->
-		<intbezelsyst>("${themePath}/_systemmedia/bezelsyst/" + ({system:theme}) + ".png")</intbezelsyst>
+		<intbezelsyst>firstfile(
+					"${themePath}/_systemmedia/bezelsyst/region-${region}/" + {system:theme} + "-${region}.png",
+					"${themePath}/_systemmedia/bezelsyst/" + ({system:theme}) + ".png)</intbezelsyst>
 		<!-- System : Vidéos de présentation système : videosyst.xml -->
 		<exthyperpie>${bobmediapath}/_systemmedia/videosyst/hyperpie/${system.theme}.mp4</exthyperpie>
 		<extunified>${bobmediapath}/_systemmedia/videosyst/unified/${system.theme}.mkv</extunified>
@@ -54,10 +56,15 @@
 		<!-- System : personnage en png associé aux systèmes -->
 		<intcharsyst>${themePath}/_systemmedia/charsystem/{game:system:theme}.png</intcharsyst>
 		<!-- System : pointeurs en png associé aux systèmes -->
-		<pointers4syst>${themePath}/_systemmedia/pointers-r/${system.theme}.png</pointers4syst>
+		<!-- <pointers4syst>${themePath}/_systemmedia/pointers-r/${system.theme}.png</pointers4syst> -->
+		<pointers4syst>firstfile(
+					"${themePath}/_systemmedia/pointers-r/region-${region}/" + {system:theme} + "-${region}.png",
+					"${themePath}/_systemmedia/pointers-r/" + {system:theme} + ".png")</pointers4syst>
 		<!-- <pointers4games>"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png"</pointers4games> -->
-		<pointers4games>firstfile("${themePath}/_systemmedia/pointers-r/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
+		<pointers4games>firstfile("${themePath}/_systemmedia/pointers-r/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
 						"${themePath}/_systemmedia/pointers-r/" + {game:system:theme} + ".png")</pointers4games>
+		<!-- <pointers4games>firstfile("${themePath}/_systemmedia/pointers-r/region-${region}/" + {system:theme} + "-${region}.png", -->
+		<!-- "${themePath}/_systemmedia/pointers-r/" + {system:theme} + ".png")</pointers4games> -->
 		<!-- Syste & Jeux Logo Système en fonction du jeu -->
 		<extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst>
 		<!-- Jeux : gamethème Hyperbat -->

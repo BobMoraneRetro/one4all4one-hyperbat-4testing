@@ -6,10 +6,7 @@
 		<image name="pointersdroite" extra="true">
 			<visible ifSubset="hyperwheel:spingh|verticalgh|verticalgheb">false</visible>
 			<default>${themePath}/_systemmedia/pointers-r/default.png</default>
-			<!-- <path>${pointers4syst}</path> -->
-					<path>firstfile(
-					"${themePath}/_systemmedia/pointers-r/region-${region}/" + {system:theme} + "-${region}.png",
-					"${themePath}/_systemmedia/pointers-r/" + {system:theme} + ".png")</path>
+			<path>${pointers4syst}</path>
 			<origin>1 0.5</origin>
 			<pos>1.005 0.5</pos>
 			<maxSize>0.2 0.3</maxSize>

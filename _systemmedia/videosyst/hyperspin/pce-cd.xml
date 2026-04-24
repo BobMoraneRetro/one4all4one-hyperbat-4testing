@@ -7,7 +7,10 @@
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
 			<linearSmooth>true</linearSmooth>
 			<size>0 0.9</size>
-			<path>./rightart/${system.theme}.png</path>
+			<!-- <path>./rightart/${system.theme}.png</path> -->
+			<path>firstfile(
+					"${themePath}/_systemmedia/videosyst/hyperspin/rightart/region-${region}/" + {system:theme} + "-${region}.png",
+					"${themePath}/_systemmedia/videosyst/hyperspin/rightart/" + {system:theme} + ".png")</path>
 			<scaleOrigin>0 -0.3</scaleOrigin>
 			<pos>0.85 0.515</pos>
 			<pos ifHelpPrompts="false">0.85 0.55</pos>

@@ -262,7 +262,7 @@
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<zIndex>499</zIndex>
+			<zIndex>999</zIndex>
 			<opacity>1</opacity>
 		</image>
 		<!-- <text name="gamethemelabel" ifSubset="authordisplayed:activate" extra="true"> -->
