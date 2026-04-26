@@ -416,6 +416,7 @@
 		<ovalcompose>Oval carbon custom per system (auto-generated)</ovalcompose>
 		<!-- Hyperbat fade wheel -->
 		<gamewheelfade>Gamewheel Fading</gamewheelfade>
+		<systemwheelfade>system view - Wheel Fading</systemwheelfade>
 		<amoitie>partially</amoitie>
 		<!-- Hyperbat smooth transition -->
 		<smoothgametheme>Smooth transition between game themes</smoothgametheme>

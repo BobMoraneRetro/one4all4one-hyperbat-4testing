@@ -171,6 +171,11 @@
 	<include>${themePath}/_systemmedia/_logosyst/nekhglass/_glassnekhros.xml</include>
 	<include>${themePath}/_systemmedia/_logosyst/hmaxrectfresh/_logorectfresh.xml</include>
 	<include>${themePath}/_systemmedia/_logosyst/hmaxrectrefl/_hmaxrectrefl.xml</include>
+	<subset name="systemwheelfade" displayName="${systemwheelfade}">
+		<include name="activate" displayName="${activate}"/>
+		<include name="amoitie" displayName="${amoitie}"/>
+		<include name="deactivate" displayName="${desactive}"/>
+	</subset>
 	<!-- Choix des fanart à afficher sur la liste système -->
 	<subset name="imagefondcops1" displayName="${systviewfanart}">
 		<include name="fanartfreshone" displayName="${fanartfreshone}">${themePath}/_viewsystoption/sl-commun/fanartsyst.xml</include>

@@ -420,6 +420,7 @@
 		<ovalcompose>Oval carbon personnalisé par système (auto-généré)</ovalcompose>
 		<!-- Hyperbat fade wheel -->
 		<gamewheelfade>Disparition de la liste des jeux</gamewheelfade>
+		<systemwheelfade>Vue système - Disparition de la liste des systèmes</systemwheelfade>
 		<amoitie>partiellement</amoitie>
 		<!-- Hyperbat smooth transition -->
 		<smoothgametheme>Transition douce entre les thèmes de jeux</smoothgametheme>
