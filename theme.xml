@@ -36,8 +36,8 @@
 		<extglassnekhros>${bobmediapath}/_systemmedia/_logosyst/nekhglass/${system.theme}.png</extglassnekhros>
 		<!-- System Gestion des bezels système : videosyst.xml -->
 		<intbezelsyst>firstfile(
-					"${themePath}/_systemmedia/bezelsyst/region-${region}/" + {system:theme} + "-${region}.png",
-					"${themePath}/_systemmedia/bezelsyst/" + ({system:theme}) + ".png)</intbezelsyst>
+					"${bobmediapath}/_systemmedia/bezelsyst/region-${region}/" + {system:theme} + "-${region}.png",
+					"${bobmediapath}/_systemmedia/bezelsyst/" + ({system:theme}) + ".png")</intbezelsyst>
 		<!-- System : Vidéos de présentation système : videosyst.xml -->
 		<exthyperpie>${bobmediapath}/_systemmedia/videosyst/hyperpie/${system.theme}.mp4</exthyperpie>
 		<extunified>${bobmediapath}/_systemmedia/videosyst/unified/${system.theme}.mkv</extunified>

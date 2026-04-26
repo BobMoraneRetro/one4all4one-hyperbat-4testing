@@ -56,6 +56,10 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<path>${intbezelsyst}</path>
+			<!-- <path>firstfile( -->
+					<!-- "${bobmediapath}/_systemmedia/bezelsyst/region-${region}/" + {system:theme} + "-${region}.png", -->
+					<!-- "${bobmediapath}/_systemmedia/bezelsyst/" + ({system:theme}) + ".png)</path> -->
+			<!-- <path>${bobmediapath}/_systemmedia/bezelsyst/" + ({system:theme}) + ".png)</path> -->
 			<maxSize>1 1</maxSize>
 			<maxSize ifSubset="videofondcops1:gameplayp1">0.7 0.7</maxSize>
 			<pos ifSubset="videofondcops1:gameplayp1">0.5 0.4</pos>
