@@ -40,3 +40,8 @@ Pour les background de jeu géré par la région du jeu :
 			"${themePath}/_viewgame/hyperbat/fondsysteme/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
 			"${themePath}/_viewgame/hyperbat/fondsysteme/" + {game:system:theme} + ".png",
 			"${themePath}/_systemmedia/_fanartsysteme/fresh/" + {game:system:theme} + ".jpg")</path>
+			
+Pour les images de hardware quand ils existent :			
+			<path>firstfile(
+			"${bobmediapath}/_gametheme/${system.theme}/Hyperbat/_default/Console-" + {game:region} + ".png",
+			"${bobmediapath}/_gametheme/${system.theme}/Hyperbat/_default/Console-${region}.png")</path>
