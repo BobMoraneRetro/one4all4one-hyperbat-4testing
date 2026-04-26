@@ -177,8 +177,8 @@
 		<include name="fanartcustom" displayName="${fanartsystcustom}">${themePath}/_viewsystoption/sl-commun/fanartsyst.xml</include>
 	</subset>
 	<!-- Choix des types de présentation des systèmes -->
-	<include>${bobmediapath}/_systemmedia/videosyst/hyperspinxporunified/_hyperspinorunified.xml</include>
 	<subset name="videofondcops1" ifSubset="systemview:copscurve|coinopsnext1|coinopsnext2|hyperspin|tetanos" displayName="${systviewvideo}">
+		<include name="hyperspinorunified" displayName="${hyperspinorunified}">${themePath}/_viewsystoption/sl-commun/videosyst.xml</include>
 		<include name="gameplayp1" displayName="${gameplayp1}">${themePath}/_viewsystoption/sl-commun/videosyst.xml</include>
 		<include name="gameplay1" displayName="${gameplay1}">${themePath}/_viewsystoption/sl-commun/videosyst.xml</include>
 		<include name="gameplayp" displayName="${gameplayp}">${themePath}/_viewsystoption/sl-commun/videosyst.xml</include>
@@ -186,6 +186,7 @@
 		<include name="custom" displayName="${custom}">${themePath}/_viewsystoption/sl-commun/videosyst.xml</include>
 		<include name="desactive" displayName="${desactive}"/>
 	</subset>
+	<include>${bobmediapath}/_systemmedia/videosyst/hyperspinxporunified/_hyperspinorunified.xml</include>
 	<include>${bobmediapath}/_systemmedia/videosyst/hyperspinxpcinematic/_hyperspinorder.xml</include>
 	<include>${bobmediapath}/_systemmedia/videosyst/hyperspinxp/_hyperspinxp.xml</include>
 	<include>${bobmediapath}/_systemmedia/videosyst/unified/_unified.xml</include>
