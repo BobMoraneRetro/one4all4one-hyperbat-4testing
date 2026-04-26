@@ -53,7 +53,7 @@
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
 			<origin>0.5 0.5</origin>
 			<path>${intbezelsyst}</path>
-			<size>0.65 0.52</size>
+			<maxSize>0.6 0.52</maxSize>
 			<pos>0.5 0.55</pos>
 			<pos ifSubset="systemview:copscurve|coinopsnext1|coinopsnext2|tetanos">0.5 0.45</pos>
 			<pos ifSubset="cops2menu:milieu">0.5 0.5</pos>
@@ -86,6 +86,7 @@
 			<pos>0.5 0.15</pos>
 			<origin>0.5 0.5</origin>
 			<zIndex>1</zIndex>
+			<linearSmooth>true</linearSmooth>
 			<storyboard>
 				<animation property="y" from="-0.5" begin="0" duration="2000" mode="easeOut"/>
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
