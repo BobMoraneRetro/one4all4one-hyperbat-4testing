@@ -3,7 +3,7 @@
 	<!-- <theme> -->
 	<formatVersion>7</formatVersion>
 	<variables ifSubset="folder:bobmedia">
-		<bobmediapath>${themePath}/../_bobmedia</bobmediapath>
+		<bobmediapath>${themePath}/../_bobmedi</bobmediapath>
 	</variables>
 	<variables ifSubset="folder:default">
 		<bobmediapath>${themePath}</bobmediapath>
@@ -106,6 +106,31 @@
 		<include name="default" displayName="${default}"/>
 		<include name="bobmedia" displayName="${bobmedia}"/>
 	</subset>
+	<subset name="extfoldergametheme" displayName="${extfoldergametheme}">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfoldersysttheme" displayName="${extfoldersysttheme}">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfolderfanart" displayName="${extfolderfanart}">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfolderlogosyst" displayName="${extfolderlogosyst}">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfolderthumbox" displayName="${extfolderthumbox}">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfoldergamefanart" displayName="${extfoldergamefanart}">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	
 	<subset name="systemview" displayName="${systlist}">
 		<include name="hyperspin" displayName="${systviewHS}">${themePath}/_viewsyst/hyperspin.xml</include>
 	</subset>

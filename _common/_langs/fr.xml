@@ -2,6 +2,16 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables lang="fr">
+	
+		<extfoldergametheme>Source - Thème spécifique des jeux</extfoldergametheme>
+		<extfoldersysttheme>Source - Thème spécifique des systèmes</extfoldersysttheme>
+		<extfolderfanart>Source - Fanart des systèmes</extfolderfanart>
+		<extfolderlogosyst>Source - Logo système</extfolderlogosyst>
+		<extfolderthumbox>Source - Boite 2D/3D jeux</extfolderthumbox>		
+		<extfoldergamefanart>Source - Fanart des jeux</extfoldergamefanart>
+	
+		<intheme>Dossier du thème - Par défaut</intheme>
+		<extfolder>Dossier extérieur</extfolder>
 		<activate>Activé</activate>
 		<deactivate>Désactivé</deactivate>
 		<!-- ######## META DATA ####### -->
@@ -456,7 +466,7 @@
 		<actualsystem>Gametheme\nom.du.system.selectionné</actualsystem>
 		<mamefolder>Défaut : Gametheme\mame -> gametheme\nom.du.system.du.jeu</mamefolder>
 		<!-- Hyperbat externaliser gametheme et systheme -->		
-		<folder>Dossiers des thèmes système et thèmes de jeu</folder>
+		<folder>Source - ensemble des medias Hyperbat</folder>
 		<default>Par défaut</default>
 		<bobmedia>Dossier bobmedia</bobmedia>
 		<!-- Choix theme defaut -->
