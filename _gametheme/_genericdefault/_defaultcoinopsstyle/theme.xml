@@ -210,17 +210,17 @@
 			<saturation>0.5</saturation>
 			<zIndex>3</zIndex>
 			<scaleOrigin>-0.1 0</scaleOrigin>
-			<visible>!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp;
-			!exists("${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png") &amp;&amp;
-			!exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible>
-			<visible if="{system.theme} == 'fbneo' || 
-			{system.theme} == 'cps1' || 
-			{system.theme} == 'cps2' || 
-			{system.theme} == 'cps3' || 
-			{system.theme} == 'cave' || 
-			{system.theme} == 'hbmame' ">!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp;
-			!exists("${bobmediapath}/_gamemedia/mame/cabs/" + stem({game:rom}) + ".png") &amp;&amp;
-			!exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible>
+			<!-- <visible>!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp; -->
+			<!-- !exists("${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png") &amp;&amp; -->
+			<!-- !exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible> -->
+			<!-- <visible if="{system.theme} == 'fbneo' ||  -->
+			<!-- {system.theme} == 'cps1' ||  -->
+			<!-- {system.theme} == 'cps2' ||  -->
+			<!-- {system.theme} == 'cps3' ||  -->
+			<!-- {system.theme} == 'cave' ||  -->
+			<!-- {system.theme} == 'hbmame' ">!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp; -->
+			<!-- !exists("${bobmediapath}/_gamemedia/mame/cabs/" + stem({game:rom}) + ".png") &amp;&amp; -->
+			<!-- !exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible> -->
 		</image>
 		<image name="fondposter2" ifSubset="systback:cpscollection" extra="true">
 			<autoFade>false</autoFade>
@@ -231,17 +231,17 @@
 			<zIndex>3</zIndex>
 			<scaleOrigin>-0.1 0</scaleOrigin>
 			<path>firstfile({game:marquee},{game:wheel})</path>
-			<visible>!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp;
-			!exists("${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png") &amp;&amp;
-			!exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible>
-			<visible if="{system.theme} == 'fbneo' || 
-			{system.theme} == 'cps1' || 
-			{system.theme} == 'cps2' || 
-			{system.theme} == 'cps3' || 
-			{system.theme} == 'cave' || 
-			{system.theme} == 'hbmame' ">!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp;
-			!exists("${bobmediapath}/_gamemedia/mame/cabs/" + stem({game:rom}) + ".png") &amp;&amp;
-			!exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible>
+			<!-- <visible>!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp; -->
+			<!-- !exists("${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png") &amp;&amp; -->
+			<!-- !exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible> -->
+			<!-- <visible if="{system.theme} == 'fbneo' ||  -->
+			<!-- {system.theme} == 'cps1' ||  -->
+			<!-- {system.theme} == 'cps2' ||  -->
+			<!-- {system.theme} == 'cps3' ||  -->
+			<!-- {system.theme} == 'cave' ||  -->
+			<!-- {system.theme} == 'hbmame' ">!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp; -->
+			<!-- !exists("${bobmediapath}/_gamemedia/mame/cabs/" + stem({game:rom}) + ".png") &amp;&amp; -->
+			<!-- !exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible> -->
 		</image>
 		<!-- <maxSize if="{system.theme} == 'ps3'  -->
 		<!-- || {system.theme} == 'xbox360' -->
