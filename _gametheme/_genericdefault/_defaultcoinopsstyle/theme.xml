@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<!-- Variables utilisees dans ce fichier (definitions reprises de theme.xml) -->
+		<!-- <bobmediapath>${themePath}/../_bobmedia</bobmediapath> -->
+		<extgamescreenjpg>("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/screenshots/" + stem({game:rom}) + ".jpg")</extgamescreenjpg>
+		<globalgamecabs>"${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png"</globalgamecabs>
+		<intcoinopscollec>()
+		firstfile(  "${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png",
+					"${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/_"  + ({game:system:theme}) + ".png",
+					"${bobmediapath}/_gamemedia/_defaultgamemedia/cabs/noir2j.png")
+		</intcoinopscollec>
+		<intcoinopsnext>("${themePath}/_viewgame/coinops/coinopsnext/"  + ({game:system:theme}) + ".png")</intcoinopsnext>
+	</variables>
+	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
+		<!-- ######## Conditions de visibilité du theme generic : uniquement si pas de theme de jeu ni de theme defaut specific au système ############ -->
+		<control name="overlaybase,overlaymore,fondecranmarquee,fondecranpreview,fondmur,fondsystem,screenshotscust,previewvid1,screenshader,fondwheel,loop01,fondposter1,fondposter2">
+			<visible>
+			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
+			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
+			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible>
+			<!-- <visible>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+			<visible ifSubset="gameviewsource:mamefolder">
+			!exists("${bobmediapath}/_gametheme/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
+			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
+			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
+			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible>
+			<!-- <visible>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+		</control>
+		<image name="overlaybase" extra="true">
+			<path>${themepath}/_viewgame/coinops/overlay/overlay.png</path>
+			<size>1 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<zIndex>20</zIndex>
+			<opacity>0.7</opacity>
+		</image>
+		<image name="overlaymore" extra="true">
+			<path>${themePath}/_viewgame/coinops/overlay/vignette.png</path>
+			<size>1 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<zIndex>50</zIndex>
+		</image>
+		<image name="fondecranmarquee" extra="true">
+			<path>${themePath}/_viewgame/coinops/overlay/fiber.png</path>
+			<size>0.44 0.36</size>
+			<pos>0.245 0.1</pos>
+			<origin>0.5 0.5</origin>
+			<color>000000</color>
+			<zIndex>3</zIndex>
+			<opacity>1</opacity>
+			<roundCorners>0.05</roundCorners>
+		</image>
+		<image name="fondecranpreview" extra="true">
+			<path>${themePath}/_viewgame/coinops/overlay/fiber.png</path>
+			<size>0.395 0.52</size>
+			<pos>0.241 0.54</pos>
+			<origin>0.5 0.5</origin>
+			<color>000000</color>
+			<zIndex>4</zIndex>
+			<opacity>1</opacity>
+			<roundCorners>0.05</roundCorners>
+		</image>
+		<!-- ############################ fond générique du système ########################################		 -->
+		<image name="fondmur" extra="true">
+			<path>./_viewgame/coinops/murnuarrondi.png</path>
+			<size>1 1</size>
+			<pos>0.45 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+			<opacity>1</opacity>
+		</image>
+		<!-- Si aucun cabinets n'existe, prend le fond système dans coinops collec -->
+		<image name="fondsystem" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<origin>0.5 0.5</origin>
+			<pos>0.46 0.5</pos>
+			<size>1 1</size>
+			<autoFade>false</autoFade>
+			<path>${intcoinopscollec}</path>
+			<zIndex>10</zIndex>
+			<scaleOrigin>-0.1 0</scaleOrigin>
+		</image>
+		<image name="screenshotscust" extra="true">
+			<autoFade>false</autoFade>
+			<path>firstfile(${extgamescreenjpg},{game:screenshot},{game:image})</path>
+			<pos>0.2485 0.538</pos>
+			<maxSize>0.4 0.488</maxSize>
+			<origin>0.5 0.5</origin>
+			<zIndex>5</zIndex>
+			<scaleOrigin>0.15 0.15</scaleOrigin>
+			<storyboard event="open">
+				<animation property="opacity" to="1" duration="20" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="scale" from="1" to="1" begin="" duration="250" mode="easeOut"/>
+				<animation property="opacity" from="0" to="1" duration="" mode="easeIn"/>
+				<animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="500" duration="300" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="scale" from="1" to="1" begin="" duration="250" mode="easeOut"/>
+				<animation property="opacity" from="0" to="1" begin="" duration="" mode="easeIn"/>
+				<animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="500" duration="300" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" from="1" to="1" begin="" duration="250" mode="linear"/>
+				<animation property="opacity" to="0" begin="60" duration="" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" from="1" to="1" begin="" duration="250" mode="linear"/>
+				<animation property="opacity" to="0" begin="60" duration="" mode="easeIn"/>
+			</storyboard>
+			<!-- <storyboard event="open"> -->
+			<!-- <animation property="opacity" to="1" duration="20" mode="easeIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="activateNext"> -->
+			<!-- <animation property="opacity" from="0" to="1" duration="200" mode="linear"/> -->
+			<!-- <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="500" duration="300" mode="easeIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="activatePrev"> -->
+			<!-- <animation property="opacity" from="0" to="1" duration="200" mode="linear"/> -->
+			<!-- <animation enabled="exists({game:video})" property="opacity" from="1" to="0" begin="500" duration="300" mode="easeIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="deactivateNext"> -->
+			<!-- <animation property="opacity" to="0" begin="100" duration="200" mode="easeIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="deactivatePrev"> -->
+			<!-- <animation property="opacity" to="0" begin="100" duration="200" mode="easeIn"/> -->
+			<!-- </storyboard> -->
+		</image>
+		<video name="previewvid1" extra="true">
+			<!-- <path>firstfile({game:video}, -->
+			<!-- "${bobmediapath}/_systemmedia/videosyst/hyperpie/" + {game:stem} + ".mp4", -->
+			<!-- "${bobmediapath}/_systemmedia/defaut/scotty.mp4")</path> -->
+			<path>{game:video}</path>
+			<delay>0.3</delay>
+			<pos>0.2485 0.538</pos>
+			<maxSize>0.39 0.488</maxSize>
+			<origin>0.5 0.5</origin>
+			<effect>none</effect>
+			<zIndex>9</zIndex>
+		</video>
+		<image name="screenshader" extra="true">
+			<pos>0.060 0.295</pos>
+			<maxSize>0.38 0.49</maxSize>
+			<path>${themePath}/_viewgame/coinops/scanlines01.png</path>
+			<color>FFFFFF60</color>
+			<tile>true</tile>
+			<zIndex>9</zIndex>
+		</image>
+		<image name="fondwheel" extra="true">
+			<autoFade>false</autoFade>
+			<path>firstfile(${extgamecoverjpg},${standardsbuildsfanart},{game:thumbnail},{game:boxart},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg")</path>
+			<pos>0.71 0.5</pos>
+			<size>0 1.07</size>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFFFF</color>
+			<colorEnd>FFFFFFDD</colorEnd>
+			<gradientType>horizontal</gradientType>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1</zIndex>
+			<scaleOrigin>-0.15 0</scaleOrigin>
+			<storyboard event="open">
+				<animation property="opacity" to="1" duration="1" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="offsetX" from="0.02" to="0" duration="200" mode="linear"/>
+				<animation property="opacity" from="0" to="1" duration="100" mode="easeInCubic"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="offsetX" from="-0.02" to="0" duration="200" mode="linear"/>
+				<animation property="opacity" from="0" to="1" duration="100" mode="easeInCubic"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="offsetX" to="-0.02" duration="200" mode="linear"/>
+				<animation property="opacity" to="0" begin="100" duration="200" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="offsetX" to="0.02" duration="200" mode="linear"/>
+				<animation property="opacity" to="0" begin="100" duration="200" mode="easeIn"/>
+			</storyboard>
+		</image>
+		<video name="loop01" extra="true">
+			<path>${themePath}/_viewgame/coinops/background.mp4</path>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<pos>0.75 0.5</pos>
+			<size>1 1</size>
+			<zIndex>2</zIndex>
+			<!-- <opacity ifSubset="fondvideogwint:light">0.2</opacity> -->
+			<opacity>0.3</opacity>
+			<!-- <opacity ifSubset="fondvideogwint:heavy">0.4</opacity> -->
+			<!-- <opacity ifSubset="fondvideogwint:superheavy">0.6</opacity> -->
+		</video>
+		<image name="fondposter1" extra="true">
+			<path>firstfile({game:fanart},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg",{game:image})</path>
+			<!-- <path ifSubset="custombuilds:retrofreshbat">firstfile({game:image},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg")</path> -->
+			<color>b7b7b7</color>
+			<colorEnd>FFFFFFDD</colorEnd>
+			<autoFade>false</autoFade>
+			<tile>false</tile>
+			<maxSize>0.43 1</maxSize>
+			<pos>0.25 0.2</pos>
+			<size>0.25 0.3</size>
+			<pos>0.25 0.25</pos>
+			<clipRect>0 0.17 0.7 0</clipRect>
+			<origin>0.5 0.5</origin>
+			<saturation>0.5</saturation>
+			<zIndex>3</zIndex>
+			<scaleOrigin>-0.1 0</scaleOrigin>
+			<visible>!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp;
+			!exists("${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png") &amp;&amp;
+			!exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible>
+			<visible if="{system.theme} == 'fbneo' || 
+			{system.theme} == 'cps1' || 
+			{system.theme} == 'cps2' || 
+			{system.theme} == 'cps3' || 
+			{system.theme} == 'cave' || 
+			{system.theme} == 'hbmame' ">!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp;
+			!exists("${bobmediapath}/_gamemedia/mame/cabs/" + stem({game:rom}) + ".png") &amp;&amp;
+			!exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible>
+		</image>
+		<image name="fondposter2" ifSubset="systback:cpscollection" extra="true">
+			<autoFade>false</autoFade>
+			<tile>false</tile>
+			<maxSize>0.2 0.1</maxSize>
+			<pos>0.25 0.223</pos>
+			<origin>0.5 0.5</origin>
+			<zIndex>3</zIndex>
+			<scaleOrigin>-0.1 0</scaleOrigin>
+			<path>firstfile({game:marquee},{game:wheel})</path>
+			<visible>!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp;
+			!exists("${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png") &amp;&amp;
+			!exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible>
+			<visible if="{system.theme} == 'fbneo' || 
+			{system.theme} == 'cps1' || 
+			{system.theme} == 'cps2' || 
+			{system.theme} == 'cps3' || 
+			{system.theme} == 'cave' || 
+			{system.theme} == 'hbmame' ">!exists("${themePath}/_viewgame/coinops/coinopscollec/" + stem({game:system:theme}) + ".png") &amp;&amp;
+			!exists("${bobmediapath}/_gamemedia/mame/cabs/" + stem({game:rom}) + ".png") &amp;&amp;
+			!exists("${themePath}/_viewgame/coinops/coinopscollmiss/" + stem({game:system:theme}) + ".miss")</visible>
+		</image>
+		<!-- <maxSize if="{system.theme} == 'ps3'  -->
+		<!-- || {system.theme} == 'xbox360' -->
+		<!-- || {system.theme} == 'psp' -->
+		<!-- || {system.theme} == 'psvita' -->
+		<!-- || {system.theme} == 'switch' -->
+		<!-- || {system.theme} == 'ps4' -->
+		<!-- || {system.theme} == 'ps5' -->
+		<!-- || {system.theme} == 'wiiu' -->
+		<!-- || {system.theme} == 'wii' -->
+		<!-- || {system.theme} == 'windows' -->
+		<!-- || {system.theme} == 'virtualboy'">0.5 0.49</maxSize> -->
+		<!-- <image name="screenshotgames" extra="true"> -->
+		<!-- <visible>!{game:folder} &amp;&amp;  -->
+		<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+		<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
+		<!-- !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+		<!-- <visible ifSubset="gameviewsource:mamefolder"> -->
+		<!-- !exists("${bobmediapath}/_gametheme/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+		<!-- !{game:folder} &amp;&amp;  -->
+		<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+		<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
+		<!-- !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+		<!-- <path>{game:image}</path> -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <pos>0.27 0.52</pos> -->
+		<!-- <maxSize>0.38 0.49</maxSize> -->
+		<!-- <maxSize if="{system.theme} == 'ps3'  -->
+		<!-- || {system.theme} == 'xbox360' -->
+		<!-- || {system.theme} == 'psp' -->
+		<!-- || {system.theme} == 'psvita' -->
+		<!-- || {system.theme} == 'switch' -->
+		<!-- || {system.theme} == 'ps4' -->
+		<!-- || {system.theme} == 'ps5' -->
+		<!-- || {system.theme} == 'wiiu' -->
+		<!-- || {system.theme} == 'wii' -->
+		<!-- || {system.theme} == 'windows' -->
+		<!-- || {system.theme} == 'virtualboy'">0.5 0.49</maxSize> -->
+		<!-- <zIndex>500</zIndex> -->
+		<!-- <scaleOrigin>0.15 0.15</scaleOrigin> -->
+		<!-- <autoFade>false</autoFade> -->
+		<!-- <storyboard event="open"> -->
+		<!-- <animation property="opacity" to="1" duration="" mode="linear"/> -->
+		<!-- <animation enabled="exists({game:video})" property="opacity" to="0" begin="625" duration="350" mode="easeOut"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activateNext"> -->
+		<!-- <animation property="opacity" to="1" duration="" mode="linear"/> -->
+		<!-- <animation enabled="exists({game:video})" property="opacity" to="0" begin="625" duration="350" mode="easeOut"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activatePrev"> -->
+		<!-- <animation property="opacity" to="1" begin="" duration="" mode="easeIn"/> -->
+		<!-- <animation enabled="exists({game:video})" property="opacity" to="0" begin="625" duration="350" mode="easeOut"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivateNext"> -->
+		<!-- <animation property="scale" from="1" to="1" begin="" duration="250" mode="linear"/> -->
+		<!-- <animation property="opacity" to="0" begin="60" duration="" mode="easeIn"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivatePrev"> -->
+		<!-- <animation property="scale" from="1" to="1" begin="" duration="250" mode="linear"/> -->
+		<!-- <animation property="opacity" to="0" begin="60" duration="" mode="easeIn"/> -->
+		<!-- </storyboard> -->
+		<!-- </image> -->
+		<!-- <image name="fiberback" extra="true"> -->
+		<!-- <path>${themePath}/_viewgame/hyperbat/fondsysteme/fiber.png</path> -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <rotationOrigin>0.5 0.5</rotationOrigin> -->
+		<!-- <pos>0.27 0.52</pos> -->
+		<!-- <size>0.37 0.5</size> -->
+		<!-- <size if="{system.theme} == 'ps3'  -->
+		<!-- || {system.theme} == 'xbox360' -->
+		<!-- || {system.theme} == 'psp' -->
+		<!-- || {system.theme} == 'psvita' -->
+		<!-- || {system.theme} == 'switch' -->
+		<!-- || {system.theme} == 'ps4' -->
+		<!-- || {system.theme} == 'ps5' -->
+		<!-- || {system.theme} == 'wiiu' -->
+		<!-- || {system.theme} == 'wii' -->
+		<!-- || {system.theme} == 'windows'">0.5 0.5</size> -->
+		<!-- <zIndex>199</zIndex> -->
+		<!-- </image> -->
+		<!-- <image name="genericbezel" extra="true"> -->
+		<!-- <path>./video.png</path> -->
+		<!-- <linearSmooth>true</linearSmooth> -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <rotationOrigin>0.5 0.5</rotationOrigin> -->
+		<!-- <pos>0.27 0.52</pos> -->
+		<!-- <maxSize>0.53 0.55</maxSize> -->
+		<!-- <size if="{system.theme} == 'ps3'  -->
+		<!-- || {system.theme} == 'xbox360' -->
+		<!-- || {system.theme} == 'psp' -->
+		<!-- || {system.theme} == 'psvita' -->
+		<!-- || {system.theme} == 'switch' -->
+		<!-- || {system.theme} == 'ps4' -->
+		<!-- || {system.theme} == 'ps5' -->
+		<!-- || {system.theme} == 'wiiu' -->
+		<!-- || {system.theme} == 'wii' -->
+		<!-- || {system.theme} == 'windows' -->
+		<!-- || {system.theme} == 'virtualboy'">0.535 0.55</size> -->
+		<!-- <zIndex>700</zIndex> -->
+		<!-- </image> -->
+		<!-- <image name="logocustshadow" extra="true"> -->
+		<!-- <path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png", -->
+		<!-- "${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path> -->
+		<!-- <maxSize>0.5 0.25</maxSize> -->
+		<!-- <scaleOrigin>0 -0.3</scaleOrigin> -->
+		<!-- <pos>0.278 0.133</pos> -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <zIndex>199</zIndex> -->
+		<!-- <color>000000</color> -->
+		<!-- <storyboard> -->
+		<!-- <animation property="x" from="-0.5" begin="0" duration="2000" mode="easeOut"/> -->
+		<!-- <animation property="opacity" from="0" to="1" duration="350" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- </image> -->
+		<!-- <image name="logocust" extra="true"> -->
+		<!-- <path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png", -->
+		<!-- "${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path> -->
+		<!-- <maxSize>0.5 0.25</maxSize> -->
+		<!-- <scaleOrigin>0 -0.3</scaleOrigin> -->
+		<!-- <pos>0.28 0.13</pos> -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <zIndex>200</zIndex> -->
+		<!-- <storyboard> -->
+		<!-- <animation property="x" from="-0.5" begin="0" duration="2000" mode="easeOut"/> -->
+		<!-- <animation property="opacity" from="0" to="1" duration="350" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- </image> -->
+		<!-- <image name="boxart2Dnoanimation" extra="true"> -->
+		<!-- <path ifSubset="boxorthumb:thumb|boxbackthumb">firstfile({game:thumbnail},{game:boxart})</path> -->
+		<!-- <path ifSubset="boxorthumb:boxart|boxbackart">firstfile({game:boxart},{game:thumbnail})</path> -->
+		<!-- <pos ifSubset="boxorthumb:thumb|boxbackthumb">0.7 0.5</pos> -->
+		<!-- <pos ifSubset="boxorthumb:boxart|boxbackart">0.7 0.55</pos> -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <maxSize>0.3 0.65</maxSize> -->
+		<!-- <zIndex>351</zIndex> -->
+		<!-- <linearSmooth>true</linearSmooth> -->
+		<!-- <color>FFFFFFFF</color> -->
+		<!-- <colorEnd>cccccc</colorEnd> -->
+		<!-- <verticalAlignment>bottom</verticalAlignment> -->
+		<!-- <storyboard> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="0" duration="300" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activateNext"> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="0" duration="300" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activatePrev"> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="0" duration="300" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- </image> -->
+		<!-- <image name="cartridge" extra="true"> -->
+		<!-- <path>{game:cartridge}</path> -->
+		<!-- <linearSmooth>true</linearSmooth> -->
+		<!-- <pos>0.85 0.55</pos> -->
+		<!-- <pos if="{system.theme} == 'n64'  -->
+		<!-- || {system.theme} == 'snes'">0.85 0.6</pos> -->
+		<!-- <origin>0.5 0.5</origin> -->
+		<!-- <maxSize>0.4 0.4</maxSize> -->
+		<!-- <maxSize if="{system.theme} == 'n64'  -->
+		<!-- || {system.theme} == 'snes' -->
+		<!-- || {system.theme} == 'mastersystem' -->
+		<!-- || {system.theme} == 'actionmax' -->
+		<!-- || {system.theme} == 'megadrive' -->
+		<!-- || {system.theme} == 'sega32x'">0.4 0.35</maxSize> -->
+		<!-- <zIndex>349</zIndex> -->
+		<!-- <storyboard event="open"> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/> -->
+		<!-- <animation property="x" from="1.5" begin="2000" duration="500" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activateNext"> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/> -->
+		<!-- <animation property="x" from="1.5" begin="2000" duration="500" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activatePrev"> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="2000" duration="500" mode="linear"/> -->
+		<!-- <animation property="x" from="1.5" begin="2000" duration="500" mode="linear"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivateNext"> -->
+		<!-- <animation property="opacity" to="0" duration="150" mode="linear"/> -->
+		<!-- <animation property="scale" to="3" autoreverse="false" duration="300" mode="easyIn"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivatePrev"> -->
+		<!-- <animation property="opacity" to="0" duration="150" mode="linear"/> -->
+		<!-- <animation property="scale" to="3" autoreverse="false" duration="300" mode="easyIn"/> -->
+		<!-- </storyboard> -->
+		<!-- </image> -->
+		<!-- <control name="cartridge" extra="true" if="{system.theme} == 'dreamcast'  -->
+		<!-- || {system.theme} == 'ps2'  -->
+		<!-- || {system.theme} == '3do'  -->
+		<!-- || {system.theme} == 'gc'  -->
+		<!-- || {system.theme} == 'wii'   -->
+		<!-- || {system.theme} == 'ps3'  -->
+		<!-- || {system.theme} == 'amigacd32'  -->
+		<!-- || {system.theme} == 'cdi'  -->
+		<!-- || {system.theme} == 'neogeocd'  -->
+		<!-- || {system.theme} == 'pce-cd'  -->
+		<!-- || {system.theme} == 'pcfx'  -->
+		<!-- || {system.theme} == 'psx'  -->
+		<!-- || {system.theme} == 'saturn'  -->
+		<!-- || {system.theme} == 'megacd'  -->
+		<!-- || {system.theme} == 'xbox360' -->
+		<!-- || {system.theme} == 'xbox'"> -->
+		<!-- <storyboard event="open"> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="1750" duration="500" mode="linear"/> -->
+		<!-- <animation property="x" from="1.5" begin="1750" duration="500" mode="linear"/> -->
+		<!-- <animation property="rotation" from="-360" begin="2500" duration="2000" mode="EaseIn"/> -->
+		<!-- <animation property="rotation" from="-360" begin="4500" duration="1000" mode="linear" repeat="forever"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activateNext"> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="1750" duration="500" mode="linear"/> -->
+		<!-- <animation property="x" from="1.5" begin="1750" duration="500" mode="linear"/> -->
+		<!-- <animation property="rotation" from="-360" begin="2500" duration="5000" mode="EaseIn"/> -->
+		<!-- <animation property="rotation" from="-360" begin="7500" duration="2900" mode="linear" repeat="forever"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="activatePrev"> -->
+		<!-- <animation property="opacity" from="0" to="0" begin="0" duration="" mode="linear"/> -->
+		<!-- <animation property="opacity" from="0" to="1" begin="1750" duration="500" mode="linear"/> -->
+		<!-- <animation property="x" from="1.5" begin="1750" duration="500" mode="linear"/> -->
+		<!-- <animation property="rotation" from="-360" begin="2500" duration="5000" mode="EaseIn"/> -->
+		<!-- <animation property="rotation" from="-360" begin="7500" duration="2900" mode="linear" repeat="forever"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivateNext"> -->
+		<!-- <animation property="opacity" to="0" duration="150" mode="linear"/> -->
+		<!-- <animation property="scale" to="3" autoreverse="false" duration="300" mode="easyIn"/> -->
+		<!-- </storyboard> -->
+		<!-- <storyboard event="deactivatePrev"> -->
+		<!-- <animation property="opacity" to="0" duration="150" mode="linear"/> -->
+		<!-- <animation property="scale" to="3" autoreverse="false" duration="300" mode="easyIn"/> -->
+		<!-- </storyboard> -->
+		<!-- </control> -->
+	</customView>
+</theme>

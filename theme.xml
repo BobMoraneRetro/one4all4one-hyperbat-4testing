@@ -124,7 +124,8 @@
 		<extgemetheme.generic>${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml</extgemetheme.generic>
 		<extGametheme.defautarcade>${bobmediapath}/_gametheme/arcade/hyperbat/_default/theme.xml</extGametheme.defautarcade>
 		<!-- Jeux : Condition si fanart ou box 2d -->
-		<standardsbuildsfanart>exists({game:fanart}) ? {game:fanart} : {game:thumbnail}</standardsbuildsfanart>
+		<!-- <standardsbuildsfanart>exists({game:fanart}) ? {game:fanart} : {game:thumbnail}</standardsbuildsfanart> -->
+		<standardsbuildsfanart>{game:fanart}</standardsbuildsfanart>
 		<freshbuildfanart>exists({game:image}) ? {game:image} : {game:thumbnail}</freshbuildfanart>
 		<!-- Jeux : action si fanart existe : detailed.xml -->
 		<standardsbuildsfanarttestyes>exists({game:fanart})</standardsbuildsfanarttestyes>

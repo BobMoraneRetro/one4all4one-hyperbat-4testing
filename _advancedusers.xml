@@ -43,8 +43,9 @@
 	<subset name="defaultgeneric" displayName="${defaultgeneric}" appliesTo="hyperbat">
 		<!-- <include name="genericbackbox" displayName="${genericbackbox}"/> -->
 		<include name="generic43boxback" displayName="${generic43boxback}">${themePath}/_gametheme/_genericdefault/_default43boxback/theme.xml</include>
-		<include name="generic43noanimation" displayName="${generic43noanimation}">${themePath}/_gametheme/_genericdefault/_default43noanimation/theme.xml</include>
+		<include name="generic43coinopsstyle" displayName="${generic43coinopsstyle}">${themePath}/_gametheme/_genericdefault/_defaultcoinopsstyle/theme.xml</include>
 		<include name="generic43noanimationfanart" displayName="${generic43noanimationfanart}">${themePath}/_gametheme/_genericdefault/_default43noanimationfanart/theme.xml</include>
+		<include name="generic43noanimation" displayName="${generic43noanimation}">${themePath}/_gametheme/_genericdefault/_default43noanimation/theme.xml</include>
 		<include name="generic43" displayName="${generic43}">${themePath}/_gametheme/_genericdefault/_default43/theme.xml</include>
 		<include name="jukeboxdef" displayName="${jukeboxdef}">${themePath}/_gametheme/_genericdefault/_jukebox/theme.xml</include>
 	</subset>

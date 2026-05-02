@@ -57,7 +57,7 @@
       "cornerRadius": 0,
       "keepAspectRatio": true,
       "inControlGroup": false,
-      "id": "9d6c4388-fd98-4633-91f8-67415a8b65b6",
+      "id": "a7c020f9-3aa6-4bb5-be97-23d0fadddf29",
       "name": "background",
       "src": "asset://local?path=A%3A%2FRetrobatwork%2Femulationstation%2F.emulationstation%2Fthemes%2FOne4All4One-Hyperbat%2F_systemmedia%2Fvideosyst%2Fhyperspinxp%2Fbbcmicro%2Fbackground.png",
       "originalPath": "A:\\Retrobatwork\\emulationstation\\.emulationstation\\themes\\One4All4One-Hyperbat\\_systemmedia\\videosyst\\hyperspinxp\\bbcmicro/background.png"
@@ -186,7 +186,7 @@
       "cornerRadius": 0,
       "keepAspectRatio": true,
       "inControlGroup": false,
-      "id": "e1fc1819-6830-4da8-96b8-b9517e3cb77a",
+      "id": "d66d8126-38da-48b3-866e-efd38a4326dc",
       "name": "artwork4",
       "src": "asset://local?path=A%3A%2FRetrobatwork%2Femulationstation%2F.emulationstation%2Fthemes%2FOne4All4One-Hyperbat%2F_systemmedia%2Fvideosyst%2Fhyperspinxp%2Fbbcmicro%2Fartwork4.png",
       "originalPath": "A:\\Retrobatwork\\emulationstation\\.emulationstation\\themes\\One4All4One-Hyperbat\\_systemmedia\\videosyst\\hyperspinxp\\bbcmicro/artwork4.png"
@@ -251,7 +251,7 @@
       "cornerRadius": 0,
       "keepAspectRatio": true,
       "inControlGroup": false,
-      "id": "12326dc1-ddae-4470-90d4-913f55491ee5",
+      "id": "fe00c31f-ff15-448f-a14b-f29d5ab06368",
       "name": "fiber",
       "src": "asset://local?path=A%3A%2FRetrobatwork%2Femulationstation%2F.emulationstation%2Fthemes%2FOne4All4One-Hyperbat%2F_systemmedia%2Fvideosyst%2Fhyperspinxp%2Fbbcmicro%2Ffiber.png",
       "originalPath": "A:\\Retrobatwork\\emulationstation\\.emulationstation\\themes\\One4All4One-Hyperbat\\_systemmedia\\videosyst\\hyperspinxp\\bbcmicro/fiber.png"
@@ -332,7 +332,7 @@
       "cornerRadius": 0,
       "keepAspectRatio": true,
       "inControlGroup": false,
-      "id": "24d44cf1-82e1-498d-9788-61cd231bf487",
+      "id": "cb5a9475-fed7-4e31-9513-7907088c1709",
       "name": "PreviewVid",
       "src": "{random}",
       "originalPath": ""
@@ -397,7 +397,7 @@
       "cornerRadius": 0,
       "keepAspectRatio": true,
       "inControlGroup": false,
-      "id": "a8164498-d5f2-4c4a-8c93-3e9848ef230f",
+      "id": "26f6ec14-e737-4315-b608-b6ac161a8f6a",
       "name": "Videobezel",
       "src": "asset://local?path=A%3A%2FRetrobatwork%2Femulationstation%2F.emulationstation%2Fthemes%2FOne4All4One-Hyperbat%2F_systemmedia%2Fvideosyst%2Fhyperspinxp%2Fbbcmicro%2Fvideo.png",
       "originalPath": "A:\\Retrobatwork\\emulationstation\\.emulationstation\\themes\\One4All4One-Hyperbat\\_systemmedia\\videosyst\\hyperspinxp\\bbcmicro/video.png"
