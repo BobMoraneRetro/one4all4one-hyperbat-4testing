@@ -55,17 +55,27 @@
 			<pos>0.624087226431 0.313201459035</pos>
 			<maxSize>0.295312500000 0.375000000000</maxSize>
 			<origin>0.5 0.5</origin>
-			<zIndex>2</zIndex>
+			<zIndex>3</zIndex>
 			<delay>0.4</delay>
 			<effect>none</effect>
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 		</video>
+		<image name="image_vid_Sys" extra="true">
+			<path>./image_vid.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.62170118343 0.315</pos>
+			<maxSize>0.309 0.38</maxSize>
+			<zIndex>2</zIndex>
+			<scaleOrigin>-0.3 -0.3</scaleOrigin>
+			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<linearSmooth>true</linearSmooth>
+		</image>
 		<image name="Artwork1_Sys" extra="true">
 			<path>./Artwork1.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.684275042088 0.495627572016</pos>
 			<size>0.617708333333 0.958333333333</size>
-			<zIndex>3</zIndex>
+			<zIndex>4</zIndex>
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="Artwork2_Sys" extra="true">

@@ -2,12 +2,34 @@
 <theme defaultView="hyperbat">
 	<!-- <theme> -->
 	<formatVersion>7</formatVersion>
-	<variables ifSubset="folder:bobmedia">
-		<bobmediapath>${themePath}/../_bobmedi</bobmediapath>
+	<!-- <variables ifSubset="folder:bobmedia"> -->
+	<!-- <bobmediapath>${themePath}/../_bobmedia</bobmediapath> -->
+	<!-- </variables> -->
+	<!-- <variables ifSubset="folder:default"> -->
+	<!-- <bobmediapath>${themePath}</bobmediapath> -->
+	<!-- </variables> -->
+	<variables>
+		<bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath>
+		<bobmediapath ifSubset="folder:default">${themePath}</bobmediapath>
+		<path_game_theme ifSubset="extfoldergametheme:extfolder">${themePath}/../_bobmedia/_gametheme</path_game_theme>
+		<path_game_theme ifSubset="extfoldergametheme:intheme">${themePath}/_gametheme</path_game_theme>
+		<path_game_manuf ifSubset="extfoldermanufacturer:extfolder">${themePath}/../_bobmedia/_gamemedia/_manufacturer</path_game_manuf>
+		<path_game_manuf ifSubset="extfoldermanufacturer:intheme">${themePath}/_gamemedia/_manufacturer</path_game_manuf>
+		<path_syst_logo ifSubset="extfolderlogosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/_logosyst</path_syst_logo>
+		<path_syst_logo ifSubset="extfolderlogosyst:intheme">${themePath}/_systemmedia/_logosyst</path_syst_logo>
+		<path_syst_fanart ifSubset="extfolderfanart:extfolder">${themePath}/../_bobmedia/_systemmedia/_fanartsysteme</path_syst_fanart>
+		<path_syst_fanart ifSubset="extfolderfanart:intheme">${themePath}/_systemmedia/_fanartsysteme</path_syst_fanart>
+		<path_syst_theme ifSubset="extfoldervideosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/videosyst</path_syst_theme>
+		<path_syst_theme ifSubset="extfoldervideosyst:intheme">${themePath}/_systemmedia/videosyst</path_syst_theme>
+		<path_syst_bezel ifSubset="extfolderbezelsyst:extfolder">${themePath}/../_bobmedia/_systemmedia/bezelsyst</path_syst_bezel>
+		<path_syst_bezel ifSubset="extfolderbezelsyst:intheme">${themePath}/_systemmedia/bezelsyst</path_syst_bezel>
 	</variables>
-	<variables ifSubset="folder:default">
-		<bobmediapath>${themePath}</bobmediapath>
-	</variables>
+	<!-- <variables ifSubset="extfoldergametheme:extfolder"> -->
+	<!-- <variables ifSubset="extfoldersysttheme:extfolder"> -->
+	<!-- <variables ifSubset="extfolderfanart:extfolder"> -->
+	<!-- <variables ifSubset="extfolderlogosyst:extfolder"> -->
+	<!-- <variables ifSubset="extfolderthumbox:extfolder"> -->
+	<!-- <variables ifSubset="extfoldergamefanart:extfolder"> -->
 	<variables>
 		<!-- #### System ################################################################################################################################################################# -->
 		<!-- Utilisé par Hyperbat : nouveau dans standalone -->
@@ -20,20 +42,47 @@
 		<IfnoextGamethemeexist>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml")</IfnoextGamethemeexist>
 		<Ifnosystemdefautexist>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</Ifnosystemdefautexist>
 		<!-- System Chemin pour les logo système clear de base -->
+		<intlogoclearallregion>firstfile(
+                    "${bobmediapath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {system:theme} + "-${lang}.png",
+					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {system:theme} + "-${region}.png",
+					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {system:theme} + "-${lang}.svg",
+					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {system:theme} + "-${region}.svg",
+					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</intlogoclearallregion>
 		<intlogoclearpng>${bobmediapath}/_systemmedia/_logosyst/clearlogos/${system.theme}.png</intlogoclearpng>
 		<intlogoclearfrpng>${bobmediapath}/_systemmedia/_logosyst/clearlogos/${system.theme}-fr.png</intlogoclearfrpng>
 		<intlogoclearuspng>${bobmediapath}/_systemmedia/_logosyst/clearlogos/${system.theme}-us.png</intlogoclearuspng>
 		<intlogoclearjppng>${bobmediapath}/_systemmedia/_logosyst/clearlogos/${system.theme}-jp.png</intlogoclearjppng>
+		<!-- <intlogoclearpng>"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png"</intlogoclearpng> -->
+		<!-- <intlogoclearfrpng>"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + "-fr.png"</intlogoclearfrpng> -->
+		<!-- <intlogoclearuspng>"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + "-us.png"</intlogoclearuspng> -->
+		<!-- <intlogoclearjppng>"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + "-jp.png"</intlogoclearjppng> -->
 		<!-- System Chemin pour les logos systèmes supplémentaires -->
-		<extlogobd>${bobmediapath}/_systemmedia/_logosyst/comic/${system.theme}.png</extlogobd>
-		<extlogohcarbon>${bobmediapath}/_systemmedia/_logosyst/hmaxcarbon/${system.theme}.png</extlogohcarbon>
-		<exthmaxovalsilver>${bobmediapath}/_systemmedia/_logosyst/hmaxovalsilver/${system.theme}.png</exthmaxovalsilver>
-		<extlogohrect>${bobmediapath}/_systemmedia/_logosyst/hmaxrect/${system.theme}.png</extlogohrect>
+		<extlogobd>				firstfile("${bobmediapath}/_systemmedia/_logosyst/comic/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</extlogobd>
+		<extlogohcarbon>		firstfile("${bobmediapath}/_systemmedia/_logosyst/hmaxcarbon/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</extlogohcarbon>
+		<exthmaxovalsilver>		firstfile("${bobmediapath}/_systemmedia/_logosyst/hmaxovalsilver/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</exthmaxovalsilver>
+		<extlogohrect>			firstfile("${bobmediapath}/_systemmedia/_logosyst/hmaxrect/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</extlogohrect>
 		<!-- System Chemin pour les logos systèmes de la team Fresh -->
-		<extlogohrectfresh>${bobmediapath}/_systemmedia/_logosyst/hmaxrectfresh/${system.theme}.png</extlogohrectfresh>
-		<exthmaxrectrefl>${bobmediapath}/_systemmedia/_logosyst/hmaxrectrefl/${system.theme}.png</exthmaxrectrefl>
-		<extlogohcarbonfresh>${bobmediapath}/_systemmedia/_logosyst/hmaxcarbonfresh/${system.theme}.png</extlogohcarbonfresh>
-		<extglassnekhros>${bobmediapath}/_systemmedia/_logosyst/nekhglass/${system.theme}.png</extglassnekhros>
+		<extlogohrectfresh>		firstfile("${bobmediapath}/_systemmedia/_logosyst/hmaxrectfresh/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</extlogohrectfresh>
+		<exthmaxrectrefl>		firstfile("${bobmediapath}/_systemmedia/_logosyst/hmaxrectrefl/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</exthmaxrectrefl>
+		<extlogohcarbonfresh>	firstfile("${bobmediapath}/_systemmedia/_logosyst/hmaxcarbonfresh/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</extlogohcarbonfresh>
+		<extglassnekhros>		firstfile("${bobmediapath}/_systemmedia/_logosyst/nekhglass/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
+								"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</extglassnekhros>
 		<!-- System Gestion des bezels système : videosyst.xml -->
 		<intbezelsyst>firstfile(
 					"${bobmediapath}/_systemmedia/bezelsyst/region-${region}/" + {system:theme} + "-${region}.png",
@@ -102,35 +151,10 @@
 		<include name="tumasbienlu" displayName="${tumasbienlu}">${themePath}/_viewsystoption/sl-commun/splashounet.xml</include>
 		<include name="desactive" displayName="${desactive}"/>
 	</subset>
-	<subset name="folder" displayName="${folder}">
-		<include name="default" displayName="${default}"/>
-		<include name="bobmedia" displayName="${bobmedia}"/>
-	</subset>
-	<subset name="extfoldergametheme" displayName="${extfoldergametheme}">
-		<include name="intheme" displayName="${intheme}"/>
-		<include name="extfolder" displayName="${extfolder}"/>
-	</subset>
-	<subset name="extfoldersysttheme" displayName="${extfoldersysttheme}">
-		<include name="intheme" displayName="${intheme}"/>
-		<include name="extfolder" displayName="${extfolder}"/>
-	</subset>
-	<subset name="extfolderfanart" displayName="${extfolderfanart}">
-		<include name="intheme" displayName="${intheme}"/>
-		<include name="extfolder" displayName="${extfolder}"/>
-	</subset>
-	<subset name="extfolderlogosyst" displayName="${extfolderlogosyst}">
-		<include name="intheme" displayName="${intheme}"/>
-		<include name="extfolder" displayName="${extfolder}"/>
-	</subset>
-	<subset name="extfolderthumbox" displayName="${extfolderthumbox}">
-		<include name="intheme" displayName="${intheme}"/>
-		<include name="extfolder" displayName="${extfolder}"/>
-	</subset>
-	<subset name="extfoldergamefanart" displayName="${extfoldergamefanart}">
-		<include name="intheme" displayName="${intheme}"/>
-		<include name="extfolder" displayName="${extfolder}"/>
-	</subset>
-	
+	<!-- <subset name="extfoldergamefanart" displayName="${extfoldergamefanart}"> -->
+	<!-- <include name="intheme" displayName="${intheme}"/> -->
+	<!-- <include name="extfolder" displayName="${extfolder}"/> -->
+	<!-- </subset> -->
 	<subset name="systemview" displayName="${systlist}">
 		<include name="hyperspin" displayName="${systviewHS}">${themePath}/_viewsyst/hyperspin.xml</include>
 	</subset>

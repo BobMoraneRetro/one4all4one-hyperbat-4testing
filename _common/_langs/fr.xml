@@ -2,14 +2,19 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables lang="fr">
-	
+		<!-- Hyperbat externaliser gametheme et systheme -->
+		<spacerextfolder>------------------- Configuration avancée : Modification du dossier source des médias --------------------------------------------------------</spacerextfolder>
+		<folder>Source - ne pas utiliser</folder>
+		<default>Par défaut</default>
+		<bobmedia>Bobmedia</bobmedia>
 		<extfoldergametheme>Source - Thème spécifique des jeux</extfoldergametheme>
 		<extfoldersysttheme>Source - Thème spécifique des systèmes</extfoldersysttheme>
 		<extfolderfanart>Source - Fanart des systèmes</extfolderfanart>
 		<extfolderlogosyst>Source - Logo système</extfolderlogosyst>
+		<extfolderbezelsyst>Source - Bezel des systèmes</extfolderbezelsyst>
+		<extfoldermanufacturer>Source - Logo des éditeurs de jeux</extfoldermanufacturer>
 		<extfolderthumbox>Source - Boite 2D/3D jeux</extfolderthumbox>		
 		<extfoldergamefanart>Source - Fanart des jeux</extfoldergamefanart>
-	
 		<intheme>Dossier du thème - Par défaut</intheme>
 		<extfolder>Dossier extérieur</extfolder>
 		<activate>Activé</activate>
@@ -312,8 +317,8 @@
 		<favoris>Général - afficher l'icone pour les jeux favoris en bas à gauche</favoris>
 		<coeur>coeur animé</coeur>
 		<spacerHS01> </spacerHS01>
-		<spacerHS02>-----------------------------    ↓ Début des options avancées spécifiques aux vues Hyperbat ↓   -------------------</spacerHS02>
-		<mediahyper>-------------------------- Medias à avoir pour vue jeux Hyperbat = Video,Screenshot,Marquee,Add-ons ---------------</mediahyper>
+		<spacerHS02>----------------------    ↓ Début des options avancées spécifiques aux vues Hyperbat ↓   -------------------</spacerHS02>
+		<mediahyper>----------- Medias à avoir pour vue jeux Hyperbat = Video,Screenshot,Marquee,Add-ons ---------------</mediahyper>
 		<hyperbatperview>Afficher les thèmes par jeux ?</hyperbatperview>
 		<themejeux>Thème par jeu en priorité si dispo</themejeux>
 		<themejeuxno>Désactiver thème par jeu</themejeuxno>
@@ -465,10 +470,6 @@
 		<originsystem>Gametheme\nom.du.system.du.jeu</originsystem>
 		<actualsystem>Gametheme\nom.du.system.selectionné</actualsystem>
 		<mamefolder>Défaut : Gametheme\mame -> gametheme\nom.du.system.du.jeu</mamefolder>
-		<!-- Hyperbat externaliser gametheme et systheme -->		
-		<folder>Source - ensemble des medias Hyperbat</folder>
-		<default>Par défaut</default>
-		<bobmedia>Dossier bobmedia</bobmedia>
 		<!-- Choix theme defaut -->
 		<defaultgeneric>Thème de Jeu générique :</defaultgeneric>
 		<defaulttheme>Par défaut</defaulttheme>
@@ -484,6 +485,6 @@
 		<metafichehautgauche>Metafiche en haut à gauche</metafichehautgauche>
 		<metafichehautdroite>Metafiche en haut à droite</metafichehautdroite>
 		<metafichehautcentre>Metafiche en haut au centre</metafichehautcentre>
-		<spacerscrap>-------------------------- Configuration des Scrap pour thème compatible = Video,Screenshot,Fanart,Marquee ---------------</spacerscrap>
+		<spacerscrap>------------------------------------- Customisation des Scrap pour thème compatible ---------------- </spacerscrap>
 	</variables>
 </theme>

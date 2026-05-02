@@ -42,8 +42,8 @@
 	</subset>
 	<subset name="defaultgeneric" displayName="${defaultgeneric}" appliesTo="hyperbat">
 		<!-- <include name="genericbackbox" displayName="${genericbackbox}"/> -->
-		<include name="generic43noanimation" displayName="${generic43noanimation}">${themePath}/_gametheme/_genericdefault/_default43noanimation/theme.xml</include>
 		<include name="generic43boxback" displayName="${generic43boxback}">${themePath}/_gametheme/_genericdefault/_default43boxback/theme.xml</include>
+		<include name="generic43noanimation" displayName="${generic43noanimation}">${themePath}/_gametheme/_genericdefault/_default43noanimation/theme.xml</include>
 		<include name="generic43noanimationfanart" displayName="${generic43noanimationfanart}">${themePath}/_gametheme/_genericdefault/_default43noanimationfanart/theme.xml</include>
 		<include name="generic43" displayName="${generic43}">${themePath}/_gametheme/_genericdefault/_default43/theme.xml</include>
 		<include name="jukeboxdef" displayName="${jukeboxdef}">${themePath}/_gametheme/_genericdefault/_jukebox/theme.xml</include>
@@ -152,4 +152,88 @@
 		<include name="thumb" displayName="${thumb}"/>
 		<include name="extgamelist" displayName="${extgamelist}"/>
 	</subset>
+	<subset name="spacerHS010" displayName="${vide}" appliesTo="${vide}">
+		<include name=" " displayName=" "/>
+	</subset>
+	<subset name="spacerextfolder" displayName="${spacerextfolder}" appliesTo="${vide}">
+		<include name="desactive" displayName=" "/>
+	</subset>
+	<subset name="extfoldergametheme" displayName="${extfoldergametheme}" appliesTo="hyperbat">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfoldersysttheme" displayName="${extfoldersysttheme}" appliesTo="hyperbat">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfolderbezelsyst" displayName="${extfolderbezelsyst}" appliesTo="hyperbat">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfoldermanufacturer" displayName="${extfoldermanufacturer}" appliesTo="hyperbat">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfolderfanart" displayName="${extfolderfanart}" appliesTo="hyperbat">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfolderlogosyst" displayName="${extfolderlogosyst}" appliesTo="hyperbat">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfolderthumbox" displayName="${extfolderthumbox}" appliesTo="hyperbat">
+		<include name="intheme" displayName="${intheme}"/>
+		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="folder" displayName="${folder}" appliesTo="hyperbat">
+		<include name="default" displayName="${default}"/>
+		<include name="bobmedia" displayName="${bobmedia}"/>
+	</subset>
+<!-- ############################################# fanartstar preset boxart ##################################################################################### -->
+	<subset name="spacerstar" displayName="${spacerstar}" appliesTo="presetstarbox">
+		<include name="desactive" displayName=" "/>
+	</subset>
+	<subset name="mediastar" displayName="${mediastar}" appliesTo="presetstarbox">
+		<include name="desactive" displayName=" "/>
+	</subset>
+	<subset name="spacebox" displayName="${spacebox}" appliesTo="presetstarbox">
+		<include name="spacenorm" displayName="${spacenorm}"/>
+		<include name="spacessssmall" displayName="${spacessssmall}"/>
+		<include name="spacesssmall" displayName="${spacesssmall}"/>
+		<include name="spacessmall" displayName="${spacessmall}"/>
+		<include name="spacesmall" displayName="${spacesmall}"/>
+		<include name="spacemore" displayName="${spacemore}"/>
+		<include name="spacemmore" displayName="${spacemmore}"/>
+		<include name="spacemmmore" displayName="${spacemmmore}"/>
+		<include name="spacemmmmore" displayName="${spacemmmmore}"/>
+	</subset>
+	<subset name="fanartstarrotated" displayName="${fanartstarrotated}" appliesTo="presetstarbox">
+		<include name="starrotate" displayName="${starrotate}">./_viewgameoption/gl-fanartstar/rotatedon.xml</include>
+		<include name="nostarrotate" displayName="${nostarrotate}">./_viewgameoption/gl-fanartstar/rotatedoff.xml</include>
+	</subset>
+	<subset name="boxstarspeed" displayName="${boxstarspeed}" appliesTo="presetstarbox">
+		<include name="stardefault" displayName="${default}"/>
+		<include name="starslow1" displayName="${speedslow1}"/>
+		<include name="starslow2" displayName="${speedslow2}"/>
+	</subset>
+		<subset name="customfanart" displayName="${customfanart}" appliesTo="presetstarbox">
+		<include name="fanartgamelist" displayName="${fanartgamelist}"/>
+		<include name="fanartcustom" displayName="${fanartcustom}"/>
+	</subset>
+	<subset name="starboxang" displayName="${starboxang}" appliesTo="presetstarbox">
+		<include name="active" displayName="${active}"/>
+		<include name="deactive" displayName="${deactive}"/>
+	</subset>
+	<subset name="starthumb" displayName="${starthumb}" appliesTo="presetstarbox">
+		<include name="starbox2d" displayName="${starbox2d}">./_viewgameoption/gl-fanartstar/2dbox.xml</include>
+		<include name="starbox3d" displayName="${starbox3d}">./_viewgameoption/gl-fanartstar/3dbox.xml</include>
+	</subset>
+	<subset name="starvideo" displayName="${starvideo}" appliesTo="presetstarbox">
+		<include name="starvideoang" displayName="${starvideoang}"/>
+		<include name="starvideodef" displayName="${starvideodef}"/>
+		<include name="starvideobig" displayName="${starvideobig}"/>
+	</subset>
+	
+	
 </theme>

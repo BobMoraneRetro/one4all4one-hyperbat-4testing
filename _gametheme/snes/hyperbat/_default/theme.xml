@@ -36,7 +36,7 @@
 		<!-- ################ image 2 du système ########################################### -->
 		<image name="Artwork2Def" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")&amp;&amp;
+			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png") &amp;&amp;
 			{game:system:theme} == 'snes'</visible>
 			<path>firstfile(
 			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + ".png",

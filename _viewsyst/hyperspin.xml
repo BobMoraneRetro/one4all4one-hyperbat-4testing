@@ -40,14 +40,42 @@
 			<scrollSound ifSubset="gamewheelsound:wheelclic">${themePath}/_common/scrollsound/wheelclic.wav</scrollSound>
 			<itemTemplate>
 				<container>
-					<image name="logo" pos="0.5 0.5" origin="0.5" maxSize="1" linearSmooth="true">
-						<path>firstfile(
-                    "${bobmediapath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {system:theme} + "-${lang}.png",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {system:theme} + "-${region}.png",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {system:theme} + "-${lang}.svg",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {system:theme} + "-${region}.svg",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</path>
+					<image name="logo" ifSubset="systemlogocops1:logosimple" pos="0.5 0.5" origin="0.5" maxSize="1" linearSmooth="true">
+						<path>${intlogoclearallregion}</path>
+						<storyboard event="activate" ifSubset="systemwheelfade:amoitie">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0.3" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="scroll" ifSubset="systemwheelfade:amoitie">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0.3" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="deactivate" ifSubset="systemwheelfade:amoitie">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0.3" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="activate" ifSubset="systemwheelfade:activate">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="scroll" ifSubset="systemwheelfade:activate">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="deactivate" ifSubset="systemwheelfade:activate">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+					</image>
+					<image name="logo" ifSubset="systemlogocops1:logobd|logoovalcarb|logoovalcarbfresh|hmaxovalsilver|logorect|logorectfresh|hmaxrectrefl|glassnekhros" pos="0.5 0.5" origin="0.5" maxSize="1" linearSmooth="true">
+						<path ifSubset="systemlogocops1:logobd">			${extlogobd}</path>
+						<path ifSubset="systemlogocops1:logoovalcarb">		${extlogohcarbon}</path>
+						<path ifSubset="systemlogocops1:hmaxovalsilver">	${exthmaxovalsilver}</path>
+						<path ifSubset="systemlogocops1:logorect">			${extlogohrect}</path>
+						<path ifSubset="systemlogocops1:logoovalcarbfresh">	${extlogohcarbonfresh}</path>
+						<path ifSubset="systemlogocops1:logorectfresh">		${extlogohrectfresh}</path>
+						<path ifSubset="systemlogocops1:hmaxrectrefl">		${exthmaxrectrefl}</path>
+						<path ifSubset="systemlogocops1:glassnekhros">		${extglassnekhros}</path>
 						<storyboard event="activate" ifSubset="systemwheelfade:amoitie">
 							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
 							<animation property="opacity" from="1" to="0.3" begin="1000" duration="250" mode="Linear"/>

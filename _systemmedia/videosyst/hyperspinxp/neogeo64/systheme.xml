@@ -53,23 +53,24 @@
 		<image name="Artwork1_Sys" extra="true">
 			<path>./Artwork1.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.506005366162 0.101010101010</pos>
+			<pos>0.506005366162 0.141010101010</pos>
 			<size>0.446354166667 0.193041526375</size>
-			<zIndex>2</zIndex>
+			<zIndex>8</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
 				<!-- # Sweet Arrival Bottom to Top # -->
 				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
 				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
-				<animation property="offsetY" from="1" to="0" duration="4000" mode="EaseOutQuint"/>
+				<animation property="offsetY" from="1" to="0" duration="2000" mode="EaseOutQuint"/>
 			</storyboard>
 		</image>
 		<image name="Artwork2_Sys" extra="true">
 			<path>./Artwork2.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.183080808081 0.583118219229</pos>
-			<size>0.339225589226 0.875925925926</size>
-			<zIndex>3</zIndex>
+			<!-- <size>0.339225589226 0.875925925926</size> -->
+			<maxSize>0.5 0.9</maxSize>
+			<zIndex>7</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
 				<!-- # Arrival Left to Right # -->
@@ -82,7 +83,7 @@
 			<path>./Artwork4.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.812052819865 0.586326225215</pos>
-			<size>0.326125841751 0.870370370370</size>
+			<maxSize>0.5 0.9</maxSize>
 			<zIndex>4</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
@@ -94,26 +95,52 @@
 		</image>
 		<video name="PreviewVid_Sys" extra="true">
 			<path>{random}</path>
-			<pos>0.494107744108 0.557426112982</pos>
-			<maxSize>0.333333333333 0.522259633371</maxSize>
+			<pos>0.5 0.557426112982</pos>
+			<maxSize>0.37 0.57</maxSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>5</zIndex>
 			<delay>0.4</delay>
 			<effect>none</effect>
 			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<storyboard>
+				<!-- # Sweet Arrival Left to Right # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1200" duration="500" mode="easeIn"/>
+
+			</storyboard>
 		</video>
 		<image name="Video_Sys" extra="true">
 			<path>./Video.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.494528619529 0.558174335952</pos>
-			<size>0.376262626263 0.607557052001</size>
+			<pos>0.5 0.558174335952</pos>
+			<size>0.425 0.59</size>
 			<zIndex>6</zIndex>
 			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Sweet Arrival Bottom to Top # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetY" from="-1" to="0" duration="2000" mode="EaseOutQuint"/>
+			</storyboard>
+		</image>
+		<image name="fiber_Sys" extra="true">
+			<path>./fiber.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.558174335952</pos>
+			<size>0.38 0.52</size>
+			<zIndex>4</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Sweet Arrival Bottom to Top # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetY" from="-1" to="0" duration="2000" mode="EaseOutQuint"/>
+			</storyboard>
 		</image>
 		<image name="The_Future_Is_Now,_SNK_logo_Sys" extra="true">
 			<path>./The_Future_Is_Now,_SNK_logo.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.070785984848 0.048634493079</pos>
+			<pos>0.070785984848 0.098634493079</pos>
 			<size>0.126420454545 0.091283202394</size>
 			<zIndex>7</zIndex>
 			<linearSmooth>true</linearSmooth>
