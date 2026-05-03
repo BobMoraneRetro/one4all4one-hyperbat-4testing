@@ -20,28 +20,6 @@
 			<showSnapshotDelay>false</showSnapshotDelay>
 			<effect>none</effect>
 			<zIndex>2</zIndex>
-			<shader>
-				<path>./_common/shaders/border_multi_gradient.glsl</path>
-				<cornerRadius/>
-				<innerShadowSize/>
-				<innerShadowColor/>
-				<outerShadowSize/>
-				<outerShadowColor/>
-				<gradientMode/>
-				<saturation/>
-				<borderSize>4</borderSize>
-				<borderColor>ecf0f1ff</borderColor>
-				<borderColorStart/>
-				<borderColorEnd/>
-				<borderSize2/>
-				<borderColor2/>
-				<borderColorStart2/>
-				<borderColorEnd2/>
-				<borderSize3/>
-				<borderColor3/>
-				<borderColorStart3/>
-				<borderColorEnd3/>
-			</shader>
 		</video>
 		<image name="Artwork1" extra="true">
 			<path>./Artwork1.png</path>
@@ -77,14 +55,26 @@
 				<pixelSize>1</pixelSize>
 			</shader>
 			<storyboard>
-				<animation property="shader.pixelSize" from="50" to="50" begin="" duration="" mode="Linear"/>
-				<animation property="shader.pixelSize" from="50" to="1" begin="1287" duration="2340" mode="EaseOutQuint"/>
+				<animation property="opacity" from="0" to="0" begin="0" duration="1229" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1179" duration="2484" mode="Linear"/>
+				<animation property="shader.filterPixelate" from="50" to="50" begin="" duration="" mode="Linear"/>
+				<animation property="shader.filterPixelate" from="50" to="1" begin="1126" duration="2448" mode="EaseOutQuint"/>
+				<animation property="shader.filterPixelate" from="50" to="50" begin="2198" duration="10" mode="Linear"/>
+				<animation property="shader.filterPixelate" from="50" to="50" begin="2208" duration="1253" mode="Linear"/>
+				<animation property="shader.filterPixelate" from="50" to="1" begin="3461" duration="2295" mode="EaseOutQuint"/>
 				<animation property="scale" from="3 3" to="3 3" begin="" duration="" mode="Linear"/>
-				<animation property="scale" from="3 3" to="1 1" begin="1287" duration="2340" mode="EaseOutCubic"/>
+				<animation property="scale" from="3 3" to="1 1" begin="1126" duration="2448" mode="EaseOutCubic"/>
+				<animation property="scale" from="3 3" to="3 3" begin="2198" duration="10" mode="Linear"/>
+				<animation property="scale" from="3 3" to="3 3" begin="2208" duration="1253" mode="Linear"/>
+				<animation property="scale" from="3 3" to="1 1" begin="3461" duration="2295" mode="EaseOutCubic"/>
 				<animation property="offsetY" from="0" to="0" begin="" duration="" mode="Linear"/>
-				<animation property="offsetY" from="0" to="-0.02" begin="3506" duration="2500" mode="EaseInOut" autoreverse="true" repeat="forever"/>
+				<animation property="offsetY" from="0" to="0" begin="2198" duration="10" mode="Linear"/>
+				<animation property="offsetY" from="0" to="0" begin="2208" duration="3430" mode="Linear"/>
+				<animation property="offsetY" from="0" to="-0.02" begin="5638" duration="2452" mode="EaseInOut" autoreverse="true" repeat="forever"/>
 				<animation property="offsetX" from="0" to="0" begin="" duration="" mode="Linear"/>
-				<animation property="offsetX" from="0" to="0.02" begin="3506" duration="3200" mode="EaseInOut" autoreverse="true" repeat="forever"/>
+				<animation property="offsetX" from="0" to="0" begin="2198" duration="10" mode="Linear"/>
+				<animation property="offsetX" from="0" to="0" begin="2208" duration="3430" mode="Linear"/>
+				<animation property="offsetX" from="0" to="0.02" begin="5638" duration="3139" mode="EaseInOut" autoreverse="true" repeat="forever"/>
 			</storyboard>
 		</image>
 		<image name="Artwork4" extra="true">

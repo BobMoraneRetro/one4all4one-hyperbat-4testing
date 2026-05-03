@@ -9,7 +9,7 @@
 		<intcoinopscollec>()
 		firstfile(  "${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png",
 					"${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/_"  + ({game:system:theme}) + ".png",
-					"${bobmediapath}/_gamemedia/_defaultgamemedia/cabs/noir2j.png")
+					"${themePath}/_gamemedia/_defaultgamemedia/cabs/noir2j.png")
 		</intcoinopscollec>
 		<intcoinopsnext>("${themePath}/_viewgame/coinops/coinopsnext/"  + ({game:system:theme}) + ".png")</intcoinopsnext>
 	</variables>
@@ -21,11 +21,11 @@
 			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
 			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible>
 			<!-- <visible>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
-			<visible ifSubset="gameviewsource:mamefolder">
-			!exists("${bobmediapath}/_gametheme/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible>
+			<!-- <visible ifSubset="gameviewsource:mamefolder"> -->
+			<!-- !exists("${bobmediapath}/_gametheme/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+			<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+			<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
+			<!-- !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
 			<!-- <visible>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
 		</control>
 		<image name="overlaybase" extra="true">
