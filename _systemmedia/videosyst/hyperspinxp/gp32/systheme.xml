@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
@@ -98,5 +98,11 @@
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 			<rotation>10</rotation>
 		</video>
+			
+			
+			
+			<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Akeshi</text>
+		</text>
 	</view>
 </theme>

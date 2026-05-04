@@ -46,14 +46,14 @@
 		<image name="Background_Sys" extra="true">
 			<path>./Background.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.505050505051 0.496820052376</pos>
-			<size>1.016835016835 1.017583239805</size>
+			<pos>0.504966338384 0.496361885709</pos>
+			<size>1.016666666667 1.016666666667</size>
 			<zIndex>1</zIndex>
 		</image>
 		<video name="PreviewVid_Sys" extra="true">
 			<path>{random}</path>
-			<pos>0.489057239057 0.576131687243</pos>
-			<maxSize>0.346801346801 0.535727646839</maxSize>
+			<pos>0.492611298167 0.579311634867</pos>
+			<maxSize>0.464272353161 0.464272353161</maxSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>2</zIndex>
 			<delay>0.4</delay>
@@ -63,48 +63,57 @@
 		<image name="Video_Sys" extra="true">
 			<path>./Video.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.487373737374 0.579872802095</pos>
-			<size>0.388888888889 0.612046389824</size>
+			<pos>0.492424242424 0.576131687243</pos>
+			<size>0.528619528620 0.535727646839</size>
 			<zIndex>3</zIndex>
 			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Apparition en fondu # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="500" duration="500" mode="Linear"/>
+			</storyboard>
 		</image>
 		<image name="Artwork4_Sys" extra="true">
 			<path>./Artwork4.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.778385416667 0.530490086046</pos>
-			<size>0.380003156566 0.821548821549</size>
+			<pos>0.846423491557 0.506261690984</pos>
+			<size>0.306250000000 0.889814814815</size>
 			<zIndex>4</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
-				<!-- # Arrival Left to Right # -->
+				<!-- # Arrivée en Bump G->D # -->
 				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
-				<animation property="opacity" from="0" to="1" begin="650" duration="500" mode="Linear"/>
-				<animation property="offsetX" from="-1" to="0" begin="650" duration="500" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1250" duration="500" mode="Linear"/>
+				<animation property="offsetX" from="-1" to="0" begin="1250" duration="500" mode="bump"/>
+				<animation property="offsetX" from="0" to="0.05" begin="1750" duration="120" autoreverse="true" mode="EasyOutCubic"/>
+				<animation property="offsetX" from="0" to="0.02" begin="1870" duration="120" autoreverse="true" mode="EasyOutCubic"/>
 			</storyboard>
 		</image>
 		<image name="Artwork2_Sys" extra="true">
 			<path>./Artwork2.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.164141414141 0.532734754957</pos>
-			<size>0.308080808081 0.616535727647</size>
+			<pos>0.173618587342 0.569000118967</pos>
+			<size>0.283264302632 0.455620888889</size>
 			<zIndex>5</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
-				<!-- # Arrival Left to Right # -->
+				<!-- # Arrivée en Bump D->G # -->
 				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
-				<animation property="opacity" from="0" to="1" begin="650" duration="500" mode="Linear"/>
-				<animation property="offsetX" from="-1" to="0" begin="650" duration="500" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1250" duration="500" mode="Linear"/>
+				<animation property="offsetX" from="1" to="0" begin="1250" duration="500" mode="bump"/>
+				<animation property="offsetX" from="0" to="-0.05" begin="1750" duration="120" autoreverse="true" mode="EasyOutCubic"/>
+				<animation property="offsetX" from="0" to="-0.02" begin="1870" duration="120" autoreverse="true" mode="EasyOutCubic"/>
 			</storyboard>
 		</image>
 		<image name="Artwork3_Sys" extra="true">
 			<path>./Artwork3.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.470959595960 0.172091283202</pos>
-			<size>0.381313131313 0.248410026188</size>
+			<pos>0.470928095960 0.171960357276</pos>
+			<size>0.381250000000 0.248148148148</size>
 			<zIndex>6</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<storyboard>
-				<!-- # Falls and bounces # -->
+				<!-- # Tombe et rebondit # -->
 				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
 				<animation property="opacity" from="0" to="1" begin="1770" duration="500" mode="Linear"/>
 				<animation property="offsetY" from="-1" to="0" begin="1770" duration="400" mode="linear"/>

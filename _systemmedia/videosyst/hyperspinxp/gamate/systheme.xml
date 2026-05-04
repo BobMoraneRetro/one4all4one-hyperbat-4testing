@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
@@ -247,5 +247,11 @@
 				<animation property="offsetX" from="0.002" to="0" begin="3700" duration="800" autoreverse="false" mode="bump"/>
 			</storyboard>
 		</image>
+			
+			
+			
+			<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Dav</text>
+		</text>
 	</view>
 </theme>

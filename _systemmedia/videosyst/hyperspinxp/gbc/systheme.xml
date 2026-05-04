@@ -120,8 +120,9 @@
 		</image>
 		<image name="GB perle_Sys" extra="true">
 			<!-- <path>./GBvert2.png</path> -->
-			<path>./GBmarron2.png</path>
+			<!-- <path>./GBmarron2.png</path> -->
 			<!-- <path>./GBbleue2.png</path> -->
+			<path>./GBbleue2.png</path>
 			<!-- <path>./GBhello2.png</path> -->
 			<!-- <path>./GBperle2.png</path> -->
 			<!-- <path>./GBgris2.png</path> -->

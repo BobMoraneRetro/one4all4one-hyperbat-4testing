@@ -1,10 +1,8 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
-		<text name="systhemeauthor" extra="true">
-			<text>System Theme By : Roni</text>
-		</text>
+		
 		<image name="Arrière-plan" extra="true">
 			<path>./Arrière-plan.png</path>
 			<origin>0.5 0.5</origin>
@@ -125,5 +123,11 @@
 				<animation property="opacity" from="1" to="0" begin="100" duration="150" mode="linear"/>
 			</storyboard>
 		</control>
+			
+			
+			
+			<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Roni</text>
+		</text>
 	</view>
 </theme>
