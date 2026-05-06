@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="FanartFlix" extra="true">
+			<visible>false</visible>
+		</image>
+		<image name="Background_Sys" extra="true">
+			<path>./Background.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.500000000000 0.498503554059</pos>
+			<size>1.000000000000 1.000000000000</size>
+			<zIndex>1</zIndex>
+		</image>
+		<video name="PreviewVid_Sys" extra="true">
+			<path>{random}</path>
+			<pos>0.5 0.5</pos>
+			<maxSize>0.55 0.7</maxSize>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+			<delay>0.4</delay>
+			<effect>none</effect>
+			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<shader>
+				<path>${bobmediapath}/_common/shaders/border_multi_gradient.glsl</path>
+				<cornerRadius>0.10</cornerRadius>
+				<innerShadowSize>0</innerShadowSize>
+				<innerShadowColor>00000030</innerShadowColor>
+				<outerShadowSize>0</outerShadowSize>
+				<outerShadowColor>00000050</outerShadowColor>
+				<gradientMode>4</gradientMode>
+				<saturation/>
+				<borderSize>0.015</borderSize>
+				<borderColor>aeaeaeff</borderColor>
+				<borderColorStart/>
+				<borderColorEnd/>
+				<borderSize2>0</borderSize2>
+				<borderColor2>ffffff</borderColor2>
+				<borderColorStart2>000000</borderColorStart2>
+				<borderColorEnd2>ffffff</borderColorEnd2>
+				<borderSize3>0.015</borderSize3>
+				<borderColor3>00a400ff</borderColor3>
+				<borderColorStart3/>
+				<borderColorEnd3/>
+			</shader>
+			<storyboard>
+				<!-- # Ondulation Drapeau G->D # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetX" from="-1" to="0" begin="250" duration="2500" mode="easeOut"/>
+				<!-- <animation property="shader.waveTime" from="0" to="5" begin="1500" duration="2000" mode="easeOut"/> -->
+			</storyboard>
+		</video>
+		<image name="360 Console_Sys" extra="true">
+			<path>./360 Console.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.156986531987 0.627197904976</pos>
+			<size>0.315656565657 0.781518892630</size>
+			<zIndex>3</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Arrival Left to Right # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="650" duration="2000" mode="Linear"/>
+				<animation property="offsetX" from="-1" to="0" begin="650" duration="2000" mode="Linear"/>
+			</storyboard>
+		</image>
+		<image name="Logo_Sys" extra="true">
+			<path>./Logo.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.473063973064 0.071829405163</pos>
+			<size>0.500000000000 0.230452674897</size>
+			<zIndex>4</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Fade In # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1770" duration="500" mode="Linear"/>
+			</storyboard>
+		</image>
+		<image name="Artwork1_Sys" extra="true">
+			<path>./Artwork1.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.882575757576 0.692293303404</pos>
+			<size>0.298821548822 0.582491582492</size>
+			<zIndex>5</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Fast Arrival Right to Left # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="500" mode="Linear"/>
+				<animation property="offsetX" from="7.9" to="0" begin="0" duration="750" mode="EaseOutQuint"/>
+			</storyboard>
+		</image>
+		<image name="Artwork2_Sys" extra="true">
+			<path>./Artwork2.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.745791245791 0.662177328844</pos>
+			<size>0.316498316498 0.683875794987</size>
+			<zIndex>6</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard>
+				<!-- # Fast Arrival Bottom to Top # -->
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="500" mode="Linear"/>
+				<animation property="offsetY" from="7.9" to="0" begin="0" duration="750" mode="EaseOutQuint"/>
+			</storyboard>
+		</image>
+		<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Finch</text>
+		</text>
+	</view>
+</theme>

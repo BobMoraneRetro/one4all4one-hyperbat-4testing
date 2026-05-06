@@ -11,8 +11,8 @@
             "image_name": "Background.png",
             "x": -38.7878787878788,
             "y": -17.77777777777778,
-            "width": 1999.1919191919192,
-            "height": 1173.3333333333333,
+            "width": 1999,
+            "height": 1173,
             "base_width": 1024,
             "base_height": 768,
             "opacity": 100,
@@ -27,14 +27,14 @@
             "rotation_origin_y": 0.5
         },
         {
-            "file_path": "rect_vid_640_480.png",
-            "image_name": "rect_vid_640_480.png",
-            "x": 564.040404040404,
-            "y": 273.1313131313131,
-            "width": 822.6262626262625,
-            "height": 618.9898989898988,
+            "file_path": "rect_vid_pers.png",
+            "image_name": "rect_vid_pers.png",
+            "x": 407.9095790619967,
+            "y": 232.72727272727263,
+            "width": 1069,
+            "height": 599,
             "base_width": 640,
-            "base_height": 480,
+            "base_height": 640,
             "opacity": 100,
             "rotation": 0,
             "visible": true,
@@ -49,10 +49,10 @@
         {
             "file_path": "Video.png",
             "image_name": "Video.png",
-            "x": 404.040404040404,
-            "y": 185.8585858585862,
-            "width": 1087.6767676767677,
-            "height": 809.6969696969697,
+            "x": 193.93939393939394,
+            "y": 140.60606060606125,
+            "width": 1423,
+            "height": 809,
             "base_width": 655,
             "base_height": 578,
             "opacity": 100,
@@ -69,10 +69,10 @@
         {
             "file_path": "Artwork3.png",
             "image_name": "Artwork3.png",
-            "x": 3.2323232323232354,
-            "y": 75.95959595959596,
-            "width": 830.7070707070707,
-            "height": 1000.4040404040405,
+            "x": -72.7272727272728,
+            "y": 211.71717171717168,
+            "width": 830,
+            "height": 872,
             "base_width": 478,
             "base_height": 636,
             "opacity": 100,
@@ -89,10 +89,10 @@
         {
             "file_path": "Artwork4.png",
             "image_name": "Artwork4.png",
-            "x": 1126.4646464646464,
-            "y": 90.5050505050505,
-            "width": 789.4040404040429,
-            "height": 989.1616161616156,
+            "x": 1107.0707070707074,
+            "y": 145.4545454545455,
+            "width": 818.0101010101009,
+            "height": 952.144734053825,
             "base_width": 429,
             "base_height": 653,
             "opacity": 100,
@@ -110,8 +110,8 @@
             "file_path": "Artwork2.png",
             "image_name": "Artwork2.png",
             "x": 405.65656565656604,
-            "y": 53.33333333333338,
-            "width": 1137.7777777777778,
+            "y": 51.71717171717176,
+            "width": 1137,
             "height": 180,
             "base_width": 661,
             "base_height": 180,
@@ -129,9 +129,9 @@
         {
             "file_path": "Artwork1.png",
             "image_name": "Artwork1.png",
-            "x": 741.8181818181807,
-            "y": 816.1616161616151,
-            "width": 444.44444444444434,
+            "x": 699.7979797979775,
+            "y": 756.3636363636336,
+            "width": 444,
             "height": 215,
             "base_width": 207,
             "base_height": 215,
@@ -148,9 +148,9 @@
         }
     ],
     "animations": {
-        "Artwork3.png": [
+        "Video.png": [
             {
-                "name": "Arrival Left to Right",
+                "name": "Apparition en fondu",
                 "animations": [
                     {
                         "event": "open",
@@ -168,16 +168,170 @@
                                 "property": "opacity",
                                 "from": "0",
                                 "to": "1",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "500",
+                                "duration": "500",
+                                "mode": "Linear"
+                            }
+                        ],
+                        "original_storyboard": {
+                            "event": "open",
+                            "repeatAt": null,
+                            "animations": [
+                                {
+                                    "property": "opacity",
+                                    "from": "0",
+                                    "to": "0",
+                                    "begin": "",
+                                    "duration": "",
+                                    "mode": "Linear"
+                                },
+                                {
+                                    "property": "opacity",
+                                    "from": "0",
+                                    "to": "1",
+                                    "begin": "1770",
+                                    "duration": "500",
+                                    "mode": "Linear"
+                                }
+                            ]
+                        },
+                        "xml": "<storyboard event=\"open\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"500\" duration=\"500\" mode=\"Linear\" /></storyboard>"
+                    },
+                    {
+                        "event": "activateNext",
+                        "repeatAt": null,
+                        "animations": [
+                            {
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "0",
+                                "begin": "",
+                                "duration": "",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "500",
+                                "duration": "500",
+                                "mode": "Linear"
+                            }
+                        ],
+                        "original_storyboard": {
+                            "event": "activateNext",
+                            "repeatAt": null,
+                            "animations": [
+                                {
+                                    "property": "opacity",
+                                    "from": "0",
+                                    "to": "0",
+                                    "begin": "",
+                                    "duration": "",
+                                    "mode": "Linear"
+                                },
+                                {
+                                    "property": "opacity",
+                                    "from": "0",
+                                    "to": "1",
+                                    "begin": "1770",
+                                    "duration": "500",
+                                    "mode": "Linear"
+                                }
+                            ]
+                        },
+                        "xml": "<storyboard event=\"activateNext\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"500\" duration=\"500\" mode=\"Linear\" /></storyboard>"
+                    },
+                    {
+                        "event": "activatePrev",
+                        "repeatAt": null,
+                        "animations": [
+                            {
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "0",
+                                "begin": "",
+                                "duration": "",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "500",
+                                "duration": "500",
+                                "mode": "Linear"
+                            }
+                        ],
+                        "original_storyboard": {
+                            "event": "activatePrev",
+                            "repeatAt": null,
+                            "animations": [
+                                {
+                                    "property": "opacity",
+                                    "from": "0",
+                                    "to": "0",
+                                    "begin": "",
+                                    "duration": "",
+                                    "mode": "Linear"
+                                },
+                                {
+                                    "property": "opacity",
+                                    "from": "0",
+                                    "to": "1",
+                                    "begin": "1770",
+                                    "duration": "500",
+                                    "mode": "Linear"
+                                }
+                            ]
+                        },
+                        "xml": "<storyboard event=\"activatePrev\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"500\" duration=\"500\" mode=\"Linear\" /></storyboard>"
+                    }
+                ],
+                "editable_properties": {},
+                "variables": {
+                    "mod_rotation": "0",
+                    "mod_pos_x": "0",
+                    "mod_pos_y": "0",
+                    "mod_scale": "1",
+                    "mod_opacity": "100",
+                    "mod_offset_x": "0",
+                    "mod_offset_y": "0"
+                },
+                "repeatAt": null,
+                "additional_elements": []
+            }
+        ],
+        "Artwork3.png": [
+            {
+                "name": "Arrivée Droite->Gauche",
+                "animations": [
+                    {
+                        "event": "open",
+                        "repeatAt": null,
+                        "animations": [
+                            {
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "0",
+                                "begin": "",
+                                "duration": "",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             },
                             {
                                 "property": "offsetX",
-                                "from": "-1",
+                                "from": "1",
                                 "to": "0",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             }
                         ],
@@ -203,7 +357,7 @@
                                 },
                                 {
                                     "property": "offsetX",
-                                    "from": "-1",
+                                    "from": "1",
                                     "to": "0",
                                     "begin": "650",
                                     "duration": "500",
@@ -211,7 +365,7 @@
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"open\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"-1\" to=\"0\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /></storyboard>"
+                        "xml": "<storyboard event=\"open\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"650\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"1\" to=\"0\" begin=\"650\" duration=\"500\" mode=\"Linear\" /></storyboard>"
                     },
                     {
                         "event": "activateNext",
@@ -229,16 +383,16 @@
                                 "property": "opacity",
                                 "from": "0",
                                 "to": "1",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             },
                             {
                                 "property": "offsetX",
-                                "from": "-1",
+                                "from": "1",
                                 "to": "0",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             }
                         ],
@@ -264,7 +418,7 @@
                                 },
                                 {
                                     "property": "offsetX",
-                                    "from": "-1",
+                                    "from": "1",
                                     "to": "0",
                                     "begin": "650",
                                     "duration": "500",
@@ -272,7 +426,7 @@
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"activateNext\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"-1\" to=\"0\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /></storyboard>"
+                        "xml": "<storyboard event=\"activateNext\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"650\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"1\" to=\"0\" begin=\"650\" duration=\"500\" mode=\"Linear\" /></storyboard>"
                     },
                     {
                         "event": "activatePrev",
@@ -290,16 +444,16 @@
                                 "property": "opacity",
                                 "from": "0",
                                 "to": "1",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             },
                             {
                                 "property": "offsetX",
-                                "from": "-1",
+                                "from": "1",
                                 "to": "0",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             }
                         ],
@@ -325,7 +479,7 @@
                                 },
                                 {
                                     "property": "offsetX",
-                                    "from": "-1",
+                                    "from": "1",
                                     "to": "0",
                                     "begin": "650",
                                     "duration": "500",
@@ -333,7 +487,7 @@
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"activatePrev\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"-1\" to=\"0\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /></storyboard>"
+                        "xml": "<storyboard event=\"activatePrev\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"650\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"1\" to=\"0\" begin=\"650\" duration=\"500\" mode=\"Linear\" /></storyboard>"
                     }
                 ],
                 "editable_properties": {},
@@ -352,7 +506,7 @@
         ],
         "Artwork4.png": [
             {
-                "name": "Arrival Right to Left",
+                "name": "Arrivée Gauche->Droite",
                 "animations": [
                     {
                         "event": "open",
@@ -370,16 +524,16 @@
                                 "property": "opacity",
                                 "from": "0",
                                 "to": "1",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             },
                             {
                                 "property": "offsetX",
-                                "from": "1",
+                                "from": "-1",
                                 "to": "0",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             }
                         ],
@@ -405,7 +559,7 @@
                                 },
                                 {
                                     "property": "offsetX",
-                                    "from": "1",
+                                    "from": "-1",
                                     "to": "0",
                                     "begin": "650",
                                     "duration": "500",
@@ -413,7 +567,7 @@
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"open\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"1\" to=\"0\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /></storyboard>"
+                        "xml": "<storyboard event=\"open\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"650\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"-1\" to=\"0\" begin=\"650\" duration=\"500\" mode=\"Linear\" /></storyboard>"
                     },
                     {
                         "event": "activateNext",
@@ -431,16 +585,16 @@
                                 "property": "opacity",
                                 "from": "0",
                                 "to": "1",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             },
                             {
                                 "property": "offsetX",
-                                "from": "1",
+                                "from": "-1",
                                 "to": "0",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             }
                         ],
@@ -466,7 +620,7 @@
                                 },
                                 {
                                     "property": "offsetX",
-                                    "from": "1",
+                                    "from": "-1",
                                     "to": "0",
                                     "begin": "650",
                                     "duration": "500",
@@ -474,7 +628,7 @@
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"activateNext\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"1\" to=\"0\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /></storyboard>"
+                        "xml": "<storyboard event=\"activateNext\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"650\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"-1\" to=\"0\" begin=\"650\" duration=\"500\" mode=\"Linear\" /></storyboard>"
                     },
                     {
                         "event": "activatePrev",
@@ -492,16 +646,16 @@
                                 "property": "opacity",
                                 "from": "0",
                                 "to": "1",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             },
                             {
                                 "property": "offsetX",
-                                "from": "1",
+                                "from": "-1",
                                 "to": "0",
-                                "begin": "1250",
-                                "duration": "1000",
+                                "begin": "650",
+                                "duration": "500",
                                 "mode": "Linear"
                             }
                         ],
@@ -527,7 +681,7 @@
                                 },
                                 {
                                     "property": "offsetX",
-                                    "from": "1",
+                                    "from": "-1",
                                     "to": "0",
                                     "begin": "650",
                                     "duration": "500",
@@ -535,7 +689,7 @@
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"activatePrev\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"1\" to=\"0\" begin=\"1250\" duration=\"1000\" mode=\"Linear\" /></storyboard>"
+                        "xml": "<storyboard event=\"activatePrev\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"650\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetX\" from=\"-1\" to=\"0\" begin=\"650\" duration=\"500\" mode=\"Linear\" /></storyboard>"
                     }
                 ],
                 "editable_properties": {},
@@ -554,7 +708,7 @@
         ],
         "Artwork2.png": [
             {
-                "name": "Sweet Arrival Top to Bottom",
+                "name": "Arrivé Zoom Elastic",
                 "animations": [
                     {
                         "event": "open",
@@ -569,19 +723,75 @@
                                 "mode": "Linear"
                             },
                             {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "1",
-                                "begin": "250",
-                                "duration": "500",
+                                "property": "scaleOrigin",
+                                "to": "0 0",
+                                "begin": "",
+                                "duration": "",
                                 "mode": "Linear"
                             },
                             {
-                                "property": "offsetY",
-                                "from": "-1",
-                                "to": "0",
-                                "duration": "4000",
-                                "mode": "EaseOutQuint"
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "1000",
+                                "duration": "1500",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "scale",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "650",
+                                "duration": "1500",
+                                "mode": "easeIn"
+                            },
+                            {
+                                "property": "h",
+                                "from": "$size_y",
+                                "to": "0.2",
+                                "begin": "2150",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "h",
+                                "from": "0.2",
+                                "to": "$size_y",
+                                "begin": "2250",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "$size_x",
+                                "to": "0.2",
+                                "begin": "2200",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "0.2",
+                                "to": "$size_x",
+                                "begin": "2300",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "$size_x",
+                                "to": "0.35",
+                                "begin": "2400",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "0.35",
+                                "to": "$size_x",
+                                "begin": "2500",
+                                "duration": "100",
+                                "mode": "bump"
                             }
                         ],
                         "original_storyboard": {
@@ -597,23 +807,79 @@
                                     "mode": "Linear"
                                 },
                                 {
-                                    "property": "opacity",
-                                    "from": "0",
-                                    "to": "1",
-                                    "begin": "250",
-                                    "duration": "500",
+                                    "property": "scaleOrigin",
+                                    "to": "0 0",
+                                    "begin": "",
+                                    "duration": "",
                                     "mode": "Linear"
                                 },
                                 {
-                                    "property": "offsetY",
-                                    "from": "-1",
-                                    "to": "0",
-                                    "duration": "4000",
-                                    "mode": "EaseOutQuint"
+                                    "property": "opacity",
+                                    "from": "0",
+                                    "to": "1",
+                                    "begin": "1000",
+                                    "duration": "1500",
+                                    "mode": "Linear"
+                                },
+                                {
+                                    "property": "scale",
+                                    "from": "0",
+                                    "to": "1",
+                                    "begin": "650",
+                                    "duration": "1500",
+                                    "mode": "easeIn"
+                                },
+                                {
+                                    "property": "h",
+                                    "from": "$size_y",
+                                    "to": "0.2",
+                                    "begin": "2150",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "h",
+                                    "from": "0.2",
+                                    "to": "$size_y",
+                                    "begin": "2250",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "$size_x",
+                                    "to": "0.2",
+                                    "begin": "2200",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "0.2",
+                                    "to": "$size_x",
+                                    "begin": "2300",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "$size_x",
+                                    "to": "0.35",
+                                    "begin": "2400",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "0.35",
+                                    "to": "$size_x",
+                                    "begin": "2500",
+                                    "duration": "100",
+                                    "mode": "bump"
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"open\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"250\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetY\" from=\"-1\" to=\"0\" duration=\"4000\" mode=\"EaseOutQuint\" /></storyboard>"
+                        "xml": "<storyboard event=\"open\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"scaleOrigin\" to=\"0 0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1000\" duration=\"1500\" mode=\"Linear\" /><animation property=\"scale\" from=\"0\" to=\"1\" begin=\"650\" duration=\"1500\" mode=\"easeIn\" /><animation property=\"h\" from=\"$size_y\" to=\"0.2\" begin=\"2150\" duration=\"100\" mode=\"bump\" /><animation property=\"h\" from=\"0.2\" to=\"$size_y\" begin=\"2250\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"$size_x\" to=\"0.2\" begin=\"2200\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"0.2\" to=\"$size_x\" begin=\"2300\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"$size_x\" to=\"0.35\" begin=\"2400\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"0.35\" to=\"$size_x\" begin=\"2500\" duration=\"100\" mode=\"bump\" /></storyboard>"
                     },
                     {
                         "event": "activateNext",
@@ -628,19 +894,75 @@
                                 "mode": "Linear"
                             },
                             {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "1",
-                                "begin": "250",
-                                "duration": "1000",
+                                "property": "scaleOrigin",
+                                "to": "0 0",
+                                "begin": "",
+                                "duration": "",
                                 "mode": "Linear"
                             },
                             {
-                                "property": "offsetY",
-                                "from": "-1",
-                                "to": "0",
-                                "duration": "4000",
-                                "mode": "EaseOutQuint"
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "1000",
+                                "duration": "1500",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "scale",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "650",
+                                "duration": "1500",
+                                "mode": "easeIn"
+                            },
+                            {
+                                "property": "h",
+                                "from": "$size_y",
+                                "to": "0.2",
+                                "begin": "2150",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "h",
+                                "from": "0.2",
+                                "to": "$size_y",
+                                "begin": "2250",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "$size_x",
+                                "to": "0.2",
+                                "begin": "2200",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "0.2",
+                                "to": "$size_x",
+                                "begin": "2300",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "$size_x",
+                                "to": "0.35",
+                                "begin": "2400",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "0.35",
+                                "to": "$size_x",
+                                "begin": "2500",
+                                "duration": "100",
+                                "mode": "bump"
                             }
                         ],
                         "original_storyboard": {
@@ -656,23 +978,79 @@
                                     "mode": "Linear"
                                 },
                                 {
-                                    "property": "opacity",
-                                    "from": "0",
-                                    "to": "1",
-                                    "begin": "250",
-                                    "duration": "1000",
+                                    "property": "scaleOrigin",
+                                    "to": "0 0",
+                                    "begin": "",
+                                    "duration": "",
                                     "mode": "Linear"
                                 },
                                 {
-                                    "property": "offsetY",
-                                    "from": "-1",
-                                    "to": "0",
-                                    "duration": "4000",
-                                    "mode": "EaseOutQuint"
+                                    "property": "opacity",
+                                    "from": "0",
+                                    "to": "1",
+                                    "begin": "1000",
+                                    "duration": "1500",
+                                    "mode": "Linear"
+                                },
+                                {
+                                    "property": "scale",
+                                    "from": "0",
+                                    "to": "1",
+                                    "begin": "650",
+                                    "duration": "1500",
+                                    "mode": "easeIn"
+                                },
+                                {
+                                    "property": "h",
+                                    "from": "$size_y",
+                                    "to": "0.2",
+                                    "begin": "2150",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "h",
+                                    "from": "0.2",
+                                    "to": "$size_y",
+                                    "begin": "2250",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "$size_x",
+                                    "to": "0.2",
+                                    "begin": "2200",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "0.2",
+                                    "to": "$size_x",
+                                    "begin": "2300",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "$size_x",
+                                    "to": "0.35",
+                                    "begin": "2400",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "0.35",
+                                    "to": "$size_x",
+                                    "begin": "2500",
+                                    "duration": "100",
+                                    "mode": "bump"
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"activateNext\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetY\" from=\"-1\" to=\"0\" duration=\"4000\" mode=\"EaseOutQuint\" /></storyboard>"
+                        "xml": "<storyboard event=\"activateNext\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"scaleOrigin\" to=\"0 0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1000\" duration=\"1500\" mode=\"Linear\" /><animation property=\"scale\" from=\"0\" to=\"1\" begin=\"650\" duration=\"1500\" mode=\"easeIn\" /><animation property=\"h\" from=\"$size_y\" to=\"0.2\" begin=\"2150\" duration=\"100\" mode=\"bump\" /><animation property=\"h\" from=\"0.2\" to=\"$size_y\" begin=\"2250\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"$size_x\" to=\"0.2\" begin=\"2200\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"0.2\" to=\"$size_x\" begin=\"2300\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"$size_x\" to=\"0.35\" begin=\"2400\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"0.35\" to=\"$size_x\" begin=\"2500\" duration=\"100\" mode=\"bump\" /></storyboard>"
                     },
                     {
                         "event": "activatePrev",
@@ -687,19 +1065,75 @@
                                 "mode": "Linear"
                             },
                             {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "1",
-                                "begin": "250",
-                                "duration": "1000",
+                                "property": "scaleOrigin",
+                                "to": "0 0",
+                                "begin": "",
+                                "duration": "",
                                 "mode": "Linear"
                             },
                             {
-                                "property": "offsetY",
-                                "from": "-1",
-                                "to": "0",
-                                "duration": "4000",
-                                "mode": "EaseOutQuint"
+                                "property": "opacity",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "1000",
+                                "duration": "1500",
+                                "mode": "Linear"
+                            },
+                            {
+                                "property": "scale",
+                                "from": "0",
+                                "to": "1",
+                                "begin": "650",
+                                "duration": "1500",
+                                "mode": "easeIn"
+                            },
+                            {
+                                "property": "h",
+                                "from": "$size_y",
+                                "to": "0.2",
+                                "begin": "2150",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "h",
+                                "from": "0.2",
+                                "to": "$size_y",
+                                "begin": "2250",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "$size_x",
+                                "to": "0.2",
+                                "begin": "2200",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "0.2",
+                                "to": "$size_x",
+                                "begin": "2300",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "$size_x",
+                                "to": "0.35",
+                                "begin": "2400",
+                                "duration": "100",
+                                "mode": "bump"
+                            },
+                            {
+                                "property": "w",
+                                "from": "0.35",
+                                "to": "$size_x",
+                                "begin": "2500",
+                                "duration": "100",
+                                "mode": "bump"
                             }
                         ],
                         "original_storyboard": {
@@ -715,79 +1149,8 @@
                                     "mode": "Linear"
                                 },
                                 {
-                                    "property": "opacity",
-                                    "from": "0",
-                                    "to": "1",
-                                    "begin": "250",
-                                    "duration": "1000",
-                                    "mode": "Linear"
-                                },
-                                {
-                                    "property": "offsetY",
-                                    "from": "-1",
-                                    "to": "0",
-                                    "duration": "4000",
-                                    "mode": "EaseOutQuint"
-                                }
-                            ]
-                        },
-                        "xml": "<storyboard event=\"activatePrev\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetY\" from=\"-1\" to=\"0\" duration=\"4000\" mode=\"EaseOutQuint\" /></storyboard>"
-                    }
-                ],
-                "editable_properties": {},
-                "variables": {
-                    "mod_rotation": "0",
-                    "mod_pos_x": "0",
-                    "mod_pos_y": "0",
-                    "mod_scale": "1",
-                    "mod_opacity": "100",
-                    "mod_offset_x": "0",
-                    "mod_offset_y": "0"
-                },
-                "repeatAt": null,
-                "additional_elements": []
-            }
-        ],
-        "Artwork1.png": [
-            {
-                "name": "Sweet Arrival Bottom to Top",
-                "animations": [
-                    {
-                        "event": "open",
-                        "repeatAt": null,
-                        "animations": [
-                            {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "0",
-                                "begin": "",
-                                "duration": "",
-                                "mode": "Linear"
-                            },
-                            {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "1",
-                                "begin": "250",
-                                "duration": "500",
-                                "mode": "Linear"
-                            },
-                            {
-                                "property": "offsetY",
-                                "from": "1",
-                                "to": "0",
-                                "duration": "4000",
-                                "mode": "EaseOutQuint"
-                            }
-                        ],
-                        "original_storyboard": {
-                            "event": "open",
-                            "repeatAt": null,
-                            "animations": [
-                                {
-                                    "property": "opacity",
-                                    "from": "0",
-                                    "to": "0",
+                                    "property": "scaleOrigin",
+                                    "to": "0 0",
                                     "begin": "",
                                     "duration": "",
                                     "mode": "Linear"
@@ -796,138 +1159,69 @@
                                     "property": "opacity",
                                     "from": "0",
                                     "to": "1",
-                                    "begin": "250",
-                                    "duration": "500",
+                                    "begin": "1000",
+                                    "duration": "1500",
                                     "mode": "Linear"
                                 },
                                 {
-                                    "property": "offsetY",
-                                    "from": "1",
-                                    "to": "0",
-                                    "duration": "4000",
-                                    "mode": "EaseOutQuint"
-                                }
-                            ]
-                        },
-                        "xml": "<storyboard event=\"open\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"250\" duration=\"500\" mode=\"Linear\" /><animation property=\"offsetY\" from=\"1\" to=\"0\" duration=\"4000\" mode=\"EaseOutQuint\" /></storyboard>"
-                    },
-                    {
-                        "event": "activateNext",
-                        "repeatAt": null,
-                        "animations": [
-                            {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "0",
-                                "begin": "",
-                                "duration": "",
-                                "mode": "Linear"
-                            },
-                            {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "1",
-                                "begin": "250",
-                                "duration": "1000",
-                                "mode": "Linear"
-                            },
-                            {
-                                "property": "offsetY",
-                                "from": "1",
-                                "to": "0",
-                                "duration": "4000",
-                                "mode": "EaseOutQuint"
-                            }
-                        ],
-                        "original_storyboard": {
-                            "event": "activateNext",
-                            "repeatAt": null,
-                            "animations": [
-                                {
-                                    "property": "opacity",
-                                    "from": "0",
-                                    "to": "0",
-                                    "begin": "",
-                                    "duration": "",
-                                    "mode": "Linear"
-                                },
-                                {
-                                    "property": "opacity",
+                                    "property": "scale",
                                     "from": "0",
                                     "to": "1",
-                                    "begin": "250",
-                                    "duration": "1000",
-                                    "mode": "Linear"
+                                    "begin": "650",
+                                    "duration": "1500",
+                                    "mode": "easeIn"
                                 },
                                 {
-                                    "property": "offsetY",
-                                    "from": "1",
-                                    "to": "0",
-                                    "duration": "4000",
-                                    "mode": "EaseOutQuint"
+                                    "property": "h",
+                                    "from": "$size_y",
+                                    "to": "0.2",
+                                    "begin": "2150",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "h",
+                                    "from": "0.2",
+                                    "to": "$size_y",
+                                    "begin": "2250",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "$size_x",
+                                    "to": "0.2",
+                                    "begin": "2200",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "0.2",
+                                    "to": "$size_x",
+                                    "begin": "2300",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "$size_x",
+                                    "to": "0.35",
+                                    "begin": "2400",
+                                    "duration": "100",
+                                    "mode": "bump"
+                                },
+                                {
+                                    "property": "w",
+                                    "from": "0.35",
+                                    "to": "$size_x",
+                                    "begin": "2500",
+                                    "duration": "100",
+                                    "mode": "bump"
                                 }
                             ]
                         },
-                        "xml": "<storyboard event=\"activateNext\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetY\" from=\"1\" to=\"0\" duration=\"4000\" mode=\"EaseOutQuint\" /></storyboard>"
-                    },
-                    {
-                        "event": "activatePrev",
-                        "repeatAt": null,
-                        "animations": [
-                            {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "0",
-                                "begin": "",
-                                "duration": "",
-                                "mode": "Linear"
-                            },
-                            {
-                                "property": "opacity",
-                                "from": "0",
-                                "to": "1",
-                                "begin": "250",
-                                "duration": "1000",
-                                "mode": "Linear"
-                            },
-                            {
-                                "property": "offsetY",
-                                "from": "1",
-                                "to": "0",
-                                "duration": "4000",
-                                "mode": "EaseOutQuint"
-                            }
-                        ],
-                        "original_storyboard": {
-                            "event": "activatePrev",
-                            "repeatAt": null,
-                            "animations": [
-                                {
-                                    "property": "opacity",
-                                    "from": "0",
-                                    "to": "0",
-                                    "begin": "",
-                                    "duration": "",
-                                    "mode": "Linear"
-                                },
-                                {
-                                    "property": "opacity",
-                                    "from": "0",
-                                    "to": "1",
-                                    "begin": "250",
-                                    "duration": "1000",
-                                    "mode": "Linear"
-                                },
-                                {
-                                    "property": "offsetY",
-                                    "from": "1",
-                                    "to": "0",
-                                    "duration": "4000",
-                                    "mode": "EaseOutQuint"
-                                }
-                            ]
-                        },
-                        "xml": "<storyboard event=\"activatePrev\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"250\" duration=\"1000\" mode=\"Linear\" /><animation property=\"offsetY\" from=\"1\" to=\"0\" duration=\"4000\" mode=\"EaseOutQuint\" /></storyboard>"
+                        "xml": "<storyboard event=\"activatePrev\"><animation property=\"opacity\" from=\"0\" to=\"0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"scaleOrigin\" to=\"0 0\" begin=\"\" duration=\"\" mode=\"Linear\" /><animation property=\"opacity\" from=\"0\" to=\"1\" begin=\"1000\" duration=\"1500\" mode=\"Linear\" /><animation property=\"scale\" from=\"0\" to=\"1\" begin=\"650\" duration=\"1500\" mode=\"easeIn\" /><animation property=\"h\" from=\"$size_y\" to=\"0.2\" begin=\"2150\" duration=\"100\" mode=\"bump\" /><animation property=\"h\" from=\"0.2\" to=\"$size_y\" begin=\"2250\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"$size_x\" to=\"0.2\" begin=\"2200\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"0.2\" to=\"$size_x\" begin=\"2300\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"$size_x\" to=\"0.35\" begin=\"2400\" duration=\"100\" mode=\"bump\" /><animation property=\"w\" from=\"0.35\" to=\"$size_x\" begin=\"2500\" duration=\"100\" mode=\"bump\" /></storyboard>"
                     }
                 ],
                 "editable_properties": {},
