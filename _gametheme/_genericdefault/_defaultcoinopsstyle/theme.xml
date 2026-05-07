@@ -9,6 +9,7 @@
 		<intcoinopscollec>()
 		firstfile(  "${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png",
 					"${bobmediapath}/_gamemedia/" + ({game:system:theme}) + "/cabs/_"  + ({game:system:theme}) + ".png",
+					"${bobmediapath}/_gamemedia//_systemcoinops/"  + ({game:system:theme}) + ".png",
 					"${themePath}/_gamemedia/_defaultgamemedia/cabs/noir2j.png")
 		</intcoinopscollec>
 		<intcoinopsnext>("${themePath}/_viewgame/coinops/coinopsnext/"  + ({game:system:theme}) + ".png")</intcoinopsnext>

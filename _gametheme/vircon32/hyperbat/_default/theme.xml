@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
+		<image name="Background-vircon32" extra="true">
+			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'vircon32'</visible>
+			<path>./Background.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.500000000000 0.500000000000</pos>
+			<size>1.000000000000 1.000000000000</size>
+			<zIndex>100</zIndex>
+		</image>
+		<video name="gameplayprev-vircon32" extra="true">
+			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'vircon32'</visible>
+			<path>{game:video}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.410774410774 0.499064721287</pos>
+			<maxSize>0.328282828283 0.375607931163</maxSize>
+			<zIndex>200</zIndex>
+			<effect>none</effect>
+			<delay>0.5</delay>
+			<rotation>1</rotation>
+		</video>
+		<image name="Artwork2-vircon32" extra="true">
+			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'vircon32'</visible>
+			<path>./Artwork2.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.500000000000 0.500000000000</pos>
+			<size>1.000000000000 1.000000000000</size>
+			<zIndex>210</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="Artwork3-vircon32" extra="true">
+			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'vircon32'</visible>
+			<path>./Artwork3.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.241161616162 0.147259633371</pos>
+			<size>0.443602693603 0.243640104751</size>
+			<zIndex>220</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="650" duration="2000" mode="Linear"/>
+				<animation property="offsetX" from="-1" to="0" begin="650" duration="2000" mode="Linear"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="650" duration="2000" mode="Linear"/>
+				<animation property="offsetX" from="-1" to="0" begin="650" duration="2000" mode="Linear"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="650" duration="2000" mode="Linear"/>
+				<animation property="offsetX" from="-1" to="0" begin="650" duration="2000" mode="Linear"/>
+			</storyboard>
+		</image>
+		<image name="Fierce Soldier-vircon32" extra="true">
+			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'vircon32'</visible>
+			<path>{game:marquee}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.817024410774 0.233164983165</pos>
+			<maxSize>0.312500000000 0.277777777778</maxSize>
+			<zIndex>230</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<autoFade>false</autoFade>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="500" mode="Linear"/>
+				<animation property="offsetY" from="-1" to="0" duration="4000" mode="EaseOutQuint"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetY" from="-1" to="0" duration="4000" mode="EaseOutQuint"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetY" from="-1" to="0" duration="4000" mode="EaseOutQuint"/>
+			</storyboard>
+		</image>
+		<image name="Bricks (Demo)-vircon32" extra="true">
+			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'vircon32'</visible>
+			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.826283670034 0.526070894126</pos>
+			<maxSize>0.312500000000 0.300925925926</maxSize>
+			<zIndex>240</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<autoFade>false</autoFade>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="500" mode="Linear"/>
+				<animation property="offsetY" from="1" to="0" duration="4000" mode="EaseOutQuint"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetY" from="1" to="0" duration="4000" mode="EaseOutQuint"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="250" duration="1000" mode="Linear"/>
+				<animation property="offsetY" from="1" to="0" duration="4000" mode="EaseOutQuint"/>
+			</storyboard>
+		</image>
+		<control name="gameplayprev-vircon32, Artwork2-vircon32, Artwork3-vircon32, Fierce Soldier-vircon32, Bricks (Demo)-vircon32">
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn"/>
+				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn"/>
+				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
+		</control>
+		<text name="defaultthemeauthor" extra="true">
+			<text>Theme by : Finch</text>
+		</text>
+	</customView>
+</theme>
