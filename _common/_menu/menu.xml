@@ -25,7 +25,7 @@
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./fonts/CabinCondensed-Regular.ttf</fontPath>
 			<fontSize>0.015</fontSize>
-			<color>242424</color>
+			<color>FFFFFF</color>
 		</menuTextSmall>
 		<menuGroup name="menugroup">
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
