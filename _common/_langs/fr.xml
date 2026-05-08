@@ -466,10 +466,10 @@
 		<uneuro>1€ la partie</uneuro>
 		<sitessage>Appuie sur Start</sitessage>
 		<!-- Hyperbat dossier arcade et collection unifié -->
-		<gameviewsource>Dossier des thèmes de jeu</gameviewsource>
-		<originsystem>Gametheme\nom.du.system.du.jeu</originsystem>
-		<actualsystem>Gametheme\nom.du.system.selectionné</actualsystem>
-		<mamefolder>Défaut : Gametheme\mame -> gametheme\nom.du.system.du.jeu</mamefolder>
+		<gameviewsource>Système source des thèmes de jeu</gameviewsource>
+		<!-- <originsystem>Dossier du system d'origine du jeu prioritaire</originsystem> -->
+		<actualsystem>Dossier du système sélectionné prioritaire</actualsystem>
+		<mamefolder>Dossier d'origine du jeu prioritaire puis dossier mame</mamefolder>
 		<!-- Choix theme defaut -->
 		<defaultgeneric>Thème de Jeu générique :</defaultgeneric>
 		<defaulttheme>Par défaut</defaulttheme>

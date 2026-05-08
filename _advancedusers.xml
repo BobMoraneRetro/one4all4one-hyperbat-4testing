@@ -51,7 +51,7 @@
 	</subset>
 	<subset name="gameviewsource" displayName="${gameviewsource}" appliesTo="hyperbat">
 		<include name="mamefolder" displayName="${mamefolder}"/>
-		<include name="originsystem" displayName="${originsystem}"/>
+		<!-- <include name="originsystem" displayName="${originsystem}"/> -->
 		<include name="actualsystem" displayName="${actualsystem}"/>
 	</subset>
 	<!-- <subset name="unithfold" displayName="${unithfold}" appliesTo="hyperbat"> -->

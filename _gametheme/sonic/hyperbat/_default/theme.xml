@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
+		<image name="Background-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>./background.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.500000000000 0.500000000000</pos>
+			<size>1.000000000000 1.000000000000</size>
+			<zIndex>100</zIndex>
+		</image>
+		<video name="gameplayprev-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>{game:video}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.231770833333 0.531481481481</pos>
+			<maxSize>0.334375000000 0.446296296296</maxSize>
+			<zIndex>210</zIndex>
+			<effect>none</effect>
+			<delay>0.5</delay>
+		</video>
+		<image name="video4_3-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>./video4_3.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.233593750000 0.532870370370</pos>
+			<size>0.510937500000 0.717592592593</size>
+			<zIndex>220</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="logo-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>./logo.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.466145833333 0.130555555556</pos>
+			<size>0.414583333333 0.196296296296</size>
+			<zIndex>230</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="tails-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>./tails.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.515625000000 0.519907407407</pos>
+			<size>0.155208333333 0.397222222222</size>
+			<zIndex>240</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="art_sonic-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>./art_sonic.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.551822916667 0.692592592593</pos>
+			<size>0.125520833333 0.451851851852</size>
+			<zIndex>250</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="knuckle-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>./knuckle.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.456770833333 0.734722222222</pos>
+			<size>0.133333333333 0.367592592593</size>
+			<zIndex>260</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="Eggman_modern_3D_art_Egg_Mobile-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>./Eggman_modern_3D_art_Egg_Mobile.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.898697916667 0.143055555556</pos>
+			<size>0.138020833333 0.278703703704</size>
+			<zIndex>270</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="shadow-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>./shadow.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.925000000000 0.587037037037</pos>
+			<size>0.127083333333 0.362962962963</size>
+			<zIndex>280</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="CARTRIDGE-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path>{game:cartridge}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.917187500000 0.692592592593</pos>
+			<size>0.154166666667 0.251851851852</size>
+			<scale ifSubset="boxorthumb:boxback">1.000000000000</scale>
+			<zIndex>290</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<autoFade>false</autoFade>
+		</image>
+		<image name="boxart-sonic" extra="true">
+			<!-- <visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'sonic'</visible> -->
+			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.720572916667 0.558333333333</pos>
+			<maxSize>0.254687500000 0.553703703704</maxSize>
+			<zIndex>300</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<autoFade>false</autoFade>
+		</image>
+		<control name="gameplayprev-sonic, video4_3-sonic, logo-sonic, tails-sonic, art_sonic-sonic, knuckle-sonic, Eggman_modern_3D_art_Egg_Mobile-sonic, shadow-sonic, boxart-sonic">
+			<storyboard event="deactivateNext">
+				<!-- <animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn"/> -->
+				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<!-- <animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn"/> -->
+				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
+		</control>
+		<control name="CARTRIDGE-sonic">
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
+			</storyboard>
+		</control>
+		<text name="defaultthemeauthor" extra="true">
+			<text>Theme by : Dav</text>
+		</text>
+	</customView>
+</theme>
