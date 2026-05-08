@@ -10,8 +10,8 @@
 						<origin>0.5</origin>
 						<maxSize>1</maxSize>
 						<!-- <path>"${themePath}/_systemmedia/_logosyst/fondwheelsyst/" + stem({game:system:theme}) + ".png"</path> -->
-						<path>firstfile("${bobmediapath}/_systemmedia/_logosyst/fondovalcarbsyst/" + stem({game:system:theme}) + "-" + {game:region} + ".png",
-						"${bobmediapath}/_systemmedia/_logosyst/fondovalcarbsyst/" + stem({game:system:theme}) + ".png",
+						<path>firstfile("${path_syst_logo}/fondovalcarbsyst/" + stem({game:system:theme}) + "-" + {game:region} + ".png",
+						"${path_syst_logo}/fondovalcarbsyst/" + stem({game:system:theme}) + ".png",
 						"${themePath}/_viewgameoption/gl-common/logojeux/ovalcarb.png")</path>
 						<zIndex>98</zIndex>
 						<opacity>1</opacity>

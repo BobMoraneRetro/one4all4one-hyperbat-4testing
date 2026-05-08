@@ -36,11 +36,11 @@
 		<!-- ################ image 2 du système ########################################### -->
 		<image name="Artwork2Def" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png") &amp;&amp;
+			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png") &amp;&amp;
 			{game:system:theme} == 'snes'</visible>
 			<path>firstfile(
-			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + ".png",
-			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork2.png")</path>
+			"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + ".png",
+			"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork2.png")</path>
 			<origin>0 0.5</origin>
 			<pos>0 0.5</pos>
 			<maxSize>1 1</maxSize>
@@ -70,7 +70,7 @@
 		</image>
 		<image name="Artwork2AltDef" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
-			<path>"${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
+			<path>"${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0 0.5</origin>
 			<pos>0 0.5</pos>
 			<maxSize>0.247395833333333 1</maxSize>
@@ -103,8 +103,8 @@
 		<image name="Artwork3Def" extra="true">
 			<visible>{game:region} != 'us' &amp;&amp; ${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
 			<path>firstfile(
-			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png",
-			"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3defaut.png")</path>
+			"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png",
+			"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3defaut.png")</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.454166666666667 0.811574074074074</pos>
 			<size>0.541666666666667 0.376851851851852</size>
@@ -134,7 +134,7 @@
 		</image>
 		<image name="ArtworkusDef" extra="true">
 			<visible>{game:region} == 'us' &amp;&amp; ${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'snes'</visible>
-			<path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
+			<path>"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.444010416666667 0.805555555555556</pos>
 			<size>0.5171875 0.388888888888889</size>

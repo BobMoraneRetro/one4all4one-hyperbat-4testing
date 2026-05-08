@@ -54,7 +54,7 @@
 		</image>
 		<image name="logo_jeu-gc" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'gc'</visible>
-			<path>"${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
+			<path>"${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.120833333333 0.502314814815</pos>
 			<maxSize>0.241145833333 0.430555555556</maxSize>
@@ -154,7 +154,7 @@
 		<image name="logo-gc" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; 
 			{game:system:theme} == 'gc' &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
+			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
 			<path>./logo.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.120572916667 0.596759259259</pos>

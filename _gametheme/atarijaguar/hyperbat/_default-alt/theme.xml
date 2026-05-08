@@ -5,7 +5,7 @@
 		<image name="logo-atarijaguar" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; 
             {game:system:theme} == 'atarijaguar' &amp;&amp;
-            !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
+            !exists("${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
 			<path>./logo.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.130718990527 0.576320747154</pos>
@@ -30,7 +30,7 @@
 		</image>
 		<image name="logo-jeu atarijaguar" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'atarijaguar'</visible>
-            <path>"${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
+            <path>"${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.130718990527 0.576320747154</pos>
 			<size>0.179166666667 0.547222222222</size>

@@ -4,8 +4,8 @@
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="BackgrSyst" extra="true">
 			<visible>${IfnoextGamethemeexist}</visible>
-			<!-- <path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + "-" + {game:region} + ".png"</path> -->
-			<path>firstfile("${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + "-" + {game:region} + ".png","${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/snes-fr.png")</path>
+			<!-- <path>"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + "-" + {game:region} + ".png"</path> -->
+			<path>firstfile("${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + "-" + {game:region} + ".png","${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/snes-fr.png")</path>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<size>1 1</size>
@@ -14,7 +14,7 @@
 			<autoFade>false</autoFade>
 		</image>
 		<image name="Artwork2Def" extra="true">
-			<visible ifSubset="hsperview:themejeux">!exists("${bobmediapath}/_gametheme/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible>
+			<visible ifSubset="hsperview:themejeux">!exists("${path_game_theme}/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible>
 			<visible ifSubset="hsperview:themejeux">${IfnoextGamethemeexist}</visible>
 			<path>./Artwork2.png</path>
 			<origin>0 0.5</origin>
@@ -48,8 +48,8 @@
 		<!-- ############################ Réglage de la position de l'image du hardware en fonction de la Region du jeu ################################### -->
 		<image name="Artwork3Def" extra="true">
 			<visible>{game:region} != 'us' &amp;&amp; ${IfnoextGamethemeexist}</visible>
-			<!-- <path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path> -->
-			<path>firstfile("${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png","${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-fr.png")</path>
+			<!-- <path>"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path> -->
+			<path>firstfile("${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png","${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-fr.png")</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.454166666666667 0.811574074074074</pos>
 			<size>0.541666666666667 0.376851851851852</size>
@@ -80,7 +80,7 @@
 		</image>
 		<image name="ArtworkusDef" extra="true">
 			<visible>{game:region} == 'us' &amp;&amp; ${IfnoextGamethemeexist}</visible>
-			<path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
+			<path>"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.444010416666667 0.805555555555556</pos>
 			<size>0.5171875 0.388888888888889</size>
@@ -252,7 +252,7 @@
 		<!-- ##################logo des systèmes groupés ################################# -->
 		<image name="logosytgrouped1" extra="true">
 			<visible>{game:system:theme} == 'snes-msu1'</visible>
-			<path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + ".png"</path>
+			<path>"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + ".png"</path>
 		</image>
 		<!-- ################## gestion des boxart et cartridge du système + des systèmes groupés ################################# -->
 		<image name="boxartthumb" extra="true">

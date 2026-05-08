@@ -4,7 +4,7 @@
 	<!-- Variables utilisees dans ce fichier (definitions reprises de theme.xml) -->
 		<!-- <freshbuildfanart>exists({game:image}) ? {game:image} : {game:thumbnail}</freshbuildfanart> -->
 		<!-- <freshbuildfanarttest>!exists({game:image})</freshbuildfanarttest> -->
-		<!-- <intfanartfresh>${bobmediapath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg</intfanartfresh> -->
+		<!-- <intfanartfresh>${path_syst_fanart}/fresh/${system.theme}.jpg</intfanartfresh> -->
 		<!-- <standardsbuildsfanart>exists({game:fanart}) ? {game:fanart} : {game:thumbnail}</standardsbuildsfanart> -->
 		<!-- <standardsbuildsfanarttest>!exists({game:fanart})</standardsbuildsfanarttest> -->
 

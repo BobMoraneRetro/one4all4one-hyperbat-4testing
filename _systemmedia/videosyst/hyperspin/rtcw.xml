@@ -69,12 +69,12 @@
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
 			<visible ifSubset="systemview:copscurve|coinopsnext1|coinopsnext2|tetanos">false</visible>
 			<path>firstfile(
-                    "${bobmediapath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {system:theme} + "-${lang}.png",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {system:theme} + "-${region}.png",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".png",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {system:theme} + "-${lang}.svg",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {system:theme} + "-${region}.svg",
-					"${bobmediapath}/_systemmedia/_logosyst/clearlogos/" + {system:theme} + ".svg")</path>
+                    "${path_syst_logo}/clearlogos/lang-${lang}/" + {system:theme} + "-${lang}.png",
+					"${path_syst_logo}/clearlogos/region-${region}/" + {system:theme} + "-${region}.png",
+					"${path_syst_logo}/clearlogos/" + {system:theme} + ".png",
+					"${path_syst_logo}/clearlogos/lang-${lang}/" + {system:theme} + "-${lang}.svg",
+					"${path_syst_logo}/clearlogos/region-${region}/" + {system:theme} + "-${region}.svg",
+					"${path_syst_logo}/clearlogos/" + {system:theme} + ".svg")</path>
 			<!-- <path>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}.svg</path> -->
 			<!-- <path>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}.png</path> -->
 			<!-- <path region="fr">${intlogoclearfrpng}</path> -->

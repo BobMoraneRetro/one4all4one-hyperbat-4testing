@@ -93,7 +93,7 @@
 			<effect>none</effect>
 			<delay>0.5</delay>
 			<shader>
-				<path>${bobmediapath}/_common/shaders/border_multi_gradient.glsl</path>
+				<path>${path_com_shaders}/border_multi_gradient.glsl</path>
 				<cornerRadius>0.20</cornerRadius>
 				<innerShadowSize>0</innerShadowSize>
 				<innerShadowColor>0</innerShadowColor>

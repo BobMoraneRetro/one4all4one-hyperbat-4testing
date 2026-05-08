@@ -6,7 +6,7 @@
 			<itemTemplate>
 				<container>
 					<image name="fond">
-						<visible>!exists("${bobmediapath}/_systemmedia/_logosyst/fondwheelsyst/" + stem({game:system:theme}) + ".png")</visible>
+						<visible>!exists("${path_syst_logo}/fondwheelsyst/" + stem({game:system:theme}) + ".png")</visible>
 						<pos>0.5</pos>
 						<origin>0.5</origin>
 						<maxSize>1</maxSize>
@@ -73,10 +73,10 @@
 						</storyboard>
 					</image>
 					<image name="systemlogocomposeshadow">
-						<path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".svg",
-						"${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
-						"${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".svg",
-						"${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path>
+						<path>firstfile("${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".svg",
+						"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
+						"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".svg",
+						"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".png")</path>
 						<pos>0.143 0.488</pos>
 						<origin>0.5</origin>
 						<zIndex>98</zIndex>
@@ -109,10 +109,10 @@
 						</storyboard>
 					</image>
 					<image name="systemlogocompose">
-						<path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".svg",
-						"${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
-						"${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".svg",
-						"${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path>
+						<path>firstfile("${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".svg",
+						"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
+						"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".svg",
+						"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".png")</path>
 						<pos>0.14 0.49</pos>
 						<origin>0.5</origin>
 						<zIndex>98</zIndex>

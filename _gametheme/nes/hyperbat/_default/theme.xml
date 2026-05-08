@@ -123,7 +123,7 @@
 		<image name="cart-nes" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; 
 			{game:system:theme} == 'nes' &amp;&amp; 
-			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Cart/" + stem({game:rom}) + ".png")</visible>
+			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/Cart/" + stem({game:rom}) + ".png")</visible>
 			<path>./cart.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.794010416667 0.767129629630</pos>
@@ -148,7 +148,7 @@
 		</image>
 		<image name="cart-nes2" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'nes'</visible>
-			<path>"${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Cart/" + stem({game:rom}) + ".png"</path>
+			<path>"${path_game_theme}/${system.theme}/hyperbat/_default/Cart/" + stem({game:rom}) + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.794010416667 0.767129629630</pos>
 			<size>0.152604166667 0.065370370370</size>
@@ -173,7 +173,7 @@
 		<image name="logo2-nes" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; 
             {game:system:theme} == 'nes' &amp;&amp;
-            !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
+            !exists("${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
 			<path>./logo2.png</path>
 			<origin>0.5 0.5</origin>
 			<!-- <pos>0.587239583333 0.766666666667</pos> -->
@@ -197,7 +197,7 @@
 		</image>
 		<image name="logo2-nes2" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'nes'</visible>
-            <path>"${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
+            <path>"${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.57 0.80</pos>
 			<maxSize>0.2 0.3</maxSize>

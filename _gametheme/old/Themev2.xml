@@ -4,7 +4,7 @@
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="BackgrSyst" extra="true">
 			<visible>${IfnoextGamethemeexist}</visible>
-			<path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Background-" + {game:region} + ".png"</path>
+			<path>"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Background-" + {game:region} + ".png"</path>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<size>1 1</size>
@@ -13,7 +13,7 @@
 			<autoFade>false</autoFade>
 		</image>
 		<image name="Artwork1Def" extra="true">
-			<visible ifSubset="hsperview:themejeux">!exists("${bobmediapath}/_gametheme/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible>
+			<visible ifSubset="hsperview:themejeux">!exists("${path_game_theme}/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible>
 			<visible ifSubset="hsperview:themejeux">${IfnoextGamethemeexist}</visible>
 			<path>./Artwork1.png</path>
 			<origin>0.5 0.5</origin>
@@ -45,10 +45,10 @@
 			</storyboard>
 		</image>
 		<image name="Artwork3Def" extra="true">
-			<!-- <visible ifSubset="hsperview:themejeux">!exists("${bobmediapath}/_gametheme/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible> -->
+			<!-- <visible ifSubset="hsperview:themejeux">!exists("${path_game_theme}/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible> -->
 			<visible>{game:region} != 'us' &amp;&amp; ${IfnoextGamethemeexist}</visible>
 			<!-- <visible>${IfnoextGamethemeexist}</visible> -->
-			<path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
+			<path>"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.454166666666667 0.811574074074074</pos>
 			<size>0.541666666666667 0.376851851851852</size>
@@ -79,7 +79,7 @@
 		</image>
 		<image name="ArtworkusDef" extra="true">
 			<visible>{game:region} == 'us' &amp;&amp; ${IfnoextGamethemeexist}</visible>
-			<path>"${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
+			<path>"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.451 0.8</pos>
 			<size>0.541666666666667 0.376851851851852</size>

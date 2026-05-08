@@ -41,7 +41,7 @@
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 			<rotation>5</rotation>
 			<shader>
-				<path>${bobmediapath}/_common/shaders/border_multi_gradient.glsl</path>
+				<path>${path_com_shaders}/border_multi_gradient.glsl</path>
 				<cornerRadius>0.00</cornerRadius>
 				<innerShadowSize>0.01</innerShadowSize>
 				<innerShadowColor>00000030</innerShadowColor>

@@ -203,7 +203,7 @@
 		<image name="logo-psx" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; 
             {game:system:theme} == 'psx' &amp;&amp;
-            !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
+            !exists("${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
 			<path>./logo.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.104947916667 0.474074074074</pos>
@@ -228,7 +228,7 @@
 		</image>
 		<image name="logo_jeu-psx" extra="true">
 			 <visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'psx'</visible>
-            <path>"${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
+            <path>"${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.104947916667 0.474074074074</pos>
 			<maxSize>0.267708333333333 0.440740740740741</maxSize>

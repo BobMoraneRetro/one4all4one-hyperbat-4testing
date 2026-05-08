@@ -18,16 +18,16 @@
 		<!-- ######## Conditions de visibilité du theme generic : uniquement si pas de theme de jeu ni de theme defaut specific au système ############ -->
 		<control name="overlaybase,overlaymore,fondecranmarquee,fondecranpreview,fondmur,fondsystem,screenshotscust,previewvid1,screenshader,fondwheel,loop01,fondposter1,fondposter2">
 			<visible>
-			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible>
-			<!-- <visible>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
+			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
+			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible>
+			<!-- <visible>!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
 			<!-- <visible ifSubset="gameviewsource:mamefolder"> -->
-			<!-- !exists("${bobmediapath}/_gametheme/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
-			<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
-			<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
-			<!-- !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
-			<!-- <visible>!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+			<!-- !exists("${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+			<!-- !exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+			<!-- !exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
+			<!-- !exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+			<!-- <visible>!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
 		</control>
 		<image name="overlaybase" extra="true">
 			<path>${themepath}/_viewgame/coinops/overlay/overlay.png</path>
@@ -133,7 +133,7 @@
 		</image>
 		<video name="previewvid1" extra="true">
 			<!-- <path>firstfile({game:video}, -->
-			<!-- "${bobmediapath}/_systemmedia/videosyst/hyperpie/" + {game:stem} + ".mp4", -->
+			<!-- "${path_syst_theme}/hyperpie/" + {game:stem} + ".mp4", -->
 			<!-- "${bobmediapath}/_systemmedia/defaut/scotty.mp4")</path> -->
 			<path>{game:video}</path>
 			<delay>0.3</delay>
@@ -257,15 +257,15 @@
 		<!-- || {system.theme} == 'virtualboy'">0.5 0.49</maxSize> -->
 		<!-- <image name="screenshotgames" extra="true"> -->
 		<!-- <visible>!{game:folder} &amp;&amp;  -->
-		<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
-		<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
-		<!-- !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+		<!-- !exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+		<!-- !exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
+		<!-- !exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
 		<!-- <visible ifSubset="gameviewsource:mamefolder"> -->
-		<!-- !exists("${bobmediapath}/_gametheme/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+		<!-- !exists("${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
 		<!-- !{game:folder} &amp;&amp;  -->
-		<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
-		<!-- !exists("${bobmediapath}/_gametheme/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
-		<!-- !exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
+		<!-- !exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+		<!-- !exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp; -->
+		<!-- !exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
 		<!-- <path>{game:image}</path> -->
 		<!-- <origin>0.5 0.5</origin> -->
 		<!-- <pos>0.27 0.52</pos> -->
@@ -344,8 +344,8 @@
 		<!-- <zIndex>700</zIndex> -->
 		<!-- </image> -->
 		<!-- <image name="logocustshadow" extra="true"> -->
-		<!-- <path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png", -->
-		<!-- "${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path> -->
+		<!-- <path>firstfile("${path_syst_logo}/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png", -->
+		<!-- "${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".png")</path> -->
 		<!-- <maxSize>0.5 0.25</maxSize> -->
 		<!-- <scaleOrigin>0 -0.3</scaleOrigin> -->
 		<!-- <pos>0.278 0.133</pos> -->
@@ -358,8 +358,8 @@
 		<!-- </storyboard> -->
 		<!-- </image> -->
 		<!-- <image name="logocust" extra="true"> -->
-		<!-- <path>firstfile("${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png", -->
-		<!-- "${bobmediapath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path> -->
+		<!-- <path>firstfile("${path_syst_logo}/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png", -->
+		<!-- "${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".png")</path> -->
 		<!-- <maxSize>0.5 0.25</maxSize> -->
 		<!-- <scaleOrigin>0 -0.3</scaleOrigin> -->
 		<!-- <pos>0.28 0.13</pos> -->

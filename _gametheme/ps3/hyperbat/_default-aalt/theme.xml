@@ -103,7 +103,7 @@
 		<image name="logo-ps3" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; 
 			{game:system:theme} == 'ps3' &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
+			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
 			<path>./logo.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.104166666667 0.495059724226</pos>
@@ -128,7 +128,7 @@
 	    </image>
 		<image name="logo_jeu-ps3" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'ps3'</visible>
-			<path>"${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
+			<path>"${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.104166666667 0.495059724226</pos>
 			<size>0.164583333333 0.580555555556</size>

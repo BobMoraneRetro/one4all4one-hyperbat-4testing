@@ -12,7 +12,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="screenshotgames" extra="true">
-			<!-- <visible ifSubset="HSperview:Yes">!exists("${bobmediapath}/_gametheme/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible> -->
+			<!-- <visible ifSubset="HSperview:Yes">!exists("${path_game_theme}/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible> -->
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist}</visible>
 			<path>{game:image}</path>
 			<pos>0.27 0.52</pos>

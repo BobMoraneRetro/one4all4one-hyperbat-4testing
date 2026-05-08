@@ -77,7 +77,7 @@
 		<image name="logo_def-pcengine" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; 
 			{game:system:theme} == 'pcengine' &amp;&amp;
-			!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
+			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>
 			<path>./logo.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.120833333333 0.502314814815</pos>
@@ -129,7 +129,7 @@
 		</image>	
 		<image name="logo_jeu-pcengine" extra="true">
 			<visible>${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'pcengine'</visible>
-			<path>"${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
+			<path>"${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.120833333333 0.502314814815</pos>
 			<size>0.240625000000 0.252777777778</size>

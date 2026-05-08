@@ -51,7 +51,7 @@
 			<path>${intlogoclearjppng}</path>
 		</image>
 		<image name="Console" extra="true">
-			<visible ifSubset="hsperview:themejeux">!exists("${bobmediapath}/_gametheme/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible>
+			<visible ifSubset="hsperview:themejeux">!exists("${path_game_theme}/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible>
 			<visible ifSubset="hsperview:themejeux">${IfnoextGamethemeexist}</visible>
 			<path>./Console.png</path>
 			<origin>0.5 0.5</origin>
@@ -62,9 +62,9 @@
 			<autoFade>false</autoFade>
 		</image>	
 		<image name="ArtworkDef1" extra="true">
-			<visible ifSubset="hsperview:themejeux">!exists("${bobmediapath}/_gametheme/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible>
+			<visible ifSubset="hsperview:themejeux">!exists("${path_game_theme}/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml")</visible>
 			<visible ifSubset="hsperview:themejeux">${IfnoextGamethemeexist}</visible>
-			<visible ifSubset="hsperview:themejeux">!exists("${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>			
+			<visible ifSubset="hsperview:themejeux">!exists("${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png")</visible>			
 			<path>./Artwork1.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.127864583333333 0.521296296296296</pos>
@@ -96,7 +96,7 @@
 		</image>
 		<image name="ArtworkDef3" extra="true">
 			<visible>${IfnoextGamethemeexist}</visible>
-			<path>"${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
+			<path>"${path_game_theme}/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.1328125 0.5</pos>
 			<maxSize>0.3 0.8</maxSize>
