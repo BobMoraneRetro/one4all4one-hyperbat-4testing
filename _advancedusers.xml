@@ -183,14 +183,14 @@
 		<include name="intheme" displayName="${intheme}"/>
 		<include name="extfolder" displayName="${extfolder}"/>
 	</subset>
-	<subset name="extfolderthumbox" displayName="${extfolderthumbox}" appliesTo="hyperbat">
-		<include name="intheme" displayName="${intheme}"/>
-		<include name="extfolder" displayName="${extfolder}"/>
-	</subset>
-	<subset name="folder" displayName="${folder}" appliesTo="hyperbat">
-		<include name="default" displayName="${default}"/>
-		<include name="bobmedia" displayName="${bobmedia}"/>
-	</subset>
+	<!-- <subset name="extfolderthumbox" displayName="${extfolderthumbox}" appliesTo="hyperbat"> -->
+		<!-- <include name="intheme" displayName="${intheme}"/> -->
+		<!-- <include name="extfolder" displayName="${extfolder}"/> -->
+	<!-- </subset> -->
+	<!-- <subset name="folder" displayName="${folder}" appliesTo="hyperbat"> -->
+		<!-- <include name="default" displayName="${default}"/> -->
+		<!-- <include name="bobmedia" displayName="${bobmedia}"/> -->
+	<!-- </subset> -->
 <!-- ############################################# fanartstar preset boxart ##################################################################################### -->
 	<subset name="spacerstar" displayName="${spacerstar}" appliesTo="presetstarbox">
 		<include name="desactive" displayName=" "/>
