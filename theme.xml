@@ -24,6 +24,8 @@
 		<path_syst_theme ifSubset="extfolderbezelsyst:intheme">${themePath}/_systemmedia/videosyst</path_syst_theme>
 		<path_syst_bezel ifSubset="extfolderbezelsyst:extfolder">${themePath}/../_bobmedia/_systemmedia/bezelsyst</path_syst_bezel>
 		<path_syst_bezel ifSubset="extfolderbezelsyst:intheme">${themePath}/_systemmedia/bezelsyst</path_syst_bezel>
+		<path_com_shaders ifSubset="extfolderbezelsyst:extfolder">${themePath}/../_bobmedia/_common/shaders</path_com_shaders>
+		<path_com_shaders ifSubset="extfolderbezelsyst:intheme">${themePath}/_common/shaders</path_com_shaders>
 	</variables>
 	
 	

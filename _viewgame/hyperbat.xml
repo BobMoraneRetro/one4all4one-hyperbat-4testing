@@ -63,9 +63,9 @@
 		<gamecarousel name="gamecarousel">
 			<zIndex>501</zIndex>
 			<type>vertical_wheel</type>
-			<type if="{system.theme} == 'zelda' || 
-			{system.theme} == 'assasin' || 
-			{system.theme} == 'gta'">horizontal_wheel</type>
+			<!-- <type if="{system.theme} == 'zelda' ||  -->
+			<!-- {system.theme} == 'assasin' ||  -->
+			<!-- {system.theme} == 'gta'">horizontal_wheel</type> -->
 			<pos>0.415 0</pos>
 			<size>0.8 1</size>
 			<logoScale>1.4</logoScale>
