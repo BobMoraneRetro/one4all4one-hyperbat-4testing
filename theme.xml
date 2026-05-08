@@ -9,8 +9,9 @@
 	<!-- <bobmediapath>${themePath}</bobmediapath> -->
 	<!-- </variables> -->
 	<variables>
-		<bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath>
-		<bobmediapath ifSubset="folder:default">${themePath}</bobmediapath>
+		<!-- <bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath> -->
+		<!-- <bobmediapath ifSubset="folder:default">${themePath}</bobmediapath> -->
+		<bobmediapath>${themePath}</bobmediapath>
 		<path_game_theme ifSubset="extfoldergametheme:extfolder">${themePath}/../_bobmedia/_gametheme</path_game_theme>
 		<path_game_theme ifSubset="extfoldergametheme:intheme">${themePath}/_gametheme</path_game_theme>
 		<path_game_manuf ifSubset="extfoldermanufacturer:extfolder">${themePath}/../_bobmedia/_gamemedia/_manufacturer</path_game_manuf>
