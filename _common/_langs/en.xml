@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables lang="en">
@@ -17,7 +17,7 @@
 		<extfoldergamefanart>Source - Game fanart</extfoldergamefanart>
 		<intheme>Theme folder - Default</intheme>
 		<extfolder>External folder</extfolder>
-		<activate>Enabled</activate>
+		<activate>enabled</activate>
 		<!-- ######## META DATA ####### -->
 		<languesdispo>Available languages:</languesdispo>
 		<nodates>No date</nodates>
@@ -29,47 +29,45 @@
 		<nogametime>Never played</nogametime>
 		<noplayerdata>Unknown</noplayerdata>
 		<noratings>No rating</noratings>
-		<lastgamelabel>Last play:</lastgamelabel>
+		<lastgamelabel>Last played:</lastgamelabel>
 		<!-- ####### LOGOS ###### -->
-		<logosimple>Simple logo (Full + Region)</logosimple>
-		<logobd>Comic-style logo (Helmic)</logobd>
-		<logoovalcarb>Oval Carbon logo</logoovalcarb>
-		<hmaxovalsilver>Oval Silver logo</hmaxovalsilver>
-		<logorectfresh>Rectangle logo Team Freshone (External pack)</logorectfresh>
-		<hmaxrectrefl>Rectangle logo with reflection Team Freshone (External pack)</hmaxrectrefl>
-		<glassnekhros>Glass logo (By Nekhros)</glassnekhros>
+		<logosimple>Clear</logosimple>
+		<logobd>Comics (Helmic)</logobd>
+		<logoovalcarb>Oval Carbon</logoovalcarb>
+		<hmaxovalsilver>Oval Silver</hmaxovalsilver>
+		<logorectfresh>Rectangle (by Team Freshone)</logorectfresh>
+		<hmaxrectrefl>Rectangle reflective (by Team Freshone)</hmaxrectrefl>
+		<glassnekhros>Glass (By Nekhros)</glassnekhros>
 		<!-- ###################### -->
 		<fanartfreshone>Fanarts selected by FreshOne only</fanartfreshone>
 		<fanartsystcustom>Fanarts from custom folder, otherwise FreshOne</fanartsystcustom>
 		<yes>Yes</yes>
 		<no>No</no>
 		<desactive>Disabled</desactive>
-		<vide>   </vide>
-		<!-- liste des vues systemes -->
-		<systlist>System list view</systlist>
-		<systviewHS>HyperBAT - hyperspin experience (Not finished)</systviewHS>
+		<vide>   </vide>
+		<!-- list of system views -->
+		<systlist>View for system list</systlist>
+		<systviewHS>HyperBAT - hyperspin experience</systviewHS>
 		<viewbasicgrid>Basic: Basic grid view</viewbasicgrid>
-		<viewchoicecoinops>RFE coinops</viewchoicecoinops>
-		<viewchoice.hyperbat>HS Hyperbat</viewchoice.hyperbat>
-		<presetstarbox>ES Fanart Star Boxart</presetstarbox>
-		<!-- Suffixe fanart -->
-		<packcustombuild>SCRAP - Fanart structure?</packcustombuild>
-		<packcustombuildsno>Fanart with suffix "-fanart" (default)</packcustombuildsno>
-		<packretrofreshbat>Fanart with suffix "-image"</packretrofreshbat>
-		<!-- gestion de l'aide -->
-		<iconset>Help - Help icon appearance</iconset>
+		<viewchoicecoinops>Customizable: RFE coinops</viewchoicecoinops>
+		<viewchoice.hyperbat>Customizable: HS Hyperbat</viewchoice.hyperbat>
+		<presetstarbox>Customizable: ES Fanart Star Boxart</presetstarbox>
+		<!-- Fanart suffix -->
+		<packcustombuild>SCRAPE - Fanart structure</packcustombuild>
+		<packcustombuildsno>Fanart with "-fanart" suffix (default)</packcustombuildsno>
+		<packretrofreshbat>Fanart with "-image" suffix</packretrofreshbat>
+		<!-- Help management -->
+		<iconset>Help - Appearance of help icons</iconset>
 		<colorhelp>Help - Help text colors</colorhelp>
-		<!-- gestion des médias système -->
-		<systviewlogos>System view - System logo type selection</systviewlogos>
+		<!-- System media management -->
+		<systviewlogos>System view - Choice of system logo types</systviewlogos>
 		<systviewvideo>System view - Animated system presentation</systviewvideo>
-		<systviewfanart>System view - System fanart selection</systviewfanart>
-		<!-- Affichage metadata system -->
+		<systviewfanart>System view - Choice of system fanarts</systviewfanart>
 		<systviewtotal>System view - Show number of games in system</systviewtotal>
 		<nbrjeux>plain game count</nbrjeux>
 		<nbrjeux2>system name and game count</nbrjeux2>
-		<!-- ############ -->
-		<!-- affichage du menu catégorie officiel -->
-		<menuofficiel>Breadcrumb navigation display</menuofficiel>
+		<!-- Display of official category menu -->
+		<menuofficiel>System View - Breadcrumb navigation display</menuofficiel>
 		<menutxt>Official hardware sort: horizontal text</menutxt>
 		<menuorb>Official hardware sort: horizontal orb</menuorb>
 		<menuorbvert>Official hardware sort: vertical orb</menuorbvert>
@@ -80,7 +78,7 @@
 		<menucustorbcrcl>Bob custom hardware sort: half-circle orb</menucustorbcrcl>
 		<menutxtzspin>Official hardware sort: vertical text</menutxtzspin>
 		<menutxtzspincust>Bob custom hardware sort: vertical text</menutxtzspincust>
-		<!-- Options spécifique vue système tiré de hyperspin -->
+		<!-- Specific options for system view from Hyperspin -->
 		<sticksysteme>Hyperbat system view - Animated help icons</sticksysteme>
 		<hyperwheel>Hyperbat system view - Menu type selection</hyperwheel>
 		<spindr>Curved wheel on the right (Hyperspin)</spindr>
@@ -102,14 +100,14 @@
 		<sisaccades>Disabled</sisaccades>
 		<!-- Console max -->
 		<infosmax>Show max info console?</infosmax>
-		<!-- Affichage bref à l'ouverture du système en cours -->
+		<!-- Brief display at system launch -->
 		<systannounce>Show current system on startup</systannounce>
 		<classiquesyst>Zoom-out fade</classiquesyst>
 		<default>Set by theme</default>
 		<speedslow2>Slow++</speedslow2>
 		<speedslow1>Slow+</speedslow1>
-		<spacerHS02>----------------------    ↓ Start of advanced options specific to Hyperbat views ↓   -------------------</spacerHS02>
-		<mediahyper>----------- Required media for Hyperbat game view = Video,Screenshot,Marquee,Add-ons ---------------</mediahyper>
+		<spacerHS02>----------------------------- ↓ Start of advanced options specific to Hyperbat views ↓ -------------------</spacerHS02>
+		<mediahyper>-------------------------- Media required for Hyperbat game view = Video, Screenshot, Marquee, Add-ons ---------------</mediahyper>
 		<hyperbatperview>Show per-game themes?</hyperbatperview>
 		<themejeux>Per-game theme takes priority if available</themejeux>
 		<themejeuxno>Disable per-game theme</themejeuxno>
@@ -127,46 +125,51 @@
 		<ballyellow>Yellow</ballyellow>
 		<boxart>Boxart (Calibrated for 3D box)</boxart>
 		<thumb>Thumbnail (Calibrated for 2D box)</thumb>
-		<spacerstar>-----------------------------    ↓ Start of advanced options specific to Fanart Star views ↓   -------------------</spacerstar>
-		<mediastar>-------------------------- Recommended media for Fanart Star game view = Video,Marquee,Thumbnail ---------------</mediastar>
+		<pressstart>Press Start appearance</pressstart>
+		<doigts>Animated finger pressing a button</doigts>
+		<undoigt>Animated finger pressing a button on left only</undoigt>
+		<undoigtr>Animated finger pressing a button on right only</undoigtr>
+		<spacerstar>-- ↓ Start of advanced options specific to Fanart Star views ↓ -------------------</spacerstar>
+		<mediastar>--- Recommended media for Fanart Star game view = Video, Marquee, Thumbnail ---------------</mediastar>
 		<starvideo>Preview video size</starvideo>
 		<starvideobig>Large</starvideobig>
 		<starvideodef>Normal</starvideodef>
-		<starthumb>Show 2D or 3D covers?</starthumb>
+		<starthumb>Display 2D or 3D covers?</starthumb>
 		<starbox2d>Thumbnail</starbox2d>
 		<starbox3d>Boxart</starbox3d>
-		<spacebox>Space between covers</spacebox>
-		<spacesmall>Space -</spacesmall>
+		<spacebox>Spacing between covers</spacebox>
+		<spacesmall>Small space</spacesmall>
 		<spacenorm>Default</spacenorm>
-		<spacemore>Space ++</spacemore>
-		<customfanart>Choose which fanarts to use</customfanart>
-		<fanartgamelist>Scrape fanart from Gamelist</fanartgamelist>
+		<spacemore>Very large space</spacemore>
+		<customfanart>Choice of Fanarts to use</customfanart>
+		<fanartgamelist>Fanart from scrap in the Gamelist</fanartgamelist>
 		<fanartcustom>Custom fanart in _Gamemedia-SystemName-medium_artwork</fanartcustom>
-		<lismoi>Welcome message you have read</lismoi>
-		<tumasbienlu>Did you really read me carefully?</tumasbienlu>
-		<pointeuradroite>Hyperspin-style system pointers</pointeuradroite>
+		<lismoi>Welcome message</lismoi>
+		<tumasbienlu>Enabled</tumasbienlu>
+		<pointeuradroite>System pointers in Hyperspin style</pointeuradroite>
 		<actif>Enabled</actif>
 		<boxorthumb>Scrape type for the box</boxorthumb>
-		<!-- Affichage menu de navigation des jeux par lettre -->
-		<letternav>Letter navigation (games)</letternav>
+		<!-- Game navigation menu display by letter -->
+		<letternav>Letter-based navigation (games)</letternav>
 		<navhoricoinstyle>Horizontal alphabet display</navhoricoinstyle>
-		<navvertcoinstyle>Vertical alphabet display on the left</navvertcoinstyle>
-		<navvertrcoinstyle>Vertical alphabet display on the right</navvertrcoinstyle>
-		<navhsletters>Letter styled by system</navhsletters>
-		<hyperspinxp>ADDON: Dynamic Hyperspin-style image and gameplay</hyperspinxp>
-		<hyperspin>ADDON: Unified Hyperspin-style image and gameplay</hyperspin>
-		<hyperspinorder>ADDON: Dynamic HS otherwise Hyperpie video</hyperspinorder>
-		<hyperpie>ADDON: Hyperpie video otherwise Unified video if available</hyperpie>
-		<hyperspinorunified>ADDON: Dynamic HS otherwise unified HS</hyperspinorunified>
+		<navvertcoinstyle>Vertical alphabet display on left</navvertcoinstyle>
+		<navvertrcoinstyle>Vertical alphabet display on right</navvertrcoinstyle>
+		<navhsletters>System-styled letters</navhsletters>
+		<hyperspinxp>ADDON: Image and gameplay in Dynamic Hyperspin style</hyperspinxp>
+		<hyperspin>ADDON: Image and gameplay in Unified Hyperspin style</hyperspin>
+		<hyperspinorunified>ADDON: Dynamic HS, otherwise Unified HS</hyperspinorunified>
+		<hyperpie>ADDON : Hyperpie video otherwise Unified video</hyperpie>
+		<hyperspinorder>ADDON : HS Dynamique otherwise video hyperpie</hyperspinorder>
 		<gameplayp1>Small random gameplay video with bezel if available</gameplayp1>
 		<gameplay1>Large random gameplay video with bezel if available</gameplay1>
 		<gameplayp>Small random gameplay video</gameplayp>
 		<gameplay>Large random gameplay video</gameplay>
-		<custom>Personal video from custom folder</custom>
+		<custom>Personal video from the custom folder</custom>
+		<default>default</default>
 		<skyblue>sky blue</skyblue>
 		<purple>purple</purple>
 		<red>red</red>
-		<aqua>aqua</aqua>
+		<aqua>sky blue</aqua>
 		<orange>orange</orange>
 		<green>green</green>
 		<yellow>yellow</yellow>
@@ -183,26 +186,26 @@
 		<iconsetposition>Button position</iconsetposition>
 		<!-- Option de vignettage-->
 		<vignettagehs>Vignette effect</vignettagehs>
-		<!-- Hyperbat Couleur stick système-->
-		<systballblue>Blue stick</systballblue>
-		<systballcyan>Cyan stick</systballcyan>
-		<systballdarkviolet>Dark violet stick</systballdarkviolet>
-		<systballviolet>Violet stick</systballviolet>
-		<systballgreen>Green stick</systballgreen>
-		<systballlitegreen>Light green stick</systballlitegreen>
-		<systballpink>Pink stick</systballpink>
-		<systballred>Red stick</systballred>
-		<systballyelgreen>Yellow green stick</systballyelgreen>
-		<systballyellow>Yellow stick</systballyellow>
+		<!-- Hyperbat Stick Color System -->
+		<systballblue>Blue Stick</systballblue>
+		<systballcyan>Cyan Stick</systballcyan>
+		<systballdarkviolet>Dark Violet Stick</systballdarkviolet>
+		<systballviolet>Violet Stick</systballviolet>
+		<systballgreen>Green Stick</systballgreen>
+		<systballlitegreen>Light Green Stick</systballlitegreen>
+		<systballpink>Pink Stick</systballpink>
+		<systballred>Red Stick</systballred>
+		<systballyelgreen>Yellow-Green Stick</systballyelgreen>
+		<systballyellow>Yellow Stick</systballyellow>
 		<!-- Hyperbat text stick vue jeux -->
 		<jeusuiv>Next Game</jeusuiv>
 		<jeuprec>Previous Game</jeuprec>
 		<systsuiv>Next System</systsuiv>
 		<systprec>Previous System</systprec>
 		<!-- Hyperbat metadata -->
-		<hsmetadata>Metadata Configuration</hsmetadata>
+		<hsmetadata>Metadata configuration</hsmetadata>
 		<full>Full and default position</full>
-		<lower>Full and lowest position</lower>
+		<lower>Full and lower position</lower>
 		<!-- Hyperbat fond de wheel -->
 		<rectcompose>Custom rectangle per system (auto-generated)</rectcompose>
 		<ovalcompose>Custom oval carbon per system (auto-generated)</ovalcompose>
@@ -214,31 +217,31 @@
 		<smoothgametheme>Smooth transition between game themes</smoothgametheme>
 		<activesmooth>Enabled (recommended for Retrobat)</activesmooth>
 		<noactivesmooth>Disabled (recommended for Batocera)</noactivesmooth>
-		<!-- Hyperbat affichage de l'auteur -->
+		<!-- Hyperbat smooth transition -->
 		<authordisplayed>Display game theme author</authordisplayed>
 		<showoff>Enabled, high visibility</showoff>
 		<showoffblackwhite>Enabled, ultra visibility</showoffblackwhite>
 		<!-- Hyperbat scroll sound -->
-		<gamewheelsound>Scroll sound selection</gamewheelsound>
+		<gamewheelsound>Scroll sound choice</gamewheelsound>
 		<wheelclic>Hyperspin-style click</wheelclic>
 		<bulle>Bubble</bulle>
 		<clic>Simple click</clic>
-		<clicgrave>Low click</clicgrave>
+		<clicgrave>Deep click</clicgrave>
 		<frottement>Friction</frottement>
-		<poc>Poc</poc>
+		<poc>Pop</poc>
 		<!-- Hyperbat doigt qui appuie -->
 		<pressstart>Press start appearance</pressstart>
 		<doigts>Animated finger pressing a button</doigts>
 		<undoigt>Animated finger pressing a button on the left only</undoigt>
 		<undoigtr>Animated finger pressing a button on the right only</undoigtr>
 		<!-- Hyperbat press start -->
-		<pressstarttxt>Text selection</pressstarttxt>
+		<pressstarttxt>Choose the text</pressstarttxt>
 		<presstxt>Press start</presstxt>
 		<freeplay>Free Play</freeplay>
-		<partiegratuite>Free game</partiegratuite>
-		<uneuro>€1 per game</uneuro>
-		<sitessage>Press Start</sitessage>
-		<!-- Hyperbat dossier arcade et collection unifié -->
+		<partiegratuite>Partie gratuite</partiegratuite>
+		<uneuro>1€ la partie</uneuro>
+		<sitessage>Appuie sur Start</sitessage>
+		<!-- Hyperbat unified arcade and collection folder -->
 		<gameviewsource>Source system for game themes</gameviewsource>
 		<!-- <originsystem>Priority game origin system folder</originsystem> -->
 		<actualsystem>Selected system folder takes priority</actualsystem>

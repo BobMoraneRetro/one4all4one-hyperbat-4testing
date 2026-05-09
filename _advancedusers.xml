@@ -27,7 +27,6 @@
 		<include name="non" displayName="${no}"/>
 		<include name="oui" displayName="${yes}">${themePath}/_viewgameoption/gl-common/infosmax.xml</include>
 	</subset>
-	
 	<!-- ################################################################################# -->
 	<!-- ######################## VUES JEUX Hyperspin #################################### -->
 	<!-- ################################################################################# -->
@@ -55,8 +54,8 @@
 		<include name="actualsystem" displayName="${actualsystem}"/>
 	</subset>
 	<!-- <subset name="unithfold" displayName="${unithfold}" appliesTo="hyperbat"> -->
-		<!-- <include name="separatefolder" displayName="${separatefolder}"/> -->
-		<!-- <include name="mamefolder" displayName="${mamefolder}"/> -->
+	<!-- <include name="separatefolder" displayName="${separatefolder}"/> -->
+	<!-- <include name="mamefolder" displayName="${mamefolder}"/> -->
 	<!-- </subset> -->
 	<subset name="authordisplayed" displayName="${authordisplayed}" appliesTo="hyperbat">
 		<include name="activate" displayName="${activate}"/>
@@ -74,9 +73,9 @@
 		<include name="deactivate" displayName="${desactive}"/>
 	</subset>
 	<!-- <subset name="gamewheeltype" displayName="${gamewheeltype}" appliesTo="hyperbat"> -->
-		<!-- <include name="wrightwheel" displayName="${wrightwheel}">${themePath}/_viewgameoption/gl-hyperbat/wrightwheel.xml</include> -->
-		<!-- <include name="whorizontalbox" displayName="${whorizontalbox}">${themePath}/_viewgameoption/gl-hyperbat/whorizontalbox.xml</include> -->
-		<!-- <include name="deactivate" displayName="${desactive}"/> -->
+	<!-- <include name="wrightwheel" displayName="${wrightwheel}">${themePath}/_viewgameoption/gl-hyperbat/wrightwheel.xml</include> -->
+	<!-- <include name="whorizontalbox" displayName="${whorizontalbox}">${themePath}/_viewgameoption/gl-hyperbat/whorizontalbox.xml</include> -->
+	<!-- <include name="deactivate" displayName="${desactive}"/> -->
 	<!-- </subset> -->
 	<subset name="gamewheelsound" displayName="${gamewheelsound}" appliesTo="hyperbat">
 		<include name="wheelclic" displayName="${wheelclic}"/>
@@ -136,14 +135,14 @@
 		<include name="activesmooth" displayName="${activesmooth}"/>
 		<include name="noactivesmooth" displayName="${noactivesmooth}"/>
 	</subset>
-		<subset name="pointeuradroite" displayName="${pointeuradroite}" appliesTo="hyperbat">
+	<subset name="pointeuradroite" displayName="${pointeuradroite}" appliesTo="hyperbat">
 		<include name="actif" displayName="${actif}">${themePath}/_viewsystoption/sl-hyperspin/pointers.xml</include>
 		<include name="desactive" displayName="${desactive}"/>
 	</subset>
 	<subset name="spacerHS03" displayName="${vide}" appliesTo="${vide}">
 		<include name=" " displayName=" "/>
 	</subset>
-		<subset name="spacerscrap" displayName="${spacerscrap}" appliesTo="${vide}">
+	<subset name="spacerscrap" displayName="${spacerscrap}" appliesTo="${vide}">
 		<include name="desactive" displayName=" "/>
 	</subset>
 	<subset name="boxorthumb" displayName="${boxorthumb}" appliesTo="hyperbat">
@@ -184,18 +183,18 @@
 		<include name="extfolder" displayName="${extfolder}"/>
 	</subset>
 	<!-- <subset name="extfoldershaders" displayName="${extfoldershaders}" appliesTo="hyperbat"> -->
-		<!-- <include name="intheme" displayName="${intheme}"/> -->
-		<!-- <include name="extfolder" displayName="${extfolder}"/> -->
+	<!-- <include name="intheme" displayName="${intheme}"/> -->
+	<!-- <include name="extfolder" displayName="${extfolder}"/> -->
 	<!-- </subset> -->
 	<!-- <subset name="extfolderthumbox" displayName="${extfolderthumbox}" appliesTo="hyperbat"> -->
-		<!-- <include name="intheme" displayName="${intheme}"/> -->
-		<!-- <include name="extfolder" displayName="${extfolder}"/> -->
+	<!-- <include name="intheme" displayName="${intheme}"/> -->
+	<!-- <include name="extfolder" displayName="${extfolder}"/> -->
 	<!-- </subset> -->
 	<!-- <subset name="folder" displayName="${folder}" appliesTo="hyperbat"> -->
-		<!-- <include name="default" displayName="${default}"/> -->
-		<!-- <include name="bobmedia" displayName="${bobmedia}"/> -->
+	<!-- <include name="default" displayName="${default}"/> -->
+	<!-- <include name="bobmedia" displayName="${bobmedia}"/> -->
 	<!-- </subset> -->
-<!-- ############################################# fanartstar preset boxart ##################################################################################### -->
+	<!-- ############################################# fanartstar preset boxart ##################################################################################### -->
 	<subset name="spacerstar" displayName="${spacerstar}" appliesTo="presetstarbox">
 		<include name="desactive" displayName=" "/>
 	</subset>
@@ -222,7 +221,7 @@
 		<include name="starslow1" displayName="${speedslow1}"/>
 		<include name="starslow2" displayName="${speedslow2}"/>
 	</subset>
-		<subset name="customfanart" displayName="${customfanart}" appliesTo="presetstarbox">
+	<subset name="customfanart" displayName="${customfanart}" appliesTo="presetstarbox">
 		<include name="fanartgamelist" displayName="${fanartgamelist}"/>
 		<include name="fanartcustom" displayName="${fanartcustom}"/>
 	</subset>
@@ -239,6 +238,4 @@
 		<include name="starvideodef" displayName="${starvideodef}"/>
 		<include name="starvideobig" displayName="${starvideobig}"/>
 	</subset>
-	
-	
 </theme>

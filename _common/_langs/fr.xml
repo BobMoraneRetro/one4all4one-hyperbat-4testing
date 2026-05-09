@@ -47,7 +47,7 @@
 		<vide>   </vide>
 		<!-- liste des vues systemes -->
 		<systlist>Vue pour la liste des systèmes</systlist>
-		<systviewHS>HyperBAT - hyperspin experience (Pas finis)</systviewHS>
+		<systviewHS>HyperBAT - hyperspin experience</systviewHS>
 		<viewbasicgrid>Basic : Vue grille basique</viewbasicgrid>
 		<viewchoicecoinops>RFE coinops</viewchoicecoinops>
 		<viewchoice.hyperbat>HS Hyperbat</viewchoice.hyperbat>

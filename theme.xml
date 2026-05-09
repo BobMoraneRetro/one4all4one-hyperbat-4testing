@@ -9,8 +9,8 @@
 	<!-- <bobmediapath>${themePath}</bobmediapath> -->
 	<!-- </variables> -->
 	<variables>
-		<!-- <bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath> -->
-		<!-- <bobmediapath ifSubset="folder:default">${themePath}</bobmediapath> -->
+		<bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath>
+		<bobmediapath ifSubset="folder:default">${themePath}</bobmediapath>
 		<bobmediapath>${themePath}</bobmediapath>
 		<path_game_theme ifSubset="extfoldergametheme:extfolder">${themePath}/../_bobmedia/_gametheme</path_game_theme>
 		<path_game_theme ifSubset="extfoldergametheme:intheme">${themePath}/_gametheme</path_game_theme>
@@ -28,7 +28,7 @@
 		<path_com_shaders ifSubset="extfoldershaders:intheme">${themePath}/_common/shaders</path_com_shaders>
 		<path_com_shaders>${themePath}/_common/shaders</path_com_shaders>
 	</variables>
-	
+	<!-- <include>${themePath}/_externalfolder.xml</include> -->
 	
 	<!-- <variables ifSubset="extfoldergametheme:extfolder"> -->
 	<!-- <variables ifSubset="extfoldersysttheme:extfolder"> -->
