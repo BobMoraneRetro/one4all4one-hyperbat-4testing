@@ -2,131 +2,87 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables lang="es">
+		<!-- Hyperbat externaliser gametheme et systheme -->
+		<spacerextfolder>------------------- Configuración avanzada: Modificación de la carpeta fuente de medios --------------------------------------------------------</spacerextfolder>
+		<folder>Fuente - no usar</folder>
+		<default>Por defecto</default>
+		<bobmedia>Bobmedia</bobmedia>
+		<extfoldergametheme>Fuente - Tema específico del juego</extfoldergametheme>
+		<extfoldervideosyst>Fuente - Tema específico del sistema</extfoldervideosyst>
+		<extfolderfanart>Fuente - Fanart del sistema</extfolderfanart>
+		<extfolderlogosyst>Fuente - Logo del sistema</extfolderlogosyst>
+		<extfolderbezelsyst>Fuente - Bezel del sistema</extfolderbezelsyst>
+		<extfoldermanufacturer>Fuente - Logos de editoras de juegos</extfoldermanufacturer>
+		<extfolderthumbox>Fuente - Caja 2D/3D de juegos</extfolderthumbox>
+		<extfoldergamefanart>Fuente - Fanart de juegos</extfoldergamefanart>
+		<intheme>Carpeta del tema - Por defecto</intheme>
+		<extfolder>Carpeta externa</extfolder>
+		<activate>Activado</activate>
 		<!-- ######## META DATA ####### -->
 		<languesdispo>Idiomas disponibles:</languesdispo>
 		<nodates>Sin fecha</nodates>
 		<playcount>partidas</playcount>
-		<noplaycount>Nunca iniciado</noplaycount>
+		<playcountone>partida</playcountone>
 		<players>jugador(es)</players>
+		<playerss>jugadores</playerss>
+		<player>jugador</player>
 		<nogametime>Nunca jugado</nogametime>
 		<noplayerdata>Desconocido</noplayerdata>
-		<!-- ###################### -->
+		<noratings>Sin puntuación</noratings>
+		<lastgamelabel>Última partida:</lastgamelabel>
 		<!-- ####### LOGOS ###### -->
 		<logosimple>Logo simple (Completo + Región)</logosimple>
-		<logobd>Logo tipo cómic (Helmic)</logobd>
-		<logoovalcarb>Logo ovalado Carbon</logoovalcarb>
-		<hmaxovalsilver>Logo ovalado Silver</hmaxovalsilver>
-		<logorectfresh>Logo rectangular Team Freshone (Paquete externo)</logorectfresh>
-		<hmaxrectrefl>Logo rectangular con reflejo Team Freshone (Paquete externo)</hmaxrectrefl>
+		<logobd>Logo estilo cómic (Helmic)</logobd>
+		<logoovalcarb>Logo oval Carbon</logoovalcarb>
+		<hmaxovalsilver>Logo oval Silver</hmaxovalsilver>
+		<logorectfresh>Logo rectángulo Team Freshone (Pack externo)</logorectfresh>
+		<hmaxrectrefl>Logo rectángulo con reflejo Team Freshone (Pack externo)</hmaxrectrefl>
 		<glassnekhros>Logo Glass (By Nekhros)</glassnekhros>
 		<!-- ###################### -->
 		<fanartfreshone>Fanarts seleccionados solo por FreshOne</fanartfreshone>
-		<fanartsystcustom>Fanarts de la carpeta personalizada, de lo contrario, FreshOne</fanartsystcustom>
-		<!-- ###################### -->
+		<fanartsystcustom>Fanarts de la carpeta custom, si no FreshOne</fanartsystcustom>
 		<yes>Sí</yes>
 		<no>No</no>
-		<rien>No</rien>
 		<desactive>Desactivado</desactive>
 		<vide>   </vide>
-		<!-- colores -->
-		<Bleue>Azul</Bleue>
-		<Violet>Violeta</Violet>
-		<Rouge>Rojo</Rouge>
-		<!-- lista de vistas de sistemas -->
+		<!-- liste des vues systemes -->
 		<systlist>Vista para la lista de sistemas</systlist>
-		<systviewcops1>RFE - RetroFE NEXT (No terminado)</systviewcops1>
-		<systviewcops2>RFE - RetroFE NEXT 2 (No terminado)</systviewcops2>
-		<systviewcops1curve>RFE - RetroFE NEXT Curva (No terminado)</systviewcops1curve>
-		<systviewtetanos>RFE - RetroFE Tipo R (recién comenzado)</systviewtetanos>
 		<systviewHS>HyperBAT - experiencia hyperspin (No terminado)</systviewHS>
-		<systviewHM>HyperMAX - versión light de hypermax (No terminado)</systviewHM>
-		<systviewalek>Artflix - Vista de sistema diseñada por Alekfull (No terminado)</systviewalek>
-		<systviewzspin>Z - HFS Z-Spin Rusty edition (No terminado)</systviewzspin>
-		<systviewnesica>Attract - NESiCAxLive (No terminado)</systviewnesica>
-		<!-- Nombre de las diferentes vistas de juegos -->
-		<viewbasicdetailed>Básico: Vista de tabla detallada</viewbasicdetailed>
 		<viewbasicgrid>Básico: Vista de cuadrícula básica</viewbasicgrid>
-		<viewgridplus>Básico: Vista de cuadrícula mejorada</viewgridplus>
-		<viewchoicezspin>Personalizable: HFS Z-Spin</viewchoicezspin>
-		<viewchoicecoinops>Personalizable: RFE coinops</viewchoicecoinops>
-		<viewchoice.hyperbat>Personalizable: HS Hyperbat</viewchoice.hyperbat>
-		<presetsquare>Personalizable: ES Fanart Star cuadrado</presetsquare>
-		<presetstar169>Personalizable: ES Fanart Star 16/9</presetstar169>
-		<presetstar43>Personalizable: ES Fanart Star 4/3</presetstar43>
-		<presetstarbox>Personalizable: ES Fanart Star Boxart</presetstarbox>
-		<viewcarouselplus>Simple: Gamecarousel plus</viewcarouselplus>
-		<viewcoinopsreset>Simple: RFE coinops</viewcoinopsreset>
-		<coinopsdeluxe>Simple: RFE coinops deluxe</coinopsdeluxe>
-		<presetaura>Simple: RFE Aura</presetaura>
-		<presetauraalt>Simple: RFE Aura alternativa en desarrollo (No utilizable)</presetauraalt>
-		<presetspeedbull>Simple: RFE speedbull</presetspeedbull>
-		<presettraviolta>Simple: RFE traviolta</presettraviolta>
-		<presettraviolta_alt>Simple: RFE traviolta alternativa en desarrollo (WIP)</presettraviolta_alt>
-		<presetshowbig>Simple: RFE Show Big preview</presetshowbig>
-		<presetshowsmall>Simple: RFE Show Small preview</presetshowsmall>
-		<viewchoicezspin2>Simple: HFS Z-Spin alternativa (Beta test)</viewchoicezspin2>
-		<presetpincab>Simple: Pincab ARC</presetpincab>
-		<viewchoicehmax>Simple: ES Hypermax (En desarrollo)</viewchoicehmax>
-		<nesicaxlive1>Simple: Arcade NESiCAxLive 1</nesicaxlive1>
-		<nesicaxlive2>Simple: Arcade NESiCAxLive 2</nesicaxlive2>
-		<presetsegallnet1>Simple: Arcade ALL.Net P-ras MULTI (En desarrollo - No utilizable)</presetsegallnet1>
-		<!-- gestión de complementos -->
-		<packinstall>¿ADD-ONS de medios Bob Morane instalados?</packinstall>
-		<packinstallno>No, opciones específicas de estos medios desactivadas</packinstallno>
-		<packinstallyes>Sí, opciones de tema según los ADD-ONS detectados</packinstallyes>
-		<!-- Número de opciones -->
-		<packusermode>Número de opciones del tema</packusermode>
-		<packadvanceduser>Todo: para retrobat sin modificar</packadvanceduser>
-		<packfreshcuser>Retrofreshbat: Opciones seleccionadas por Freshone</packfreshcuser>
-		<!-- Sufijo fanart -->
+		<viewchoicecoinops>RFE coinops</viewchoicecoinops>
+		<viewchoice.hyperbat>HS Hyperbat</viewchoice.hyperbat>
+		<presetstarbox>ES Fanart Star Boxart</presetstarbox>
+		<!-- Suffixe fanart -->
 		<packcustombuild>SCRAP - ¿Estructura fanart?</packcustombuild>
 		<packcustombuildsno>Fanart con sufijo "-fanart" (por defecto)</packcustombuildsno>
 		<packretrofreshbat>Fanart con sufijo "-image"</packretrofreshbat>
-		<coretyperfanart>Fanart sin sufijo basado en Core Type R</coretyperfanart>
-		<!-- Cartuchos y discos -->
-		<packcartdiscgest>SCRAP - ¿Gestión de medios cartuchos y discos?</packcartdiscgest>
-		<packnonsepare>Una sola carpeta (por defecto)</packnonsepare>
-		<packcartcardsepare>Carpetas separadas</packcartcardsepare>
-		<!-- gestión de la ayuda -->
+		<!-- gestion de l'aide -->
 		<iconset>Ayuda - Apariencia de los iconos de ayuda</iconset>
 		<colorhelp>Ayuda - Colores del texto de ayuda</colorhelp>
-		<!-- gestión de los medios del sistema -->
-		<systviewlogos>Vista del sistema - Elección del tipo de logotipos del sistema</systviewlogos>
-		<systviewvideo>Vista del sistema - Presentación animada del sistema</systviewvideo>
-		<systviewfanart>Vista del sistema - Elección de fanarts del sistema</systviewfanart>
-		<systviewtotal>Vista del sistema - Mostrar el número de juegos del sistema</systviewtotal>
-		<!-- visualización del menú de categoría -->
-		<menucat>Vista del sistema - Si "ordenar sistema" por "hardware" únicamente</menucat>
-		<arcorb>Órbitas en arco (Next2)</arcorb>
-		<arctxt>Órbitas y texto en arco (Next2)</arctxt>
-		<vertorb>Órbitas en vertical (Next 1 2, Hyperbat, Zspin)</vertorb>
-		<flatorb>Órbitas en horizontal (Next 1 2, Hyperbat, Zspin)</flatorb>
-		<flattext>Texto horizontal (Next 1 2, Hyperbat, Zspin)</flattext>
+		<!-- gestion des médias système -->
+		<systviewlogos>Vista sistema - Selección del tipo de logo del sistema</systviewlogos>
+		<systviewvideo>Vista sistema - Presentación animada del sistema</systviewvideo>
+		<systviewfanart>Vista sistema - Selección de fanarts del sistema</systviewfanart>
+		<!-- Affichage metadata system -->
+		<systviewtotal>Vista sistema - Mostrar número de juegos del sistema</systviewtotal>
+		<nbrjeux>número de juegos simple</nbrjeux>
+		<nbrjeux2>nombre del sistema y número de juegos</nbrjeux2>
 		<!-- ############ -->
-		<!-- visualización del menú de categoría oficial -->
-		<menuofficiel>Visualización del hilo de Ariadna</menuofficiel>
-		<menutxt>Ordenar hardware oficial: texto horizontal</menutxt>
-		<menuorb>Ordenar hardware oficial: órbita horizontal</menuorb>
-		<menuorbvert>Ordenar hardware oficial: órbita vertical</menuorbvert>
-		<menuorbcrcl>Ordenar hardware oficial: órbita en semicírculo</menuorbcrcl>
-		<menucust>Ordenar hardware personalizado de Bob: texto horizontal</menucust>
-		<menucustorb>Ordenar hardware personalizado de Bob: órbita horizontal</menucustorb>
-		<menucustorbvert>Ordenar hardware personalizado de Bob: órbita vertical</menucustorbvert>
-		<menucustorbcrcl>Ordenar hardware personalizado de Bob: órbita en semicírculo</menucustorbcrcl>
-		<menutxtzspin>Ordenar hardware oficial: texto vertical</menutxtzspin>
-		<menutxtzspincust>Ordenar hardware personalizado de Bob: texto vertical</menutxtzspincust>
-		<!-- ######## -->
-		<vagueschoix>Vista del sistema - específico de CoinOPS - olas animadas</vagueschoix>
-		<vaguebleue>Ola azul</vaguebleue>
-		<vagueviolet>Ola violeta</vagueviolet>
-		<vaguerouge>Ola roja</vaguerouge>
-		<cops2menu>Vista del sistema - específico de CoinOPS - Posición de la lista de sistemas</cops2menu>
-		<milieu>En el centro de la pantalla</milieu>
-		<bas>En la parte inferior de la pantalla</bas>
-		<!-- Opciones específicas de vista del sistema extraídas de Hyperspin -->
-		<sticksysteme>Vista del sistema - específico de Hyperbat - Ayudas animadas</sticksysteme>
-		<stickbleu>Stick Azul</stickbleu>
-		<hyperwheel>Vista del sistema - específico de Hyperbat - elección del tipo de menú</hyperwheel>
+		<!-- affichage du menu catégorie officiel -->
+		<menuofficiel>Mostrar navegación de migas de pan</menuofficiel>
+		<menutxt>Ordenación hardware oficial: texto horizontal</menutxt>
+		<menuorb>Ordenación hardware oficial: orbe horizontal</menuorb>
+		<menuorbvert>Ordenación hardware oficial: orbe vertical</menuorbvert>
+		<menuorbcrcl>Ordenación hardware oficial: orbe semicírculo</menuorbcrcl>
+		<menucust>Ordenación hardware custom de Bob: texto horizontal</menucust>
+		<menucustorb>Ordenación hardware custom de Bob: orbe horizontal</menucustorb>
+		<menucustorbvert>Ordenación hardware custom de Bob: orbe vertical</menucustorbvert>
+		<menucustorbcrcl>Ordenación hardware custom de Bob: orbe semicírculo</menucustorbcrcl>
+		<menutxtzspin>Ordenación hardware oficial: texto vertical</menutxtzspin>
+		<menutxtzspincust>Ordenación hardware custom de Bob: texto vertical</menutxtzspincust>
+		<!-- Options spécifique vue système tiré de hyperspin -->
+		<sticksysteme>Vista sistema Hyperbat - Ayudas animadas</sticksysteme>
+		<hyperwheel>Vista sistema Hyperbat - Selección del tipo de menú</hyperwheel>
 		<spindr>Rueda curva a la derecha (Hyperspin)</spindr>
 		<verticaldr>Rueda vertical a la derecha (Hyperspin)</verticaldr>
 		<verticaldreb>Rueda vertical a la derecha (Emubox)</verticaldreb>
@@ -136,147 +92,28 @@
 		<verticalghjp>Preset 01: Vendedor box Mbox Jipé</verticalghjp>
 		<verticalghkk>Preset 02: Vendedor box Retrofist Kriss</verticalghkk>
 		<verticalghcs>Preset 03: Vendedor box Hyperspin Chris (en construcción)</verticalghcs>
-		<systwheelopacity>Vista del sistema - específico de Hyperbat - opacidad de la rueda</systwheelopacity>
-		<invisible>Se vuelve invisible</invisible>
-		<apeinevisible>Apenas visible</apeinevisible>
-		<moitievisible>Mitad visible</moitievisible>
-		<fullvisible>Totalmente visible</fullvisible>
-		<!-- gestión de fondos de logotipos -->
-		<gwheelbackgr>¿Mostrar un fondo en cada logotipo de juegos?</gwheelbackgr>
-		<ovalcarbon>Óvalo carbono (generación automática)</ovalcarbon>
-		<ovalsilver>Óvalo plata (generación automática)</ovalsilver>
-		<rectcarbon>Rectángulo carbono (generación automática)</rectcarbon>
-		<logounified>Logotipo de tamaño unificado</logounified>
+		<!-- gestion des fonds de logos -->
+		<gwheelbackgr>¿Mostrar fondo en cada logo de juego?</gwheelbackgr>
+		<ovalcarbon>Oval carbon (generación automática)</ovalcarbon>
+		<ovalsilver>Oval silver (generación automática)</ovalsilver>
+		<rectcarbon>Rectángulo carbon (generación automática)</rectcarbon>
+		<logounified>Logo de tamaño unificado</logounified>
 		<hfsround>Redondo Z-Spin</hfsround>
 		<sisaccades>Desactivado</sisaccades>
-		<!-- Consola máxima -->
-		<infosmax>¿Mostrar la consola de información máxima?</infosmax>
-		<!-- Visualización breve al abrir el sistema en curso -->
-		<systannounce>Mostrar el sistema en curso al abrir</systannounce>
-		<classiquesyst>Desaparición con zoom hacia atrás</classiquesyst>
-		<mode1>modo 2</mode1>
-		<mode2>modo 3</mode2>
-		<!-- Espaciador inicio de opciones específicas de vista de juegos CoinOPS -->
-		<spacercoinops>----------------------------- ↓ Inicio de opciones avanzadas específicas de vistas CoinOPS ↓ -------------------</spacercoinops>
-		<mediacoinops>-------------------------- Medios requeridos para vista de juegos CoinOPS = Video, Screenshot, Fanart, Marquee, Add-ons ---------------</mediacoinops>
-		<fondsys>Fondo del sistema - Tipo (Izquierda)</fondsys>
-		<!-- Elección de la fuente de las cabinas: png solo o png con pared -->
-		<copscabs>Fondo del sistema - Fuente de los PNG de cabinas arcade (izquierda)</copscabs>
-		<cabscoinops>PNG cabinas con pared</cabscoinops>
-		<cabssolo>PNG cabinas solo sin pared</cabssolo>
-		<cabscoinandsolo>Una mezcla de ambos</cabscoinandsolo>
-		<fondsyscollection>CoinOPS Collection específico - Cabinas/PAD/carteles por sistema</fondsyscollection>
-		<fondsysunified>CoinOPS Collection unificado - TV + logotipo del sistema</fondsysunified>
-		<fondsysunifiedautomarquee>CoinOPS Collection unificado - TV + cartel de juegos automático</fondsysunifiedautomarquee>
-		<fondsysnext2>CoinOPS Next2 (incompleto)</fondsysnext2>
-		<fondsysnext>CoinOPS Next (incompleto)</fondsysnext>
-		<fondsyscustom>Personalizado (Por X-LeBiDuL-X)</fondsyscustom>
-		<cabsdefault>Fondo del sistema - Cabina arcade y/o fondo predeterminado (Izquierda)</cabsdefault>
-		<viewlixnoir>Viewlix Negro</viewlixnoir>
-		<viewlixbleue>Viewlix Azul</viewlixbleue>
-		<viewlixjaune>Viewlix Amarillo</viewlixjaune>
-		<viewlixrose>Viewlix Rosa</viewlixrose>
-		<viewlixrouge>Viewlix Rojo</viewlixrouge>
-		<viewlixvert>Viewlix Verde</viewlixvert>
-		<viewlixviolet>Viewlix Violeta</viewlixviolet>
-		<astrocity>SEGA Astrocity</astrocity>
-		<blastcity>SEGA Blastcity</blastcity>
-		<nuc>SEGA Naomi</nuc>
-		<snkneogeo64>SNK Neogeo 64</snkneogeo64>
-		<snkneogeomvs>SNK Neogeo MVS</snkneogeomvs>
-		<atomiswave>Sammy Atomiswave</atomiswave>
-		<borne3d>Cabina genérica en 3D</borne3d>
-		<trinitron>TV Sony Trinitron</trinitron>
-		<overlaygamelst>General - Intensidad y elección del efecto de sombra/overlay</overlaygamelst>
-		<prevdemo>General - Video de gameplay (Izquierda)</prevdemo>
-		<pvidcustomv2>Fijo, luego videos personales si disponibles, de lo contrario fijo + scrap</pvidcustomv2>
-		<pvidsevmd>Fijo, luego Video Scrap - Transición inactiva</pvidsevmd>
-		<pvidsev>Fijo, luego Video Scrap</pvidsev>
-		<pvidsev0delay>Solo Video - 0 delay (error)</pvidsev0delay>
-		<pvidsev0delayv2>Solo Video - 0 delay V2</pvidsev0delayv2>
-		<pvidcustom>Videos personales directos si disponibles, de lo contrario fijo + scrap</pvidcustom>
-		<pvidcustomv3>Videos personales directos si disponibles, de lo contrario scrap directo</pvidcustomv3>
-		<videoshader>General - Elección de las scanlines a aplicar</videoshader>
-		<scan01vid>Scanlines 01: Solo en vista previa</scan01vid>
-		<scan01>Scanlines 01: Pantalla 100%</scan01>
-		<scan02vid>Scanlines 02: Solo en vista previa</scan02vid>
-		<scan02>Scanlines 02: Pantalla 100%</scan02>
-		<scan03vid>Scanlines 03: Solo en vista previa</scan03vid>
-		<scan03>Scanlines 03: Pantalla 100%</scan03>
-		<crt01vid>CRT 01: Solo en vista previa</crt01vid>
-		<crt01>CRT 01: Pantalla 100%</crt01>
-		<packinstallno>Ningún Filtro</packinstallno>
-		<wheelfond>Wheel - Imagen de fondo (Derecha)</wheelfond>
-		<covertsolo>Covers CoinOPS o personales si disponibles, de lo contrario scrap</covertsolo>
-		<fanartsolo>Fanarts solo del scrap</fanartsolo>
-		<boxartsolo>Solo Boxarts 3D</boxartsolo>
-		<thumbsolo>Solo Boxarts 2D</thumbsolo>
-		<gwvideofond>Wheel - Video de fondo (Derecha)</gwvideofond>
-		<vagues>CoinOPS - Olas</vagues>
-		<matrix>Matrix - Lluvia de código</matrix>
-		<gwvideofondint>Wheel - Intensidad del video de fondo (Derecha)</gwvideofondint>
-		<light>Ligero</light>
-		<middle>Medio</middle>
-		<heavy>Intenso</heavy>
-		<superheavy>Súper Intenso</superheavy>
-		<wheelforme>Wheel - Elección de la forma</wheelforme>
-		<standardwheel>A la derecha / Curva por defecto</standardwheel>
-		<courbeinverse>A la derecha / Curva inversa</courbeinverse>
-		<vertical>A la derecha / Vertical</vertical>
-		<wheelspace>Wheel - Espaciado de los logos</wheelspace>
-		<serre>Se tocan</serre>
-		<aere>Aireado</aere>
-		<tresserre>Se superponen</tresserre>
-		<wheelspeed>Wheel - Velocidad de transición entre los logos</wheelspeed>
-		<original>Fijado por Retrobat</original>
-		<default>Fijado por el tema</default>
-		<smooth>Súper suave</smooth>
-		<speedslow3>Lento+++</speedslow3>
+		<!-- Console max -->
+		<infosmax>¿Mostrar consola de información max?</infosmax>
+		<!-- Affichage bref à l'ouverture du système en cours -->
+		<systannounce>Mostrar el sistema actual al abrir</systannounce>
+		<classiquesyst>Desvanecimiento con zoom hacia atrás</classiquesyst>
+		<default>Definido por el tema</default>
 		<speedslow2>Lento++</speedslow2>
 		<speedslow1>Lento+</speedslow1>
-		<speedfast1>Rápido+</speedfast1>
-		<speedfast2>Rápido++</speedfast2>
-		<instant>Sin transición</instant>
-		<wheelopacity>Wheel - Visibilidad de los logos no seleccionados</wheelopacity>
-		<default>Por defecto</default>
-		<notransp>100% (sin transparencia)</notransp>
-		<vis80>80%</vis80>
-		<vis60>60%</vis60>
-		<vis40>40%</vis40>
-		<vis20>20%</vis20>
-		<vis0>0% (Invisible)</vis0>
-		<wheelfanart>Efecto - Imagen de fondo wheel</wheelfanart>
-		<glissgd>Transición con deslizamiento horizontal</glissgd>
-		<glisshb>Transición con deslizamiento vertical</glisshb>
-		<stdvid>Transición estándar</stdvid>
-		<smoothvid>Transición con fundido</smoothvid>
-		<scalvid>Transición con zoom/dezoom</scalvid>
-		<fondtransition>Efecto - Fondo del sistema</fondtransition>
-		<standard>Transición estándar</standard>
-		<smoothsyst>Transición con fundido</smoothsyst>
-		<scalsyst>Transición con zoom/dezoom</scalsyst>
-		<vidtransition>Efecto - Video de gameplay</vidtransition>
-		<stdvid>Transición estándar</stdvid>
-		<smoothvid>Transición con fundido</smoothvid>
-		<scalvid>Transición con zoom/dezoom</scalvid>
-		<metadata>Información del juego - Info en la parte inferior derecha</metadata>
-		<metadall>Todo</metadall>
-		<metadallnolang>Todo sin los idiomas</metadallnolang>
-		<metadallnolangnoname>Editor, Partida, Fecha, Jugador, Notas, Tiempo</metadallnolangnoname>
-		<metadbasicnoed>Partida, Fecha, Jugador, Notas, Tiempo</metadbasicnoed>
-		<metaicones>Información del juego - Iconos informativos en el lateral derecho</metaicones>
-		<bref>Visualización breve</bref>
-		<perm>Visualización permanente</perm>
-		<filtershow>General - Mostrar el filtro activo en la parte inferior izquierda</filtershow>
-		<favoris>General - Mostrar el icono de juegos favoritos en la parte inferior izquierda</favoris>
-		<coeur>Corazón animado</coeur>
-		<spacerHS01> </spacerHS01>
-		<spacerHS02>----------------------------- ↓ Inicio de opciones avanzadas específicas de las vistas Hyperbat ↓ -------------------</spacerHS02>
-		<mediahyper>-------------------------- Medios necesarios para la vista de juegos Hyperbat = Video, Screenshot, Marquee, Add-ons ---------------</mediahyper>
-		<hyperbatperview>¿Mostrar los temas por juego?</hyperbatperview>
-		<themejeux>Tema por juego en prioridad si disponible</themejeux>
+		<spacerHS02>----------------------    ↓ Inicio de las opciones avanzadas específicas de las vistas Hyperbat ↓   -------------------</spacerHS02>
+		<mediahyper>----------- Medios necesarios para la vista de juegos Hyperbat = Video,Screenshot,Marquee,Add-ons ---------------</mediahyper>
+		<hyperbatperview>¿Mostrar temas por juego?</hyperbatperview>
+		<themejeux>Tema por juego tiene prioridad si está disponible</themejeux>
 		<themejeuxno>Desactivar tema por juego</themejeuxno>
-		<syststickon>Elección del stick animado</syststickon>
+		<syststickon>Selección del stick animado</syststickon>
 		<stickon>Arcade clásico</stickon>
 		<syststickcolor>Color de la bola del stick</syststickcolor>
 		<ballblue>Azul</ballblue>
@@ -286,40 +123,171 @@
 		<balllitegreen>Verde claro</balllitegreen>
 		<ballpink>Rosa</ballpink>
 		<ballred>Rojo</ballred>
-		<ballyelgreen>Amarillo verdoso</ballyelgreen>
+		<ballyelgreen>Amarillo verde</ballyelgreen>
 		<ballyellow>Amarillo</ballyellow>
-		<pressstart>Apariencia del "Press Start"</pressstart>
-		<doigts>Dedo animado presionando un botón</doigts>
-		<spacerzspin02>----------------------------- ↓ Inicio de opciones avanzadas específicas de la vista Z-Spin ↓ -------------------</spacerzspin02>
-		<mediazpin>-------------------------- Medios recomendados para la vista de juegos Z-Spin = Video, WheelRound, Add-ons ---------------</mediazpin>
-		<bandebackgrd>Fondo - Elección del fondo:</bandebackgrd>
-		<videozspin>Fanart y luego video en pantalla completa difuminado</videozspin>
-		<fanartzspin>Solo Fanart</fanartzspin>
-		<wheeldefaut>Wheel por defecto - Elección de la imagen por defecto</wheeldefaut>
-		<hardwarepng>Imagen del hardware</hardwarepng>
-		<characterpng>Imagen de un personaje</characterpng>
-		<choixbande>Bandera - Elección del tipo de bandera</choixbande>
-		<couleur>Solo colores cambiantes</couleur>
-		<custorcolor>Personalizado si disponible, de lo contrario color cambiante</custorcolor>
-		<zboxart>Arriba a la izquierda - activar boxart</zboxart>
-		<actif2d>Boxart en 2D</actif2d>
-		<actif3d>Boxart en 3D</actif3d>
-		<spacerstar>----------------------------- ↓ Inicio de opciones avanzadas específicas de las vistas Fanart Star ↓ -------------------</spacerstar>
-		<mediastar>-------------------------- Medios recomendados para la vista de juegos Fanart Star = Video, Marquee, Thumbnail ---------------</mediastar>
-		<fanarstargridcolor>Color de la cuadrícula</fanarstargridcolor>
-		<starvideo>Tamaño del video de vista previa</starvideo>
+		<boxart>Boxart (Calibrado para caja en 3D)</boxart>
+		<thumb>Miniatura (Calibrado para caja en 2D)</thumb>
+		<spacerstar>-----------------------------    ↓ Inicio de las opciones avanzadas específicas de las vistas Fanart Star ↓   -------------------</spacerstar>
+		<mediastar>-------------------------- Medios recomendados para la vista de juegos Fanart Star = Video,Marquee,Thumbnail ---------------</mediastar>
+		<starvideo>Tamaño del vídeo de previsualización</starvideo>
 		<starvideobig>Grande</starvideobig>
 		<starvideodef>Normal</starvideodef>
-		<starthumb>¿Mostrar carátulas en 2D o 3D?</starthumb>
+		<starthumb>¿Mostrar carátulas 2D o 3D?</starthumb>
 		<starbox2d>Miniatura</starbox2d>
 		<starbox3d>Boxart</starbox3d>
-		<spacebox>Espaciado entre carátulas</spacebox>
+		<spacebox>Espacio entre carátulas</spacebox>
+		<spacesmall>Espacio -</spacesmall>
 		<spacenorm>Por defecto</spacenorm>
-		<customfanart>Elección de los Fanarts a usar</customfanart>
+		<spacemore>Espacio ++</spacemore>
+		<customfanart>Selección de fanarts a utilizar</customfanart>
+		<fanartgamelist>Fanart del scrap en la Gamelist</fanartgamelist>
+		<fanartcustom>Fanart custom en _Gamemedia-NombreSistema-medium_artwork</fanartcustom>
 		<lismoi>Mensaje de bienvenida que has leído</lismoi>
-		<tumasbienlu>¿Me has leído atentamente?</tumasbienlu>
-		<folder>Carpetas de temas del sistema y de juegos</folder>
-		<default>Predeterminado</default>
-		<bobmedia>Carpeta bobmedia</bobmedia>
+		<tumasbienlu>¿Me has leído realmente con atención?</tumasbienlu>
+		<pointeuradroite>Punteros de sistema estilo Hyperspin</pointeuradroite>
+		<actif>Activado</actif>
+		<boxorthumb>Tipo de scrap para la caja</boxorthumb>
+		<!-- Affichage menu de navigation des jeux par lettre -->
+		<letternav>Navegación por letra (juegos)</letternav>
+		<navhoricoinstyle>Alfabeto horizontal</navhoricoinstyle>
+		<navvertcoinstyle>Alfabeto vertical a la izquierda</navvertcoinstyle>
+		<navvertrcoinstyle>Alfabeto vertical a la derecha</navvertrcoinstyle>
+		<navhsletters>Letra estilizada por sistema</navhsletters>
+		<hyperspinxp>ADDON: Imagen y gameplay estilo Hyperspin Dinámico</hyperspinxp>
+		<hyperspin>ADDON: Imagen y gameplay estilo Hyperspin unificado</hyperspin>
+		<hyperspinorder>ADDON: HS Dinámico si no vídeo Hyperpie</hyperspinorder>
+		<hyperpie>ADDON: Vídeo Hyperpie si no vídeo Unified si disponible</hyperpie>
+		<hyperspinorunified>ADDON: HS Dinámico si no HS unificado</hyperspinorunified>
+		<gameplayp1>Pequeño vídeo de gameplay aleatorio con bezel si disponible</gameplayp1>
+		<gameplay1>Gran vídeo de gameplay aleatorio con bezel si disponible</gameplay1>
+		<gameplayp>Pequeño vídeo de gameplay aleatorio</gameplayp>
+		<gameplay>Gran vídeo de gameplay aleatorio</gameplay>
+		<custom>Vídeo personal de la carpeta custom</custom>
+		<skyblue>azul cielo</skyblue>
+		<purple>morado</purple>
+		<red>rojo</red>
+		<aqua>aqua</aqua>
+		<orange>naranja</orange>
+		<green>verde</green>
+		<yellow>amarillo</yellow>
+		<pink>rosa</pink>
+		<grey>gris oscuro</grey>
+		<lightgrey>gris claro</lightgrey>
+		<navy>azul alt</navy>
+		<violet>violeta</violet>
+		<candy>candy</candy>
+		<redalt>rojo alt</redalt>
+		<yellowalt>amarillo alt</yellowalt>
+		<greenalt>verde alt</greenalt>
+		<purplealt>morado alt</purplealt>
+		<iconsetposition>Posición de los botones</iconsetposition>
+		<!-- Option de vignettage-->
+		<vignettagehs>Efecto de viñetado</vignettagehs>
+		<!-- Hyperbat Couleur stick système-->
+		<systballblue>Stick Azul</systballblue>
+		<systballcyan>Stick Cian</systballcyan>
+		<systballdarkviolet>Stick Violeta oscuro</systballdarkviolet>
+		<systballviolet>Stick Violeta</systballviolet>
+		<systballgreen>Stick Verde</systballgreen>
+		<systballlitegreen>Stick Verde claro</systballlitegreen>
+		<systballpink>Stick Rosa</systballpink>
+		<systballred>Stick Rojo</systballred>
+		<systballyelgreen>Stick Amarillo verde</systballyelgreen>
+		<systballyellow>Stick Amarillo</systballyellow>
+		<!-- Hyperbat text stick vue jeux -->
+		<jeusuiv>Juego Siguiente</jeusuiv>
+		<jeuprec>Juego Anterior</jeuprec>
+		<systsuiv>Sistema Siguiente</systsuiv>
+		<systprec>Sistema Anterior</systprec>
+		<!-- Hyperbat metadata -->
+		<hsmetadata>Configuración de Metadatos</hsmetadata>
+		<full>Completo y posición por defecto</full>
+		<lower>Completo y posición más baja</lower>
+		<!-- Hyperbat fond de wheel -->
+		<rectcompose>Rectángulo personalizado por sistema (auto-generado)</rectcompose>
+		<ovalcompose>Oval carbon personalizado por sistema (auto-generado)</ovalcompose>
+		<!-- Hyperbat fade wheel -->
+		<gamewheelfade>Desvanecimiento de la lista de juegos</gamewheelfade>
+		<systemwheelfade>Vista sistema - Desvanecimiento de la lista de sistemas</systemwheelfade>
+		<amoitie>parcialmente</amoitie>
+		<!-- Hyperbat smooth transition -->
+		<smoothgametheme>Transición suave entre temas de juegos</smoothgametheme>
+		<activesmooth>Activado (recomendado para Retrobat)</activesmooth>
+		<noactivesmooth>Desactivado (recomendado para Batocera)</noactivesmooth>
+		<!-- Hyperbat affichage de l'auteur -->
+		<authordisplayed>Mostrar el autor del tema del juego</authordisplayed>
+		<showoff>Activado, alta visibilidad</showoff>
+		<showoffblackwhite>Activado, ultra visibilidad</showoffblackwhite>
+		<!-- Hyperbat scroll sound -->
+		<gamewheelsound>Selección del sonido al desplazarse</gamewheelsound>
+		<wheelclic>Clic estilo Hyperspin</wheelclic>
+		<bulle>Burbuja</bulle>
+		<clic>Clic simple</clic>
+		<clicgrave>Clic grave</clicgrave>
+		<frottement>Fricción</frottement>
+		<poc>Poc</poc>
+		<!-- Hyperbat doigt qui appuie -->
+		<pressstart>Aspecto del press start</pressstart>
+		<doigts>Dedo animado pulsando un botón</doigts>
+		<undoigt>Dedo animado pulsando un botón solo a la izquierda</undoigt>
+		<undoigtr>Dedo animado pulsando un botón solo a la derecha</undoigtr>
+		<!-- Hyperbat press start -->
+		<pressstarttxt>Selección del texto</pressstarttxt>
+		<presstxt>Press start</presstxt>
+		<freeplay>Free Play</freeplay>
+		<partiegratuite>Partida gratuita</partiegratuite>
+		<uneuro>1€ la partida</uneuro>
+		<sitessage>Pulsa Start</sitessage>
+		<!-- Hyperbat dossier arcade et collection unifié -->
+		<gameviewsource>Sistema fuente de los temas de juego</gameviewsource>
+		<!-- <originsystem>Carpeta del sistema de origen del juego prioritaria</originsystem> -->
+		<actualsystem>Carpeta del sistema seleccionado prioritaria</actualsystem>
+		<mamefolder>Carpeta de origen del juego prioritaria luego carpeta mame</mamefolder>
+		<!-- Choix theme defaut -->
+		<defaultgeneric>Tema de juego si no existe nada (genérico):</defaultgeneric>
+		<generic43>Estándar para sistema 4/3</generic43>
+		<generic43coinopsstyle>Estilo colección coinops</generic43coinopsstyle>
+		<generic43noanimation>Estándar para sistema 4/3 sin animación boxart</generic43noanimation>
+		<generic43boxback>Estándar con montaje caja trasera y delantera</generic43boxback>
+		<generic43noanimationfanart>Estándar con fanart animado de fondo</generic43noanimationfanart>
+		<jukeboxdef>Aspecto disco compacto (Por terminar)</jukeboxdef>
+		<!-- position des metadata -->
+		<metafichedefault>Ficha de metadatos posición por defecto</metafichedefault>
+		<metafichebasgauche>Ficha de metadatos abajo a la izquierda</metafichebasgauche>
+		<metafichebasdroite>Ficha de metadatos abajo a la derecha</metafichebasdroite>
+		<metafichebascentre>Ficha de metadatos abajo al centro</metafichebascentre>
+		<metafichehautgauche>Ficha de metadatos arriba a la izquierda</metafichehautgauche>
+		<metafichehautdroite>Ficha de metadatos arriba a la derecha</metafichehautdroite>
+		<metafichehautcentre>Ficha de metadatos arriba al centro</metafichehautcentre>
+		<spacerscrap>------------------------------------- Personalización de Scrap para temas compatibles ---------------- </spacerscrap>
+		<!-- traduction fanartstar -->
+		<starvideodef>Estándar</starvideodef>
+		<starvideoang>Inclinado</starvideoang>
+		<starboxang>Ángulo en las cajas de juego</starboxang>
+		<active>Activado</active>
+		<deactive>Desactivado</deactive>
+		<!-- Message d'accueil - début -->
+		<lismoi>Mensaje de bienvenida</lismoi>
+		<tumasbienlu>Bienvenida y Créditos</tumasbienlu>
+		<!-- Spacer spécifique fanartstar -->
+		<spacerstar>--------- Medios recomendados para la vista de juegos Fanart Star = Fanart,Video,Marquee,Thumbnail,boxart ---------------</spacerstar>
+		<mediastar>-----------------------------    ↓ Inicio de las opciones avanzadas específicas a la vista FanartStar boxart ↓   -------------------</mediastar>
+		<presetstarbox>FanartStar Boxart light</presetstarbox>
+		<!-- fanartstar boxart -->
+		<spacebox>Espacio entre las cajas de juegos</spacebox>
+		<spacessssmall>Espacio ----</spacessssmall>
+		<spacesssmall>Espacio ---</spacesssmall>
+		<spacessmall>Espacio --</spacessmall>
+		<spacemore>Espacio +</spacemore>
+		<spacemmore>Espacio ++</spacemmore>
+		<spacemmmore>Espacio +++</spacemmmore>
+		<spacemmmmore>Espacio ++++</spacemmmmore>
+		<boxstarspeed>Velocidad de la animación de desplazamiento</boxstarspeed>
+		<fanartstarrotated>Rotación de cajas SNES,N64,NGAGE,Solarus</fanartstarrotated>
+		<starrotate>Sí</starrotate>
+		<nostarrotate>No</nostarrotate>
+		<longselect>Pulsación larga en "select"</longselect>
+		<favuniquement>Solo favoritos</favuniquement>
+		<tslesjeux>Todos los juegos</tslesjeux>
 	</variables>
 </theme>
