@@ -15,8 +15,9 @@
 		</image>
 		<image name="logocustom" extra="true">
 		<visible ifSubset="hsperview:themejeux">${IfnoextGamethemeexist}</visible>
-		<path>firstfile("${path_syst_logo}/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
-			"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".png")</path>
+		<path>firstfile(
+			"${path_syst_logo}/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
+			"${path_syst_logo}/clearlogos/region-${region}/"  + ({game:system:theme}) + "-${region}.png")</path>
 			<maxSize>0.55 0.12</maxSize>
 			<scaleOrigin>0 -0.3</scaleOrigin>
 			<pos>0.4 0.068</pos>

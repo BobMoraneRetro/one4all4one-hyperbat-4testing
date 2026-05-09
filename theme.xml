@@ -11,21 +11,22 @@
 	<variables>
 		<!-- <bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath> -->
 		<!-- <bobmediapath ifSubset="folder:default">${themePath}</bobmediapath> -->
-		<bobmediapath>${themePath}</bobmediapath>
+		<!-- <bobmediapath>${themePath}</bobmediapath> -->
 		<path_game_theme ifSubset="extfoldergametheme:extfolder">${themePath}/../_bobmedia/_gametheme</path_game_theme>
 		<path_game_theme ifSubset="extfoldergametheme:intheme">${themePath}/_gametheme</path_game_theme>
+		<path_syst_theme ifSubset="extfoldervideosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/videosyst</path_syst_theme>
+		<path_syst_theme ifSubset="extfoldervideosyst:intheme">${themePath}/_systemmedia/videosyst</path_syst_theme>
 		<path_game_manuf ifSubset="extfoldermanufacturer:extfolder">${themePath}/../_bobmedia/_gamemedia/_manufacturer</path_game_manuf>
 		<path_game_manuf ifSubset="extfoldermanufacturer:intheme">${themePath}/_gamemedia/_manufacturer</path_game_manuf>
 		<path_syst_logo ifSubset="extfolderlogosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/_logosyst</path_syst_logo>
 		<path_syst_logo ifSubset="extfolderlogosyst:intheme">${themePath}/_systemmedia/_logosyst</path_syst_logo>
 		<path_syst_fanart ifSubset="extfolderfanart:extfolder">${themePath}/../_bobmedia/_systemmedia/_fanartsysteme</path_syst_fanart>
 		<path_syst_fanart ifSubset="extfolderfanart:intheme">${themePath}/_systemmedia/_fanartsysteme</path_syst_fanart>
-		<path_syst_theme ifSubset="extfoldervideosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/videosyst</path_syst_theme>
-		<path_syst_theme ifSubset="extfolderbezelsyst:intheme">${themePath}/_systemmedia/videosyst</path_syst_theme>
 		<path_syst_bezel ifSubset="extfolderbezelsyst:extfolder">${themePath}/../_bobmedia/_systemmedia/bezelsyst</path_syst_bezel>
 		<path_syst_bezel ifSubset="extfolderbezelsyst:intheme">${themePath}/_systemmedia/bezelsyst</path_syst_bezel>
-		<path_com_shaders ifSubset="extfolderbezelsyst:extfolder">${themePath}/../_bobmedia/_common/shaders</path_com_shaders>
-		<path_com_shaders ifSubset="extfolderbezelsyst:intheme">${themePath}/_common/shaders</path_com_shaders>
+		<!-- <path_com_shaders ifSubset="extfoldershaders:extfolder">${themePath}/../_bobmedia/_common/shaders</path_com_shaders> -->
+		<!-- <path_com_shaders ifSubset="extfoldershaders:intheme">${themePath}/_common/shaders</path_com_shaders> -->
+		<path_com_shaders>${themePath}/_common/shaders</path_com_shaders>
 	</variables>
 	
 	

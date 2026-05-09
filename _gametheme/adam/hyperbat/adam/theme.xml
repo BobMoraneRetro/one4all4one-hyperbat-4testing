@@ -95,7 +95,7 @@
 			</storyboard>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>{random}</path>
+			<path>{system:ascollection:random}</path>
 			<pos>0.500566893424 0.600151171580</pos>
 			<maxSize>0.396825396825 0.529100529101</maxSize>
 			<origin>0.5 0.5</origin>

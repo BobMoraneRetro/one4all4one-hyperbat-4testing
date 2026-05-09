@@ -163,7 +163,7 @@
 		<include name="intheme" displayName="${intheme}"/>
 		<include name="extfolder" displayName="${extfolder}"/>
 	</subset>
-	<subset name="extfoldersysttheme" displayName="${extfoldersysttheme}" appliesTo="hyperbat">
+	<subset name="extfoldervideosyst" displayName="${extfoldervideosyst}" appliesTo="hyperbat">
 		<include name="intheme" displayName="${intheme}"/>
 		<include name="extfolder" displayName="${extfolder}"/>
 	</subset>
@@ -183,6 +183,10 @@
 		<include name="intheme" displayName="${intheme}"/>
 		<include name="extfolder" displayName="${extfolder}"/>
 	</subset>
+	<!-- <subset name="extfoldershaders" displayName="${extfoldershaders}" appliesTo="hyperbat"> -->
+		<!-- <include name="intheme" displayName="${intheme}"/> -->
+		<!-- <include name="extfolder" displayName="${extfolder}"/> -->
+	<!-- </subset> -->
 	<!-- <subset name="extfolderthumbox" displayName="${extfolderthumbox}" appliesTo="hyperbat"> -->
 		<!-- <include name="intheme" displayName="${intheme}"/> -->
 		<!-- <include name="extfolder" displayName="${extfolder}"/> -->
