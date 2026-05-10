@@ -15,6 +15,7 @@
 		<extfoldermanufacturer>Source - Game publisher logos</extfoldermanufacturer>
 		<extfolderthumbox>Source - 2D/3D game boxes</extfolderthumbox>
 		<extfoldergamefanart>Source - Game fanart</extfoldergamefanart>
+		<extfoldergamemedia>Source - Game medias not in gamelist.xml</extfoldergamemedia>
 		<intheme>Theme folder - Default</intheme>
 		<extfolder>External folder</extfolder>
 		<activate>enabled</activate>
@@ -52,10 +53,13 @@
 		<viewchoicecoinops>Customizable: RFE coinops</viewchoicecoinops>
 		<viewchoice.hyperbat>Customizable: HS Hyperbat</viewchoice.hyperbat>
 		<presetstarbox>Customizable: ES Fanart Star Boxart</presetstarbox>
-		<!-- Fanart suffix -->
-		<packcustombuild>SCRAPE - Fanart structure</packcustombuild>
-		<packcustombuildsno>Fanart with "-fanart" suffix (default)</packcustombuildsno>
-		<packretrofreshbat>Fanart with "-image" suffix</packretrofreshbat>
+		<!-- Fanart suffix et 3box -->
+		<packcustombuild>Scrape setting - Fanart structure ?</packcustombuild>
+		<packcustombuildsno>Fanart with "-fanart" suffix in gamelist (default)</packcustombuildsno>
+		<packretrofreshbat>Fanart with "-image" suffix in gamelist</packretrofreshbat>
+		<scrap3dbox>Scrape setting - 3D box art structure ?</scrap3dbox>
+		<scrapedboxart>3D box "-boxart" in the gamelist</scrapedboxart>
+		<scrapedthumbnail>3D box "-thumbnail" in the gamelist</scrapedthumbnail>
 		<!-- Help management -->
 		<iconset>Help - Appearance of help icons</iconset>
 		<colorhelp>Help - Help text colors</colorhelp>
@@ -123,8 +127,8 @@
 		<ballred>Red</ballred>
 		<ballyelgreen>Yellow green</ballyelgreen>
 		<ballyellow>Yellow</ballyellow>
-		<boxart>Boxart (Calibrated for 3D box)</boxart>
-		<thumb>Thumbnail (Calibrated for 2D box)</thumb>
+		<boxart>Calibrated for 3D box</boxart>
+		<thumb>Calibrated for 2D box</thumb>
 		<pressstart>Press Start appearance</pressstart>
 		<doigts>Animated finger pressing a button</doigts>
 		<undoigt>Animated finger pressing a button on left only</undoigt>
@@ -148,7 +152,7 @@
 		<tumasbienlu>Enabled</tumasbienlu>
 		<pointeuradroite>System pointers in Hyperspin style</pointeuradroite>
 		<actif>Enabled</actif>
-		<boxorthumb>Scrape type for the box</boxorthumb>
+		<boxorthumb>Type for the box to show</boxorthumb>
 		<!-- Game navigation menu display by letter -->
 		<letternav>Letter-based navigation (games)</letternav>
 		<navhoricoinstyle>Horizontal alphabet display</navhoricoinstyle>

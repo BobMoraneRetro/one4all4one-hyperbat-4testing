@@ -9,6 +9,7 @@
 		<bobmedia>Bobmedia</bobmedia>
 		<extfoldergametheme>Source - Thème spécifique des jeux</extfoldergametheme>
 		<extfoldervideosyst>Source - Thème spécifique des systèmes</extfoldervideosyst>
+		<extfoldergamemedia>Source - Média des jeux hors gamelist.xml</extfoldergamemedia>
 		<extfolderfanart>Source - Fanart des systèmes</extfolderfanart>
 		<extfolderlogosyst>Source - Logo système</extfolderlogosyst>
 		<extfolderbezelsyst>Source - Bezel des systèmes</extfolderbezelsyst>
@@ -52,10 +53,13 @@
 		<viewchoicecoinops>RFE coinops</viewchoicecoinops>
 		<viewchoice.hyperbat>HS Hyperbat</viewchoice.hyperbat>
 		<presetstarbox>ES Fanart Star Boxart</presetstarbox>
-		<!-- Suffixe fanart -->
-		<packcustombuild>SCRAP - Structure fanart ?</packcustombuild>
+		<!-- Suffixe fanart et boxart -->
+		<packcustombuild>Configure SCRAP - Structure fanart ?</packcustombuild>
 		<packcustombuildsno>Fanart avec suffixe "-fanart" (par défaut)</packcustombuildsno>
 		<packretrofreshbat>Fanart avec suffixe "-image"</packretrofreshbat>
+		<scrap3dbox>Configure scrape - boite 3d structure ?</scrap3dbox>
+		<scrapedboxart>boite 3d avec "-boxart" dans la gamelist"</scrapedboxart>
+		<scrapedthumbnail>boite 3d avec "-thumbnail" dans la gamelist"</scrapedthumbnail>
 		<!-- gestion de l'aide -->
 		<iconset>Aide - Apparence des icônes d'aides</iconset>
 		<colorhelp>Aide - Couleurs du texte de l'aide</colorhelp>
@@ -125,8 +129,8 @@
 		<ballred>Rouge</ballred>
 		<ballyelgreen>Jaune vert</ballyelgreen>
 		<ballyellow>Jaune</ballyellow>
-		<boxart>Boxart (Calibré pour box en 3D)</boxart>
-		<thumb>Thumbnail (Calibré pour box en 2D)</thumb>
+		<boxart>Calibré pour box en 3D</boxart>
+		<thumb>Calibré pour box en 2D</thumb>
 		<spacerstar>-----------------------------    ↓ Début des options avancées spécifiques aux vues Fanart Star ↓   -------------------</spacerstar>
 		<mediastar>-------------------------- Medias recommandés pour vue jeux Fanart Star = Video,Marquee,Thumbnail ---------------</mediastar>
 		<starvideo>Taille de la vidéo preview</starvideo>
@@ -146,7 +150,7 @@
 		<tumasbienlu>Tu m'as vraiment bien lu attentivement ?</tumasbienlu>
 		<pointeuradroite>Pointeurs système façon Hyperspin</pointeuradroite>
 		<actif>Activé</actif>
-		<boxorthumb>type de scrap pour la boite</boxorthumb>
+		<boxorthumb>Choix de la boite de jeu à afficher</boxorthumb>
 		<!-- Affichage menu de navigation des jeux par lettre -->
 		<letternav>Navigation par lettre (jeux)</letternav>
 		<navhoricoinstyle>Affichage alphabet horizontal</navhoricoinstyle>

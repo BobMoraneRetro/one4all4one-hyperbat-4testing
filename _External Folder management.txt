@@ -1,0 +1,196 @@
+		<!-- <variables ifSubset="extfoldergametheme:extfolder"> -->
+			<subset name="extfoldermanufacturer" displayName="${extfoldermanufacturer}">
+		<!-- <variables ifSubset="extfoldersysttheme:extfolder"> -->
+		<!-- <variables ifSubset="extfolderfanart:extfolder"> -->
+		<!-- <variables ifSubset="extfolderlogosyst:extfolder"> -->
+		<!-- <variables ifSubset="extfolderthumbox:extfolder"> -->
+		<!-- <variables ifSubset="extfoldergamefanart:extfolder"> -->
+
+	<variables>
+		<bobmediapath ifSubset="folder:bobmedia">${themePath}/../_bobmedia</bobmediapath>
+		<bobmediapath ifSubset="folder:default">${themePath}</bobmediapath>
+		<bobmediapath>${themePath}</bobmediapath>
+		<path_game_theme ifSubset="extfoldergametheme:extfolder">${themePath}/../_bobmedia/_gametheme</path_game_theme>
+		<path_game_theme ifSubset="extfoldergametheme:intheme">${themePath}/_gametheme</path_game_theme>
+		<path_syst_theme ifSubset="extfoldervideosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/videosyst</path_syst_theme>
+		<path_syst_theme ifSubset="extfoldervideosyst:intheme">${themePath}/_systemmedia/videosyst</path_syst_theme>
+		
+		<path_gamemedia_theme ifSubset="extfoldervideosyst:extfolder">${themePath}/../_bobmedia/_gamemedia/</path_gamemedia_theme>
+		<path_gamemedia_theme ifSubset="extfoldervideosyst:intheme">${themePath}/_gamemedia/</path_gamemedia_theme>
+		
+		<path_game_manuf ifSubset="extfoldermanufacturer:extfolder">${themePath}/../_bobmedia/_gamemedia/_manufacturer</path_game_manuf>
+		<path_game_manuf ifSubset="extfoldermanufacturer:intheme">${themePath}/_gamemedia/_manufacturer</path_game_manuf>
+		<path_syst_logo ifSubset="extfolderlogosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/_logosyst</path_syst_logo>
+		<path_syst_logo ifSubset="extfolderlogosyst:intheme">${themePath}/_systemmedia/_logosyst</path_syst_logo>
+		<path_syst_fanart ifSubset="extfolderfanart:extfolder">${themePath}/../_bobmedia/_systemmedia/_fanartsysteme</path_syst_fanart>
+		<path_syst_fanart ifSubset="extfolderfanart:intheme">${themePath}/_systemmedia/_fanartsysteme</path_syst_fanart>
+		<path_syst_bezel ifSubset="extfolderbezelsyst:extfolder">${themePath}/../_bobmedia/_systemmedia/bezelsyst</path_syst_bezel>
+		<path_syst_bezel ifSubset="extfolderbezelsyst:intheme">${themePath}/_systemmedia/bezelsyst</path_syst_bezel>
+		<path_com_shaders ifSubset="extfoldershaders:extfolder">${themePath}/../_bobmedia/_common/shaders</path_com_shaders>
+		<path_com_shaders ifSubset="extfoldershaders:intheme">${themePath}/_common/shaders</path_com_shaders>
+		<path_com_shaders>${themePath}/_common/shaders</path_com_shaders>
+	</variables>
+
+
+
+Ordre des remplacements :
+${bobmediapath}/_gametheme -> ${path_game_theme}
+${bobmediapath}/_gamemedia/_manufacturer -> ${path_game_manuf}
+${bobmediapath}/_systemmedia/_logosyst -> ${path_syst_logo}
+${bobmediapath}/_systemmedia/_fanartsysteme -> ${path_syst_fanart}
+${bobmediapath}/_systemmedia/videosyst -> ${path_syst_theme}
+${bobmediapath}/_systemmedia/bezelsyst -> ${path_syst_bezel}
+${bobmediapath}/_systemmedia/defaut/ -> ${path_syst_defvideo}
+${bobmediapath}/_common/shaders -> ${path_com_shaders}
+${bobmediapath}/_gamemedia -> ${path_game_media}
+
+		
+Pour Gametheme : path_game_theme
+${bobmediapath}/_gametheme
+${path_game_theme}
+${themePath}/../_bobmedia/_gametheme
+
+		<path_game_theme ifSubset="extfoldergametheme:extfolder">${themePath}/../_bobmedia/_gametheme</path_game_theme>
+		<path_game_theme ifSubset="extfoldergametheme:intheme">${themePath}/_gametheme</path_game_theme>
+
+
+Pour manufacturer : path_game_manuf
+${bobmediapath}/_gamemedia/_manufacturer
+${path_game_manuf}
+${themePath}/../_bobmedia/_gamemedia/_manufacturer
+
+		<path_game_manuf ifSubset="extfoldermanufacturer:extfolder">${themePath}/../_bobmedia/_gamemedia/_manufacturer</path_game_manuf>
+		<path_game_manuf ifSubset="extfoldermanufacturer:intheme">${themePath}/_gamemedia/_manufacturer</path_game_manuf>
+
+
+Pour System logo : path_syst_logo
+${bobmediapath}/_systemmedia/_logosyst
+${path_syst_logo}
+${themePath}/../_bobmedia/_systemmedia/_logosyst
+
+		<path_syst_logo ifSubset="extfolderlogosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/_logosyst</path_syst_logo>
+		<path_syst_logo ifSubset="extfolderlogosyst:intheme">${themePath}/_systemmedia/_logosyst</path_syst_logo>
+
+Pour System fanart : path_syst_fanart
+${bobmediapath}/_systemmedia/_fanartsysteme
+${path_syst_fanart}
+${themePath}/../_bobmedia/_systemmedia/_fanartsysteme
+
+		<path_syst_fanart ifSubset="extfolderfanart:extfolder">${themePath}/../_bobmedia/_systemmedia/_fanartsysteme</path_syst_fanart>
+		<path_syst_fanart ifSubset="extfolderfanart:intheme">${themePath}/_systemmedia/_fanartsysteme</path_syst_fanart>
+
+
+Pour System video : path_syst_theme
+${bobmediapath}/_systemmedia/videosyst
+${path_syst_theme}
+${themePath}/../_bobmedia/_systemmedia/videosyst
+
+		<path_syst_theme ifSubset="extfoldervideosyst:extfolder">${themePath}/../_bobmedia/_systemmedia/videosyst</path_syst_theme>
+		<path_syst_theme ifSubset="extfoldervideosyst:intheme">${themePath}/_systemmedia/videosyst</path_syst_theme>
+
+Pour System bezel : path_syst_bezel
+${bobmediapath}/_systemmedia/bezelsyst
+${path_syst_bezel}
+${themePath}/../_bobmedia/_systemmedia/bezelsyst
+
+		<path_syst_bezel ifSubset="extfolderbezelsyst:extfolder">${themePath}/../_bobmedia/_systemmedia/bezelsyst</path_syst_bezel>
+		<path_syst_bezel ifSubset="extfolderbezelsyst:intheme">${themePath}/_systemmedia/bezelsyst</path_syst_bezel>
+		
+Pour System fanart : path_syst_defvideo
+${bobmediapath}/_systemmedia/defaut/
+${path_syst_defvideo}
+${themePath}/../_bobmedia/_systemmedia/defaut/
+
+		<path_syst_defvideo ifSubset="extfoldermanufacturer:extfolder">${themePath}/../_bobmedia/_systemmedia/defaut</path_syst_defvideo>
+		<path_syst_defvideo ifSubset="extfoldermanufacturer:intheme">${themePath}/_systemmedia/defaut</path_syst_defvideo>
+
+Pour Common shaders : path_com_shaders
+${bobmediapath}/_common/shaders
+${path_com_shaders}
+${themePath}/../_bobmedia/_common/shaders
+
+		<path_syst_logo ifSubset="extfoldermanufacturer:extfolder">${themePath}/../_bobmedia/_systemmedia/_logosyst</path_com_shaders>
+		<path_syst_logo ifSubset="extfoldermanufacturer:intheme">${themePath}</path_com_shaders>
+
+#######################################################################
+
+1. Médias Système (_systemmedia)
+Ces cas concernent les éléments visuels propres à l'interface de Batocera/RetroBat pour chaque système.
+Logos Système (Clearlogos)
+    ${bobmediapath}/_systemmedia/_logosyst/clearlogos/region-${region}/ + {system:theme} + "-${region}.png" (ou .svg)
+    ${bobmediapath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/ + {system:theme} + "-${lang}.svg"
+    ${bobmediapath}/_systemmedia/_logosyst/clearlogos/ + {system:theme} + ".png" (ou .svg)
+    ${bobmediapath}/_systemmedia/_logosyst/clearlogos/${system.theme}.png (Variantes : -fr.png, -us.png, -jp.png)
+
+Variantes de Logos Thématiques
+    ${bobmediapath}/_systemmedia/_logosyst/comic/ + {system:theme} + ".png"
+    ${bobmediapath}/_systemmedia/_logosyst/hmaxcarbon/ + {system:theme} + ".png"
+    ${bobmediapath}/_systemmedia/_logosyst/hmaxovalsilver/ + {system:theme} + ".png"
+    ${bobmediapath}/_systemmedia/_logosyst/hmaxrect/ + {system:theme} + ".png"
+    ${bobmediapath}/_systemmedia/_logosyst/hmaxrectfresh/ + {system:theme} + ".png"
+    ${bobmediapath}/_systemmedia/_logosyst/hmaxrectrefl/ + {system:theme} + ".png"
+    ${bobmediapath}/_systemmedia/_logosyst/hmaxcarbonfresh/ + {system:theme} + ".png"
+    ${bobmediapath}/_systemmedia/_logosyst/nekhglass/ + {system:theme} + ".png"
+
+Fanarts et Vidéos Système
+    ${bobmediapath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg (ou /custom/)
+    ${bobmediapath}/_systemmedia/videosyst/hyperpie/${system.theme}.mp4
+    ${bobmediapath}/_systemmedia/videosyst/unified/${system.theme}.mkv
+    ${bobmediapath}/_systemmedia/videosyst/bouchetrou/${system.theme}.mp4
+    ${bobmediapath}/_systemmedia/videosyst/hyperspin/${system.theme}.xml
+    ${bobmediapath}/_systemmedia/videosyst/hyperspinxp/${system.theme}/systheme.xml
+    ${bobmediapath}/_systemmedia/bezelsyst/region-${region}/ + {system:theme} + "-${region}.png"
+
+2. Médias de Jeux (_gamemedia / _gametheme)
+
+Ces cas concernent les éléments qui changent en fonction du jeu sélectionné ou du thème spécifique au système.
+Thèmes de Jeux (Hyperbat)
+    ${bobmediapath}/_gametheme/${system.theme}/hyperbat/ (Chemin racine du thème)
+    ${bobmediapath}/_gametheme/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml" (Thème spécifique au jeu)
+    ${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml (Thème par défaut du système)
+    ${bobmediapath}/_gametheme/arcade/hyperbat/_default/theme.xml (Cas spécifique Arcade)
+
+Artworks et Consoles
+    ${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png"
+    ${bobmediapath}/_gametheme/ + stem({game:system:theme}) + "/hyperbat/_default/Console-" + {game:region} + ".png"
+    ${bobmediapath}/_gametheme/ + stem({game:system:theme}) + "/hyperbat/_default/Artwork3-" + {game:region} + ".png" (Variantes : Artwork2.png, Artwork3defaut.png)
+    ${bobmediapath}/_gamemedia/_manufacturer/{game:publisher}.png
+	
+3. Ressources Communes et Inclusions
+    Shaders : ${bobmediapath}/_common/shaders/wave.glsl (ou border_multi_gradient.glsl, border2.glsl)
+    Fichiers XML inclus :
+        ${bobmediapath}/_systemmedia/videosyst/hyperspinxporunified/_hyperspinorunified.xml
+        ${bobmediapath}/_systemmedia/videosyst/hyperspinxpcinematic/_hyperspinorder.xml
+        (Et les autres fichiers de type _hyperspinxp.xml, _unified.xml, etc.)
+    Médias par défaut : ${bobmediapath}/_systemmedia//defaut/scotty.mp4
+	
+	1. Shaders et Effets Visuels (Cas Commun)
+
+C'est le cas le plus fréquent dans tes fichiers. Il pointe vers des ressources partagées.
+    ${bobmediapath}/_common/shaders/border_multi_gradient.glsl
+    ${bobmediapath}/_common/shaders/wave.glsl
+
+2. Thèmes de Jeux (Game Themes)
+
+Ces chemins concernent les fichiers de configuration spécifiques à un jeu ou les vérifications de leur existence.
+    ${bobmediapath}/_gametheme/${system.theme}/Hyperbat/" + stem({game:rom}) + "/theme.xml
+    ${bobmediapath}/_gametheme/arcade/hyperbat/" + stem({game:rom}) + "/theme.xml (Cas spécifique pour l'arcade)
+
+3. Médias par Défaut du Système (Fallback / Default)
+
+Utilisés lorsque le thème du jeu n'existe pas, pour afficher des visuels génériques au système.
+Pour les Artworks (Images de fond/décor) :
+    ${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Artwork/" + stem({game:rom}) + ".png
+    ${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/theme.xml (Vérification du thème par défaut du système)
+
+Pour les Cartouches (Cart) :
+    ${bobmediapath}/_gametheme/${system.theme}/hyperbat/_default/Cart/" + stem({game:rom}) + ".png
+
+Cas particuliers (Intellivision / Atari 5200) :
+    ${bobmediapath}/_gametheme/" + ({game:system:theme}) + "/hyperbat/_default/artwork/" + stem({game:rom}) + ".png
+    ${bobmediapath}/_gametheme/" + ({game:system:theme}) + "/hyperbat/_default/bt1.png
+    ${bobmediapath}/_gametheme/" + stem({game:system:theme}) + "/hyperbat/_default/Console-" + {game:region} + ".png (Note : présent dans des lignes commentées mais structurellement unique).
+
+4. Vidéos de thèmes
+Utilisé pour pointer vers des vidéos de présentation spécifiques au jeu.
+    ${bobmediapath}/_gametheme/${system.theme}/hyperbat/_videotheme/" + stem({game:rom}) + ".mp4

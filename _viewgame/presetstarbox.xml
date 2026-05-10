@@ -2,16 +2,16 @@
 <theme defaultView="presetstarbox">
 	<formatVersion>7</formatVersion>
 	<variables>
-		<core3dart>			("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/medium_artwork/artwork_3d/" + stem({game:rom}) + ".png")</core3dart>
-		<corefanart>		("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanart>
-		<corefanarttest>!exists("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanarttest>
-		<corefanarttestyes>exists("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanarttestyes>
-		<corefrontart>		("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/medium_artwork/artwork_front/" + stem({game:rom}) + ".png")</corefrontart>
+		<core3dart>			("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/artwork_3d/" + stem({game:rom}) + ".png")</core3dart>
+		<corefanart>		("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanart>
+		<corefanarttest>!exists("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanarttest>
+		<corefanarttestyes>exists("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanarttestyes>
+		<corefrontart>		("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/artwork_front/" + stem({game:rom}) + ".png")</corefrontart>
 		<extgameartpng>("${themePath}/../../../../roms/${system.theme}/@Media/wheel - Art/" + stem({game:rom}) + "-wheel.png")</extgameartpng>
-		<extgamescreenjpg>("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/screenshots/" + stem({game:rom}) + ".jpg")</extgamescreenjpg>
+		<extgamescreenjpg>("${path_game_media}/"  + ({game:system:theme}) + "/screenshots/" + stem({game:rom}) + ".jpg")</extgamescreenjpg>
 		<extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst>
-		<extgamevideoavi>("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".avi")</extgamevideoavi>
-		<extgamevideomp4>("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".mp4")</extgamevideomp4>
+		<extgamevideoavi>("${path_game_media}/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".avi")</extgamevideoavi>
+		<extgamevideomp4>("${path_game_media}/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".mp4")</extgamevideomp4>
 		<extmanufacturer>${path_game_manuf}/{game:publisher}.png</extmanufacturer>
 		<freshbuildfanart>exists({game:image}) ? {game:image} : {game:thumbnail}</freshbuildfanart>
 		<freshbuildfanarttest>!exists({game:image})</freshbuildfanarttest>

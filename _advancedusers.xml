@@ -150,7 +150,7 @@
 		<!-- <include name="boxbackthumb" displayName="${boxbackthumb}"/> -->
 		<include name="boxart" displayName="${boxart}"/>
 		<include name="thumb" displayName="${thumb}"/>
-		<include name="extgamelist" displayName="${extgamelist}"/>
+		<!-- <include name="extgamelist" displayName="${extgamelist}"/> -->
 	</subset>
 	<subset name="spacerHS010" displayName="${vide}" appliesTo="${vide}">
 		<include name=" " displayName=" "/>
@@ -161,6 +161,10 @@
 	<subset name="extfoldergametheme" displayName="${extfoldergametheme}" appliesTo="hyperbat">
 		<include name="intheme" displayName="${intheme}"/>
 		<include name="extfolder" displayName="${extfolder}"/>
+	</subset>
+	<subset name="extfoldergamemedia" displayName="${extfoldergamemedia}" appliesTo="hyperbat">
+	<include name="intheme" displayName="${intheme}"/>
+	<include name="extfolder" displayName="${extfolder}"/>
 	</subset>
 	<subset name="extfoldervideosyst" displayName="${extfoldervideosyst}" appliesTo="hyperbat">
 		<include name="intheme" displayName="${intheme}"/>
