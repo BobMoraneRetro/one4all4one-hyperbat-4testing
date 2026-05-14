@@ -24,6 +24,7 @@ MD5: {game:md5}
 {game:system}/{game:stem}-thumb.png
 {game:system}/{game:stem}-marquee.png
 {game:system}/{game:stem}-video.mp4
+${path_game_media}{game:system:theme}/cabs/{game:rom}
 
 			</text>
 		</text>

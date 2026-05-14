@@ -6,8 +6,7 @@
 		<!-- <bobmediapath>${themePath}/../_bobmedia</bobmediapath> -->
 		<extgamescreenjpg>("${path_game_media}/"  + ({game:system:theme}) + "/screenshots/" + stem({game:rom}) + ".jpg")</extgamescreenjpg>
 		<globalgamecabs>"${path_game_media}/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png"</globalgamecabs>
-		<intcoinopscollec>()
-		firstfile(  "${path_game_media}/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png",
+		<intcoinopscollec>firstfile(  "${path_game_media}/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png",
 					"${path_game_media}/" + ({game:system:theme}) + "/cabs/_"  + ({game:system:theme}) + ".png",
 					"${path_game_media}/_systemcoinops/"  + ({game:system:theme}) + ".png",
 					"${path_game_media}/_defaultgamemedia/cabs/default.png")

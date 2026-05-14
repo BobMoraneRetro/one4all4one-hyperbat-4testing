@@ -248,7 +248,6 @@
 			"${path_game_theme}/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml",
 			"${path_game_theme}/" + {system:theme} + "/hyperbat/_default/theme.xml",
 			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml",
 			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml")</path>
 			<path ifSubset="gameviewsource:mamefolder">firstfile(			
 			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",

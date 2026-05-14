@@ -27,4 +27,5 @@
 	<!-- <include>${themePath}/_viewgame/presetnesicaxlive1.xml</include> -->
 	<!-- <include>${themePath}/_viewgame/presetnesicaxlive2.xml</include> -->
 	<!-- <include>${themePath}/_viewgame/presethmax.xml</include> -->
+	<include>${themePath}/_viewgame/mediatester.xml</include>
 </theme>

@@ -190,31 +190,6 @@
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
 			</storyboard>
 		</image>
-		<!-- <image name="logocustshadow" extra="true"> -->
-			<!-- <path>${intlogoclearsvg}</path> -->
-			<!-- <path>${extlogoclearsvg}</path> -->
-			<!-- <path>${intlogoclearpng}</path> -->
-		<!-- </image> -->
-		<!-- <image name="logocustshadow" extra="true" region="fr"> -->
-			<!-- <path>${intlogoclearfrsvg}</path> -->
-			<!-- <path>${extlogoclearfrsvg}</path> -->
-			<!-- <path>${intlogoclearfrpng}</path> -->
-		<!-- </image> -->
-		<!-- <image name="logocustshadow" extra="true" region="eu"> -->
-			<!-- <path>${intlogoclearfrsvg}</path> -->
-			<!-- <path>${extlogoclearfrsvg}</path> -->
-			<!-- <path>${intlogoclearfrpng}</path> -->
-		<!-- </image> -->
-		<!-- <image name="logocustshadow" extra="true" region="us"> -->
-			<!-- <path>${intlogoclearussvg}</path> -->
-			<!-- <path>${extlogoclearussvg}</path> -->
-			<!-- <path>${intlogoclearuspng}</path> -->
-		<!-- </image> -->
-		<!-- <image name="logocustshadow" extra="true" region="jp"> -->
-			<!-- <path>${intlogoclearjpsvg}</path> -->
-			<!-- <path>${extlogoclearjpsvg}</path> -->
-			<!-- <path>${intlogoclearjppng}</path> -->
-		<!-- </image> -->
 		<image name="logocust" extra="true">
 			<path>firstfile("${path_syst_logo}/clearlogos/region-" + {game:region} + "/"  + ({game:system:theme}) + "-" + {game:region} + ".png",
 			"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".png")</path>
@@ -228,31 +203,6 @@
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
 			</storyboard>
 		</image>
-		<!-- <image name="logocust" extra="true"> -->
-			<!-- <path>${intlogoclearsvg}</path> -->
-			<!-- <path>${extlogoclearsvg}</path> -->
-			<!-- <path>${intlogoclearpng}</path> -->
-		<!-- </image> -->
-		<!-- <image name="logocust" extra="true" region="fr"> -->
-			<!-- <path>${intlogoclearfrsvg}</path> -->
-			<!-- <path>${extlogoclearfrsvg}</path> -->
-			<!-- <path>${intlogoclearfrpng}</path> -->
-		<!-- </image> -->
-		<!-- <image name="logocust" extra="true" region="eu"> -->
-			<!-- <path>${intlogoclearfrsvg}</path> -->
-			<!-- <path>${extlogoclearfrsvg}</path> -->
-			<!-- <path>${intlogoclearfrpng}</path> -->
-		<!-- </image> -->
-		<!-- <image name="logocust" extra="true" region="us"> -->
-			<!-- <path>${intlogoclearussvg}</path> -->
-			<!-- <path>${extlogoclearussvg}</path> -->
-			<!-- <path>${intlogoclearuspng}</path> -->
-		<!-- </image> -->
-		<!-- <image name="logocust" extra="true" region="jp"> -->
-			<!-- <path>${intlogoclearjpsvg}</path> -->
-			<!-- <path>${extlogoclearjpsvg}</path> -->
-			<!-- <path>${intlogoclearjppng}</path> -->
-		<!-- </image> -->
 		<!-- ################################################################## gestion de la cartouche ou du CD ########################################### -->
 		<image name="cartridge" extra="true">
 			<path>{game:cartridge}</path>
