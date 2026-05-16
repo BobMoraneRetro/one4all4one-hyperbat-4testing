@@ -379,16 +379,16 @@
 			<linearSmooth>true</linearSmooth>
 			<!-- ##################################### a activer si angled sur thumbnail ############################# -->
 			<!-- <shader> -->
-				<!-- <path>./Angled_border_gradient2.glsl</path> -->
-				<!-- <tiltAngle>0</tiltAngle> -->
-				<!-- <tiltAngleX>-15</tiltAngleX> -->
-				<!-- <perspectiveDepth>0.8</perspectiveDepth> -->
-				<!-- <borderSize>5</borderSize> -->
-				<!-- <borderColorStart>000000</borderColorStart> -->
-				<!-- <borderColorEnd>000000</borderColorEnd> -->
-				<!-- <gradientMode>4</gradientMode> -->
-				<!-- <gradientMix>0.95</gradientMix> -->
-				<!-- <gradientTransition>0.5</gradientTransition> -->
+			<!-- <path>./Angled_border_gradient2.glsl</path> -->
+			<!-- <tiltAngle>0</tiltAngle> -->
+			<!-- <tiltAngleX>-15</tiltAngleX> -->
+			<!-- <perspectiveDepth>0.8</perspectiveDepth> -->
+			<!-- <borderSize>5</borderSize> -->
+			<!-- <borderColorStart>000000</borderColorStart> -->
+			<!-- <borderColorEnd>000000</borderColorEnd> -->
+			<!-- <gradientMode>4</gradientMode> -->
+			<!-- <gradientMix>0.95</gradientMix> -->
+			<!-- <gradientTransition>0.5</gradientTransition> -->
 			<!-- </shader> -->
 			<storyboard event="open">
 				<animation property="opacity" from="0" to="0" begin="0" duration="1" mode="linear"/>
@@ -487,7 +487,6 @@
 			<!-- || {system.theme} == 'wii' -->
 			<!-- || {system.theme} == 'windows' -->
 			<!-- || {system.theme} == 'virtualboy'">0.8 0.516902872260</pos> -->
-			
 			<pos if="{system.theme} == 'ps3' 
 			|| {system.theme} == 'xbox360'
 			|| {system.theme} == 'psp'
@@ -499,7 +498,6 @@
 			|| {system.theme} == 'wii'
 			|| {system.theme} == 'windows'
 			|| {system.theme} == 'virtualboy'">0.78 0.516902872260</pos>
-			
 			<offsetX>0.5</offsetX>
 			<!-- ##################################### a activer si angled sur thumbnail ############################# -->
 			<!-- <maxSize>0.3 0.5955</maxSize> -->

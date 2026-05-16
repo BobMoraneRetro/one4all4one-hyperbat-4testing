@@ -204,7 +204,7 @@
 		<image name="md_boxart_placeholder" extra="true">
 			<path>{game:boxart}</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.551230073640 0.380492616295</pos>
+			<pos>0.551230073640 0.39</pos>
 			<maxSize>0.104166666667 0.11</maxSize>
 			<zIndex>210</zIndex>
 			<scaleOrigin>-0.3 -0.3</scaleOrigin>
@@ -234,7 +234,7 @@
 		<image name="boxback" extra="true">
 			<path>{game:boxback}</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.469970270074 0.375190608547</pos>
+			<pos>0.469970270074 0.39</pos>
 			<maxSize>0.09 0.1</maxSize>
 			<zIndex>240</zIndex>
 			<scaleOrigin>-0.3 -0.3</scaleOrigin>
@@ -275,7 +275,7 @@
 		<image name="extgame3dboxtester" extra="true">
 			<path>${extgame3dbox}</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.75 0.375</pos>
+			<pos>0.75 0.39</pos>
 			<maxSize>0.104166666667 0.11</maxSize>
 			<zIndex>270</zIndex>
 			<scaleOrigin>-0.3 -0.3</scaleOrigin>
@@ -285,7 +285,7 @@
 		<image name="extgamescreenjpgtester" extra="true">
 			<path>${extgamescreenjpg}</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.83 0.375</pos>
+			<pos>0.83 0.39</pos>
 			<maxSize>0.104166666667 0.1</maxSize>
 			<zIndex>270</zIndex>
 			<scaleOrigin>-0.3 -0.3</scaleOrigin>
@@ -293,31 +293,18 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<video name="extgamevideotester" extra="true">
-		<path>${extgamevideo}</path>
-		<origin>0.5 0.5</origin>
-		<pos>0.91 0.375</pos>
-		<maxSize>0.104166666667 0.1</maxSize>
-		<zIndex>270</zIndex>
+			<path>${extgamevideo}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.91 0.39</pos>
+			<maxSize>0.104166666667 0.1</maxSize>
+			<zIndex>270</zIndex>
 		</video>
-		
-				<!-- <extgamevideomp4>("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".mp4")</extgamevideomp4> -->
-		<!-- <extgamevideoavi>("${bobmediapath}/_gamemedia/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".avi")</extgamevideoavi> -->
-		
-		<!-- <video name="loop01" extra="true"> -->
-			<!-- <path>${extgamevideo}</path> -->
-			<!-- <effect>none</effect> -->
-			<!-- <origin>0.5 0.5</origin> -->
-			<!-- <pos>0.75 0.5</pos> -->
-			<!-- <size>1 1</size> -->
-			<!-- <zIndex>999</zIndex> -->
-			<!-- <opacity>0.3</opacity> -->
-		<!-- </video> -->
 		<image name="systfond" extra="true">
 			<path>firstfile(  "${path_game_media}/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png",
 					"${path_game_media}/" + ({game:system:theme}) + "/cabs/_"  + ({game:system:theme}) + ".png",
 					"${path_game_media}/_systemcoinops/"  + ({game:system:theme}) + ".png")</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.66 0.375</pos>
+			<pos>0.66 0.39</pos>
 			<maxSize>0.1 0.1</maxSize>
 			<zIndex>280</zIndex>
 			<linearSmooth>true</linearSmooth>
@@ -330,7 +317,7 @@
 			<visible>false</visible>
 			<zIndex>290</zIndex>
 		</image>
-		<text name="consolesys" extra="true" zIndex="5000" fontPath="${themePath}/_viewgame/mediatester/TmonMonsori.ttf" fontSize="0.012" size="1 1" alignment="left" verticalAlignment="top" pos="0.465 0.575" color="ffd13b" glowColor="000000" glowOffset="0" glowSize="4">
+		<text name="consolesys" extra="true" zIndex="5000" fontPath="${themePath}/_viewgame/mediatester/TmonMonsori.ttf" fontSize="0.012" size="1 1" alignment="left" verticalAlignment="top" pos="0.48 0.575" color="ffd13b" glowColor="000000" glowOffset="0" glowSize="4">
 			<text>
 INFOS ET CHEMINS ISSUS DE LA GAMELIST.XML :
 
@@ -338,8 +325,8 @@ File: {game:rom}
 Tag: {game:tags} - Family: {game:family} - Lang: {game:lang}
 
 Marquee :{game:marquee}
-Fanart :{game:fanart}
-Image :	{game:image}
+Fanart : {game:fanart}
+Image : {game:image}
 Cartridge : {game:cartridge}
 Thumbnail : {game:thumbnail}
 Boxback : {game:boxback}
@@ -358,9 +345,6 @@ Cabs - ${path_game_media}{game:system:theme}/cabs/{game:stem}.png
 Screenshots - ${path_game_media}{game:system:theme}/screenshots/{game:stem}.jpg
 Video - ${path_game_media}{game:system:theme}/video/{game:stem}.avi
 </text>
-
-
-
 		</text>
 	</customView>
 </theme>

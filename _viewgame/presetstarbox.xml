@@ -3,28 +3,28 @@
 	<formatVersion>7</formatVersion>
 	<variables>
 		<core3dart>			("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/artwork_3d/" + stem({game:rom}) + ".png")</core3dart>
-		<corefanart>		("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanart>
-		<corefanarttest>!exists("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanarttest>
-		<corefanarttestyes>exists("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanarttestyes>
-		<corefrontart>		("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/artwork_front/" + stem({game:rom}) + ".png")</corefrontart>
-		<extgameartpng>("${themePath}/../../../../roms/${system.theme}/@Media/wheel - Art/" + stem({game:rom}) + "-wheel.png")</extgameartpng>
-		<extgamescreenjpg>("${path_game_media}/"  + ({game:system:theme}) + "/screenshots/" + stem({game:rom}) + ".jpg")</extgamescreenjpg>
-		<extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst>
-		<extgamevideoavi>("${path_game_media}/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".avi")</extgamevideoavi>
-		<extgamevideomp4>("${path_game_media}/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".mp4")</extgamevideomp4>
-		<extmanufacturer>${path_game_manuf}/{game:publisher}.png</extmanufacturer>
-		<freshbuildfanart>exists({game:image}) ? {game:image} : {game:thumbnail}</freshbuildfanart>
-		<freshbuildfanarttest>!exists({game:image})</freshbuildfanarttest>
-		<freshbuildfanarttestyes>exists({game:image})</freshbuildfanarttestyes>
-		<intfanartfresh>${path_syst_fanart}/fresh/${system.theme}.jpg</intfanartfresh>
-		<intlogoclearpng>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}.png</intlogoclearpng>
-		<intlogoclearfrpng>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}-fr.png</intlogoclearfrpng>
-		<intlogoclearuspng>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}-us.png</intlogoclearuspng>
-		<intlogoclearjppng>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}-jp.png</intlogoclearjppng>
+		<!-- <corefanart>		("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanart> -->
+		<!-- <corefanarttest>!exists("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanarttest> -->
+		<!-- <corefanarttestyes>exists("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</corefanarttestyes> -->
+		<!-- <corefrontart>		("${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/artwork_front/" + stem({game:rom}) + ".png")</corefrontart> -->
+		<!-- <extgameartpng>("${themePath}/../../../../roms/${system.theme}/@Media/wheel - Art/" + stem({game:rom}) + "-wheel.png")</extgameartpng> -->
+		<!-- <extgamescreenjpg>("${path_game_media}/"  + ({game:system:theme}) + "/screenshots/" + stem({game:rom}) + ".jpg")</extgamescreenjpg> -->
+		<!-- <extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst> -->
+		<!-- <extgamevideoavi>("${path_game_media}/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".avi")</extgamevideoavi> -->
+		<!-- <extgamevideomp4>("${path_game_media}/"  + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".mp4")</extgamevideomp4> -->
+		<!-- <extmanufacturer>${path_game_manuf}/{game:publisher}.png</extmanufacturer> -->
+		<!-- <freshbuildfanart>exists({game:image}) ? {game:image} : {game:thumbnail}</freshbuildfanart> -->
+		<!-- <freshbuildfanarttest>!exists({game:image})</freshbuildfanarttest> -->
+		<!-- <freshbuildfanarttestyes>exists({game:image})</freshbuildfanarttestyes> -->
+		<!-- <intfanartfresh>${path_syst_fanart}/fresh/${system.theme}.jpg</intfanartfresh> -->
+		<!-- <intlogoclearpng>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}.png</intlogoclearpng> -->
+		<!-- <intlogoclearfrpng>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}-fr.png</intlogoclearfrpng> -->
+		<!-- <intlogoclearuspng>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}-us.png</intlogoclearuspng> -->
+		<!-- <intlogoclearjppng>${themePath}/_systemmedia/_logosyst/clearlogos/${system.theme}-jp.png</intlogoclearjppng> -->
 		<!-- <standardsbuildsfanart>exists({game:fanart}) ? {game:fanart} : {game:thumbnail}</standardsbuildsfanart> -->
 		<!-- <standardsbuildsfanart>{game:fanart}</standardsbuildsfanart> -->
-		<standardsbuildsfanarttest>!exists({game:fanart})</standardsbuildsfanarttest>
-		<standardsbuildsfanarttestyes>exists({game:fanart})</standardsbuildsfanarttestyes>
+		<!-- <standardsbuildsfanarttest>!exists({game:fanart})</standardsbuildsfanarttest> -->
+		<!-- <standardsbuildsfanarttestyes>exists({game:fanart})</standardsbuildsfanarttestyes> -->
 		<!-- <nodates>Pas de date</nodates> -->
 		<!-- <noplaycount>Jamais lancé</noplaycount> -->
 		<!-- <noplayerdata>Inconnu</noplayerdata> -->

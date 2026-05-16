@@ -26,8 +26,8 @@
 		<path_syst_fanart ifSubset="extfolderfanart:intheme">${themePath}/_systemmedia/_fanartsysteme</path_syst_fanart>
 		<path_syst_bezel ifSubset="extfolderbezelsyst:extfolder">${themePath}/../_bobmedia/_systemmedia/bezelsyst</path_syst_bezel>
 		<path_syst_bezel ifSubset="extfolderbezelsyst:intheme">${themePath}/_systemmedia/bezelsyst</path_syst_bezel>
-		<path_com_shaders ifSubset="extfoldershaders:extfolder">${themePath}/../_bobmedia/_common/shaders</path_com_shaders>
-		<path_com_shaders ifSubset="extfoldershaders:intheme">${themePath}/_common/shaders</path_com_shaders>
+		<!-- <path_com_shaders ifSubset="extfoldershaders:extfolder">${themePath}/../_bobmedia/_common/shaders</path_com_shaders> -->
+		<!-- <path_com_shaders ifSubset="extfoldershaders:intheme">${themePath}/_common/shaders</path_com_shaders> -->
 		<path_com_shaders>${themePath}/_common/shaders</path_com_shaders>
 	</variables>
 	<variables>
@@ -36,8 +36,8 @@
 		<firstbackgrsyst>firstfile(
 			"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/" + {game:system:theme} + "-" + {game:region} + ".png",
 			"${path_game_theme}/" + stem({game:system:theme}) + "/hyperbat/_default/defautback.png")</firstbackgrsyst>
-		<!-- Utilisé par Hyperbat -->
-		<extmanufacturer>${path_game_manuf}/{game:publisher}.png</extmanufacturer>
+		<!-- Utilisé par Hyperbat et Fanartstar -->
+		<extmanufacturer>"${path_game_manuf}/" + {game:publisher} + ".png"</extmanufacturer>
 		<!-- Condition si aucun thème pour ce jeu n'existe -->
 		<IfnoextGamethemeexist>!exists("${path_game_theme}/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml")</IfnoextGamethemeexist>
 		<Ifnosystemdefautexist>!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</Ifnosystemdefautexist>
@@ -139,7 +139,7 @@
 		<!-- <pointers4games>firstfile("${themePath}/_systemmedia/pointers-r/region-${region}/" + {system:theme} + "-${region}.png", -->
 		<!-- "${themePath}/_systemmedia/pointers-r/" + {system:theme} + ".png")</pointers4games> -->
 		<!-- Syste & Jeux Logo Système en fonction du jeu -->
-		<extgamesyst>${themePath}/_systemmedia/_logosyst/clearlogos/{game:system}.png</extgamesyst>
+		<extgamesyst>"${themePath}/_systemmedia/_logosyst/clearlogos/" + {game:system} ".png"</extgamesyst>
 		<!-- Jeux : gamethème Hyperbat -->
 		<!-- <extgametheme>${path_game_theme}/${system.theme}/hyperbat</extgametheme> -->
 		<extgametheme>${path_game_theme}/${system.theme}/hyperbat</extgametheme>
@@ -159,16 +159,15 @@
 		<!-- Jeux média spécifique -->
 		<extgameartpng>("${themePath}/../../../../roms/${system.theme}/@media/wheel - Art/" + stem({game:rom}) + "-wheel.png")</extgameartpng>
 		<extgamefanartjpg>firstfile("${path_game_media}/" + ({game:system:theme}) + "/cover/" + stem({game:rom}) + ".jpg",
-			"{${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</extgamefanartjpg>
+			"${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/fanart/" + stem({game:rom}) + ".jpg")</extgamefanartjpg>
 		<extgame3dbox>firstfile("${path_game_media}/" + ({game:system:theme}) + "/3dbox/" + stem({game:rom}) + ".png",
-			"{${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/artwork_3d/" + stem({game:rom}) + ".png")</extgame3dbox>
+			"${path_game_media}/"  + ({game:system:theme}) + "/medium_artwork/artwork_3d/" + stem({game:rom}) + ".png")</extgame3dbox>
 		<extgamescreenjpg>"${path_game_media}/" + ({game:system:theme}) + "/screenshots/" + stem({game:rom}) + ".png"</extgamescreenjpg>
 		<extgamevideo>firstfile(
 			"${path_game_media}" + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".avi",
 			"${path_game_media}" + ({game:system:theme}) + "/video/" + stem({game:rom}) + ".mp4",
 			"${path_game_media}" + ({game:system:theme}) + "/medium_artwork/video/" + stem({game:rom}) + ".avi",
 			"${path_game_media}" + ({game:system:theme}) + "/medium_artwork/video/" + stem({game:rom}) + ".mp4")</extgamevideo>
-			
 		<corefrontart>"${path_game_media}/" + ({game:system:theme}) + "/medium_artwork/artwork_front/" + stem({game:rom}) + ".png"</corefrontart>
 		<!-- Couleur de selection du menu système -->
 		<colordea>999999</colordea>
@@ -252,10 +251,10 @@
 		<include name="logosimple" displayName="${logosimple}">${themePath}/_viewsystoption/sl-commun/wheellook.xml</include>
 	</subset>
 	<!-- NB: Possible d'ajouter si souhait de l'intégrer aux packs : ifSubset="Packinstall:Packactivate" -->
+	<include>${themePath}/_systemmedia/_logosyst/nekhglass/_glassnekhros.xml</include>
 	<include>${themePath}/_systemmedia/_logosyst/comic/_logocomic.xml</include>
 	<include>${themePath}/_systemmedia/_logosyst/hmaxcarbon/_ovalcarb.xml</include>
 	<include>${themePath}/_systemmedia/_logosyst/hmaxovalsilver/_hmaxovalsilver.xml</include>
-	<include>${themePath}/_systemmedia/_logosyst/nekhglass/_glassnekhros.xml</include>
 	<include>${themePath}/_systemmedia/_logosyst/hmaxrectfresh/_logorectfresh.xml</include>
 	<include>${themePath}/_systemmedia/_logosyst/hmaxrectrefl/_hmaxrectrefl.xml</include>
 	<subset name="systemwheelfade" displayName="${systemwheelfade}">
@@ -284,14 +283,15 @@
 	<include>${path_syst_theme}/unified/_unified.xml</include>
 	<include>${path_syst_theme}/hyperspin/_hyperspin.xml</include>
 	<include>${path_syst_theme}/hyperpie/_hyperpie.xml</include>
-	<include>${themePath}/../../videothemes/_videothemes.xml</include>
-	<include>${themePath}/../../videothemes/_gameplayonly.xml</include>
+	<!-- <include>${themePath}/../../videothemes/_videothemes.xml</include> -->
+	<!-- <include>${themePath}/../../videothemes/_gameplayonly.xml</include> -->
 	<!-- Affichage du nombre de jeux -->
 	<subset name="nbrjeuxcops1" ifSubset="systemview:coinopsnext1|coinopsnext2|copscurve|hyperspin|zspin|nesicaxlive" displayName="${systviewtotal}">
 		<include name="nbrjeux" displayName="${nbrjeux}">${themePath}/_viewsystoption/sl-commun/nbrejeux.xml</include>
 		<include name="nbrjeux2" displayName="${nbrjeux2}">${themePath}/_viewsystoption/sl-commun/nbrejeux2.xml</include>
 		<include name="desactive" displayName="${no}">${themePath}/_viewsystoption/sl-commun/nbrejeux.xml</include>
 	</subset>
+	<!-- Gestion du fil arianne  -->
 	<!-- Quand MAJ remplacera le bloc en dessous  -->
 	<!-- <subset name="menuofficiel" displayName="${menuofficiel}"> -->
 	<!-- <include name="Desactive" ifSubset="systemview:copscurve|coinopsnext1|coinopsnext2|hyperspin|alekfull|hypermax|zspin" displayName="${desactive}"/> -->
@@ -310,7 +310,7 @@
 	<!-- </subset> -->
 	<!-- fin du bloc  -->
 	<subset name="menuofficiel" displayName="${menuofficiel}">
-		<include name="Desactive" ifSubset="systemview:copscurve|coinopsnext1|coinopsnext2|hyperspin|alekfull|hypermax|zspin" displayName="${desactive}"/>
+		<include name="desactive" ifSubset="systemview:copscurve|coinopsnext1|coinopsnext2|hyperspin|alekfull|hypermax|zspin" displayName="${desactive}"/>
 		<include name="menutxt" ifSubset="systemview:hyperspin|alekfull|hypermax" displayName="${menutxt}">${themePath}/_viewsystoption/sl-commun/menutxt.xml</include>
 		<include name="menuorb" ifSubset="systemview:hyperspin|alekfull|hypermax" displayName="${menuorb}">${themePath}/_viewsystoption/sl-commun/menuorbhori.xml</include>
 		<include name="menuorbvert" ifSubset="systemview:copscurve|coinopsnext1|coinopsnext2" displayName="${menuorbvert}">${themePath}/_viewsystoption/sl-commun/menuorbvert.xml</include>
@@ -327,9 +327,9 @@
 	<subset name="systspacer003" displayName="  ">
 		<include name=" " displayName=" "/>
 	</subset>
-	<!-- ################################################################################# -->
+	<!-- ################################################################################################# -->
 	<!-- ######################## VUES Systeme : spécifique Hyperspin #################################### -->
-	<!-- ################################################################################# -->
+	<!-- ################################################################################################# -->
 	<!-- Affichage des animations d'aide -->
 	<subset name="sticksysteme" ifSubset="systemview:hyperspin" displayName="${sticksysteme}">
 		<include name="ballblue" displayName="${systballblue}">${themePath}/_viewsystoption/sl-hyperspin/stickblue.xml</include>
@@ -358,7 +358,7 @@
 		<!-- <include name="Desactive" displayName="Non"/> -->
 	</subset>
 	<!-- ################################################################################# -->
-	<!-- ######################## VUES GAMELISTS ######################################### -->
+	<!-- ######################## VUES GAMELISTS ACTIVEES ######################################### -->
 	<!-- ################################################################################# -->
 	<include>${themePath}/deactivateview.xml</include>
 	<!-- ############################################################################################ -->

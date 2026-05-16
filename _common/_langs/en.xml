@@ -51,8 +51,9 @@
 		<systviewHS>HyperBAT - hyperspin experience</systviewHS>
 		<viewbasicgrid>Basic: Basic grid view</viewbasicgrid>
 		<viewchoicecoinops>Customizable: RFE coinops</viewchoicecoinops>
-		<viewchoice.hyperbat>Customizable: HS Hyperbat</viewchoice.hyperbat>
-		<presetstarbox>Customizable: ES Fanart Star Boxart</presetstarbox>
+		<viewchoice.hyperbat>HS Hyperbat</viewchoice.hyperbat>
+		<presetstarbox>ES - FanartStar Boxart light</presetstarbox>
+		<mediatester>ES - Test your medias</mediatester>
 		<!-- Fanart suffix et 3box -->
 		<packcustombuild>Scrape setting - Fanart structure ?</packcustombuild>
 		<packcustombuildsno>Fanart with "-fanart" suffix in gamelist (default)</packcustombuildsno>
@@ -252,9 +253,9 @@
 		<mamefolder>Game origin folder takes priority then mame folder</mamefolder>
 		<!-- Choix theme defaut -->
 		<defaultgeneric>Game theme if nothing exists (generic):</defaultgeneric>
-		<generic43>Standard for 4/3 system</generic43>
-		<generic43coinopsstyle>Coinops collection style</generic43coinopsstyle>
-		<generic43noanimation>Standard for 4/3 system without boxart animation</generic43noanimation>
+		<generic43>Standard</generic43>
+		<generic43coinopsstyle>Arcade cabinets collection</generic43coinopsstyle>
+		<generic43noanimation>Standard without boxart animation</generic43noanimation>
 		<generic43boxback>Standard with front and back box montage</generic43boxback>
 		<generic43noanimationfanart>Standard with animated fanart background</generic43noanimationfanart>
 		<jukeboxdef>Compact disc appearance (To be completed)</jukeboxdef>
@@ -279,7 +280,6 @@
 		<!-- Spacer spécifique fanartstar -->
 		<spacerstar>--------- Recommended media for the Fanart Star game view = Fanart,Video,Marquee,Thumbnail,boxart ---------------</spacerstar>
 		<mediastar>-----------------------------    ↓ Start of advanced options specific to the FanartStar boxart view ↓   -------------------</mediastar>
-		<presetstarbox>FanartStar Boxart light</presetstarbox>
 		<!-- fanartstar boxart -->
 		<spacebox>Space between game boxes</spacebox>
 		<spacessssmall>Space ----</spacessssmall>

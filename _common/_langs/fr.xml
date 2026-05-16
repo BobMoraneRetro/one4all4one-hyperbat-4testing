@@ -33,12 +33,12 @@
 		<lastgamelabel>Dernière partie :</lastgamelabel>
 		<!-- ####### LOGOS ###### -->
 		<logosimple>Logo simple (Complet + Région)</logosimple>
+		<glassnekhros>Logo Glass (Complet + Région) (By Nekhros)</glassnekhros>
 		<logobd>Logo type BD (Helmic)</logobd>
 		<logoovalcarb>Logo oval Carbon</logoovalcarb>
 		<hmaxovalsilver>Logo oval Silver</hmaxovalsilver>
 		<logorectfresh>Logo rectangle Team Freshone (Pack externe)</logorectfresh>
 		<hmaxrectrefl>Logo rectangle avec reflet Team Freshone (Pack externe)</hmaxrectrefl>
-		<glassnekhros>Logo Glass (By Nekhros)</glassnekhros>
 		<!-- ###################### -->
 		<fanartfreshone>Fanarts selectionnés par FreshOne uniquement</fanartfreshone>
 		<fanartsystcustom>Fanarts du dossier custom, sinon FreshOne</fanartsystcustom>
@@ -50,9 +50,10 @@
 		<systlist>Vue pour la liste des systèmes</systlist>
 		<systviewHS>HyperBAT - hyperspin experience</systviewHS>
 		<viewbasicgrid>Basic : Vue grille basique</viewbasicgrid>
-		<viewchoicecoinops>RFE coinops</viewchoicecoinops>
-		<viewchoice.hyperbat>HS Hyperbat</viewchoice.hyperbat>
-		<presetstarbox>ES Fanart Star Boxart</presetstarbox>
+		<!-- <viewchoicecoinops>RFE coinops</viewchoicecoinops> -->
+		<viewchoice.hyperbat>HS - Hyperbat</viewchoice.hyperbat>
+		<presetstarbox>ES - FanartStar Boxart très light</presetstarbox>
+		<mediatester>ES - Test tes médias</mediatester>
 		<!-- Suffixe fanart et boxart -->
 		<packcustombuild>Configure SCRAP - Structure fanart ?</packcustombuild>
 		<packcustombuildsno>Fanart avec suffixe "-fanart" (par défaut)</packcustombuildsno>
@@ -249,12 +250,12 @@
 		<mamefolder>Dossier d'origine du jeu prioritaire puis dossier mame</mamefolder>
 		<!-- Choix theme defaut -->
 		<defaultgeneric>Thème jeu si rien n'existe (générique):</defaultgeneric>
-		<generic43>Standard pour système 4/3</generic43>
-		<generic43coinopsstyle>Style coinops collection</generic43coinopsstyle>
-		<generic43noanimation>Standard pour système 4/3 sans animation boxart</generic43noanimation>
+		<generic43>Standard</generic43>
+		<generic43coinopsstyle>Collection de bornes d'arcade</generic43coinopsstyle>
+		<generic43noanimation>Standard sans animation boxart</generic43noanimation>
 		<generic43boxback>Standard avec montage boite arrière et avant</generic43boxback>
 		<generic43noanimationfanart>Standard avec fanart animé en fond</generic43noanimationfanart>
-		<jukeboxdef>Aspect Disque compact (A terminer)</jukeboxdef>
+		<jukeboxdef>Aspect Disque compact (Non terminé)</jukeboxdef>
 		<!-- position des metadata -->
 		<metafichedefault>Metafiche position par défaut</metafichedefault>
 		<metafichebasgauche>Metafiche en bas à gauche</metafichebasgauche>
@@ -276,7 +277,6 @@
 		<!-- Spacer spécifique fanartstar -->
 		<spacerstar>--------- Medias recommandés pour la vue jeux Fanart Star = Fanart,Video,Marquee,Thumbnail,boxart ---------------</spacerstar>
 		<mediastar>-----------------------------    ↓ Début des options avancées spécifiques à la vue FanartStar boxart ↓   -------------------</mediastar>
-		<presetstarbox>FanartStar Boxart light</presetstarbox>
 		<!-- fanartstar boxart -->
 		<spacebox>Espace entre les boites de jeux</spacebox>
 		<spacessssmall>Espace ----</spacessssmall>
