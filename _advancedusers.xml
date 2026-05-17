@@ -15,7 +15,7 @@
 		<include name="ovalcompose" displayName="${ovalcompose}">${themePath}/_viewgameoption/gl-common/autosystoval.xml</include>
 		<!-- <include name="whorizontalbox" displayName="${whorizontalbox}">${themePath}/_viewgameoption/gl-hyperbat/whorizontalbox.xml</include> -->
 		<!-- <include name="hfsround" displayName="${hfsround}">${themePath}/_viewgameoption/gl-common/autoHFSround.xml</include> -->
-		<!-- <include name="logounified" displayName="${logounified}">${themePath}/_viewgameoption/gl-common/autounified.xml</include> -->
+		<include name="logounified" displayName="${logounified}">${themePath}/_viewgameoption/gl-common/autounified.xml</include>
 	</subset>
 	<subset name="letternav" displayName="${letternav}" appliesTo="hyperbat">
 		<include name="navhoricoinstyle" displayName="${navhoricoinstyle}">${themePath}/_viewgameoption/gl-common/navhoricoinstyle.xml</include>
