@@ -30,13 +30,13 @@
 	<!-- ################################################################################# -->
 	<!-- ######################## VUES JEUX Hyperspin #################################### -->
 	<!-- ################################################################################# -->
-	<subset name="spacerHS01" displayName="${vide}" appliesTo="${vide}">
+	<subset name="spacerHS01" displayName=" " appliesTo="hyperbat">
 		<include name=" " displayName=" "/>
 	</subset>
-	<subset name="spacerHS02" displayName="${spacerHS02}" appliesTo="${vide}">
+	<subset name="spacerHS02" displayName="${spacerHS02}" appliesTo="hyperbat">
 		<include name="desactive" displayName=" "/>
 	</subset>
-	<subset name="spacermediahs" displayName="${mediahyper}" appliesTo="${vide}">
+	<subset name="spacermediahs" displayName="${mediahyper}" appliesTo="hyperbat">
 		<include name="desactive" displayName=" "/>
 	</subset>
 	<subset name="defaultgeneric" displayName="${defaultgeneric}" appliesTo="hyperbat">
@@ -68,10 +68,6 @@
 		<include name="amoitie" displayName="${amoitie}"/>
 		<include name="deactivate" displayName="${desactive}"/>
 	</subset>
-	<subset name="vignettagehs" displayName="${vignettagehs}" appliesTo="hyperbat">
-		<include name="activate" displayName="${activate}"/>
-		<include name="deactivate" displayName="${desactive}"/>
-	</subset>
 	<!-- <subset name="gamewheeltype" displayName="${gamewheeltype}" appliesTo="hyperbat"> -->
 	<!-- <include name="wrightwheel" displayName="${wrightwheel}">${themePath}/_viewgameoption/gl-hyperbat/wrightwheel.xml</include> -->
 	<!-- <include name="whorizontalbox" displayName="${whorizontalbox}">${themePath}/_viewgameoption/gl-hyperbat/whorizontalbox.xml</include> -->
@@ -84,6 +80,10 @@
 		<include name="clicgrave" displayName="${clicgrave}"/>
 		<include name="frottement" displayName="${frottement}"/>
 		<include name="poc" displayName="${poc}"/>
+	</subset>
+	<subset name="vignettagehs" displayName="${vignettagehs}" appliesTo="hyperbat">
+		<include name="activate" displayName="${activate}"/>
+		<include name="deactivate" displayName="${desactive}"/>
 	</subset>
 	<subset name="syststickon" displayName="${syststickon}" appliesTo="hyperbat">
 		<include name="stickon" displayName="${stickon}">${themePath}/_viewgameoption/gl-hyperbat/stickon.xml</include>
@@ -139,10 +139,10 @@
 		<include name="actif" displayName="${actif}">${themePath}/_viewsystoption/sl-hyperspin/pointers.xml</include>
 		<include name="desactive" displayName="${desactive}"/>
 	</subset>
-	<subset name="spacerHS03" displayName="${vide}" appliesTo="${vide}">
+	<subset name="spacerHS03" displayName=" " appliesTo="hyperbat">
 		<include name=" " displayName=" "/>
 	</subset>
-	<subset name="spacerscrap" displayName="${spacerscrap}" appliesTo="${vide}">
+	<subset name="spacerscrap" displayName="${spacerscrap}" appliesTo="hyperbat">
 		<include name="desactive" displayName=" "/>
 	</subset>
 	<subset name="boxorthumb" displayName="${boxorthumb}" appliesTo="hyperbat">
@@ -152,10 +152,10 @@
 		<include name="thumb" displayName="${thumb}"/>
 		<!-- <include name="extgamelist" displayName="${extgamelist}"/> -->
 	</subset>
-	<subset name="spacerHS010" displayName="${vide}" appliesTo="${vide}">
+	<subset name="spacerHS010" displayName=" " appliesTo="hyperbat">
 		<include name=" " displayName=" "/>
 	</subset>
-	<subset name="spacerextfolder" displayName="${spacerextfolder}" appliesTo="${vide}">
+	<subset name="spacerextfolder" displayName="${spacerextfolder}" appliesTo="hyperbat">
 		<include name="desactive" displayName=" "/>
 	</subset>
 	<subset name="extfoldergametheme" displayName="${extfoldergametheme}" appliesTo="hyperbat">
