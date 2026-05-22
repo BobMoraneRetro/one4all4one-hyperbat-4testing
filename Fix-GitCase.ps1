@@ -1,29 +1,47 @@
 chcp 65001 | Out-Null
-$env:PYTHONIOENCODING = "utf-8"
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 $repoRoot = (Get-Location).Path
+Write-Host "Dossier racine : $repoRoot" -ForegroundColor Cyan
+
+# Recupere tous les fichiers Git dans une hashtable nom_lowercase -> nom_git
 $rawFiles = git -c core.quotepath=false ls-files
+Write-Host "Fichiers trackes par Git : $($rawFiles.Count)" -ForegroundColor Cyan
 
-foreach ($gitPath in $rawFiles) {
-    try {
-        $gitPathClean = $gitPath.Replace("/", "\")
-        $fullGitPath  = Join-Path $repoRoot $gitPathClean
-        $directory    = Split-Path $fullGitPath -Parent
-        $gitName      = Split-Path $fullGitPath -Leaf
+# Construit un dictionnaire : chemin_lowercase => chemin_git_original
+$gitIndex = @{}
+foreach ($f in $rawFiles) {
+    $normalized = $f.Replace("/", "\")
+    $gitIndex[$normalized.ToLower()] = $normalized
+}
 
-        $actualItem = Get-ChildItem -LiteralPath $directory -ErrorAction SilentlyContinue |
-                      Where-Object { $_.Name -ieq $gitName } |
-                      Select-Object -First 1
+# Parcourt tous les fichiers reels sur le disque
+$allDiskFiles = Get-ChildItem -LiteralPath $repoRoot -Recurse -File |
+    Where-Object { $_.FullName -notmatch '\\.git\\' -and $_.Name -notmatch '^__TEMP__' }
 
-        if ($actualItem -and $actualItem.Name -cne $gitName) {
-            Write-Host "Correction : $gitName --> $($actualItem.Name)" -ForegroundColor Yellow
-            $tempPath = Join-Path $directory ("__TEMP__" + $actualItem.Name)
+$corrections = 0
+$notInGit = 0
+
+foreach ($diskFile in $allDiskFiles) {
+    $relativePath = $diskFile.FullName.Substring($repoRoot.Length).TrimStart("\")
+    $relLower = $relativePath.ToLower()
+
+    if ($gitIndex.ContainsKey($relLower)) {
+        $gitPath = $gitIndex[$relLower]
+
+        if ($gitPath -cne $relativePath) {
+            Write-Host "Correction : $gitPath  -->  $relativePath" -ForegroundColor Yellow
+            $fullGitPath = Join-Path $repoRoot $gitPath
+            $fullDiskPath = $diskFile.FullName
+            $tempPath = Join-Path $diskFile.Directory.FullName ("__TEMP__" + $diskFile.Name)
+
             git mv $fullGitPath $tempPath 2>&1 | Out-Null
-            git mv $tempPath (Join-Path $directory $actualItem.Name) 2>&1 | Out-Null
+            git mv $tempPath $fullDiskPath 2>&1 | Out-Null
+            $corrections++
         }
-    } catch {
-        Write-Host "Ignoré : $gitPath" -ForegroundColor DarkGray
     }
 }
 
-Write-Host "`nTerminé ! Ouvre GitHub Desktop pour voir les changements." -ForegroundColor Green
+Write-Host ""
+Write-Host "$corrections correction(s) effectuee(s)." -ForegroundColor Green
+Write-Host "Termine ! Ouvre GitHub Desktop pour voir les changements." -ForegroundColor Green
