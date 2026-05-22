@@ -2,7 +2,7 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
-		<image name="logocust" extra="true">
+		<image name="logocustoo" extra="true">
 			<pos>0.73 0.112</pos>
 			<maxSize>0.447409789987 0.194706112309</maxSize>
 			<scaleOrigin>0 -0.3</scaleOrigin>
@@ -27,27 +27,27 @@
 				<animation property="scale" to="1.02" begin="3000" duration="700" autoreverse="true" repeat="forever" mode="EaseIn" />
 			</storyboard>
 		</image>
-		<image name="logocust" extra="true">
+		<image name="logocustoo" extra="true">
 			<path>${intlogoclearsvg}</path>
 			<path>${extlogoclearsvg}</path>
 			<path>${intlogoclearpng}</path>
 			<zIndex>270</zIndex>
 		</image>
-		<image name="logocust" extra="true" region="fr">
+		<image name="logocustoo" extra="true" region="fr">
 			<path>./Sega Mega-CD (metal version)-03.png</path>
 			<zIndex>270</zIndex>
 		</image>
-		<image name="logocust" extra="true" region="eu">
+		<image name="logocustoo" extra="true" region="eu">
 			<path>./Sega Mega-CD (metal version)-03.png</path>
 			<zIndex>270</zIndex>
 		</image>
-		<image name="logocust" extra="true" region="us">
+		<image name="logocustoo" extra="true" region="us">
 			<path>${intlogoclearussvg}</path>
 			<path>${extlogoclearussvg}</path>
 			<path>${intlogoclearuspng}</path>
 			<zIndex>270</zIndex>
 		</image>
-		<image name="logocust" extra="true" region="jp">
+		<image name="logocustoo" extra="true" region="jp">
 			<path>./logo-jp.png</path>
 			<zIndex>270</zIndex>
 		</image>
@@ -324,7 +324,7 @@
 			<visible>false</visible>
 			<zIndex>290</zIndex>
 		</image>
-		<control name="-Artwork5, Artwork1, Artwork1-1, PreviewScreen, PreviewVid, Videobezel, art3, art4, logocust">
+		<control name="-Artwork5, Artwork1, Artwork1-1, PreviewScreen, PreviewVid, Videobezel, art3, art4, logocustoo">
 			<storyboard event="deactivateNext">
 				<animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn" />
 				<animation property="opacity" to="0" begin="100" duration="150" mode="linear" />
