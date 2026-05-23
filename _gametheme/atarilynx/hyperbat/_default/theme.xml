@@ -31,7 +31,7 @@
 		</video>
 		<image name="Video-atarilynx" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'atarilynx'</visible>
-			<path>./Video.png</path>
+			<path>./video.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.335937500000 0.556481481481</pos>
 			<size>0.671875000000 0.590740740741</size>

@@ -32,7 +32,7 @@
 		</video>
 		<image name="Video-gp32" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'gp32'</visible>
-			<path>./Video.png</path>
+			<path>./video.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.289843750000 0.568055555556</pos>
 			<size>0.638020833333 0.637962962963</size>

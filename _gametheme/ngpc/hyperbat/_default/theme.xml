@@ -49,7 +49,7 @@
 		</video>
 		<image name="Video-ngpc" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'ngpc'</visible>
-			<path>./Video.png</path>
+			<path>./video.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.300000000000 0.617129629630</pos>
 			<size>0.536458333333 0.591666666667</size>

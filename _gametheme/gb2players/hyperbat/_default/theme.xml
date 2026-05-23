@@ -51,7 +51,7 @@
 		</video>
 		<image name="Video-gb2players" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'gb2players'</visible>
-			<path>./Video.png</path>
+			<path>./video.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.204166666667 0.493518518519</pos>
 			<size>0.318750000000 0.938888888889</size>

@@ -192,8 +192,8 @@
 			<visible>${IfnoextGamethemeexist}</visible>
 			<path>./Image_vid.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.402604166666667 0.375</pos>
-			<maxSize>0.38 0.47</maxSize>
+			<pos>0.405 0.375</pos>
+			<size>0.365 0.47</size>
 			<!-- <size>0.381 0.52</size> -->
 			<zIndex>200</zIndex>
 			<storyboard event="open">

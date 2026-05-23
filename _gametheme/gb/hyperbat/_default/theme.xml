@@ -34,7 +34,7 @@
 		</video>
 		<image name="Video-gb" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'gb'</visible>
-			<path>./Video.png</path>
+			<path>./video.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.249739583333 0.500000000000</pos>
 			<size>0.328645833333 0.966666666667</size>

@@ -41,6 +41,7 @@
 			<itemTemplate>
 				<container>
 					<image name="logo" ifSubset="systemlogocops1:logosimple" pos="0.5 0.5" origin="0.5" maxSize="1" linearSmooth="true">
+					<visible ifSubset="systemlogocops1:logobd|logoovalcarb|logoovalcarbfresh|hmaxovalsilver|logorect|logorectfresh|hmaxrectrefl|glassnekhros">false</visible>
 						<path>${intlogoclearallregion}</path>
 						<storyboard event="activate" ifSubset="systemwheelfade:amoitie">
 							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
@@ -68,6 +69,7 @@
 						</storyboard>
 					</image>
 					<image name="logo" ifSubset="systemlogocops1:logobd|logoovalcarb|logoovalcarbfresh|hmaxovalsilver|logorect|logorectfresh|hmaxrectrefl|glassnekhros" pos="0.5 0.5" origin="0.5" maxSize="1" linearSmooth="true">
+						<visible ifSubset="systemlogocops1:logosimple">false</visible>
 						<path ifSubset="systemlogocops1:logobd">			${extlogobd}</path>
 						<path ifSubset="systemlogocops1:logoovalcarb">		${extlogohcarbon}</path>
 						<path ifSubset="systemlogocops1:hmaxovalsilver">	${exthmaxovalsilver}</path>

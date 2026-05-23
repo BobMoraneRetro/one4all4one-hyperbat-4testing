@@ -73,7 +73,7 @@
 		</video>
 		<image name="Video-psp" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'psp'</visible>
-			<path>./Video.png</path>
+			<path>./video.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.296354166667 0.753240740741</pos>
 			<size>0.702083333333 0.780555555556</size>

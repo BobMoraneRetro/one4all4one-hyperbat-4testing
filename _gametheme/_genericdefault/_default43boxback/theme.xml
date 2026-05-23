@@ -121,7 +121,7 @@
 			<origin>0.5 0.5</origin>
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 			<pos>0.27 0.52</pos>
-			<size>0.37 0.5</size>
+			<size>0.39 0.5</size>
 			<size if="{system.theme} == 'ps3' 
 			|| {system.theme} == 'xbox360'
 			|| {system.theme} == 'psp'
@@ -140,7 +140,7 @@
 			<origin>0.5 0.5</origin>
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 			<pos>0.27 0.52</pos>
-			<maxSize>0.53 0.55</maxSize>
+			<size>0.42 0.54</size>
 			<size if="{system.theme} == 'ps3' 
 			|| {system.theme} == 'xbox360'
 			|| {system.theme} == 'psp'

@@ -40,7 +40,7 @@
 		</video>
 		<image name="Video-ngp" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'ngp'</visible>
-			<path>./Video.png</path>
+			<path>./video.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.301822916667 0.568518518519</pos>
 			<size>0.552604166667 0.594444444444</size>
