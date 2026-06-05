@@ -83,7 +83,7 @@
 			<!-- <path region="jp">${intlogoclearjppng}</path> -->
 			<maxSize>0.5 0.25</maxSize>
 			<scaleOrigin>0 -0.3</scaleOrigin>
-			<pos>0.5 0.15</pos>
+			<pos>0.5 0.13</pos>
 			<origin>0.5 0.5</origin>
 			<zIndex>1</zIndex>
 			<storyboard>

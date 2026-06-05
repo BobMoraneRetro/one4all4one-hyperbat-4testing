@@ -239,6 +239,7 @@
 		<mamefolder>Game origin folder takes priority then mame folder</mamefolder>
 		<!-- <originsystem>Priority game origin system folder</originsystem> -->
 		<actualsystem>Selected system folder takes priority</actualsystem>
+		<groupedsystem>Dev test only : do not use</groupedsystem>
 
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [20] HYPERBAT GAME VIEW - AUTHOR DISPLAY  (_advancedusers.xml > authordisplayed) -->

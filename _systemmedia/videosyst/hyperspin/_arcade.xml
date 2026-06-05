@@ -6,11 +6,11 @@
 		<image name="righttart" extra="true">
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
 			<linearSmooth>true</linearSmooth>
-			<size>0 0.9</size>
+			<size>0 0.3</size>
 			<path>./rightart/${system.theme}.png</path>
 			<scaleOrigin>0 -0.3</scaleOrigin>
-			<pos>0.85 0.515</pos>
-			<pos ifHelpPrompts="false">0.85 0.55</pos>
+			<pos>0.88 0.515</pos>
+			<pos ifHelpPrompts="false">0.88 0.55</pos>
 			<origin>0.5 0.5</origin>
 			<zIndex>1</zIndex>
 			<storyboard>
@@ -83,9 +83,9 @@
 			<!-- <path region="jp">${intlogoclearjppng}</path> -->
 			<maxSize>0.5 0.25</maxSize>
 			<scaleOrigin>0 -0.3</scaleOrigin>
-			<pos>0.5 0.15</pos>
+			<pos>0.5 0.12</pos>
 			<origin>0.5 0.5</origin>
-			<zIndex>1</zIndex>
+			<zIndex>2</zIndex>
 			<storyboard>
 				<animation property="y" from="-0.5" begin="0" duration="2000" mode="easeOut"/>
 				<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
@@ -98,7 +98,7 @@
 			<size>0 0.9</size>
 			<path>./leftart/${system.theme}.png</path>
 			<scaleOrigin>0 -0.3</scaleOrigin>
-			<pos>0.15 0.515</pos>
+			<pos>0.15 0.57</pos>
 			<pos ifHelpPrompts="false">0.15 0.55</pos>
 			<origin>0.5 0.5</origin>
 			<zIndex>3</zIndex>

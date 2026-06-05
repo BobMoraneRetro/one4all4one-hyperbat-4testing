@@ -5,11 +5,18 @@
 		<!-- ######## Conditions de visibilité du theme generic : uniquement si pas de theme de jeu ni de theme defaut specific au système ############ -->
 		<control name="BackgrSyst,blur,blur1,blur2,fiberback,genericbezel,previewvid1,logocustshadow,logocust,boxartboxback,cartridge,boxback">
 			<visible ifSubset="gameviewsource:actualsystem">
+			<!-- !exists("${path_game_theme}/_groupedtheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp; -->
+			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
+			!exists("${path_game_theme}/_groupedtheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
+			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
+			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible>
+			<visible ifSubset="gameviewsource:mamefolder">
+			!exists("${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
 			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
 			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
 			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible>
-			<!-- <visible>!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
-			<visible ifSubset="gameviewsource:mamefolder">
+			<visible ifSubset="gameviewsource:groupedsystem">
+			!exists("${path_game_theme}/_groupedtheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
 			!exists("${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
 			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
 			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;

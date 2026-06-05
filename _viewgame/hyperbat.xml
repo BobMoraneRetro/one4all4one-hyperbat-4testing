@@ -250,10 +250,12 @@
 			"${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml",
 			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml",
 			"${path_game_theme}/" + {system:theme} + "/hyperbat/_default/theme.xml")</path>
-			<!-- <path ifSubset="gameviewsource:originsystem">firstfile( -->
-			<!-- "${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
-			<!-- "${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml", -->
-			<!-- "${path_game_theme}/" + {system:theme} + "/hyperbat/_default/theme.xml")</path> -->
+			<path ifSubset="gameviewsource:groupedsystem">firstfile(
+			"${path_game_theme}/_groupedtheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", 			
+			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
+			"${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml",
+			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml",
+			"${path_game_theme}/" + {system:theme} + "/hyperbat/_default/theme.xml")</path>
 		</gameextras>
 		<!-- <gameextras name="gameextras"  ifSubset="gameviewsource:originsystem"> -->
 			<!-- <path>firstfile( -->

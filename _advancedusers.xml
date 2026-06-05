@@ -52,6 +52,7 @@
 		<include name="mamefolder" displayName="${mamefolder}"/>
 		<!-- <include name="originsystem" displayName="${originsystem}"/> -->
 		<include name="actualsystem" displayName="${actualsystem}"/>
+		<include name="groupedsystem" displayName="${groupedsystem}"/>
 	</subset>
 	<!-- <subset name="unithfold" displayName="${unithfold}" appliesTo="hyperbat"> -->
 	<!-- <include name="separatefolder" displayName="${separatefolder}"/> -->

@@ -237,8 +237,8 @@
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<gameviewsource>Thème Jeux : Système source</gameviewsource>
 		<mamefolder>Dossier d'origine du jeu prioritaire puis dossier mame</mamefolder>
-		<!-- <originsystem>Dossier du system d'origine du jeu prioritaire</originsystem> -->
 		<actualsystem>Dossier du système sélectionné prioritaire</actualsystem>
+		<groupedsystem>Dev test seulement : ne pas utiliser</groupedsystem>
 
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [20] VUE JEUX HYPERBAT - AFFICHAGE AUTEUR  (_advancedusers.xml > authordisplayed) -->
