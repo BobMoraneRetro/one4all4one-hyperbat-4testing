@@ -79,7 +79,7 @@
 		<video name="PreviewVid_Sys" extra="true">
 			<path>{random}</path>
 			<pos>0.507978219697 0.604047655078</pos>
-			<maxSize>0.409895833333 0.546296296296</maxSize>
+			<size>0.409895833333 0.55</size>
 			<origin>0.5 0.5</origin>
 			<zIndex>4</zIndex>
 			<delay>0.4</delay>

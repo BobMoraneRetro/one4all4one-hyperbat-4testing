@@ -2,9 +2,6 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
-		<text name="systhemeauthor" extra="true">
-			<text>System Theme By : Roni</text>
-		</text>
 		<image name="FanartFlix" extra="true">
 			<visible>false</visible>
 		</image>
@@ -82,7 +79,7 @@
 		<video name="PreviewVid_Sys" extra="true">
 			<path>{random}</path>
 			<pos>0.513562592214 0.505933240016</pos>
-			<maxSize>0.343888321416 0.501393460195</maxSize>
+			<size>0.343888321416 0.501393460195</size>
 			<origin>0.5 0.5</origin>
 			<zIndex>3</zIndex>
 			<delay>0.4</delay>

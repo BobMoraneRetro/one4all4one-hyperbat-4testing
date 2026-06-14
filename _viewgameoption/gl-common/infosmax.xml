@@ -14,7 +14,7 @@ Tag: {game:tags}
 Family: {game:family}
 Lang: {game:lang}
 Region: {game:region}, Rating: {game:rating}
-Cheevos hash: {game:cheevosHash}, Cheevos ID: {game:cheevosId}
+Cheevos : {game:cheevos}, Cheevos hash: {game:cheevosHash}, Cheevos ID: {game:cheevosId}
 
 File: {game:rom}
 CRC32: {game:crc32}
