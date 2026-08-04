@@ -119,13 +119,13 @@
 	<subset name="hsmetadata" displayName="${hsmetadata}" appliesTo="hyperbat">
 		<include name="full" displayName="${full}"/>
 		<include name="lower" displayName="${lower}"/>
-		<include name="metafichedefault" displayName="${metafichedefault}"/>
-		<include name="metafichebasgauche" displayName="${metafichebasgauche}"/>
-		<include name="metafichebasdroite" displayName="${metafichebasdroite}"/>
-		<include name="metafichebascentre" displayName="${metafichebascentre}"/>
-		<include name="metafichehautgauche" displayName="${metafichehautgauche}"/>
-		<include name="metafichehautdroite" displayName="${metafichehautdroite}"/>
-		<include name="metafichehautcentre" displayName="${metafichehautcentre}"/>
+		<!-- <include name="metafichedefault" displayName="${metafichedefault}"/> -->
+		<!-- <include name="metafichebasgauche" displayName="${metafichebasgauche}"/> -->
+		<!-- <include name="metafichebasdroite" displayName="${metafichebasdroite}"/> -->
+		<!-- <include name="metafichebascentre" displayName="${metafichebascentre}"/> -->
+		<!-- <include name="metafichehautgauche" displayName="${metafichehautgauche}"/> -->
+		<!-- <include name="metafichehautdroite" displayName="${metafichehautdroite}"/> -->
+		<!-- <include name="metafichehautcentre" displayName="${metafichehautcentre}"/> -->
 		<include name="deactivate" displayName="${desactive}"/>
 	</subset>
 	<subset name="hsperview" displayName="${hyperbatperview}" appliesTo="hyperbat">

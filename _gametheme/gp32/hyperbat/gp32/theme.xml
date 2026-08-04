@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="Artwork3" extra="true">
-			<path>./Artwork3.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork3.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.217447916667 0.618055555556</pos>
 			<size>0.398437500000 0.697222222222</size>
@@ -33,7 +33,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork2" extra="true">
-			<path>./Artwork2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.686683353560 0.608052288501</pos>
 			<size>0.595969862460 0.596139220193</size>
@@ -42,7 +42,7 @@
 			<rotation>10</rotation>
 		</image>
 		<image name="Artwork1" extra="true">
-			<path>./Artwork1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.174537037037</pos>
 			<size>0.688541666667 0.334259259259</size>

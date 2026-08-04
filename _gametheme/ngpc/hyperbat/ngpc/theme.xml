@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
@@ -65,7 +65,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork1" extra="true">
-			<path>./Artwork1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.665392928005 0.567129629630</pos>
 			<size>0.619327522676 0.652777777778</size>
@@ -85,7 +85,7 @@
 			</storyboard>
 		</image>
 		<image name="Image_vid" extra="true">
-			<path>./Image_vid.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Image_vid.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.664583333333333 0.576388888888889</pos>
 			<size>0.275 0.45462962962963</size>
@@ -105,7 +105,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork2" extra="true">
-			<path>./Artwork2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.074218750000 0.060185185185</pos>
 			<size>0.096354166667 0.050000000000</size>
@@ -125,7 +125,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork32" extra="true">
-			<path>./Artwork32.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork32.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.19729166666667 0.503703703703704</pos>
 			<size>0.30625 0.953703703703704</size>
@@ -148,7 +148,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork4" extra="true">
-			<path>./Artwork4.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork4.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.661458333333 0.153240740741</pos>
 			<size>0.530208333333 0.325000000000</size>

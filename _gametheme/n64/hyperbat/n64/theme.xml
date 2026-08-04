@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.501443001443 0.494869328203</pos>
 			<size>1.000000000000 1.000000000000</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="console" extra="true">
-			<path>./console.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/console.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.200098079004 0.412628266795</pos>
 			<size>0.408854166667 0.291666666667</size>
@@ -33,7 +33,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork" extra="true">
-			<path>./Artwork.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.499293191128 0.099492945326</pos>
 			<size>0.626292009961 0.183593875261</size>
@@ -129,7 +129,7 @@
 			</storyboard>
 		</image>
 		<image name="image_vid" extra="true">
-			<path>./image_vid.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/image_vid.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.495833333333 0.532407407407</pos>
 			<size>0.485416666667 0.657407407407</size>
@@ -152,7 +152,7 @@
 			</storyboard>
 		</image>
 		<image name="Bezel" extra="true">
-			<path>./Bezel.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Bezel.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.494949494949 0.533445566779</pos>
 			<size>0.481962481962 0.661568061568</size>
@@ -175,7 +175,7 @@
 			</storyboard>
 		</image>
 		<image name="manette" extra="true">
-			<path>./manette.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/manette.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.139971139971 0.758894092934</pos>
 			<size>0.253968253968 0.406975322230</size>
@@ -198,7 +198,7 @@
 			</storyboard>
 		</image>
 		<image name="logo" extra="true">
-			<path>./logo.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/logo.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.862851502216 0.605419272086</pos>
 			<size>0.320405401051 0.784992784993</size>

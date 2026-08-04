@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Space-Background-Images.jpg</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Space-Background-Images.jpg"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.520833333333 0.617129629630</pos>
 			<size>1.041666666667 1.234259259259</size>
@@ -85,14 +85,14 @@
 			</shader>
 		</image>
 		<image name="Background_1" extra="true">
-			<path>./Microsoft-PNG-Background-Image.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Microsoft-PNG-Background-Image.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.487760416667 0.136856512976</pos>
 			<size>0.650520833333 0.393518518519</size>
 			<zIndex>200</zIndex>
 		</image>
 		<image name="pngegg" extra="true">
-			<path>./pngegg.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/pngegg.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.846875000000 0.616666666667</pos>
 			<size>0.477083333333 0.848148148148</size>
@@ -115,7 +115,7 @@
 			</storyboard>
 		</image>
 		<image name="render___neon_abyss_v2_by_missyeny_de1s9y0-pre" extra="true">
-			<path>./render___neon_abyss_v2_by_missyeny_de1s9y0-pre.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/render___neon_abyss_v2_by_missyeny_de1s9y0-pre.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.181418474688 0.560938010321</pos>
 			<size>0.562836949375 0.894715526814</size>

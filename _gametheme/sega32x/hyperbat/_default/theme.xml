@@ -145,7 +145,7 @@
 			<zIndex>260</zIndex>
 			<linearSmooth>true</linearSmooth>
 		</image>
-		<control name="gameplayprev-sega32x, Video-sega32x, Artwork2-sega32x, Box-sega32x, marquee-sega32x, Artwork4-sega32x">
+		<control name="Artwork2-sega32x, Box-sega32x, marquee-sega32x, Artwork4-sega32x">
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" begin="100" duration="150" mode="linear"/>
 			</storyboard>

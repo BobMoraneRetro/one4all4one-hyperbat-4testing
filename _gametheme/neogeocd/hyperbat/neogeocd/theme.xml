@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Plano de Fundo" extra="true">
-			<path>./Plano de Fundo.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Plano de Fundo.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
@@ -11,7 +11,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="neogeocd" extra="true">
-			<path>./neogeocd.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/neogeocd.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
@@ -19,7 +19,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="console" extra="true">
-			<path>./console.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/console.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.800520833333 0.542129629630</pos>
 			<size>0.380208333333 0.428703703704</size>
@@ -42,7 +42,7 @@
 			</storyboard>
 		</image>
 		<image name="logo" extra="true">
-			<path>./logo.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/logo.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.158796296296</pos>
 			<size>0.452083333333 0.293518518519</size>
@@ -161,7 +161,7 @@
 			</shader>
 		</image>
 		<image name="controller" extra="true">
-			<path>./controller.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/controller.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.773697916667 0.812962962963</pos>
 			<size>0.291145833333 0.266666666667</size>
@@ -184,7 +184,7 @@
 			</storyboard>
 		</image>
 		<image name="Character" extra="true">
-			<path>./Character.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Character.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.224739583333 0.585185185185</pos>
 			<size>0.284895833333 0.722222222222</size>

@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.510101010101 0.500561167228</pos>
 			<size>1.035353535354 1.022072577628</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="Artwork1" extra="true">
-			<path>./Artwork1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.512626262626 0.405686494575</pos>
 			<size>0.979797979798 0.868237934905</size>
@@ -33,7 +33,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork2" extra="true">
-			<path>./Artwork2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.358585858586 0.526033482978</pos>
 			<size>0.279461279461 0.776720912832</size>
@@ -60,7 +60,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork3" extra="true">
-			<path>./Artwork3.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork3.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.200789460259 0.294799850355</pos>
 			<size>0.239962758902 0.401047512159</size>
@@ -86,7 +86,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork4" extra="true">
-			<path>./Artwork4.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork4.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.177609427609 0.704077815189</pos>
 			<size>0.227272727273 0.606060606061</size>
@@ -140,7 +140,7 @@
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 		</image>
 		<image name="Video" extra="true">
-			<path>./Video.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Video.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.764962121212 0.575383464272</pos>
 			<size>0.440698653199 0.653946876169</size>

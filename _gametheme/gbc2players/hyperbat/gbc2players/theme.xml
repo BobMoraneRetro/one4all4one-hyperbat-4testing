@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="Artwork2" extra="true">
-			<path>./Artwork2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.505729166667 0.513888888889</pos>
 			<size>0.415625000000 0.518518518519</size>
@@ -33,7 +33,7 @@
 			</storyboard>
 		</image>
 		<image name="Backscreen2" extra="true">
-			<path>./Backscreen2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Backscreen2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.835156250000 0.292129629630</pos>
 			<size>0.167187500000 0.269444444444</size>
@@ -56,7 +56,7 @@
 			</storyboard>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>./Tetris DX (World).mp4</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Tetris DX (World).mp4"</path>
 			<pos>0.835937500000 0.291666666667</pos>
 			<size>0.167708333333 0.266666666667</size>
 			<origin>0.5 0.5</origin>
@@ -112,7 +112,7 @@
 			</storyboard>
 		</image>
 		<image name="Video2" extra="true">
-			<path>./Video2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Video2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.836718750000 0.513888888889</pos>
 			<size>0.288020833333 0.874074074074</size>
@@ -135,7 +135,7 @@
 			</storyboard>
 		</image>
 		<image name="Backscreen1" extra="true">
-			<path>./Backscreen1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Backscreen1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.176302083333 0.735648148148</pos>
 			<size>0.167187500000 0.269444444444</size>
@@ -158,7 +158,7 @@
 			</storyboard>
 		</image>
 		<video name="PreviewVid_1" extra="true">
-			<path>./Tetris DX (World).mp4</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Tetris DX (World).mp4"</path>
 			<pos>0.175781250000 0.735185185185</pos>
 			<size>0.167187500000 0.264814814815</size>
 			<origin>0.5 0.5</origin>
@@ -184,7 +184,7 @@
 			</storyboard>
 		</video>
 		<image name="Video1" extra="true">
-			<path>./Video1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Video1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.174739583333 0.513888888889</pos>
 			<size>0.288020833333 0.874074074074</size>
@@ -207,7 +207,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork1" extra="true">
-			<path>./Artwork1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.507812500000 0.125462962963</pos>
 			<size>0.353125000000 0.208333333333</size>

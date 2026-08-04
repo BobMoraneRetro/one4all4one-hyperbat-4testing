@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background-1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background-1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
@@ -30,31 +30,31 @@
 			</storyboard>
 		</image>
 		<image name="Artwork1-1" extra="true">
-			<path>./Artwork1 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1 EURO.png"</path>
 			<pos>0.788818027189 0.444809991299</pos>
 			<size>0.469929778131 0.637409992560</size>
 			<zIndex>200</zIndex>
 		</image>
 		<image name="Artwork1-1" extra="true" region="fr">
-			<path>./Artwork1 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1 EURO.png"</path>
 			<pos>0.788818027189 0.444809991299</pos>
 			<size>0.469929778131 0.637409992560</size>
 			<zIndex>200</zIndex>
 		</image>
 		<image name="Artwork1-1" extra="true" region="eu">
-			<path>./Artwork1 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1 EURO.png"</path>
 			<pos>0.788818027189 0.444809991299</pos>
 			<size>0.469929778131 0.637409992560</size>
 			<zIndex>200</zIndex>
 		</image>
 		<image name="Artwork1-1" extra="true" region="us">
-			<path>./Artwork1 US.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1 US.png"</path>
 			<pos>0.788818027189 0.444809991299</pos>
 			<size>0.469929778131 0.637409992560</size>
 			<zIndex>200</zIndex>
 		</image>
 		<image name="Artwork1-1" extra="true" region="jp">
-			<path>./Artwork1 JPN.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1 JPN.png"</path>
 			<pos>0.808912292031 0.422615512175</pos>
 			<size>0.414782931581 0.653551431922</size>
 			<zIndex>200</zIndex>
@@ -80,31 +80,31 @@
 			</storyboard>
 		</image>
 		<image name="-Artwork5" extra="true">
-			<path>./-Artwork5 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/-Artwork5 EURO.png"</path>
 			<pos>0.486371616445 0.569325748118</pos>
 			<size>0.455208333333 0.612037037037</size>
 			<zIndex>210</zIndex>
 		</image>
 		<image name="-Artwork5" extra="true" region="fr">
-			<path>./-Artwork5 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/-Artwork5 EURO.png"</path>
 			<pos>0.486371616445 0.569325748118</pos>
 			<size>0.455208333333 0.612037037037</size>
 			<zIndex>210</zIndex>
 		</image>
 		<image name="-Artwork5" extra="true" region="eu">
-			<path>./-Artwork5 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/-Artwork5 EURO.png"</path>
 			<pos>0.486371616445 0.569325748118</pos>
 			<size>0.455208333333 0.612037037037</size>
 			<zIndex>210</zIndex>
 		</image>
 		<image name="-Artwork5" extra="true" region="us">
-			<path>./-Artwork5 US.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/-Artwork5 US.png"</path>
 			<pos>0.486371616445 0.569325748118</pos>
 			<size>0.455208333333 0.612037037037</size>
 			<zIndex>210</zIndex>
 		</image>
 		<image name="-Artwork5" extra="true" region="jp">
-			<path>./-Artwork5 JPN.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/-Artwork5 JPN.png"</path>
 			<pos>0.486371616445 0.569325748118</pos>
 			<size>0.455208333333 0.612037037037</size>
 			<zIndex>210</zIndex>
@@ -165,7 +165,7 @@
 			</storyboard>
 		</image>
 		<image name="Video" extra="true">
-			<path>./Video.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Video.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.488692135541 0.575254574459</pos>
 			<size>0.498437500000 0.682407407407</size>
@@ -188,7 +188,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork2-1" extra="true">
-			<path>./Artwork2-1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork2-1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.184087362388 0.585979804285</pos>
 			<size>0.362500000000 0.830555555556</size>
@@ -211,7 +211,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork4-1" extra="true">
-			<path>./Artwork4-1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork4-1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.836358050306 0.787925919621</pos>
 			<size>0.338020833333 0.506481481481</size>
@@ -263,31 +263,31 @@
 			</storyboard>
 		</image>
 		<image name="Artwork3-1" extra="true">
-			<path>./Artwork3 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork3 EURO.png"</path>
 			<pos>0.479842136250 0.126699895333</pos>
 			<size>0.601041666667 0.279629629630</size>
 			<zIndex>260</zIndex>
 		</image>
 		<image name="Artwork3-1" extra="true" region="fr">
-			<path>./Artwork3 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork3 EURO.png"</path>
 			<pos>0.479842136250 0.126699895333</pos>
 			<size>0.601041666667 0.279629629630</size>
 			<zIndex>260</zIndex>
 		</image>
 		<image name="Artwork3-1" extra="true" region="eu">
-			<path>./Artwork3 EURO.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork3 EURO.png"</path>
 			<pos>0.479842136250 0.126699895333</pos>
 			<size>0.601041666667 0.279629629630</size>
 			<zIndex>260</zIndex>
 		</image>
 		<image name="Artwork3-1" extra="true" region="us">
-			<path>./Artwork3 US.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork3 US.png"</path>
 			<pos>0.495743335745 0.114261844412</pos>
 			<size>0.733854166667 0.151851851852</size>
 			<zIndex>260</zIndex>
 		</image>
 		<image name="Artwork3-1" extra="true" region="jp">
-			<path>./Artwork3 JPN.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork3 JPN.png"</path>
 			<pos>0.472420837589 0.128535339419</pos>
 			<size>0.447735784814 0.208646360751</size>
 			<zIndex>260</zIndex>

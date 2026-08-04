@@ -85,25 +85,25 @@
 			<scaleOrigin>-0.15 0</scaleOrigin>
 			<autoFade>false</autoFade>
 			<scaleOrigin>-0.15 0</scaleOrigin>
-			<storyboard event="open">
-				<animation property="opacity" to="1" duration="1" mode="easeIn"/>
-			</storyboard>
-			<storyboard event="activateNext">
-				<animation property="offsetX" from="0.02" to="0" duration="200" mode="linear"/>
-				<animation property="opacity" from="0" to="1" duration="100" mode="easeInCubic"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-				<animation property="offsetX" from="-0.02" to="0" duration="200" mode="linear"/>
-				<animation property="opacity" from="0" to="1" duration="100" mode="easeInCubic"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="offsetX" to="-0.02" duration="200" mode="linear"/>
-				<animation property="opacity" to="0" begin="100" duration="200" mode="easeIn"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="offsetX" to="0.02" duration="200" mode="linear"/>
-				<animation property="opacity" to="0" begin="100" duration="200" mode="easeIn"/>
-			</storyboard>
+			<!-- <storyboard event="open"> -->
+				<!-- <animation property="opacity" to="1" duration="1" mode="easeIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="activateNext"> -->
+				<!-- <animation property="offsetX" from="0.02" to="0" duration="200" mode="linear"/> -->
+				<!-- <animation property="opacity" from="0" to="1" duration="100" mode="easeInCubic"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="activatePrev"> -->
+				<!-- <animation property="offsetX" from="-0.02" to="0" duration="200" mode="linear"/> -->
+				<!-- <animation property="opacity" from="0" to="1" duration="100" mode="easeInCubic"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="deactivateNext"> -->
+				<!-- <animation property="offsetX" to="-0.02" duration="200" mode="linear"/> -->
+				<!-- <animation property="opacity" to="0" begin="100" duration="200" mode="easeIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="deactivatePrev"> -->
+				<!-- <animation property="offsetX" to="0.02" duration="200" mode="linear"/> -->
+				<!-- <animation property="opacity" to="0" begin="100" duration="200" mode="easeIn"/> -->
+			<!-- </storyboard> -->
 		</image>
 		<image name="screenshotscust" extra="true">
 			<autoFade>false</autoFade>

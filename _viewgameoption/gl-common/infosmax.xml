@@ -25,7 +25,6 @@ MD5: {game:md5}
 {game:system}/{game:stem}-marquee.png
 {game:system}/{game:stem}-video.mp4
 ${path_game_media}{game:system:theme}/cabs/{game:rom}
-
 			</text>
 		</text>
 		<text extra="true" name="console" zIndex="5000" fontPath=":/_common/fonts/cabin-bold.ttf" fontSize="0.022" size="1 1" alignment="left" verticalAlignment="top" padding="0.025 0.16 0.01 0.01" color="ffd13b" glowColor="000000" glowOffset="0" glowSize="4">

@@ -37,35 +37,35 @@
 				<animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/>
 			</storyboard>
 		</image>
-		<image name="logo">
-			<path>${extlogohrect}</path>
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-				<animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/>
-			</storyboard>
-			<storyboard event="scroll">
-				<animation property="opacity" to="0.4" begin="" duration="" mode="linear"/>
-				<animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/>
-			</storyboard>
-			<storyboard event="deactivate">
-				<animation property="opacity" to="0.4" begin="" duration="" mode="linear"/>
-				<animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/>
-			</storyboard>
-		</image>
-		<text name="logoText">
-			<storyboard event="activate">
-				<animation property="opacity" to="1" begin="" duration="" mode="linear"/>
-				<animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/>
-			</storyboard>
-			<storyboard event="scroll">
-				<animation property="opacity" to="0.4" begin="" duration="" mode="linear"/>
-				<animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/>
-			</storyboard>
-			<storyboard event="deactivate">
-				<animation property="opacity" to="0.4" begin="" duration="" mode="linear"/>
-				<animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/>
-			</storyboard>
-		</text>
+		<!-- <image name="logo" ifSubset="hyperwheel:verticalghjp">> -->
+			<!-- <path>${extlogohrect}</path> -->
+			<!-- <storyboard event="activate"> -->
+				<!-- <animation property="opacity" to="1" begin="" duration="" mode="linear"/> -->
+				<!-- <animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="scroll"> -->
+				<!-- <animation property="opacity" to="0.4" begin="" duration="" mode="linear"/> -->
+				<!-- <animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="deactivate"> -->
+				<!-- <animation property="opacity" to="0.4" begin="" duration="" mode="linear"/> -->
+				<!-- <animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/> -->
+			<!-- </storyboard> -->
+		<!-- </image> -->
+		<!-- <text name="logoText"> -->
+			<!-- <storyboard event="activate"> -->
+				<!-- <animation property="opacity" to="1" begin="" duration="" mode="linear"/> -->
+				<!-- <animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="scroll"> -->
+				<!-- <animation property="opacity" to="0.4" begin="" duration="" mode="linear"/> -->
+				<!-- <animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/> -->
+			<!-- </storyboard> -->
+			<!-- <storyboard event="deactivate"> -->
+				<!-- <animation property="opacity" to="0.4" begin="" duration="" mode="linear"/> -->
+				<!-- <animation property="offsetX" to="-0.2" begin="800" duration="150" mode="EaseIn"/> -->
+			<!-- </storyboard> -->
+		<!-- </text> -->
 		<image name="Vignetage2" extra="true">
 			<visible>false</visible>
 		</image>

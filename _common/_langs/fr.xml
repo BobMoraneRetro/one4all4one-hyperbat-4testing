@@ -225,7 +225,7 @@
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [18] VUE JEUX HYPERBAT - THÈME GÉNÉRIQUE  (_advancedusers.xml > defaultgeneric) -->
 		<!-- ═══════════════════════════════════════════════════════ -->
-		<defaultgeneric>Thème Jeux : si rien n'existe (générique):</defaultgeneric>
+		<defaultgeneric>Thème jeux générique (si aucun thème n'existe)</defaultgeneric>
 		<generic43boxback>Standard avec montage boite arrière et avant</generic43boxback>
 		<generic43coinopsstyle>Collection de bornes d'arcade</generic43coinopsstyle>
 		<generic43noanimationfanart>Standard avec fanart animé en fond</generic43noanimationfanart>

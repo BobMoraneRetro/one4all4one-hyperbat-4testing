@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="Artwork2" extra="true">
-			<path>./Artwork2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.496093750000 0.564351851852</pos>
 			<size>0.388020833333 0.569444444444</size>
@@ -33,7 +33,7 @@
 			</storyboard>
 		</image>
 		<image name="Backscreen1" extra="true">
-			<path>./Backscreen1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Backscreen1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.180729166667 0.388888888889</pos>
 			<size>0.150000000000 0.240740740741</size>
@@ -41,7 +41,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>./Killer Instinct.mp4</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Killer Instinct.mp4"</path>
 			<pos>0.180468750000 0.387037037037</pos>
 			<size>0.145312500000 0.235185185185</size>
 			<origin>0.5 0.5</origin>
@@ -71,7 +71,7 @@
 			<saturation>10</saturation>
 		</image>
 		<image name="Video1" extra="true">
-			<path>./Video1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Video1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.180208333333 0.564351851852</pos>
 			<size>0.270833333333 0.797222222222</size>
@@ -79,7 +79,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="led1" extra="true">
-			<path>./led1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/led1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.084114583333 0.350000000000</pos>
 			<size>0.007812500000 0.014814814815</size>
@@ -87,7 +87,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="Bacscreen2" extra="true">
-			<path>./Bacscreen2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Bacscreen2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.812239583333 0.738425925926</pos>
 			<size>0.146354166667 0.243518518519</size>
@@ -110,7 +110,7 @@
 			</storyboard>
 		</image>
 		<video name="PreviewVid_1" extra="true">
-			<path>./Killer Instinct.mp4</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Killer Instinct.mp4"</path>
 			<pos>0.810677083333 0.740277777778</pos>
 			<size>0.144270833333 0.234259259259</size>
 			<origin>0.5 0.5</origin>
@@ -138,7 +138,7 @@
 			</storyboard>
 		</video>
 		<image name="Video2" extra="true">
-			<path>./Video2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Video2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.812500000000 0.564351851852</pos>
 			<size>0.270833333333 0.797222222222</size>
@@ -161,7 +161,7 @@
 			</storyboard>
 		</image>
 		<image name="led2" extra="true">
-			<path>./led2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/led2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.908333333333 0.778703703704</pos>
 			<size>0.008333333333 0.014814814815</size>
@@ -184,7 +184,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork1" extra="true">
-			<path>./Artwork1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500520833333 0.080092592593</pos>
 			<size>0.467708333333 0.132407407407</size>

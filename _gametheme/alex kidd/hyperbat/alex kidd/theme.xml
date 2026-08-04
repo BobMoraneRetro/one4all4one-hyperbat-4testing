@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500747384155 0.501577810995</pos>
 			<size>1.001494768311 1.003155621990</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="screen" extra="true">
-			<path>./screen.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/screen.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.511023916293 0.526490616177</pos>
 			<size>0.424140508221 0.568011958146</size>
@@ -88,7 +88,7 @@
 			</storyboard>
 		</image>
 		<image name="cadre" extra="true">
-			<path>./cadre.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/cadre.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.510089686099 0.538757611347</pos>
 			<size>0.739910313901 1.163879613992</size>
@@ -111,7 +111,7 @@
 			</storyboard>
 		</image>
 		<image name="collection" extra="true">
-			<path>./collection.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/collection.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.507286995516 0.126224879588</pos>
 			<size>0.397982062780 0.471682444777</size>
@@ -134,7 +134,7 @@
 			</storyboard>
 		</image>
 		<image name="perso droite" extra="true">
-			<path>./perso droite.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/perso droite.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.864433060280 0.540293526982</pos>
 			<size>0.278940858976 0.749376831457</size>
@@ -157,7 +157,7 @@
 			</storyboard>
 		</image>
 		<image name="perso gauche" extra="true">
-			<path>./perso gauche.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/perso gauche.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.152783241393 0.489821797950</pos>
 			<size>0.357883373668 0.840131886881</size>
@@ -180,7 +180,7 @@
 			</storyboard>
 		</image>
 		<image name="Sac de monnaie rempli de pièces" extra="true">
-			<path>./Sac de monnaie rempli de pièces.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Sac de monnaie rempli de pièces.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.760475230464 0.859725637398</pos>
 			<size>0.290473111763 0.344264428756</size>

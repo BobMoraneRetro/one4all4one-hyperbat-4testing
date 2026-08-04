@@ -6,14 +6,14 @@
 			<text>Theme by : Dav</text>
 		</text>
 		<image name="Background" extra="true">
-			<path>./Background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="artwork1" extra="true">
-			<path>./artwork1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/artwork1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.152864583333 0.225000000000</pos>
 			<size>0.572395833333 0.675925925926</size>
@@ -39,7 +39,7 @@
 			</storyboard>
 		</image>
 		<image name="artwork5" extra="true">
-			<path>./artwork5.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/artwork5.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.429368622449 0.345562484253</pos>
 			<size>0.161458333333 0.378703703704</size>
@@ -117,7 +117,7 @@
 			</storyboard>
 		</image>
 		<image name="Video" extra="true">
-			<path>./Video.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Video.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.727343750000 0.593055555556</pos>
 			<size>0.419270833333 0.558333333333</size>
@@ -140,7 +140,7 @@
 			</storyboard>
 		</image>
 		<image name="image_vid" extra="true">
-			<path>./image_vid.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/image_vid.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.726782171202 0.590747039557</pos>
 			<size>0.396875000000 0.520370370370</size>
@@ -163,7 +163,7 @@
 			</storyboard>
 		</image>
 		<image name="artwork2" extra="true">
-			<path>./artwork2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/artwork2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.282031250000 0.663888888889</pos>
 			<size>0.621354166667 0.496296296296</size>
@@ -218,7 +218,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork4" extra="true">
-			<path>./Artwork4.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork4.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.684895833333 0.160185185185</pos>
 			<size>0.580208333333 0.231481481481</size>

@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background.jpg</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.jpg"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.502441077441 0.506977179199</pos>
 			<size>1.016666666667 1.025925925926</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="image_vid" extra="true">
-			<path>./image_vid.jpg</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/image_vid.jpg"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.456110585017 0.527188552189</pos>
 			<size>0.41 0.542592592593</size>
@@ -64,7 +64,7 @@
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 		</image>
 		<image name="Video" extra="true">
-			<path>./Video.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Video.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.456486742424 0.528212682379</pos>
 			<size>0.428125000000 0.580555555556</size>
@@ -87,14 +87,14 @@
 			</storyboard>
 		</image>
 		<image name="Artwork2" extra="true">
-			<path>./Artwork2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.837531565657 0.484002057613</pos>
 			<size>0.543750000000 0.704629629630</size>
 			<zIndex>230</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<shader>
-				<path>./wave.glsl</path>
+				<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/wave.glsl"</path>
 				<waveTime>0</waveTime>
 			</shader>
 			<storyboard event="open">
@@ -117,7 +117,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork1" extra="true">
-			<path>./Artwork1.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork1.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.448613741582 0.117354096521</pos>
 			<size>0.414062500000 0.189814814815</size>
@@ -143,7 +143,7 @@
 			</storyboard>
 		</image>
 		<image name="Artwork3" extra="true">
-			<path>./Artwork3.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork3.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.149800084175 0.558043396932</pos>
 			<size>0.297916666667 0.771904227460</size>
@@ -163,14 +163,14 @@
 			</storyboard>
 		</image>
 		<image name="Artwork4" extra="true">
-			<path>./Artwork4.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Artwork4.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.824024095118 0.729914889637</pos>
 			<size>0.291145833333 0.421296296296</size>
 			<zIndex>260</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<shader>
-				<path>./wave.glsl</path>
+				<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/wave.glsl"</path>
 				<waveTime>0</waveTime>
 			</shader>
 			<storyboard event="open">

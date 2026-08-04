@@ -248,7 +248,8 @@
 	</subset>
 	<!-- Choix des logo de la wheel systèmes -->
 	<subset name="systemlogocops1" displayName="${systviewlogos}">
-		<include name="logosimple" displayName="${logosimple}">${themePath}/_viewsystoption/sl-commun/wheellook.xml</include>
+		<!-- <include name="logosimple" displayName="${logosimple}">${themePath}/_viewsystoption/sl-commun/wheellook.xml</include> -->
+				<include name="logosimple" displayName="${logosimple}"/>
 	</subset>
 	<!-- NB: Possible d'ajouter si souhait de l'intégrer aux packs : ifSubset="Packinstall:Packactivate" -->
 	<include>${themePath}/_systemmedia/_logosyst/nekhglass/_glassnekhros.xml</include>

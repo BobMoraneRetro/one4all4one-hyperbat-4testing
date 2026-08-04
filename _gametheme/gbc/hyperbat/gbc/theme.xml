@@ -3,14 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<image name="Background" extra="true">
-			<path>./Background.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Background.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="vid gbc" extra="true">
-			<path>./vid gbc.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/vid gbc.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.741562500000 0.47</pos>
 			<size>0.212500000000 0.346296296296</size>
@@ -94,7 +94,7 @@
 			</storyboard>
 		</image>
 		<image name="gbcRose" extra="true">
-			<path>./gbcRose.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/gbcRose.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.701302083333 0.752777777778</pos>
 			<size>0.329687500000 1.037037037037</size>
@@ -120,7 +120,7 @@
 			</storyboard>
 		</image>
 		<image name="Grill" extra="true">
-			<path>./Grill.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Grill.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.741562500000 0.47</pos>
 			<size>0.204166666667 0.337962962963</size>
@@ -148,7 +148,7 @@
 			</storyboard>
 		</image>
 		<image name="GB perle" extra="true">
-			<path>./GBbleue2.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/GBbleue2.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.701302083333 0.752777777778</pos>
 			<size>0.329687500000 1.037037037037</size>
@@ -175,7 +175,7 @@
 			</storyboard>
 		</image>
 		<image name="gameboy" extra="true">
-			<path>./gameboy.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/gameboy.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.333854166667 0.118055555556</pos>
 			<size>0.459375000000 0.162037037037</size>
@@ -198,7 +198,7 @@
 			</storyboard>
 		</image>
 		<image name="color_coul" extra="true">
-			<path>./color_coul.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/color_coul.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.738281250000 0.112500000000</pos>
 			<size>0.320312500000 0.173148148148</size>
@@ -218,7 +218,7 @@
 			</storyboard>
 		</image>
 		<image name="color_bleu" extra="true">
-			<path>./color_bleu.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/color_bleu.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.738281250000 0.112500000000</pos>
 			<size>0.320312500000 0.173148148148</size>
@@ -241,7 +241,7 @@
 			</storyboard>
 		</image>
 		<image name="art_nb" extra="true">
-			<path>./art_nb.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/art_nb.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.220052083333 0.590740740741</pos>
 			<size>0.440104166667 0.818518518519</size>
@@ -267,7 +267,7 @@
 			</storyboard>
 		</image>
 		<image name="atr_color" extra="true">
-			<path>./atr_color.png</path>
+			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/atr_color.png"</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.220052083333 0.590740740741</pos>
 			<size>0.440104166667 0.818518518519</size>
