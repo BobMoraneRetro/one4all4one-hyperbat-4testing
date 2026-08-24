@@ -226,6 +226,7 @@
 	<subset name="colorhelp" displayName="${colorhelp}">
 		<include name="default" displayName="${default}">${themePath}/_common/help/helpcolor.xml</include>
 		<include name="skyblue" displayName="${skyblue}">${themePath}/_common/help/helpcolor.xml</include>
+		<include name="standard" displayName="${standard}">${themePath}/_common/help/helpcolor.xml</include>
 		<include name="purple" displayName="${purple}">${themePath}/_common/help/helpcolor.xml</include>
 		<include name="red" displayName="${red}">${themePath}/_common/help/helpcolor.xml</include>
 		<include name="aqua" displayName="${aqua}">${themePath}/_common/help/helpcolor.xml</include>
