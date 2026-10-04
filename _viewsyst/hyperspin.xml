@@ -32,12 +32,12 @@
 			<transitionSpeed>650</transitionSpeed>
 			<zIndex>105</zIndex>
 			<!-- <scrollSound>${themePath}/_common/scrollsound/wheelclic.wav</scrollSound> -->
-			<scrollSound ifSubset="gamewheelsound:bulle">${themePath}/_common/scrollsound/bulle.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:clic">${themePath}/_common/scrollsound/clic.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:clicgrave">${themePath}/_common/scrollsound/clicgrave.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:frottement">${themePath}/_common/scrollsound/frottement.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:poc">${themePath}/_common/scrollsound/poc.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:wheelclic">${themePath}/_common/scrollsound/wheelclic.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:bulle">${path_common}/scrollsound/bulle.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:clic">${path_common}/scrollsound/clic.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:clicgrave">${path_common}/scrollsound/clicgrave.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:frottement">${path_common}/scrollsound/frottement.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:poc">${path_common}/scrollsound/poc.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:wheelclic">${path_common}/scrollsound/wheelclic.wav</scrollSound>
 			<itemTemplate>
 				<container>
 					<image name="logo" ifSubset="systemlogocops1:logosimple" pos="0.5 0.5" origin="0.5" maxSize="1" linearSmooth="true">
@@ -238,7 +238,9 @@
 		<!-- </storyboard> -->
 		<!-- </text> -->
 		<image name="vignetage2" extra="true">
-			<path>${themePath}/hyperbat/overlaydiamonds.png</path>
+			<visible ifSubset="vignettagesyst:deactivate">false</visible>
+			<visible ifSubset="vignettagesyst:activate">true</visible>
+			<path>${path_vsyst}/hyperbat/overlaydiamonds.png</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -251,7 +253,9 @@
 			</storyboard>
 		</image>
 		<image name="bgmask" extra="true">
-			<path>${themePath}/hyperbat/bgmask.png</path>
+			<visible ifSubset="bgmasksyst:deactivate">false</visible>
+			<visible ifSubset="bgmasksyst:activate">true</visible>
+			<path>${path_vsyst}/hyperbat/bgmask.png</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -260,7 +264,7 @@
 		</image>
 		<text name="systhemeauthor" ifSubset="authordisplayed:activate|showoff|showoffblackwhite|deactivate" extra="true">
 			<alignment>left</alignment>
-			<fontPath>${themePath}/_viewsyst/hyperbat/teko-bold.ttf</fontPath>
+			<fontPath>${fonttekobold}</fontPath>
 			<size>0.2 0</size>
 			<pos>0.01 0</pos>
 			<size>0.2 0</size>

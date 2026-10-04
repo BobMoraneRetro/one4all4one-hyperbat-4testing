@@ -86,7 +86,6 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.867708333333 0.822685185185</pos>
 			<size>0.114583333333 0.221296296296</size>
-			<scale ifSubset="boxorthumb:boxback">1.000000000000</scale>
 			<zIndex>280</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<autoFade>false</autoFade>
@@ -108,8 +107,8 @@
 		</image>
 		<image name="Boxart-nds" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'nds'</visible>
-			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
-			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<path ifSubset="boxorthumb:thumb">firstfile(${box2dpath},${box3dpath})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.723697916667 0.597222222222</pos>
 			<maxSize>0.288020833333 0.672222222222</maxSize>

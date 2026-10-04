@@ -88,7 +88,6 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.900260416667 0.690277777778</pos>
 			<size>0.170312500000 0.336111111111</size>
-			<scale ifSubset="boxorthumb:boxback">1.000000000000</scale>
 			<zIndex>280</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<autoFade>false</autoFade>
@@ -110,8 +109,8 @@
 		</image>
 		<image name="Boxart-gb2players" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'gb2players'</visible>
-			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
-			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<path ifSubset="boxorthumb:thumb">firstfile(${box2dpath},${box3dpath})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.724479166667 0.572685185185</pos>
 			<maxSize>0.244791666667 0.571296296296</maxSize>

@@ -24,9 +24,9 @@
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
 			<linearSmooth>true</linearSmooth>
 			<size>0 0.9</size>
-			<path>"${path_syst_theme}/hyperspin/rightart/" + {game:system:theme} + ".png"</path>
-			<path>./rightart/${system.theme}_left.png</path>
-			<path>./rightart/${system.theme}_right.png</path>
+			<path>${path_syst_theme}/hyperspin/rightart/${system.theme}.png</path>
+			<path>${path_syst_theme}/hyperspin/rightart/${system.theme}_left.png</path>
+			<path>${path_syst_theme}/hyperspin/rightart/${system.theme}_right.png</path>
 			<scaleOrigin>0 -0.3</scaleOrigin>
 			<pos>0.85 0.515</pos>
 			<pos ifHelpPrompts="false">0.85 0.55</pos>
@@ -48,7 +48,7 @@
 		<image name="fondecransmall" ifSubset="videofondcops1:hyperspin|hyperspinorunified" extra="true">
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
 			<origin>0.52 0.5</origin>
-			<path>${themePath}/_common/images/169v2.png</path>
+			<path>${comcadre169}</path>
 			<size>0.66 0.72</size>
 			<pos>0.5 0.55</pos>
 			<linearSmooth>true</linearSmooth>
@@ -71,12 +71,7 @@
 		</image>
 		<video name="PreviewVid" extra="true">
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<maxSize>0.5 0.52</maxSize>
 			<pos>0.5 0.55</pos>
 			<origin>0.5 0.5</origin>
@@ -87,14 +82,8 @@
 			<effect>none</effect>
 		</video>
 		<image name="PreviewScreen" extra="true">
-			<visible>!exists("${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</visible>
-			<path>firstfile(
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".jpg",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".png")</path>
+			<visible>${ifnosubsystvideo}</visible>
+			<path>${extsubsystimage}</path>
 			<size>0.5 0.52</size>
 			<pos>0.5 0.55</pos>
 			<origin>0.5 0.5</origin>
@@ -102,6 +91,18 @@
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<zIndex>220</zIndex>
 			<effect>none</effect>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="200" duration="500" mode="Linear" />
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="200" duration="500" mode="Linear" />
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="200" duration="500" mode="Linear" />
+			</storyboard>
 		</image>
 		<image name="Videobezel" ifSubset="videofondcops1:hyperspin|hyperspinorunified" extra="true">
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
@@ -155,9 +156,9 @@
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
 			<linearSmooth>true</linearSmooth>
 			<size>0 0.9</size>
-			<path>"${path_syst_theme}/hyperspin/leftart/" + {game:system:theme} + ".png"</path>
-			<path>./leftart/${system.theme}_right.png</path>
-			<path>./leftart/${system.theme}_left.png</path>
+			<path>${path_syst_theme}/hyperspin/leftart/${system.theme}.png</path>
+			<path>${path_syst_theme}/hyperspin/leftart/${system.theme}_right.png</path>
+			<path>${path_syst_theme}/hyperspin/leftart/${system.theme}_left.png</path>
 			<scaleOrigin>0 -0.3</scaleOrigin>
 			<pos>0.15 0.515</pos>
 			<pos ifHelpPrompts="false">0.15 0.55</pos>

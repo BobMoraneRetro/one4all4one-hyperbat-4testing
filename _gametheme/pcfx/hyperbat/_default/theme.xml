@@ -184,7 +184,8 @@
 		</image>
 		<image name="boxart-pcfx" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'pcfx'</visible>
-			<path>firstfile({game:boxart},{game:thumbnail})</path>
+			<path ifSubset="boxorthumb:thumb">firstfile(${box2dpath},${box3dpath})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.732987884462 0.539642662036</pos>
 			<maxSize>0.334808761775 0.582355980701</maxSize>

@@ -78,7 +78,6 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.926562500000 0.668055555556</pos>
 			<size>0.095833333333 0.217592592593</size>
-			<scale ifSubset="boxorthumb:boxback">1.000000000000</scale>
 			<zIndex>270</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<autoFade>false</autoFade>
@@ -100,8 +99,8 @@
 		</image>
 		<image name="Boxart-gp32" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'gp32'</visible>
-			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
-			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<path ifSubset="boxorthumb:thumb">firstfile(${box2dpath},${box3dpath})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.768765169903 0.568518518519</pos>
 			<maxSize>0.332291666667 0.311111111111</maxSize>

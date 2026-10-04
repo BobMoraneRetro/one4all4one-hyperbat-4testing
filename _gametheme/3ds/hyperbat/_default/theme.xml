@@ -96,8 +96,8 @@
 			</storyboard>
 		</image>
 		<image name="boxart2D" extra="true">
-			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
-			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<path ifSubset="boxorthumb:thumb">firstfile(${box2dpath},${box3dpath})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.735416666667 0.541345232239</pos>
 			<maxSize>0.288541666667 0.652777777778</maxSize>

@@ -62,8 +62,8 @@
 		</image>
 		<image name="Box-sega32x" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist}</visible>
-			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
-			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<path ifSubset="boxorthumb:thumb">firstfile(${box2dpath},${box3dpath})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.825602418906 0.615775104352</pos>
 			<maxSize>0.231388698895 0.602034073570</maxSize>

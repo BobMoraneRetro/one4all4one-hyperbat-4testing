@@ -95,5 +95,8 @@
 				<animation property="rotation" from="0" to="360" begin="9000" duration="3200" repeat="forever" mode="linear"/>
 			</storyboard>
 		</image>
+		<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Dav</text>
+		</text>
 	</view>
 </theme>

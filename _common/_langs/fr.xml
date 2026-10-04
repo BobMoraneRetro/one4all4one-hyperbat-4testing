@@ -42,7 +42,11 @@
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<lismoi>Message d'accueil</lismoi>
 		<tumasbienlu>Accueil et Crédits</tumasbienlu>
-
+		<deporttheme>Comment déporter mes thèmes customs</deporttheme>
+		<customiztheme1>Comment customiser mes thèmes 1/2</customiztheme1>
+		<customiztheme2>Comment customiser mes thèmes 2/2</customiztheme2>
+		<downloadmore>Liens pour télécharger + de thèmes et d'artworks</downloadmore>
+				
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [2] CHOIX DE LA VUE SYSTÈME  (theme.xml > systemview) -->
 		<!-- ═══════════════════════════════════════════════════════ -->
@@ -61,9 +65,9 @@
 		<packcustombuild>Configure SCRAP - Structure fanart ?</packcustombuild>
 		<packcustombuildsno>Fanart avec suffixe "-fanart" (par défaut)</packcustombuildsno>
 		<packretrofreshbat>Fanart avec suffixe "-image"</packretrofreshbat>
-		<scrap3dbox>Configure scrape - boite 3d structure ?</scrap3dbox>
-		<scrapedboxart>boite 3d avec "-boxart" dans la gamelist</scrapedboxart>
-		<scrapedthumbnail>boite 3d avec "-thumbnail" dans la gamelist</scrapedthumbnail>
+		<scrap3dbox>Configure SCRAP - Où est scrappée la boîte 3D ?</scrap3dbox>
+		<scrapedboxart>Dans "-boxart" (2D dans "-thumbnail")</scrapedboxart>
+		<scrapedthumbnail>Dans "-thumbnail" (2D dans "-boxart")</scrapedthumbnail>
 
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [4] AIDE - ICÔNES ET COULEURS  (theme.xml > iconset, colorhelp) -->
@@ -72,6 +76,7 @@
 		<iconsetposition>Position des boutons</iconsetposition>
 		<colorhelp>Aide - Couleurs du texte de l'aide</colorhelp>
 		<skyblue>bleu ciel</skyblue>
+		<standard>Standard</standard>
 		<purple>violet</purple>
 		<red>rouge</red>
 		<aqua>bleu ciel</aqua>
@@ -111,7 +116,8 @@
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<systviewfanart>Vue système - Choix des fanarts du système</systviewfanart>
 		<fanartfreshone>Fanarts selectionnés par FreshOne uniquement</fanartfreshone>
-		<fanartsystcustom>Fanarts du dossier custom, sinon FreshOne</fanartsystcustom>
+		<fanartsystcustom>Fanarts custom, sinon fanart FreshOne</fanartsystcustom>
+		<fanfondsystem>Fond système sinon fanart FreshOne</fanfondsystem>
 
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [8] VUE SYSTÈME - VIDÉO DE PRÉSENTATION  (theme.xml > videofondcops1) -->
@@ -122,7 +128,7 @@
 		<gameplay1>Grande vidéo de gameplay aléatoire avec bezel si dispo</gameplay1>
 		<gameplayp>Petite vidéo de gameplay aléatoire</gameplayp>
 		<gameplay>Grande vidéo de gameplay aléatoire</gameplay>
-		<custom>Vidéo personnel du dossier custom</custom>
+		<custom>Vidéo personnelle du dossier custom</custom>
 		<hyperspinxp>ADDON : Image et gameplay façon Hyperspin Dynamique</hyperspinxp>
 		<hyperspin>ADDON : Image et gameplay façon Hyperspin unifié</hyperspin>
 		<hyperspinorder>ADDON : HS Dynamique sinon vidéo hyperpie</hyperspinorder>
@@ -138,7 +144,7 @@
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [10] VUE SYSTÈME - FIL D'ARIANE  (theme.xml > menuofficiel) -->
 		<!-- ═══════════════════════════════════════════════════════ -->
-		<menuofficiel>Affichage du fil d'arianne</menuofficiel>
+		<menuofficiel>Affichage du fil d'Ariane</menuofficiel>
 		<menutxt>Tri matériel officiel : texte horizontal</menutxt>
 		<menuorb>Tri matériel officiel : orb horizontal</menuorb>
 		<menuorbvert>Tri matériel officiel : orb vertical</menuorbvert>
@@ -226,6 +232,7 @@
 		<!-- [18] VUE JEUX HYPERBAT - THÈME GÉNÉRIQUE  (_advancedusers.xml > defaultgeneric) -->
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<defaultgeneric>Thème jeux générique (si aucun thème n'existe)</defaultgeneric>
+		<videodefaut>Vidéo par défaut du thème générique (sans capture ni vidéo)</videodefaut>
 		<generic43boxback>Standard avec montage boite arrière et avant</generic43boxback>
 		<generic43coinopsstyle>Collection de bornes d'arcade</generic43coinopsstyle>
 		<generic43noanimationfanart>Standard avec fanart animé en fond</generic43noanimationfanart>
@@ -239,7 +246,7 @@
 		<gameviewsource>Thème Jeux : Système source</gameviewsource>
 		<mamefolder>Dossier d'origine du jeu prioritaire puis dossier mame</mamefolder>
 		<actualsystem>Dossier du système sélectionné prioritaire</actualsystem>
-		<groupedsystem>Dev test seulement : ne pas utiliser</groupedsystem>
+		<genericstyleonly>N'utiliser que les vues génériques</genericstyleonly>
 
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [20] VUE JEUX HYPERBAT - AFFICHAGE AUTEUR  (_advancedusers.xml > authordisplayed) -->
@@ -268,6 +275,10 @@
 		<!-- [23] VUE JEUX HYPERBAT - VIGNETTAGE  (_advancedusers.xml > vignettagehs) -->
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<vignettagehs>Visuel - Effet de vignettage</vignettagehs>
+		<!-- VUE SYSTEME HYPERSPIN - VIGNETTAGE  (theme.xml > vignettagesyst) -->
+		<vignettagesyst>Visuel - Vignettage vue systeme</vignettagesyst>
+		<!-- VUE SYSTEME HYPERSPIN - ASSOMBRISSEMENT DU FOND  (theme.xml > bgmasksyst) -->
+		<bgmasksyst>Visuel - Assombrir le fond (vue systeme)</bgmasksyst>
 
 
 		<!-- ═══════════════════════════════════════════════════════ -->
@@ -342,9 +353,9 @@
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [31] VUE JEUX HYPERBAT - BOITE DE JEU  (_advancedusers.xml > boxorthumb) -->
 		<!-- ═══════════════════════════════════════════════════════ -->
-		<boxorthumb>Choix de la boite de jeu à afficher</boxorthumb>
-		<boxart>Calibré pour box en 3D</boxart>
-		<thumb>Calibré pour box en 2D</thumb>
+		<boxorthumb>Boîte de jeu à afficher</boxorthumb>
+		<boxart>Boîte 3D</boxart>
+		<thumb>Boîte 2D</thumb>
 
 		<!-- ═══════════════════════════════════════════════════════ -->
 		<!-- [32] DOSSIERS SOURCES DES MÉDIAS  (_advancedusers.xml > extfolder*) -->
@@ -361,6 +372,7 @@
 		<extfoldermanufacturer>Source - Logo des éditeurs de jeux</extfoldermanufacturer>
 		<extfolderfanart>Source - Fanart des systèmes</extfolderfanart>
 		<extfolderlogosyst>Source - Logo système</extfolderlogosyst>
+		<extfoldercouleursinfos>Source - Style des infos de jeux</extfoldercouleursinfos>
 		<extfolderthumbox>Source - Boite 2D/3D jeux</extfolderthumbox>
 		<extfoldergamefanart>Source - Fanart des jeux</extfoldergamefanart>
 
@@ -399,6 +411,31 @@
 		<longselect>Appuie long sur "select"</longselect>
 		<favuniquement>Favoris uniquement</favuniquement>
 		<tslesjeux>Tous les jeux</tslesjeux>
-
+		<!-- ═══════════════════════════════════════════════════════ -->
+		<!-- [34] RATIO D'ÉCRAN ET CADRE DES VIDÉOS SYSTÈME  (theme.xml > screenratio, cadrevideosyst) -->
+		<!-- ═══════════════════════════════════════════════════════ -->
+		<screenratio>Ratio de l'écran</screenratio>
+		<ratio1610>16/10 (expérimental)</ratio1610>
+		<ratio43>4/3 (expérimental)</ratio43>
+		<cadrevideosyst>Cadre des vidéos système</cadrevideosyst>
+		<cadreorigine>D'origine (bezel)</cadreorigine>
+		<cadrebordure>Bordure</cadrebordure>
+		<!-- ═══════════════════════════════════════════════════════ -->
+		<!-- [35] PLANCHES EXPLICATIVES  (theme.xml > lismoi, images _viewsystoption/sl-commun/planches) -->
+		<!-- ═══════════════════════════════════════════════════════ -->
+		<planche00>00 - Accueil et Crédits</planche00>
+		<planche01>01 - Comment sécuriser mes thèmes customs</planche01>
+		<planche02>02 - Comment customiser mes thèmes système</planche02>
+		<planche03>03 - Cadre des vidéos système</planche03>
+		<planche04>04 - Comment customiser mes thèmes de jeux</planche04>
+		<planche05>05 - Télécharger des thèmes</planche05>
+		<planche06>06 - Ajouter un thème système</planche06>
+		<planche07>07 - Ajouter un thème de jeu</planche07>
+		<planche08>08 - Les éditeurs de thèmes</planche08>
+		<planche09>09 - Boîte 2D ou 3D et scrap</planche09>
+		<planche10>10 - Fil d'Ariane et navigation par lettre</planche10>
+		<planche11>11 - Style des infos de jeux</planche11>
+		<planche12>12 - Écran 4:3 ou 16:10</planche12>
+		<planche13>13 - Liens pour télécharger + de thèmes et d'artworks</planche13>
 	</variables>
 </theme>

@@ -303,12 +303,7 @@
 		</image>
 		<video name="PreviewVid" extra="true">
 			<visible>true</visible>
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<maxSize>0.40 0.55</maxSize>
 			<origin>0.5 0.5</origin>
 			<delay>0.3</delay>
@@ -331,15 +326,9 @@
 			</storyboard>
 		</video>
 		<image name="PreviewScreen" extra="true">
-			<visible>!exists("${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</visible>
-			<path>firstfile(
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".jpg",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".png")</path>
-			<size>0.40 0.55</size>
+			<visible>${ifnosubsystvideo}</visible>
+			<path>${extsubsystimage}</path>
+			<maxSize>0.40 0.55</maxSize>
 			<origin>0.5 0.5</origin>
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>

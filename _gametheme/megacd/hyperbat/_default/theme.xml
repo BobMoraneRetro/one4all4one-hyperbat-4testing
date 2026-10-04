@@ -232,7 +232,7 @@
 		</image>
 		<image name="boxart-megacd" extra="true" ifSubset="boxorthumb:thumb">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'megacd'</visible>
-			<path>firstfile({game:thumbnail},{game:boxart})</path>
+			<path>firstfile(${box2dpath},${box3dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.783593750000 0.421296296296</pos>
 			<maxSize>0.313020833333 0.472222222222</maxSize>
@@ -257,7 +257,7 @@
 		</image>
 		<image name="boxart-megacd" extra="true" ifSubset="boxorthumb:boxart">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'megacd'</visible>
-			<path>firstfile({game:boxart},{game:thumbnail})</path>
+			<path>firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<!-- <pos>0.757812500000 0.425462962963</pos> -->
 			<!-- <maxSize>0.228125000000 0.536111111111</maxSize> -->

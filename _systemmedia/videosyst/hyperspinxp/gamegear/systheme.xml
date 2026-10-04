@@ -141,5 +141,8 @@
 				<animation property="scale" to="1" begin="950" duration="100" autoreverse="false" mode="linear"/>
 			</storyboard>
 		</image>
+		<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Akeshi</text>
+		</text>
 	</view>
 </theme>

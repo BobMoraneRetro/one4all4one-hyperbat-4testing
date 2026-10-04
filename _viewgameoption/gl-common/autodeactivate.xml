@@ -6,18 +6,59 @@
 			<itemTemplate>
 				<container>
 					<image name="marquee">
+						<visible>!{game:folder} || !{game:system:collection}</visible>
 						<pos>0.5</pos>
 						<origin>0.5</origin>
 						<maxSize>1</maxSize>
 						<path>firstfile(
-						"${themePath}/_systemmedia/_logosyst/folderlogos/" + {game:stem} + ".png",
-						"${themePath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {game:stem} + "-${lang}.png",
-						"${themePath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {game:stem} + "-${region}.png",
-						"${themePath}/_systemmedia/_logosyst/clearlogos/" + {game:stem} + ".png",
-						"${themePath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {game:stem} + "-${lang}.svg",
-						"${themePath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {game:stem} + "-${region}.svg",
-						"${themePath}/_systemmedia/_logosyst/clearlogos/" + {game:stem} + ".svg",
-						{game:marquee})</path>
+						{game:marquee},
+						"${path_syst_logo}/folderlogos/" + {game:stem} + ".png",
+						"${path_syst_logo}/clearlogos/lang-${lang}/" + {game:stem} + "-${lang}.png",
+						"${path_syst_logo}/clearlogos/region-${region}/" + {game:stem} + "-${region}.png",
+						"${path_syst_logo}/clearlogos/" + {game:stem} + ".png",
+						"${path_syst_logo}/clearlogos/lang-${lang}/" + {game:stem} + "-${lang}.svg",
+						"${path_syst_logo}/clearlogos/region-${region}/" + {game:stem} + "-${region}.svg",
+						"${path_syst_logo}/clearlogos/" + {game:stem} + ".svg")</path>
+						<zIndex>99</zIndex>
+						<opacity>1</opacity>
+						<storyboard event="activate" ifSubset="gamewheelfade:amoitie">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0.3" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="scroll" ifSubset="gamewheelfade:amoitie">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0.3" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="deactivate" ifSubset="gamewheelfade:amoitie">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0.3" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="activate" ifSubset="gamewheelfade:activate">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="scroll" ifSubset="gamewheelfade:activate">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+						<storyboard event="deactivate" ifSubset="gamewheelfade:activate">
+							<animation property="zIndex" to="10" begin="500" duration="" mode="Linear"/>
+							<animation property="opacity" from="1" to="0" begin="1000" duration="250" mode="Linear"/>
+						</storyboard>
+					</image>
+					<image name="marqueecollection">
+						<visible>{game:folder} &amp;&amp; {game:system:collection}</visible>
+						<pos>0.5</pos>
+						<origin>0.5</origin>
+						<maxSize>1</maxSize>
+						<path>firstfile(
+						"${path_syst_logo}/folderlogos/" + {game:system:theme} + ".png",
+						"${path_syst_logo}/clearlogos/lang-${lang}/" + {game:system:theme} + "-${lang}.png",
+						"${path_syst_logo}/clearlogos/region-${region}/" + {game:system:theme} + "-${region}.png",
+						"${path_syst_logo}/clearlogos/" + {game:system:theme} + ".png",
+						"${path_syst_logo}/clearlogos/lang-${lang}/" + {game:system:theme} + "-${lang}.svg",
+						"${path_syst_logo}/clearlogos/region-${region}/" + {game:system:theme} + "-${region}.svg",
+						"${path_syst_logo}/clearlogos/" + {game:system:theme} + ".svg")</path>
 						<zIndex>99</zIndex>
 						<opacity>1</opacity>
 						<storyboard event="activate" ifSubset="gamewheelfade:amoitie">
@@ -46,16 +87,33 @@
 						</storyboard>
 					</image>
 					<text name="gamename">
-						<visible>
-						!exists({game:marquee})
-						&amp;&amp; !exists("${themePath}/_systemmedia/_logosyst/folderlogos/" + {game:stem} + ".png")
-						&amp;&amp; !exists("${themePath}/_systemmedia/_logosyst/clearlogos/lang-${lang}/" + {game:stem} + "-${lang}.png")
-						&amp;&amp; !exists("${themePath}/_systemmedia/_logosyst/clearlogos/region-${region}/" + {game:stem} + "-${region}.png")
-						&amp;&amp; !exists("${themePath}/_systemmedia/_logosyst/clearlogos/" + {game:stem} + ".png")
-						&amp;&amp; !exists("${themePath}/_systemmedia/_logosyst/clearlogos/" + {game:stem} + ".svg")
+					<visible>
+						((!{game:folder} || !{game:system:collection})
+						&amp;&amp; !exists({game:marquee})
+						&amp;&amp; !exists("${path_syst_logo}/folderlogos/" + {game:stem} + ".png")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/lang-${lang}/" + {game:stem} + "-${lang}.png")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/region-${region}/" + {game:stem} + "-${region}.png")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/" + {game:stem} + ".png")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/" + {game:stem} + ".svg"))
+						|| ({game:folder} &amp;&amp; {game:system:collection}
+						&amp;&amp; !exists("${path_syst_logo}/folderlogos/" + {game:system:theme} + ".png")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/lang-${lang}/" + {game:system:theme} + "-${lang}.png")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/region-${region}/" + {game:system:theme} + "-${region}.png")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/" + {game:system:theme} + ".png")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/lang-${lang}/" + {game:system:theme} + "-${lang}.svg")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/region-${region}/" + {game:system:theme} + "-${region}.svg")
+						&amp;&amp; !exists("${path_syst_logo}/clearlogos/" + {game:system:theme} + ".svg"))
 						</visible>
+						<!-- <visible> -->
+						<!-- !exists({game:marquee}) -->
+						<!-- &amp;&amp; !exists("${path_syst_logo}/folderlogos/" + {game:stem} + ".png") -->
+						<!-- &amp;&amp; !exists("${path_syst_logo}/clearlogos/lang-${lang}/" + {game:stem} + "-${lang}.png") -->
+						<!-- &amp;&amp; !exists("${path_syst_logo}/clearlogos/region-${region}/" + {game:stem} + "-${region}.png") -->
+						<!-- &amp;&amp; !exists("${path_syst_logo}/clearlogos/" + {game:stem} + ".png") -->
+						<!-- &amp;&amp; !exists("${path_syst_logo}/clearlogos/" + {game:stem} + ".svg") -->
+						<!-- </visible> -->
 						<text>{game:name}</text>
-						<fontPath>${themePath}/_viewgame/show/impact.ttf</fontPath>
+						<fontPath>${fontimpact}</fontPath>
 						<color>FFFFFF</color>
 						<alignment>center</alignment>
 						<fontSize>0.028</fontSize>

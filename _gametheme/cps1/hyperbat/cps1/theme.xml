@@ -10,12 +10,7 @@
 			<zIndex>100</zIndex>
 		</image>
 		<video name="PreviewVid2" extra="true">
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<pos>0.490885416667 0.546018518519</pos>
 			<maxSize>0.472222222222 0.629629629630</maxSize>
 			<origin>0.5 0.5</origin>
@@ -45,16 +40,10 @@
 			</shader>
 		</video>
 		<image name="PreviewScreen" extra="true">
-			<visible>!exists("${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</visible>
-			<path>firstfile(
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".jpg",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".png")</path>
+			<visible>${ifnosubsystvideo}</visible>
+			<path>${extsubsystimage}</path>
 			<pos>0.490885416667 0.546018518519</pos>
-			<size>0.472222222222 0.629629629630</size>
+			<maxSize>0.472222222222 0.629629629630</maxSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>200</zIndex>
 			<effect>none</effect>
@@ -79,6 +68,18 @@
 				<borderColorStart>5c789c</borderColorStart>
 				<borderColorEnd>0e4ea1ff</borderColorEnd>
 			</shader>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="400" duration="500" mode="Linear" />
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="400" duration="500" mode="Linear" />
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="400" duration="500" mode="Linear" />
+			</storyboard>
 		</image>
 		<image name="video" extra="true">
 			<origin>0.5 0.5</origin>
@@ -157,12 +158,7 @@
 			</storyboard>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<pos>0.874 0.395</pos>
 			<size>0.18 0.26</size>
 			<origin>0.5 0.5</origin>
@@ -172,7 +168,7 @@
 			<audio>false</audio>
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 			<shader>
-				<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/perspective_corners.glsl"</path>
+				<path>./perspective_corners.glsl</path>
 				<offsetTL>-2 -7</offsetTL>
 				<offsetTR>-10 -10</offsetTR>
 				<offsetBL>-10 -65</offsetBL>
@@ -240,7 +236,7 @@
 			<visible>false</visible>
 			<zIndex>270</zIndex>
 		</image>
-		<control name="PreviewScreen, PreviewVid, PreviewVid2, Videobezel, device, device2, logo, marvel-rivals-full-body-art-v0-ydw2z4q9y10d1">
+		<control name="PreviewScreen, PreviewVid, PreviewVid2, Videobezel, device, device2, logo, marvel-rivals-full-body-art-v0-ydw2z4q9y10d1, video">
 			<storyboard event="deactivateNext">
 				<animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn" />
 				<animation property="opacity" to="0" begin="100" duration="150" mode="linear" />

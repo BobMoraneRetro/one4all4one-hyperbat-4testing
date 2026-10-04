@@ -41,7 +41,7 @@
 			<backgroundCenterColor>0b0102</backgroundCenterColor>
 		</gridtile>
 		<image name="gridtile.favorite">
-			<path>${themePath}/_viewgame/grid/favorite.png</path>
+			<path>${path_vgame}/grid/favorite.png</path>
 			<pos>0.855 0</pos>
 			<maxSize>0.25 0.25</maxSize>
 			<origin>0 0</origin>

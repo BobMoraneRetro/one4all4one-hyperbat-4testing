@@ -10,12 +10,7 @@
 			<zIndex>100</zIndex>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<pos>0.503714225589 0.586714365881</pos>
 			<maxSize>0.497916666667 0.663888888889</maxSize>
 			<origin>0.5 0.5</origin>
@@ -47,16 +42,10 @@
 			</shader>
 		</video>
 		<image name="PreviewScreen" extra="true">
-			<visible>!exists("${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</visible>
-			<path>firstfile(
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".jpg",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".png")</path>
+			<visible>${ifnosubsystvideo}</visible>
+			<path>${extsubsystimage}</path>
 			<pos>0.503714225589 0.586714365881</pos>
-			<size>0.497916666667 0.663888888889</size>
+			<maxSize>0.497916666667 0.663888888889</maxSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>210</zIndex>
 			<effect>none</effect>
@@ -83,6 +72,18 @@
 				<borderColorStart3 />
 				<borderColorEnd3 />
 			</shader>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="400" duration="500" mode="Linear" />
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="400" duration="500" mode="Linear" />
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
+				<animation property="opacity" from="0" to="1" begin="400" duration="500" mode="Linear" />
+			</storyboard>
 		</image>
 		<image name="Background_1" extra="true">
 			<path>"${path_syst_theme}/hyperspinxp/" + {game:system:theme} + "/Microsoft-PNG-Background-Image.png"</path>

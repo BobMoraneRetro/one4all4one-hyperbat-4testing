@@ -95,7 +95,6 @@
 			<!-- <size>0.199479166667 0.354629629630</size> -->
 			<pos>0.889239654195 0.728029730411</pos>
 			<size>0.164838435374 0.293046107332</size>
-			<scale ifSubset="boxorthumb:boxback">1.000000000000</scale>
 			<zIndex>250</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<autoFade>false</autoFade>
@@ -170,7 +169,7 @@
 		</image>
 		<image name="boxart-n64dd" extra="true" ifSubset="boxorthumb:thumb">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'n64dd'</visible>
-			<path>firstfile({game:thumbnail},{game:boxart})</path>
+			<path>firstfile(${box2dpath},${box3dpath})</path>
 			<origin>0.5 0.5</origin>
 			<!-- <pos>0.809098639456 0.462758251449</pos> -->
 			<!-- <maxSize>0.268750000000 0.412037037037</maxSize> -->
@@ -219,7 +218,7 @@
 		</image>
 		<image name="boxart-n64dd" extra="true" ifSubset="boxorthumb:boxart">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'n64dd'</visible>
-			<path>firstfile({game:boxart},{game:thumbnail})</path>
+			<path>firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.803477536848 0.498680398085</pos>
 			<maxSize>0.258854166667 0.521296296296</maxSize>

@@ -73,7 +73,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<video name="PreviewVid_Sys" extra="true">
-			<path>./Kirby & the Amazing Mirror.mp4</path>
+			<path>./Kirby &amp; the Amazing Mirror.mp4</path>
 			<pos>0.259911003236 0.649047105358</pos>
 			<size>0.194174757282 0.233728874506</size>
 			<origin>0.5 0.5</origin>
@@ -127,7 +127,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<video name="PreviewVid_1_Sys" extra="true">
-			<path>./Kirby & the Amazing Mirror.mp4</path>
+			<path>./Kirby &amp; the Amazing Mirror.mp4</path>
 			<pos>0.735234627832 0.649047105358</pos>
 			<size>0.194174757282 0.233728874506</size>
 			<origin>0.5 0.5</origin>

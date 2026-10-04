@@ -156,5 +156,8 @@
 				<animation property="offsetX" from="1" to="0" begin="650" duration="500" mode="Linear"/>
 			</storyboard>
 		</image>
+		<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Christophe Verez</text>
+		</text>
 	</view>
 </theme>

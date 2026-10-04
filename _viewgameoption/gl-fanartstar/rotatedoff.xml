@@ -198,7 +198,7 @@
 						<visible ifSubset="starthumb:starbox2d">!exists({game:marquee}) &amp;&amp; !exists({game:thumbnail}) &amp;&amp; !exists(${corefrontart})</visible>
 						<origin>0.5</origin>
 						<text>{game:name}</text>
-						<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+						<fontPath>${fontimpact}</fontPath>
 						<color>FFFFFF</color>
 						<alignment>center</alignment>
 						<fontSize>0.025</fontSize>

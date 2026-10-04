@@ -135,5 +135,8 @@
 		<image name="FanartFlix" extra="true">
 			<visible>false</visible>
 		</image>
+		<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Dav</text>
+		</text>
 	</view>
 </theme>

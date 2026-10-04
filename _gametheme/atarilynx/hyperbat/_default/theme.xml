@@ -77,7 +77,6 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.913241149936 0.687351672060</pos>
 			<size>0.142116001099 0.263592233010</size>
-			<scale ifSubset="boxorthumb:boxback">1.000000000000</scale>
 			<zIndex>270</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<autoFade>false</autoFade>
@@ -99,8 +98,8 @@
 		</image>
 		<image name="Boxart-atarilynx" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist} &amp;&amp; {game:system:theme} == 'atarilynx'</visible>
-			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
-			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<path ifSubset="boxorthumb:thumb">firstfile(${box2dpath},${box3dpath})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.791927083333 0.469295085123</pos>
 			<maxSize>0.212262338188 0.714088722238</maxSize>

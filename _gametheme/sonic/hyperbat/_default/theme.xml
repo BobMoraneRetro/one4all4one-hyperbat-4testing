@@ -304,7 +304,6 @@
 			<pos>0.825000000000 0.812500000000</pos>
 			<!-- <size>0.201041666667 0.245370370370</size> -->
 			<maxSize>0.156013081333 0.190413202318</maxSize>
-			<scale ifSubset="boxorthumb:boxback">1.000000000000</scale>
 			<zIndex>300</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<autoFade>false</autoFade>
@@ -378,8 +377,8 @@
 		</image>
 		<image name="boxart-sonic" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist}</visible>
-			<path ifSubset="boxorthumb:thumb">firstfile({game:thumbnail},{game:boxart})</path>
-			<path ifSubset="boxorthumb:boxart">firstfile({game:boxart},{game:thumbnail})</path>
+			<path ifSubset="boxorthumb:thumb">firstfile(${box2dpath},${box3dpath})</path>
+			<path ifSubset="boxorthumb:boxart">firstfile(${box3dpath},${box2dpath})</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.845052083333 0.543518518519</pos>
 			<!-- <maxSize>0.203645833333 0.488888888889</maxSize> -->

@@ -9,7 +9,7 @@
 			<visible>false</visible>
 		</control>
 		<rating name="md_rating">
-		<visible>false</visible>
+			<visible>false</visible>
 		</rating>
 		<video name="md_video">
 			<visible>false</visible>
@@ -39,12 +39,12 @@
 			<defaultTransition>instant</defaultTransition>
 			<minLogoOpacity>1</minLogoOpacity>
 			<transitionSpeed>350</transitionSpeed>
-			<scrollSound ifSubset="gamewheelsound:bulle">${themePath}/_common/scrollsound/bulle.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:clic">${themePath}/_common/scrollsound/clic.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:clicgrave">${themePath}/_common/scrollsound/clicgrave.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:frottement">${themePath}/_common/scrollsound/frottement.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:poc">${themePath}/_common/scrollsound/poc.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:wheelclic">${themePath}/_common/scrollsound/wheelclic.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:bulle">${path_common}/scrollsound/bulle.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:clic">${path_common}/scrollsound/clic.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:clicgrave">${path_common}/scrollsound/clicgrave.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:frottement">${path_common}/scrollsound/frottement.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:poc">${path_common}/scrollsound/poc.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:wheelclic">${path_common}/scrollsound/wheelclic.wav</scrollSound>
 		</gamecarousel>
 		<image name="gamecarouselLogo">
 			<linearSmooth>true</linearSmooth>
@@ -61,25 +61,30 @@
 			<visible ifSubset="hsmetadata:full">true</visible>
 			<text>{game:name}</text>
 			<alignment>left</alignment>
-			<fontPath>${themePath}/_viewgame/hyperbat/AlphaFridgeMagnets.ttf</fontPath>
-			<color>f0f000</color>
-			<glowColor>0c002e</glowColor>
-			<glowSize>1.5</glowSize>
-			<glowOffset>2</glowOffset>
-			<color if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">f0f000</color>
-			<glowColor if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">3432a8</glowColor>
-			<glowSize if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">5</glowSize>
-			<glowOffset if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">0</glowOffset>
-			<color if="{system.theme} == 'snes' || {system.theme} == 'sufami'">e31010</color>
-			<glowColor if="{system.theme} == 'snes' || {system.theme} == 'sufami'">FFFFFF</glowColor>
-			<glowSize if="{system.theme} == 'snes' || {system.theme} == 'sufami'">2</glowSize>
-			<glowOffset if="{system.theme} == 'snes' || {system.theme} == 'sufami'">0</glowOffset>
-			<color if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">3499eb</color>
-			<glowColor if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">FFFFFF</glowColor>
-			<glowSize if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">2</glowSize>
-			<glowOffset if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">0</glowOffset>
+			<fontPath>${path_vgame}/hyperbat/AlphaFridgeMagnets.ttf</fontPath>
+			<fontPath>${infotitre_police}</fontPath>
+			<color>${infotitre_couleur}</color>
+			<glowColor>${infotitre_halo}</glowColor>
+			<glowSize>${infotitre_halotaille}</glowSize>
+			<glowOffset>${infotitre_halodecalage}</glowOffset>
+			<!-- <color>f0f000</color> -->
+			<!-- <glowColor>0c002e</glowColor> -->
+			<!-- <glowSize>1.5</glowSize> -->
+			<!-- <glowOffset>2</glowOffset> -->
+			<!-- <color if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">f0f000</color> -->
+			<!-- <glowColor if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">3432a8</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">5</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">0</glowOffset> -->
+			<!-- <color if="{system.theme} == 'snes' || {system.theme} == 'sufami'">e31010</color> -->
+			<!-- <glowColor if="{system.theme} == 'snes' || {system.theme} == 'sufami'">FFFFFF</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'snes' || {system.theme} == 'sufami'">2</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'snes' || {system.theme} == 'sufami'">0</glowOffset> -->
+			<!-- <color if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">3499eb</color> -->
+			<!-- <glowColor if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">FFFFFF</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">2</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">0</glowOffset> -->
 			<zIndex>999</zIndex>
-			<fontSize>0.05</fontSize>
+			<fontSize>${infotitre_taille}</fontSize>
 			<size>0.7 0.1</size>
 			<pos>0.02 0.77</pos>
 			<!-- <pos>0.054 0.77</pos> -->
@@ -92,27 +97,32 @@
 			<visible ifSubset="hsmetadata:full">!{game:folder}</visible>
 			<text>{game:releaseyear} , {game:publisher} , {game:players} ${players} , ${languesdispo} {game:lang}</text>
 			<alignment>left</alignment>
-			<fontPath>${themePath}/_viewgame/hyperbat/AlphaFridgeMagnets.ttf</fontPath>
+			<fontPath>${path_vgame}/hyperbat/AlphaFridgeMagnets.ttf</fontPath>
+			<fontPath>${infoligne_police}</fontPath>
 			<size>0.5 0.5</size>
 			<pos>0.02 0.615</pos>
-			<color>ffff00</color>
-			<glowColor>0c002e</glowColor>
-			<glowSize>1.5</glowSize>
-			<glowOffset>2</glowOffset>
-			<color if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">f0f000</color>
-			<glowColor if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">3432a8</glowColor>
-			<glowSize if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">2</glowSize>
-			<glowOffset if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">0</glowOffset>
-			<color if="{system.theme} == 'snes' || {system.theme} == 'sufami'">FFFFFF</color>
-			<glowColor if="{system.theme} == 'snes' || {system.theme} == 'sufami'">e31010</glowColor>
-			<glowSize if="{system.theme} == 'snes' || {system.theme} == 'sufami'">2</glowSize>
-			<glowOffset if="{system.theme} == 'snes' || {system.theme} == 'sufami'">0</glowOffset>
-			<color if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">FFFFFF</color>
-			<glowColor if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">3499eb</glowColor>
-			<glowSize if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">2</glowSize>
-			<glowOffset if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">0</glowOffset>
+			<color>${infoligne_couleur}</color>
+			<glowColor>${infoligne_halo}</glowColor>
+			<glowSize>${infoligne_halotaille}</glowSize>
+			<glowOffset>${infoligne_halodecalage}</glowOffset>
+			<!-- <color>ffff00</color> -->
+			<!-- <glowColor>0c002e</glowColor> -->
+			<!-- <glowSize>1.5</glowSize> -->
+			<!-- <glowOffset>2</glowOffset> -->
+			<!-- <color if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">f0f000</color> -->
+			<!-- <glowColor if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">3432a8</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">2</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">0</glowOffset> -->
+			<!-- <color if="{system.theme} == 'snes' || {system.theme} == 'sufami'">FFFFFF</color> -->
+			<!-- <glowColor if="{system.theme} == 'snes' || {system.theme} == 'sufami'">e31010</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'snes' || {system.theme} == 'sufami'">2</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'snes' || {system.theme} == 'sufami'">0</glowOffset> -->
+			<!-- <color if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">FFFFFF</color> -->
+			<!-- <glowColor if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">3499eb</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">2</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">0</glowOffset> -->
 			<zIndex>999</zIndex>
-			<fontSize>0.02</fontSize>
+			<fontSize>${infoligne_taille}</fontSize>
 			<offsetY ifSubset="hsmetadata:lower">0.085</offsetY>
 			<offsetY ifSubset="hsmetadata:full">0</offsetY>
 		</text>
@@ -124,33 +134,38 @@
 			<text>Lancé par {game:system:manufacturer} en {game:system:releaseYear} - Jeux présents : {game:system:total} - Jeux joués : {game:system:played} </text>
 			<alignment>left</alignment>
 			<multiLine>false</multiLine>
-			<fontPath>${themePath}/_viewgame/hyperbat/AlphaFridgeMagnets.ttf</fontPath>
+			<fontPath>${path_vgame}/hyperbat/AlphaFridgeMagnets.ttf</fontPath>
+			<fontPath>${infoligne_police}</fontPath>
 			<size>0.5 0.5</size>
 			<pos>0.02 0.615</pos>
-			<color>ffff00</color>
-			<glowColor>0c002e</glowColor>
-			<glowSize>1.5</glowSize>
-			<glowOffset>2</glowOffset>
-			<color if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">f0f000</color>
-			<glowColor if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">3432a8</glowColor>
-			<glowSize if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">2</glowSize>
-			<glowOffset if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">0</glowOffset>
-			<color if="{system.theme} == 'snes' || {system.theme} == 'sufami'">FFFFFF</color>
-			<glowColor if="{system.theme} == 'snes' || {system.theme} == 'sufami'">e31010</glowColor>
-			<glowSize if="{system.theme} == 'snes' || {system.theme} == 'sufami'">2</glowSize>
-			<glowOffset if="{system.theme} == 'snes' || {system.theme} == 'sufami'">0</glowOffset>
-			<color if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">FFFFFF</color>
-			<glowColor if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">3499eb</glowColor>
-			<glowSize if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">2</glowSize>
-			<glowOffset if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">0</glowOffset>
+			<color>${infoligne_couleur}</color>
+			<glowColor>${infoligne_halo}</glowColor>
+			<glowSize>${infoligne_halotaille}</glowSize>
+			<glowOffset>${infoligne_halodecalage}</glowOffset>
+			<!-- <color>ffff00</color> -->
+			<!-- <glowColor>0c002e</glowColor> -->
+			<!-- <glowSize>1.5</glowSize> -->
+			<!-- <glowOffset>2</glowOffset> -->
+			<!-- <color if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">f0f000</color> -->
+			<!-- <glowColor if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">3432a8</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">2</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'cps1' || {system.theme} == 'cps2'  || {system.theme} == 'cps3'">0</glowOffset> -->
+			<!-- <color if="{system.theme} == 'snes' || {system.theme} == 'sufami'">FFFFFF</color> -->
+			<!-- <glowColor if="{system.theme} == 'snes' || {system.theme} == 'sufami'">e31010</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'snes' || {system.theme} == 'sufami'">2</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'snes' || {system.theme} == 'sufami'">0</glowOffset> -->
+			<!-- <color if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">FFFFFF</color> -->
+			<!-- <glowColor if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">3499eb</glowColor> -->
+			<!-- <glowSize if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">2</glowSize> -->
+			<!-- <glowOffset if="{system.theme} == 'wiiu' || {system.theme} == 'wii'">0</glowOffset> -->
 			<zIndex>999</zIndex>
-			<fontSize>0.02</fontSize>
+			<fontSize>${infoligne_taille}</fontSize>
 			<offsetY ifSubset="hsmetadata:lower">0.085</offsetY>
 			<offsetY ifSubset="hsmetadata:full">0</offsetY>
 		</text>
 		<image name="pointersdroite" extra="true">
 			<!-- <visible ifSubset="hyperwheel:spingh|verticalgh|verticalgheb">false</visible> -->
-			<default>${themePath}/_systemmedia/pointers-r/default.png</default>
+			<default>${path_sysmedia}/pointers-r/default.png</default>
 			<path>${pointers4games}</path>
 			<origin>1 0.5</origin>
 			<pos>1.003 0.5</pos>
@@ -204,19 +219,13 @@
 			</storyboard>
 		</image>
 		<gameextras name="gameextras">
-			<!-- <extgametheme>${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml</extgametheme> -->
-			<path ifSubset="gameviewsource:actualsystem">firstfile(
-			"${path_game_theme}/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${path_game_theme}/" + {system:theme} + "/hyperbat/_default/theme.xml",
-			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml")</path>
-			<path ifSubset="gameviewsource:mamefolder">firstfile(			
-			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml",
-			"${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml",
-			"${path_game_theme}/" + {system:theme} + "/hyperbat/_default/theme.xml")</path>
-			<!-- <path ifSubset="gameviewsource:groupedsystem">firstfile( -->
-			<!-- "${path_game_theme}/_groupedtheme/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", 			 -->
+			<path>${gamethemefile}</path>
+			<!-- <path ifSubset="gameviewsource:actualsystem">firstfile( -->
+			<!-- "${path_game_theme}/${system.theme}/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
+			<!-- "${path_game_theme}/" + {system:theme} + "/hyperbat/_default/theme.xml", -->
+			<!-- "${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
+			<!-- "${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml")</path> -->
+			<!-- <path ifSubset="gameviewsource:mamefolder">firstfile(			 -->
 			<!-- "${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
 			<!-- "${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml", -->
 			<!-- "${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml", -->
@@ -225,7 +234,7 @@
 		<!-- <image name="gridtile.cheevos" if="{global.cheevos} == true &amp;&amp; {system.showCheevos} == true"> -->
 		<image name="retroachievments" extra="true">
 			<visible>{game:cheevos}</visible>
-			<path>${themePath}/_viewgame/commune/medaillon.png</path>
+			<path>${path_vgame}/commune/medaillon.png</path>
 			<pos>0.95 0.08</pos>
 			<maxSize>0.15 0.15</maxSize>
 			<origin>0.5 0.5</origin>
@@ -239,7 +248,7 @@
 		<image name="vignetageover" extra="true">
 			<visible ifSubset="vignettagehs:deactivate">false</visible>
 			<visible ifSubset="vignettagehs:activate">true</visible>
-			<path>${themePath}/_viewgame/hyperbat/overlay.png</path>
+			<path>${path_vgame}/hyperbat/overlay.png</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -248,7 +257,7 @@
 		</image>
 		<text name="gamethemeauthor" ifSubset="authordisplayed:activate|showoff|showoffblackwhite|deactivate" extra="true">
 			<alignment>left</alignment>
-			<fontPath>${themePath}/_viewsyst/hyperbat/teko-bold.ttf</fontPath>
+			<fontPath>${fonttekobold}</fontPath>
 			<size>0.2 0</size>
 			<pos>0.01 0</pos>
 			<size>0.2 0</size>
@@ -271,7 +280,7 @@
 		<text name="defaultthemeauthor" ifSubset="authordisplayed:activate|showoff|showoffblackwhite|deactivate" extra="true">
 			<visible ifSubset="HSperview:Yes">${IfnoextGamethemeexist}</visible>
 			<alignment>left</alignment>
-			<fontPath>${themePath}/_viewsyst/hyperbat/teko-bold.ttf</fontPath>
+			<fontPath>${fonttekobold}</fontPath>
 			<size>0.2 0</size>
 			<pos>0.01 0</pos>
 			<size>0.2 0</size>

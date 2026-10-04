@@ -33,12 +33,7 @@
 			</storyboard>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<pos>0.491252022654 0.534430061129</pos>
 			<size>0.243224110032 0.401833872708</size>
 			<origin>0.5 0.5</origin>
@@ -63,14 +58,8 @@
 			</storyboard>
 		</video>
 		<image name="PreviewScreen" extra="true">
-			<visible>!exists("${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</visible>
-			<path>firstfile(
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".jpg",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".png")</path>
+			<visible>${ifnosubsystvideo}</visible>
+			<path>${extsubsystimage}</path>
 			<pos>0.491252022654 0.534430061129</pos>
 			<size>0.243224110032 0.401833872708</size>
 			<origin>0.5 0.5</origin>
@@ -196,7 +185,7 @@
 			<visible>false</visible>
 			<zIndex>260</zIndex>
 		</image>
-		<control name="Artwork1, Artwork2, Artwork3, Backscreen, PreviewScreen, PreviewVid, Videobezel">
+		<control name="Artwork1, Artwork2, Artwork3, Backscreen, PreviewScreen, PreviewVid, Video, Videobezel">
 			<storyboard event="deactivateNext">
 				<animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn" />
 				<animation property="opacity" to="0" begin="100" duration="150" mode="linear" />

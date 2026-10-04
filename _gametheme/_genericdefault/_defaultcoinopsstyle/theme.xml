@@ -16,19 +16,11 @@
 	<customView name="hyperbat" displayName="${viewchoice.hyperbat}" inherits="gamecarousel">
 		<!-- ######## Conditions de visibilité du theme generic : uniquement si pas de theme de jeu ni de theme defaut specific au système ############ -->
 		<control name="overlaybase,overlaymore,fondecranmarquee,fondecranpreview,fondmur,fondsystem,screenshotscust,previewvid1,screenshader,fondwheel,loop01,fondposter1,fondposter2">
-			<visible ifSubset="gameviewsource:actualsystem">
-			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
-			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
-			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible>
+			<visible ifSubset="gameviewsource:actualsystem|mamefolder">${gamethemefile} == ""</visible>
 			<!-- <visible>!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible> -->
-			<visible ifSubset="gameviewsource:mamefolder">
-			!exists("${path_game_theme}/mame/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
-			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/" + stem({game:rom}) + "/theme.xml") &amp;&amp;
-			!exists("${path_game_theme}/" + {game:system:theme} + "/hyperbat/_default/theme.xml") &amp;&amp;
-			!exists("${path_game_theme}/${system.theme}/hyperbat/_default/theme.xml")</visible>
 		</control>
 		<image name="overlaybase" extra="true">
-			<path>${themepath}/_viewgame/coinops/overlay/overlay.png</path>
+			<path>${themePath}/_viewgame/coinops/overlay/overlay.png</path>
 			<size>1 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
@@ -36,14 +28,14 @@
 			<opacity>0.7</opacity>
 		</image>
 		<image name="overlaymore" extra="true">
-			<path>${themePath}/_viewgame/coinops/overlay/vignette.png</path>
+			<path>${path_vgame}/coinops/overlay/vignette.png</path>
 			<size>1 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<zIndex>50</zIndex>
 		</image>
 		<image name="fondecranmarquee" extra="true">
-			<path>${themePath}/_viewgame/coinops/overlay/fiber.png</path>
+			<path>${path_vgame}/coinops/overlay/fiber.png</path>
 			<size>0.44 0.36</size>
 			<pos>0.245 0.1</pos>
 			<origin>0.5 0.5</origin>
@@ -53,7 +45,7 @@
 			<roundCorners>0.05</roundCorners>
 		</image>
 		<image name="fondecranpreview" extra="true">
-			<path>${themePath}/_viewgame/coinops/overlay/fiber.png</path>
+			<path>${path_vgame}/coinops/overlay/fiber.png</path>
 			<size>0.395 0.52</size>
 			<pos>0.241 0.54</pos>
 			<origin>0.5 0.5</origin>
@@ -73,7 +65,7 @@
 		</image>
 		<!-- Si aucun cabinets n'existe, prend le fond système dans coinops collec -->
 		<image name="fondwheel" extra="true">
-			<path>firstfile(${extgamecoverjpg},${standardsbuildsfanart},{game:thumbnail},{game:boxart},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg")</path>
+			<path>firstfile(${extgamecoverjpg},${standardsbuildsfanart},{game:thumbnail},{game:boxart},"${path_syst_fanart}/fresh/${system.theme}.jpg")</path>
 			<pos>0.71 0.5</pos>
 			<size>0 1.07</size>
 			<origin>0.5 0.5</origin>
@@ -147,13 +139,13 @@
 		<image name="screenshader" extra="true">
 			<pos>0.060 0.295</pos>
 			<maxSize>0.38 0.49</maxSize>
-			<path>${themePath}/_viewgame/coinops/scanlines01.png</path>
+			<path>${path_vgame}/coinops/scanlines01.png</path>
 			<color>FFFFFF60</color>
 			<tile>true</tile>
 			<zIndex>9</zIndex>
 		</image>
 		<video name="loop01" extra="true">
-			<path>${themePath}/_viewgame/coinops/background.mp4</path>
+			<path>${path_vgame}/coinops/background.mp4</path>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.75 0.5</pos>
@@ -182,7 +174,7 @@
 		</image>
 		<!-- ############################## cabs 3D classique #################################		 -->
 		<image name="fondposter1" extra="true">
-			<path>firstfile({game:fanart},"${themePath}/_systemmedia/_fanartsysteme/fresh/${system.theme}.jpg",{game:image})</path>
+			<path>firstfile({game:fanart},"${path_syst_fanart}/fresh/${system.theme}.jpg",{game:image})</path>
 			<color>b7b7b7</color>
 			<colorEnd>FFFFFFDD</colorEnd>
 			<autoFade>false</autoFade>

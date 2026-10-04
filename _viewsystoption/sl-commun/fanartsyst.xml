@@ -7,8 +7,8 @@
 			<visible ifSubset="videofondcops1:hyperspinorunified">${ifnoextsysthemeexist}</visible>
 			<autoFade>false</autoFade>
 			<path ifSubset="imagefondcops1:fanartfreshone">${intfanartfresh}</path>
-			<path ifSubset="imagefondcops1:fanartcustom">${intfanartfresh}</path>
-			<path ifSubset="imagefondcops1:fanartcustom">${intfanartcustom}</path>
+			<path ifSubset="imagefondcops1:fanartcustom">firstfile(${intfanartcustom},${intfanartfresh2})</path>
+			<path ifSubset="imagefondcops1:fanfondsystem">firstfile(${intfondsystem},${intfanartfresh2})</path>				
 			<origin>0 0</origin>
 			<pos>-0.015 0</pos>
 			<pos ifSubset="hyperwheel:verticalghjp">0 0</pos>

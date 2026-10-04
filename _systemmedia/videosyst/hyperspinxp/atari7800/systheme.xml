@@ -168,5 +168,8 @@
 				<animation property="shader.waveTime" from="5" to="0" begin="1500" duration="2000" mode="easeOut"/>
 			</storyboard>
 		</image>
+		<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Christophe Verez</text>
+		</text>
 	</view>
 </theme>

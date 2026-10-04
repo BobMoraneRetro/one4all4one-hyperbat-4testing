@@ -175,5 +175,8 @@
 				<animation property="offsetX" from="1" to="0" duration="4000" mode="EaseOutQuint"/>
 			</storyboard>
 		</image>
+				<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Dav</text>
+		</text>
 	</view>
 </theme>

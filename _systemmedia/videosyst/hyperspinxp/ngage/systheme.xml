@@ -169,5 +169,8 @@
 				<animation property="offsetY" from="-1" to="0" begin="800" duration="1500" mode="EaseOutQuint"/>
 			</storyboard>
 		</image>
+		<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Dav</text>
+		</text>
 	</view>
 </theme>

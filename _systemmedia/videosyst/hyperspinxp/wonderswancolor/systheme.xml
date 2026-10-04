@@ -85,10 +85,7 @@
 				<animation property="scale" from="1" to="1.05" begin="1870" duration="120" autoreverse="true" mode="EasyOutCubic"/>
 			</storyboard>
 		</image>
-			
-			
-			
-			<text name="systhemeauthor" extra="true">
+		<text name="systhemeauthor" extra="true">
 			<text>System Theme By : Finch</text>
 		</text>
 	</view>

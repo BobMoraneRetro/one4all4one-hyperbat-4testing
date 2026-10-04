@@ -33,12 +33,7 @@
 			</storyboard>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<pos>0.497295047857 0.559401757904</pos>
 			<maxSize>0.403283774070 0.537711698760</maxSize>
 			<origin>0.5 0.5</origin>
@@ -60,16 +55,10 @@
 			</storyboard>
 		</video>
 		<image name="PreviewScreen" extra="true">
-			<visible>!exists("${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</visible>
-			<path>firstfile(
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".jpg",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".png")</path>
+			<visible>${ifnosubsystvideo}</visible>
+			<path>${extsubsystimage}</path>
 			<pos>0.497295047857 0.559401757904</pos>
-			<size>0.403283774070 0.537711698760</size>
+			<maxSize>0.403283774070 0.537711698760</maxSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>210</zIndex>
 			<effect>none</effect>
@@ -211,7 +200,7 @@
 			<visible>false</visible>
 			<zIndex>260</zIndex>
 		</image>
-		<control name="-Artwork5, Artwork1, Artwork2, Artwork3, PreviewScreen, PreviewVid, Videobezel">
+		<control name="-Artwork5, Artwork1, Artwork2, Artwork3, PreviewScreen, PreviewVid, Videobezel, video">
 			<storyboard event="deactivateNext">
 				<animation property="scale" to="3" begin="" autoreverse="false" duration="200" mode="easyIn" />
 				<animation property="opacity" to="0" begin="100" duration="150" mode="linear" />

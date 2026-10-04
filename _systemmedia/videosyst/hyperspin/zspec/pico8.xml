@@ -6,11 +6,15 @@
 
 <!-- ################ Artwork1 ##################### -->
 
-<!-- <image name="leftart" extra="true"> -->
+<image name="leftart" extra="true">
 <!-- <pos>0.09 0.515</pos> -->
-<!-- <size>0 0.5</size> -->
-<!-- </image> -->
-
+<size>0 0.35</size>
+<rotation>75</rotation>
+</image>
+<image name="righttart" extra="true">
+<size>0 0.35</size>
+<rotation>75</rotation>
+</image>
   </view>
 
 </theme>

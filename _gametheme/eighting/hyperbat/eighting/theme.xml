@@ -24,12 +24,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<pos>0.270116899330 0.427243723124</pos>
 			<maxSize>0.360912495744 0.378314985057</maxSize>
 			<origin>0.5 0.5</origin>
@@ -38,7 +33,7 @@
 			<effect>none</effect>
 			<zIndex>210</zIndex>
 		</video>
-		<control name="PreviewVid, Videobezel">
+		<control name="PreviewVid, Videobezel, PreviewScreen">
 			<storyboard event="open">
 				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
 				<animation property="opacity" from="0" to="1" begin="1500" duration="800" mode="EaseIn" />
@@ -53,16 +48,10 @@
 			</storyboard>
 		</control>
 		<image name="PreviewScreen" extra="true">
-			<visible>!exists("${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</visible>
-			<path>firstfile(
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".jpg",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".png")</path>
+			<visible>${ifnosubsystvideo}</visible>
+			<path>${extsubsystimage}</path>
 			<pos>0.270116899330 0.427243723124</pos>
-			<size>0.360912495744 0.378314985057</size>
+			<maxSize>0.360912495744 0.378314985057</maxSize>
 			<origin>0.5 0.5</origin>
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 			<effect>none</effect>

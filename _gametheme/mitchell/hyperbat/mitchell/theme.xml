@@ -14,12 +14,7 @@
 			<scaleOrigin>0 -0.3</scaleOrigin>
 		</image>
 		<video name="PreviewVid" extra="true">
-			<path>firstfile(
-			"${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</path>
+			<path>${extsubsystvideo}</path>
 			<pos>0.504536290323 0.439068100358</pos>
 			<maxSize>0.398185483871 0.496415770609</maxSize>
 			<origin>0.5 0.5</origin>
@@ -38,7 +33,7 @@
 				<outerShadowColor>ff8000ff</outerShadowColor>
 			</shader>
 		</video>
-		<control name="PreviewVid, Videobezel">
+		<control name="PreviewVid, Videobezel, PreviewScreen">
 			<storyboard event="open">
 				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear" />
 				<animation property="opacity" from="0" to="1" begin="1200" duration="500" mode="Linear" />
@@ -59,16 +54,10 @@
 			</storyboard>
 		</control>
 		<image name="PreviewScreen" extra="true">
-			<visible>!exists("${path_syst_theme}/hyperpie/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mp4") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".avi") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".flv") &amp;&amp;
-			!exists("${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".mkv")</visible>
-			<path>firstfile(
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".jpg",
-			"${path_syst_theme}/subsystem/" + ({game:system:theme}) + ".png")</path>
+			<visible>${ifnosubsystvideo}</visible>
+			<path>${extsubsystimage}</path>
 			<pos>0.504536290323 0.439068100358</pos>
-			<size>0.398185483871 0.496415770609</size>
+			<maxSize>0.398185483871 0.496415770609</maxSize>
 			<origin>0.5 0.5</origin>
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 			<effect>none</effect>

@@ -45,12 +45,12 @@
 			<defaultTransition>instant</defaultTransition>
 			<minLogoOpacity>1</minLogoOpacity>
 			<transitionSpeed>350</transitionSpeed>
-			<scrollSound ifSubset="gamewheelsound:bulle">${themePath}/_common/scrollsound/bulle.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:clic">${themePath}/_common/scrollsound/clic.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:clicgrave">${themePath}/_common/scrollsound/clicgrave.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:frottement">${themePath}/_common/scrollsound/frottement.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:poc">${themePath}/_common/scrollsound/poc.wav</scrollSound>
-			<scrollSound ifSubset="gamewheelsound:wheelclic">${themePath}/_common/scrollsound/wheelclic.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:bulle">${path_common}/scrollsound/bulle.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:clic">${path_common}/scrollsound/clic.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:clicgrave">${path_common}/scrollsound/clicgrave.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:frottement">${path_common}/scrollsound/frottement.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:poc">${path_common}/scrollsound/poc.wav</scrollSound>
+			<scrollSound ifSubset="gamewheelsound:wheelclic">${path_common}/scrollsound/wheelclic.wav</scrollSound>
 			<itemTemplate>
 				<container>
 					<image name="marquee">
@@ -58,7 +58,7 @@
 						<pos>0.5</pos>
 						<origin>0.5</origin>
 						<maxSize>1</maxSize>
-						<path>firstfile({game:marquee},"${themePath}/_systemmedia/_logosyst/folderlogos/" + {game:stem} + ".png")</path>
+						<path>firstfile({game:marquee},"${path_syst_logo}/folderlogos/" + {game:stem} + ".png")</path>
 						<zIndex>99</zIndex>
 						<opacity>1</opacity>
 						<storyboard event="activate" ifSubset="gamewheelfade:amoitie">
@@ -92,8 +92,8 @@
 						<origin>0.5</origin>
 						<maxSize>1</maxSize>
 						<path>firstfile(
-						"${themePath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + "-" + ({game:region}) + ".png",
-						"${themePath}/_systemmedia/_logosyst/clearlogos/"  + ({game:system:theme}) + ".png")</path>
+						"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + "-" + ({game:region}) + ".png",
+						"${path_syst_logo}/clearlogos/"  + ({game:system:theme}) + ".png")</path>
 						<zIndex>99</zIndex>
 						<opacity>1</opacity>
 						<storyboard event="activate" ifSubset="gamewheelfade:amoitie">
@@ -123,12 +123,12 @@
 					</image>
 					<text name="gamename">
 						<visible>
-							( (!{game:folder} || ({game:folder} &amp;&amp; {game:stem} != {game:system:theme})) &amp;&amp; !exists({game:marquee}) &amp;&amp; !exists("${themePath}/_systemmedia/_logosyst/folderlogos/" + {game:stem} + ".png") )
+							( (!{game:folder} || ({game:folder} &amp;&amp; {game:stem} != {game:system:theme})) &amp;&amp; !exists({game:marquee}) &amp;&amp; !exists("${path_syst_logo}/folderlogos/" + {game:stem} + ".png") )
 							||
-							( ({game:folder} &amp;&amp; {game:stem} == {game:system:theme}) &amp;&amp; !exists("${themePath}/_systemmedia/_logosyst/clearlogos/" + {game:system:theme} + "-" + {game:region} + ".png") &amp;&amp; !exists("${themePath}/_systemmedia/_logosyst/clearlogos/" + {game:system:theme} + ".png") )
+							( ({game:folder} &amp;&amp; {game:stem} == {game:system:theme}) &amp;&amp; !exists("${path_syst_logo}/clearlogos/" + {game:system:theme} + "-" + {game:region} + ".png") &amp;&amp; !exists("${path_syst_logo}/clearlogos/" + {game:system:theme} + ".png") )
 						</visible>
 						<text>{game:name}</text>
-						<fontPath>${themePath}/_viewgame/show/impact.ttf</fontPath>
+						<fontPath>${fontimpact}</fontPath>
 						<color>FFFFFF</color>
 						<alignment>center</alignment>
 						<fontSize>0.028</fontSize>
@@ -183,7 +183,7 @@
 			<text>{game:name}</text>
 			<alignment>left</alignment>
 			<multiLine>true</multiLine>
-			<fontPath>${themePath}/_viewgame/mediatester/TmonMonsori.ttf</fontPath>
+			<fontPath>${fonttmonmonsori}</fontPath>
 			<color>f0f000</color>
 			<glowColor>0c002e</glowColor>
 			<glowSize>1.5</glowSize>
@@ -194,15 +194,16 @@
 			<pos>0.425 0.05</pos>
 		</text>
 		<image name="background" extra="true">
-			<path>${themePath}/_viewgame/mediatester/Background.png</path>
+			<path>${path_vgame}/mediatester/Background.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.500000000000 0.500000000000</pos>
 			<size>1.000000000000 1.000000000000</size>
 			<zIndex>100</zIndex>
 			<scaleOrigin>0 -0.3</scaleOrigin>
 		</image>
-		<image name="md_boxart_placeholder" extra="true">
-			<path>{game:boxart}</path>
+		<image name="boxart_placeholder" extra="true">
+			<path ifSubset="scrap3dbox:scrapedthumbnail">{game:thumbnail}</path>
+			<path ifSubset="scrap3dbox:scrapedboxart">{game:boxart}</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.551230073640 0.39</pos>
 			<maxSize>0.104166666667 0.11</maxSize>
@@ -211,8 +212,9 @@
 			<rotationOrigin>0.5 0.5</rotationOrigin>
 			<linearSmooth>true</linearSmooth>
 		</image>
-		<image name="md_thumbnail_placeholder" extra="true">
-			<path>{game:thumbnail}</path>
+		<image name="thumbnail_placeholder" extra="true">
+			<path ifSubset="scrap3dbox:scrapedthumbnail">{game:boxart}</path>
+			<path ifSubset="scrap3dbox:scrapedboxart">{game:thumbnail}</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.88 0.243342863068</pos>
 			<maxSize>0.166666666667 0.1</maxSize>
@@ -252,7 +254,9 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="fanart" extra="true">
-			<path>{game:fanart}</path>
+			<path ifSubset="custombuilds:standardbuilds">{game:fanart}</path>
+			<path ifSubset="custombuilds:retrofreshbat">{game:image}</path>
+			<!-- <path>{game:fanart}</path> -->
 			<origin>0.5 0.5</origin>
 			<pos>0.575 0.239478723252</pos>
 			<size>0.073511689299 0.073511689299</size>
@@ -317,7 +321,7 @@
 			<visible>false</visible>
 			<zIndex>290</zIndex>
 		</image>
-		<text name="consolesys" extra="true" zIndex="5000" fontPath="${themePath}/_viewgame/mediatester/TmonMonsori.ttf" fontSize="0.012" size="1 1" alignment="left" verticalAlignment="top" pos="0.48 0.575" color="ffd13b" glowColor="000000" glowOffset="0" glowSize="4">
+		<text name="consolesys" extra="true" zIndex="5000" fontPath="${path_vgame}/mediatester/TmonMonsori.ttf" fontSize="0.012" size="1 1" alignment="left" verticalAlignment="top" pos="0.48 0.575" color="ffd13b" glowColor="000000" glowOffset="0" glowSize="4">
 			<text>
 INFOS ET CHEMINS ISSUS DE LA GAMELIST.XML :
 
@@ -333,7 +337,7 @@ Boxback : {game:boxback}
 Boxart : {game:boxart}
 		</text>
 		</text>
-		<text name="bobmediapath" extra="true" zIndex="5000" fontPath="${themePath}/_viewgame/mediatester/TmonMonsori.ttf" fontSize="0.012" size="1 1" alignment="left" verticalAlignment="top" pos="0.37 0.86" color="ffd13b" glowColor="000000" glowOffset="0" glowSize="4">
+		<text name="bobmediapath" extra="true" zIndex="5000" fontPath="${path_vgame}/mediatester/TmonMonsori.ttf" fontSize="0.012" size="1 1" alignment="left" verticalAlignment="top" pos="0.37 0.86" color="ffd13b" glowColor="000000" glowOffset="0" glowSize="4">
 			<!-- <visible>exist(  "${path_game_media}/" + ({game:system:theme}) + "/cabs/" + stem({game:rom}) + ".png", -->
 			<!-- "${path_game_media}/" + ({game:system:theme}) + "/cabs/_"  + ({game:system:theme}) + ".png", -->
 			<!-- "${path_game_media}/_systemcoinops/"  + ({game:system:theme}) + ".png")</visible> -->

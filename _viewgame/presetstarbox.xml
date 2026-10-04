@@ -171,7 +171,7 @@
 		</screenshader>
 		<!-- ############################# Overlays ############################################################################################################# -->
 		<image name="overlayvignettage" extra="true">
-			<path>${themePath}/_viewgame/fanartstar/overlay.png</path>
+			<path>${path_vgame}/fanartstar/overlay.png</path>
 			<size>1 1</size>
 			<flipX>true</flipX>
 			<pos>0.5 0.5</pos>
@@ -179,7 +179,7 @@
 			<zIndex>30</zIndex>
 		</image>
 		<image name="overlayastro" extra="true">
-			<path>${themePath}/_viewgame/fanartstar/overlayAstro.png</path>
+			<path>${path_vgame}/fanartstar/overlayAstro.png</path>
 			<size>1 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
@@ -279,7 +279,7 @@
 			<scaleOrigin>0.15 0.15</scaleOrigin>
 			<autoFade>false</autoFade>
 			<shader>
-				<path>${themePath}/_common/shaders/Angled_border_gradient.glsl</path>
+				<path>${path_com_shaders}/Angled_border_gradient.glsl</path>
 				<tiltAngle>0</tiltAngle>
 				<tiltAngleX>30</tiltAngleX>
 				<perspectiveDepth>0.8</perspectiveDepth>
@@ -303,7 +303,7 @@
 			</storyboard>
 		</image>
 		<image name="screenshotgames_cadre" ifSubset="starvideo:starvideoang" extra="true">
-			<path>${themePath}/_viewgame/fanartstar/169alt1.png</path>
+			<path>${path_vgame}/fanartstar/169alt1.png</path>
 			<pos>0.995 0.35</pos>
 			<pos>1 0.35</pos>
 			<size>0.38 0.488</size>
@@ -315,7 +315,7 @@
 			<linearSmooth>true</linearSmooth>
 			<autoFade>false</autoFade>
 			<shader>
-				<path>${themePath}/_common/shaders/Angled_border_gradient.glsl</path>
+				<path>${path_com_shaders}/Angled_border_gradient.glsl</path>
 				<tiltAngle>0</tiltAngle>
 				<tiltAngleX>30</tiltAngleX>
 				<perspectiveDepth>0.8</perspectiveDepth>
@@ -325,7 +325,7 @@
 			</shader>
 		</image>
 		<image name="screenshotgames_fond" ifSubset="starvideo:starvideoang" extra="true">
-			<path>${themePath}/_viewgame/fanartstar/fiber.png</path>
+			<path>${path_vgame}/fanartstar/fiber.png</path>
 			<pos>0.995 0.35</pos>
 			<size>0.38 0.472</size>
 			<origin>1 0.5</origin>
@@ -335,7 +335,7 @@
 			<linearSmooth>true</linearSmooth>
 			<autoFade>false</autoFade>
 			<shader>
-				<path>${themePath}/_common/shaders/Angled_border_gradient.glsl</path>
+				<path>${path_com_shaders}/Angled_border_gradient.glsl</path>
 				<tiltAngle>0</tiltAngle>
 				<tiltAngleX>30</tiltAngleX>
 				<perspectiveDepth>0.8</perspectiveDepth>
@@ -350,7 +350,7 @@
 			<effect>none</effect>
 			<zIndex>80</zIndex>
 			<shader>
-				<path>${themePath}/_common/shaders/Angled_border_gradient.glsl</path>
+				<path>${path_com_shaders}/Angled_border_gradient.glsl</path>
 				<tiltAngle>0</tiltAngle>
 				<tiltAngleX>30</tiltAngleX>
 				<perspectiveDepth>0.8</perspectiveDepth>
@@ -376,7 +376,7 @@
 			<text>{game:name} ( {game:lang} )</text>
 			<opacity>0.7</opacity>
 			<pos>0.253 0.238</pos>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<fontSize>0.025</fontSize>
 			<color>ffffffff</color>
 			<origin>0.5 0.5</origin>
@@ -387,7 +387,7 @@
 			<zIndex>305</zIndex>
 		</text>
 		<text name="md_description">
-			<fontPath>${themePath}/_viewgame/fanartstar/OpenSans_Condensed-Bold.ttf</fontPath>
+			<fontPath>${fontopensans}</fontPath>
 			<color>ffffffff</color>
 			<pos>0.0525 0.305</pos>
 			<size>0.3 0.14</size>
@@ -433,7 +433,7 @@
 			<zIndex>305</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<horizontalAlignment>left</horizontalAlignment>
-			<path>${themePath}/_viewgame/fanartstar/Bvierge.png</path>
+			<path>${path_vgame}/fanartstar/Bvierge.png</path>
 		</image>		
 		<text name="binds_playcount_one" extra="true">
 			<visible>{game:playcount} == 1 ? 1 : 0</visible>
@@ -442,7 +442,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.085 0.279</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>305</zIndex>
@@ -454,7 +454,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.085 0.279</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>305</zIndex>
@@ -466,7 +466,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.085 0.279</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>305</zIndex>
@@ -480,7 +480,7 @@
 			<zIndex>300</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<horizontalAlignment>left</horizontalAlignment>
-			<path>${themePath}/_viewgame/fanartstar/Bvierge.png</path>
+			<path>${path_vgame}/fanartstar/Bvierge.png</path>
 		</image>
 		<text name="binds_releasedate" extra="true">
 			<visible>{game:releaseyear} &gt; 0 ? 1 : 0</visible>
@@ -490,7 +490,7 @@
 			<pos>0.16 0.279</pos>
 			<size>0.05 0.035</size>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>305</zIndex>
@@ -503,7 +503,7 @@
 			<pos>0.16 0.279</pos>
 			<size>0.1 0.035</size>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>305</zIndex>
@@ -516,7 +516,7 @@
 			<zIndex>205</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<horizontalAlignment>left</horizontalAlignment>
-			<path>${themePath}/_viewgame/fanartstar/Bvierge.png</path>
+			<path>${path_vgame}/fanartstar/Bvierge.png</path>
 		</image>
 		<!-- DEBUT DATA NB JOUEURS AVEC GETION PLURIEL SINGULIER -->	
 		<text name="binds_players" extra="true">
@@ -527,7 +527,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.235 0.279</pos>
 			<size>0.075 0.035</size>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>305</zIndex>
@@ -541,7 +541,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.235 0.279</pos>
 			<size>0.075 0.035</size>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>305</zIndex>
@@ -553,7 +553,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.235 0.279</pos>
 			<size>0.075 0.035</size>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>305</zIndex>
@@ -566,7 +566,7 @@
 			<zIndex>305</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<horizontalAlignment>left</horizontalAlignment>
-			<path>${themePath}/_viewgame/fanartstar/Bvierge.png</path>
+			<path>${path_vgame}/fanartstar/Bvierge.png</path>
 		</image>
 		<!-- <image name="star" extra="true"> -->
 		<!-- <origin>0.5 0.5</origin> -->
@@ -594,7 +594,7 @@
 			<fontSize>0.020</fontSize>
 			<alignment>center</alignment>
 			<size>0.075 0.035</size>
-			<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+			<fontPath>${fontimpact}</fontPath>
 			<zIndex>305</zIndex>
 			<color>FFFFFF</color>
 		</text>
@@ -619,7 +619,7 @@
 		<image name="rondregion" extra="true">
 			<origin>0.5 0.5</origin>
 			<pos>0.0325 0.238</pos>
-			<path>${themePath}/_common/flags/{game:region}.png</path>
+			<path>${path_common}/flags/{game:region}.png</path>
 			<maxSize>0.036 0.036</maxSize>
 			<linearSmooth>true</linearSmooth>
 			<horizontalAlignment>left</horizontalAlignment>
@@ -745,7 +745,7 @@
 		</image>
 		<!-- Début petit menu playlist avec 2 playlist prises en compte niquement -->
 		<text name="longpress" extra="true">
-			<fontPath>${themePath}/_viewgame/fanartstar/OpenSans_Condensed-Bold.ttf</fontPath>
+			<fontPath>${fontopensans}</fontPath>
 			<text>${longselect}</text>
 			<fontSize>0.02</fontSize>
 			<pos>0.053 0.45</pos>
@@ -763,7 +763,7 @@
 		</text>
 		<text name="allgames_select" extra="true">
 			<visible>!startswith(lower({system:filter}), "fav")</visible>
-			<fontPath>${themePath}/_viewgame/fanartstar/OpenSans_Condensed-Bold.ttf</fontPath>
+			<fontPath>${fontopensans}</fontPath>
 			<text>${tslesjeux}</text>
 			<fontSize>0.02</fontSize>
 			<pos>0.053 0.45</pos>
@@ -781,7 +781,7 @@
 		</text>
 		<text name="allgames_noselect" extra="true">
 			<visible>startswith(lower({system:filter}), "fav")</visible>
-			<fontPath>${themePath}/_viewgame/fanartstar/OpenSans_Condensed-Bold.ttf</fontPath>
+			<fontPath>${fontopensans}</fontPath>
 			<text>${tslesjeux}</text>
 			<fontSize>0.02</fontSize>
 			<pos>0.053 0.45</pos>
@@ -799,7 +799,7 @@
 		</text>
 		<text name="favoris_noselect" extra="true">
 			<visible>!startswith(lower({system:filter}), "fav")</visible>
-			<fontPath>${themePath}/_viewgame/fanartstar/OpenSans_Condensed-Bold.ttf</fontPath>
+			<fontPath>${fontopensans}</fontPath>
 			<text>${favuniquement}</text>
 			<fontSize>0.02</fontSize>
 			<pos>0.12 0.45</pos>
@@ -818,7 +818,7 @@
 		</text>
 		<text name="favoris_select" extra="true">
 			<visible>startswith(lower({system:filter}), "fav")</visible>
-			<fontPath>${themePath}/_viewgame/fanartstar/OpenSans_Condensed-Bold.ttf</fontPath>
+			<fontPath>${fontopensans}</fontPath>
 			<text>${favuniquement}</text>
 			<fontSize>0.02</fontSize>
 			<pos>0.12 0.45</pos>

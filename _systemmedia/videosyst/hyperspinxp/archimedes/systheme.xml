@@ -124,5 +124,8 @@
 				<animation property="opacity" from="0" to="1" begin="1770" duration="500" mode="Linear"/>
 			</storyboard>
 		</image>
+				<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Finch</text>
+		</text>
 	</view>
 </theme>

@@ -57,9 +57,9 @@
 		<!-- Image du hardware/console physique (photo de la machine) -->
 		<firstsystemhardware>	firstfile("${themePath}/_systemmedia/hardware/" + {system:theme} + ".png","${themePath}/_systemmedia/charsystem/" + {system:theme} + ".png")</firstsystemhardware>
 		<!-- Fanart système : cherche d'abord la version "fresh" puis "custom" -->
-		<firstsystfanart>		firstfile("${themePath}/_systemmedia/_fanartsysteme/fresh/" + {system:theme} + ".jpg","${themePath}/_systemmedia/_fanartsysteme/custom/" + {system:theme} + ".jpg")</firstsystfanart>
+		<firstsystfanart>		firstfile("${path_syst_fanart}/fresh/" + {system:theme} + ".jpg","${path_syst_fanart}/custom/" + {system:theme} + ".jpg")</firstsystfanart>
 		<!-- Image système : priorité à "custom" puis "fresh" (ordre inverse de firstsystfanart) -->
-		<firstsystemimage>		firstfile("${themePath}/_systemmedia/_fanartsysteme/custom/" + {system:theme} + ".jpg","${themePath}/_systemmedia/_fanartsysteme/fresh/" + {system:theme} + ".jpg")</firstsystemimage>
+		<firstsystemimage>		firstfile("${path_syst_fanart}/custom/" + {system:theme} + ".jpg","${path_syst_fanart}/fresh/" + {system:theme} + ".jpg")</firstsystemimage>
 		<!-- Icône de notation (étoile FontAwesome &#xf005;).
 		     Les lignes commentées ci-dessous montrent des variantes possibles :
 		     coeur (&#xf004;), gamepad (&#xf11b;), smiley (&#xf599;), etc.
@@ -235,7 +235,7 @@
 						<visible ifSubset="starthumb:starbox2d">!exists({game:marquee}) &amp;&amp; !exists({game:thumbnail}) &amp;&amp; !exists(${corefrontart})</visible>
 						<origin>0.5</origin>
 						<text>{game:name}</text>
-						<fontPath>${themePath}/_viewgame/fanartstar/impact.ttf</fontPath>
+						<fontPath>${fontimpact}</fontPath>
 						<color>FFFFFF</color>
 						<alignment>center</alignment>
 						<fontSize>0.025</fontSize>
@@ -286,98 +286,98 @@
 		<!-- Deuxième occurrence de genre_plateforme (peut coexister avec la première) -->
 		<image name="genre_plateforme" extra="true">
 			<visible>contains(lower({game:genre}),"platefor")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_plateforme.png</path>
+			<path>${path_vgame}/retrower/genres/genre_plateforme.png</path>
 		</image>
 		<!-- Icône Action (utilise genre_arcade.png) -->
 		<image name="genre_action" extra="true">
 			<visible>contains(lower({game:genre}),"action")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_arcade.png</path>
+			<path>${path_vgame}/retrower/genres/genre_arcade.png</path>
 		</image>
 		<image name="genre_tir" extra="true">
 			<visible>contains(lower({game:genre}),"tir")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_fps_scifi.png</path>
+			<path>${path_vgame}/retrower/genres/genre_fps_scifi.png</path>
 		</image>
 		<!-- Icône Shoot'em up / Science-fiction -->
 		<image name="genre_shmup_scifi" extra="true">
 			<visible>contains(lower({game:genre}),"shoot'em")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_shmup_scifi.png</path>
+			<path>${path_vgame}/retrower/genres/genre_shmup_scifi.png</path>
 		</image>
 		<!-- Icône Plateforme (première occurrence, utilisée dans le control du bas) -->
 		<image name="genre_plateforme" extra="true">
 			<visible>contains(lower({game:genre}),"platefor")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_plateforme.png</path>
+			<path>${path_vgame}/retrower/genres/genre_plateforme.png</path>
 		</image>
 		<!-- Icône Aventure (variante pour le mot "avent") -->
 		<image name="genre_adventure2" extra="true">
 			<visible>contains(lower({game:genre}),"avent")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_adventure.png</path>
+			<path>${path_vgame}/retrower/genres/genre_adventure.png</path>
 		</image>
 				<!-- Icône Aventure / Rôle -->
 		<image name="genre_adventure" extra="true">
 			<visible>contains(lower({game:genre}),"rôle")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_rpgfantasy.png</path>
+			<path>${path_vgame}/retrower/genres/genre_rpgfantasy.png</path>
 		</image>
 		<!-- Icône Beat'em up -->
 		<image name="genre_beatemup" extra="true">
 			<visible>contains(lower({game:genre}),"beat")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_beatemup.png</path>
+			<path>${path_vgame}/retrower/genres/genre_beatemup.png</path>
 		</image>
 		<!-- Icône Course / Racing -->
 		<image name="genre_racing" extra="true">
 			<visible>contains(lower({game:genre}),"course")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_racing.png</path>
+			<path>${path_vgame}/retrower/genres/genre_racing.png</path>
 		</image>
 		<!-- Icône Sport -->
 		<image name="genre_sports" extra="true">
 			<visible>contains(lower({game:genre}),"sport")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_sports.png</path>
+			<path>${path_vgame}/retrower/genres/genre_sports.png</path>
 		</image>
 		<!-- Icône Combat / Fighting -->
 		<image name="genre_fighting" extra="true">
 			<visible>contains(lower({game:genre}),"combat")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_fighting.png</path>
+			<path>${path_vgame}/retrower/genres/genre_fighting.png</path>
 		</image>
 		<!-- Icône RPG / Fantasy -->
 		<image name="genre_simulation" extra="true">
 			<visible>contains(lower({game:genre}),"rpg")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_rpgfantasy.png</path>
+			<path>${path_vgame}/retrower/genres/genre_rpgfantasy.png</path>
 		</image>
 		<!-- Icône Puzzle (image dédiée cette fois) -->
 		<image name="genre_puzzle" extra="true">
 			<visible>contains(lower({game:genre}),"puzzle")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_puzzle.png</path>
+			<path>${path_vgame}/retrower/genres/genre_puzzle.png</path>
 		</image>
 		<image name="genre_simulation" extra="true">
 			<visible>contains(lower({game:genre}),"simu")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_simulation.png</path>
+			<path>${path_vgame}/retrower/genres/genre_simulation.png</path>
 		</image>
 		<image name="genre_avion" extra="true">
 			<visible>contains(lower({game:genre}),"avion")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_shmup_history.png</path>
+			<path>${path_vgame}/retrower/genres/genre_shmup_history.png</path>
 		</image>
 		<image name="genre_casual" extra="true">
 			<visible>contains(lower({game:genre}),"casual")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_puzzle.png</path>
+			<path>${path_vgame}/retrower/genres/genre_puzzle.png</path>
 		</image>
 		<image name="genre_strategy" extra="true">
 			<visible>contains(lower({game:genre}),"strat")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_strategy.png</path>
+			<path>${path_vgame}/retrower/genres/genre_strategy.png</path>
 		</image>
 		<image name="genre_pinball" extra="true">
 			<visible>contains(lower({game:genre}),"flipper")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_pinball.png</path>
+			<path>${path_vgame}/retrower/genres/genre_pinball.png</path>
 		</image>
 		<image name="genre_horror" extra="true">
 			<visible>contains(lower({game:genre}),"horr")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_horror.png</path>
+			<path>${path_vgame}/retrower/genres/genre_horror.png</path>
 		</image>
 		<image name="genre_fps" extra="true">
 			<visible>contains(lower({game:genre}),"first")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_fps.png</path>
+			<path>${path_vgame}/retrower/genres/genre_fps.png</path>
 		</image>
 		<image name="genre_fps2" extra="true">
 			<visible>contains(lower({game:genre}),"1ere")</visible>
-			<path>${themePath}/_viewgame/retrower/genres/genre_fps.png</path>
+			<path>${path_vgame}/retrower/genres/genre_fps.png</path>
 		</image>
 		<!-- ── Paramètres communs à toutes les icônes de genre ────────
 		     Ce <control> applique d'un coup position, taille, zIndex et
@@ -427,7 +427,7 @@
 		     ligne fine horizontale sur le bord inférieur de chaque zone.
 		     zIndex=805 : juste au-dessus du carrousel (zIndex 800). -->
 		<image name="filtrepack_top" extra="true">
-			<path>${themePath}/_viewgame/retrower/filtre_pack.png</path>
+			<path>${path_vgame}/retrower/filtre_pack.png</path>
 			<origin>0.5 1</origin>
 			<pos>0.36 0.327</pos>
 			<size>0.073437500000 0</size>
@@ -436,7 +436,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="filtrepack_middle" extra="true">
-			<path>${themePath}/_viewgame/retrower/filtre_pack.png</path>
+			<path>${path_vgame}/retrower/filtre_pack.png</path>
 			<origin>0.5 1</origin>
 			<!-- <pos>0.363281250000 0.5281</pos> -->
 			<pos>0.36 0.5281</pos>
@@ -445,7 +445,7 @@
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="filtrepack_bottom" extra="true">
-			<path>${themePath}/_viewgame/retrower/filtre_pack.png</path>
+			<path>${path_vgame}/retrower/filtre_pack.png</path>
 			<origin>0.5 1</origin>
 			<pos>0.36 0.740740740740</pos>
 			<size>0.072916666667 0</size>
@@ -458,7 +458,7 @@
 		     pour éviter tout bord blanc sur les bords.
 		     zIndex=210 : tout en arrière-plan. -->
 		<image name="calque_28" extra="true">
-			<path>${themePath}/_viewgame/retrower/background.png</path>
+			<path>${path_vgame}/retrower/background.png</path>
 			<origin>0 0</origin>
 			<pos>-0.005208333333 -0.005555555556</pos>
 			<size>1.015625000000 1.015740740741</size>
@@ -471,7 +471,7 @@
 		     Grande zone décorative à gauche (40% x 79%) qui sert de fond
 		     au panneau d'informations du jeu. -->
 		<image name="calque_24" extra="true">
-			<path>${themePath}/_viewgame/retrower/calque_24.png</path>
+			<path>${path_vgame}/retrower/calque_24.png</path>
 			<origin>0 0</origin>
 			<pos>0.162 0.102</pos>
 			<size>0.401562500000 0.786111111111</size>
@@ -485,7 +485,7 @@
 		     il reste visible puis disparaît brusquement à 1600ms après l'activation.
 		     Cela masque le contenu du panneau pendant le chargement des infos du nouveau jeu. -->
 		<image name="calque_24_vide" extra="true">
-			<path>${themePath}/_viewgame/retrower/calque_24_vide.png</path>
+			<path>${path_vgame}/retrower/calque_24_vide.png</path>
 			<origin>0 0</origin>
 			<pos>0.162 0.102</pos>
 			<size>0.401562500000 0.786111111111</size>
@@ -597,7 +597,7 @@
 		<!-- <linearSmooth>true</linearSmooth> -->
 		<!-- </image> -->
 		<image name="cadre" extra="true">
-			<path>${themePath}/_viewgame/retrower/cadre.png</path>
+			<path>${path_vgame}/retrower/cadre.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.815187500000 0.480092592593</pos>
 			<size>0.230000000000 0.754629629630</size>
@@ -717,7 +717,7 @@
 		<!-- ################################ Affichage de la notation vide pour l'arriere plan ######################################## -->
 		<!-- Fond de 5 étoiles grises, toujours affiché (zIndex=289 = derrière les étoiles colorées) -->
 		<text name="blank_rating" extra="true">
-			<fontPath>${themePath}/_viewgame/retrower/fonts/fontawesome.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/fontawesome.ttf</fontPath>
 			<origin>0.5 0.5</origin>
 			<pos>0.85 0.800</pos>
 			<size>0.17 0.05</size>
@@ -769,7 +769,7 @@
 			<pos>0.85 0.800</pos>
 			<size>0.17 0.05</size>
 			<fontSize>0.036</fontSize>
-			<fontPath>${themePath}/_viewgame/retrower/fonts/fontawesome.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/fontawesome.ttf</fontPath>
 			<fontSize>0.036</fontSize>
 			<!-- Couleur or semi-transparente pour les étoiles remplies -->
 			<color>FFCC00D0</color>
@@ -782,7 +782,7 @@
 		     singleLineScroll="false" : pas de défilement automatique sur une ligne.
 		     glowColor/glowOffset/glowSize : ombre portée légère sur le texte. -->
 		<text name="md_description">
-			<fontPath>${themePath}/_viewgame/retrower/fonts/Roboto-Regular.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/Roboto-Regular.ttf</fontPath>
 			<color>ffffffff</color>
 			<!-- Zone de texte dans le panneau bas-droit -->
 			<pos>0.728 0.537962962963</pos>
@@ -801,7 +801,7 @@
 		     Image décorative (fond vert+bleu) qui sert de fond aux textes
 		     "nombre de joueurs" et "nombre de parties jouées" ci-dessous. -->
 		<image name="vertbleumeta" extra="true">
-			<path>${themePath}/_viewgame/retrower/buttons.png</path>
+			<path>${path_vgame}/retrower/buttons.png</path>
 			<origin>0 0</origin>
 			<pos>0.723958333333 0.701851851852</pos>
 			<size>0.185937500000 0.072222222222</size>
@@ -826,7 +826,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.771 0.737</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/retrower/fonts/Roboto-Bold.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/Roboto-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>360</zIndex>
@@ -840,7 +840,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.771 0.737</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/retrower/fonts/Roboto-Bold.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/Roboto-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>360</zIndex>
@@ -853,7 +853,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.771 0.737</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/retrower/fonts/Roboto-Bold.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/Roboto-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>360</zIndex>
@@ -874,7 +874,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.863 0.737</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/retrower/fonts/Roboto-Bold.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/Roboto-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>360</zIndex>
@@ -887,7 +887,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.863 0.737</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/retrower/fonts/Roboto-Bold.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/Roboto-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>360</zIndex>
@@ -900,7 +900,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.863 0.737</pos>
 			<size>0.08 0.035</size>
-			<fontPath>${themePath}/_viewgame/retrower/fonts/Roboto-Bold.ttf</fontPath>
+			<fontPath>${path_vgame}/retrower/fonts/Roboto-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 			<fontSize>0.020</fontSize>
 			<zIndex>360</zIndex>
@@ -912,7 +912,7 @@
 		     disparaissent instantanément à la désactivation.
 		     opacity=0.72 : partiellement transparentes pour un effet doux. -->
 		<image name="_top_night" extra="true">
-			<path>${themePath}/_viewgame/retrower/_top_night.png</path>
+			<path>${path_vgame}/retrower/_top_night.png</path>
 			<origin>0.5 0.5</origin>
 			<!-- <pos>0.3618 0.2535</pos> -->
 			<pos>0.3618 0.2595</pos>
@@ -932,7 +932,7 @@
 			</storyboard>
 		</image>
 		<image name="_bottom_night" extra="true">
-			<path>${themePath}/_viewgame/retrower/_bottom_night.png</path>
+			<path>${path_vgame}/retrower/_bottom_night.png</path>
 			<origin>0.5 0.5</origin>
 			<!-- <pos>0.3618 0.707</pos> -->
 			<pos>0.3618 0.7045</pos>
@@ -953,7 +953,7 @@
 		     Petit élément graphique très fin (5% x 0.6%) centré sur les vignettes.
 		     zIndex=1400 : tout au premier plan, par-dessus tout le reste. -->
 		<image name="chevalet" extra="true">
-			<path>${themePath}/_viewgame/retrower/chevalet.png</path>
+			<path>${path_vgame}/retrower/chevalet.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.36 0.531427731203</pos>
 			<!-- Taille très petite : cet élément est un détail fin de présentation -->

@@ -105,5 +105,8 @@
 			<zIndex>7</zIndex>
 			<linearSmooth>true</linearSmooth>
 		</image>
+				<text name="systhemeauthor" extra="true">
+			<text>System Theme By : Finch</text>
+		</text>
 	</view>
 </theme>
